@@ -1,0 +1,59 @@
+# Windrose Guides
+
+> Unofficial Windrose guide website — crafting recipes, resource locations, boss strategies, and ship guides. Game by Kraken Express.
+
+## About This Site
+
+Windrose Guides is a community-maintained database and wiki covering all aspects of the survival RPG Windrose. Data is collected from gameplay, official patch notes, and community contributions. Updated regularly as new content is released during Early Access.
+
+## Main Sections
+
+### [Getting Started](https://windrose-guides.com/beginner-guide)
+- [Beginner Guide](https://windrose-guides.com/beginner-guide): Day 1 to Day 10 walkthrough, first tools, base building basics
+
+### [Crafting Recipes](https://windrose-guides.com/crafting)
+- [Workbench Lv1-3](https://windrose-guides.com/crafting/workbench): Tools, weapons, armor, building materials
+- [Smelting](https://windrose-guides.com/crafting/smelting): Ore to ingot recipes
+- [Alchemy](https://windrose-guides.com/crafting/alchemy): Potions and alchemy recipes
+- [Cooking](https://windrose-guides.com/crafting/cooking): Food and cooking recipes
+- [Building Materials](https://windrose-guides.com/crafting/building): Construction recipes
+
+### [Resources](https://windrose-guides.com/resources)
+- [Copper Ore](https://windrose-guides.com/resources/copper): Mining locations, smelting, and copper recipes
+- [Iron Ore](https://windrose-guides.com/resources/iron): Iron mining locations and usage
+- [Clay](https://windrose-guides.com/resources/clay): Clay gathering spots and recipes
+- [Gunpowder](https://windrose-guides.com/resources/gunpowder): Early and late game gunpowder sources
+
+### [Bosses](https://windrose-guides.com/bosses)
+- [Boss Overview](https://windrose-guides.com/bosses): Complete boss list
+- [Charon's Obols](https://windrose-guides.com/bosses/charons-obols): Phase-by-phase strategy, drops, preparation tips
+
+### [Ships](https://windrose-guides.com/ships)
+- [Sloop](https://windrose-guides.com/ships/sloop): Small ship stats and sailing tips
+- [Brigantine](https://windrose-guides.com/ships/brigantine): Mid-size ship guide
+- [Frigate](https://windrose-guides.com/ships/frigate): Large warship guide
+
+### [Weapons & Builds](https://windrose-guides.com/weapons)
+- [Melee Weapons](https://windrose-guides.com/weapons/melee): Sword, axe, and melee weapon stats
+- [Ranged Weapons](https://windrose-guides.com/weapons/ranged): Guns and ranged weapon stats
+- [Armor Sets](https://windrose-guides.com/weapons/armor): Complete armor set list
+- [Builds](https://windrose-guides.com/builds): DPS, tank, and beginner builds
+
+### [FAQs](https://windrose-guides.com/faq)
+- [Frequently Asked Questions](https://windrose-guides.com/faq): Common questions about gameplay, progress, and systems
+
+### [News](https://windrose-guides.com/news)
+- [Latest Updates](https://windrose-guides.com/news): Game updates, patch notes, and community news
+
+## Key Topics
+
+- Copper mining locations in Coastal Jungle biome
+- Smelting ore into ingots for advanced crafting
+- Soulslite combat system with stamina management
+- Ship building and naval combat mechanics
+- Boss strategies for Charon's Obols and others
+- Build recommendations for DPS, tank, and beginner playstyles
+
+## Contact
+
+- Website: https://windrose-guides.com
