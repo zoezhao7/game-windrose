@@ -1,13 +1,165 @@
 # Windrose 攻略站开发方案
 
-> 方案版本：v1.0
+> 方案版本：v1.1
 > 日期：2026-05-12
-> 站点暂定域名：[windrose-guides.com] / [windrose.wiki]
+> 站点域名：windrose-guides.com
 > 技术路线：纯静态 HTML + 极简 JS + Python 数据驱动生成
+> 通用规范：`docs/GAME_GUIDE_SITE_SPEC.md`（SEO、AdSense、性能、多语言等通用标准）
+
+---
+
+## 零、项目执行模型
+
+### 0.1 两阶段建设原则
+
+本项目采用 **「先搭框架 + 第一版可信数据，再多轮补内容」** 的方式推进。
+
+| 阶段 | 目标 | 结果标准 |
+|---|---|---|
+| **第一阶段：网站内容框架 + 第一版数据填充** | 站点结构、SEO 页面、工具入口、基础数据和上线验证流程 | 站点能本地预览，核心页面可访问，SEO 基础完整，无明显空白页或占位页 |
+| **第二阶段：多轮内容补全** | 按模块持续采集、验证、补充游戏数据 | Boss、资源、配方、船只、武器、Build 等数据库逐步变完整，新增数据有来源和可信度标记 |
+
+第一阶段的重点是让网站具备可上线推广的基础形态，而不是伪装成"完整数据库"。如果某类数据当前公开资料不足，页面应明确写成 `Early Access tracker`、`Known data`、`Needs verification`，不得硬编内容。
+
+### 0.2 第一阶段交付范围
+
+- 首页、导航、页脚、移动端布局、基础 CSS
+- 核心栏目 Hub 页：Beginner Guide、Crafting、Resources、Bosses、Ships、Weapons、Builds、FAQ、News
+- 高意图工具页：Tools、Recipe Finder、Progression Checklist、Resource Planner、Ship Selector
+- 实用 SEO 页：Download、Dedicated Server Guide、Sources & Update Policy
+- 合规页：Privacy、About、Contact、Terms、404
+- SEO 基础文件：`sitemap.xml`、`robots.txt`、`llms.txt`、`ads.txt`
+- 至少一版可验证内容填充，避免页面主内容出现 `coming soon`、`TBD`、空表格或纯占位描述
+
+### 0.3 数据驱动生成流程（强制）
+
+HTML 不再作为唯一数据源，后续采用 **数据驱动静态站** 流程：
+
+```text
+1. 搭建网站框架
+   └── 确定栏目、URL、模板、导航、SEO 结构、基础样式
+
+2. 约定数据模型
+   └── 在 data/schema-template.json 中维护所有对象类型的 JSON 格式要求
+
+3. 采集数据
+   └── 所有采集结果先写入 data/*.json，不直接写进 HTML
+
+4. 生成 HTML
+   └── scripts/build_site.py 读取 data/*.json，渲染或刷新 HTML
+
+5. 验证与同步
+   └── 检查 JSON、HTML、内链、JSON-LD，并更新 sitemap.xml / llms.txt
+```
+
+关键约束：
+
+- `data/` 是站点内容的长期数据源
+- HTML 是渲染结果，不应成为唯一数据存储位置
+- 每类对象必须先定义 JSON 字段，再采集数据
+- 新数据必须带来源、可信度、验证日期和状态
+- 数据不足时允许进入 `tracker`，但不能伪装成完整详情页
+
+当前第一版数据文件：
+
+```text
+data/schema-template.json        # 数据模型定义
+data/pages.json                  # 页面快照
+data/bosses.json                 # Boss 数据
+data/recipes.json                # 配方数据
+data/resources.json              # 资源数据
+data/ships.json                  # 船只数据
+data/weapons.json                # 武器数据
+data/builds.json                 # Build 数据
+data/tools.json                  # 工具页数据
+data/news.json                   # 新闻数据
+data/sources.json                # 来源记录
+data/html-content-snapshot.json  # 迁移快照（临时）
+```
+
+### 0.4 数据可信度与来源标记
+
+游戏处于 Early Access，数据会频繁变化。所有采集内容必须按可信度分级：
+
+| 级别 | 含义 | 使用方式 |
+|---|---|---|
+| `official` | Steam、官网、官方公告、官方服务器文档 | 可直接写入页面，并在 Sources 页说明 |
+| `verified` | 自己实测或可重复验证的游戏内数据 | 可进入表格和详情页 |
+| `community` | Wiki、攻略站、视频、Reddit、Discord 等社区资料 | 可作为参考，但应交叉验证 |
+| `unconfirmed` | 单一来源、版本不明、无法复现 | 只放在 Tracker 或 Notes 中，不创建薄详情页 |
+| `outdated` | 旧版本数据，可能已失效 | 保留时必须标注版本或移除 |
+
+页面文案要求：
+
+- 不确定内容写 `Needs verification` / `Verify after latest patch`
+- 不使用 `Complete`、`All`、`Every` 等绝对词，除非数据确实完整且已验证
+- Boss、资源、配方页面应优先采用 `Known ...`、`Early Access ... Tracker`、`Verified ...` 等表达
+- 不为资料不足的条目创建低质量详情页，先放在总览表中
+
+### 0.5 当前脚本使用规范
+
+| 脚本 | 角色 | 说明 |
+|---|---|---|
+| `scripts/build_site.py` | **主构建入口** | 校验 `data/*.json`、调用临时脚本、刷新 `sitemap.xml` |
+| `scripts/seo_iteration.py` | 第一阶段临时脚本 | 批量生成 SEO 页面，会覆盖它负责的页面 |
+| `scripts/extract_html_data.py` | 迁移辅助 | 从现有 HTML 抽取内容快照 |
+| `scripts/split_snapshot_data.py` | 迁移辅助 | 将快照拆分为分类型 JSON 文件 |
+| `scripts/enrich_first_round_data.py` | 数据充实 | 第一轮数据采集的充实脚本 |
+
+运行方式：
+
+```powershell
+python scripts\build_site.py
+```
+
+注意：
+
+- `seo_iteration.py` 会覆盖它负责的页面，人工精修后避免反复重跑
+- 第二阶段开始后，内容更新应优先改 `data/*.json`，再运行 `build_site.py`
+
+### 0.6 第二阶段内容补全策略
+
+按模块多轮推进，不要求一次采集完整。推荐顺序：
+
+1. **配方数据库**：Workbench Lv1-Lv3、Smelting、Alchemy、Cooking、Building Materials
+2. **资源数据库**：Copper、Iron、Clay、Gunpowder、Sulfur、Hardwood、Tanned Leather、Rum
+3. **Boss 数据库**：已确认 Boss、疑似 Boss、掉落、阶段机制、推荐装备
+4. **船只数据库**：Sloop、Brigantine、Frigate 的配置、材料、战斗定位
+5. **武器/装备数据库**：近战、远程、护甲、弹药、Tier List
+6. **Build 页面**：Beginner、DPS、Tank、Solo、Co-op
+7. **图片与视觉资产**：截图、WebP/AVIF、OG 图
+8. **多语言与工具交互**：英文站稳定后再扩展
+
+每轮补内容都要同步更新：`sitemap.xml`、`llms.txt`、相关 Hub 页内链。
+
+### 0.7 上线验证基线
+
+第一阶段上线前至少满足：
+
+- HTML 页面数不少于 40
+- sitemap 收录 URL 不包含 404 页面
+- 所有站内链接 0 个坏链
+- 所有 HTML 页面有 `title`、`meta description`、`canonical`
+- JSON-LD 可正常解析
+- 首页、工具页、服务器页、下载页、核心栏目页本地返回 `200`
+- 无明显 `coming soon` / `TBD` / 空白主内容
+
+### 0.8 内容补全验收标准
+
+| 模块 | 最低验收标准 |
+|---|---|
+| Boss | 总览页列出已知 Boss/Encounter，至少 1-3 个有详情页，未确认项有可信度标记 |
+| Recipes | 核心配方表完整，包含材料、工作台等级、用途、来源状态 |
+| Resources | 资源总览 + 核心资源详情页，包含获取位置、工具要求、用途表 |
+| Ships | 三艘船的定位、推荐场景、优缺点、相关制作/升级入口 |
+| Weapons | 近战/远程/护甲分类页，含推荐用途、弹药或材料链路 |
+| Builds | 至少 Beginner/DPS/Tank 三类，说明装备、属性、适用场景 |
+| Tools | 工具页可静态使用，或至少以 crawlable table/checklist 形式承接搜索需求 |
 
 ---
 
 ## 一、游戏数据基线
+
 
 | 属性 | 值 |
 |------|-----|
@@ -1018,8 +1170,172 @@ body {
 |------|------|------|
 | **推荐** | windrose.wiki / windrose-guides.com | Cloudflare Pages（免费，全球CDN） |
 | 备选 | windrose.gg | GitHub Pages（免费）+ Cloudflare DNS |
-| 备选 | roseguides.net | Vercel（免费100GB/月） |
+> 域名已确定使用 `windrose-guides.com`，托管使用 Cloudflare Pages。
 
 ---
 
-> **下一步**：确认方案后，我将开始编写 HTML 模板、CSS、JSON 数据结构、Python 脚本，以及首批 10 个页面。
+## 十二、数据驱动流程（强制）
+
+Windrose Guides 采用 **数据驱动静态站** 流程，HTML 不再作为唯一数据源。
+
+标准流程：
+
+```text
+1. 搭建网站框架
+   └── 确定栏目、URL、模板、导航、SEO结构、基础样式
+
+2. 约定数据模型
+   └── 在 data/schema-template.json 中维护所有对象类型的 JSON 格式要求
+
+3. 采集数据
+   └── 所有采集结果先写入 data/*.json，不直接写进 HTML
+
+4. 生成 HTML
+   └── scripts/build_site.py 读取 data/*.json，渲染或刷新 HTML
+
+5. 验证与同步
+   └── 检查 JSON、HTML、内链、JSON-LD，并更新 sitemap.xml / llms.txt
+```
+
+关键约束：
+
+- `data/` 是站点内容的长期数据源。
+- HTML 是渲染结果，不应该成为唯一数据存储位置。
+- 每类对象必须先定义 JSON 字段，再采集数据。
+- 新数据必须带来源、可信度、验证日期和状态。
+- 数据不足时允许进入 `tracker`，但不能伪装成完整详情页。
+
+当前约定的数据模板文件：
+
+```text
+data/schema-template.json
+```
+
+当前第一版数据文件按对象类型拆分：
+
+```text
+data/pages.json          # 页面快照（迁移期）
+data/bosses.json         # Boss 数据
+data/recipes.json        # 配方数据
+data/resources.json      # 资源数据
+data/ships.json          # 船只数据
+data/weapons.json        # 武器数据
+data/builds.json         # Build 数据
+data/tools.json          # 工具页配置
+data/news.json           # 新闻数据
+data/sources.json        # 数据来源记录
+```
+
+迁移期保留 `data/html-content-snapshot.json` 作为现有 HTML 内容快照，后续业务维护应优先修改分类型 JSON 文件。
+
+---
+
+## 十三、数据可信度与来源标记
+
+游戏处于 Early Access 时，数据会频繁变化。所有采集内容必须按可信度分级。
+
+| 级别 | 含义 | 使用方式 |
+|---|---|---|
+| `official` | Steam、官网、官方公告、官方服务器文档 | 可直接写入页面，并在 Sources 页说明 |
+| `verified` | 自己实测或可重复验证的游戏内数据 | 可进入表格和详情页 |
+| `community` | Wiki、攻略站、视频、Reddit、Discord 等社区资料 | 可作为参考，但应交叉验证 |
+| `unconfirmed` | 单一来源、版本不明、无法复现 | 只放在 Tracker 或 Notes 中，不创建薄详情页 |
+| `outdated` | 旧版本数据，可能已失效 | 保留时必须标注版本或移除 |
+
+页面文案要求：
+
+- 不确定内容写 `Needs verification` / `Verify after latest patch`
+- 不使用 `Complete`、`All`、`Every` 等绝对词，除非数据确实完整且已验证
+- Boss、资源、配方页面应优先采用 `Known ...`、`Early Access ... Tracker`、`Verified ...` 等表达
+- 不为资料不足的条目创建低质量详情页，先放在总览表中
+
+采集经验记录维护在 `docs/experience.md`。
+
+---
+
+## 十四、当前脚本使用规范
+
+### 14.1 主构建入口
+
+```powershell
+python scripts\build_site.py
+```
+
+职责：
+
+- 校验 `data/*.json` 数据字段和来源
+- 兼容调用 `scripts/seo_iteration.py`（第一阶段临时脚本）
+- 刷新 `sitemap.xml`
+- 输出构建结果
+
+### 14.2 第一阶段临时脚本
+
+```text
+scripts/seo_iteration.py
+```
+
+- 批量生成 SEO 页面（tools/、server-guide/、download/、sources/、crafting/*、bosses/、news/）
+- 统一页面 title、description、canonical、OG、Twitter、JSON-LD、面包屑、FAQ
+- 注意：它**会覆盖**自己负责的页面，人工精修的页面不要重跑
+
+### 14.3 辅助脚本
+
+| 脚本 | 用途 |
+|---|---|
+| `scripts/extract_html_data.py` | 从现有 HTML 抽取内容快照到 `data/html-content-snapshot.json` |
+| `scripts/split_snapshot_data.py` | 将快照拆分为 `data/bosses.json`、`data/recipes.json` 等分类文件 |
+| `scripts/enrich_first_round_data.py` | 第一轮数据采集补充脚本 |
+
+### 14.4 迁移方向
+
+第二阶段开始后，内容更新应优先改 `data/*.json`，再运行 `build_site.py`，而不是直接手改 HTML。长期目标是 `seo_iteration.py` 的职责全部迁移到 `build_site.py`。
+
+---
+
+## 十五、两阶段建设与验证
+
+### 15.1 两阶段原则
+
+| 阶段 | 目标 | 结果标准 |
+|---|---|---|
+| **第一阶段** | 搭建站点结构、SEO页面、工具入口、基础数据、上线验证 | 站点可预览，核心页面可访问，SEO 基础完整，无空白页 |
+| **第二阶段** | 按模块多轮采集、验证、补充游戏数据 | 数据库逐步完整，新增数据有来源和可信度标记 |
+
+第一阶段的重点是让网站具备可上线推广的基础形态，不伪装成"完整数据库"。
+
+### 15.2 第一阶段交付范围
+
+- 首页、导航、页脚、移动端布局、基础 CSS
+- 核心栏目 Hub 页：Beginner Guide、Crafting、Resources、Bosses、Ships、Weapons、Builds、FAQ、News
+- 高意图工具页：Tools、Recipe Finder、Progression Checklist、Resource Planner、Ship Selector
+- 实用 SEO 页：Download、Dedicated Server Guide、Sources & Update Policy
+- 合规页：Privacy、About、Contact、Terms、404
+- SEO 基础文件：`sitemap.xml`、`robots.txt`、`llms.txt`、`ads.txt`
+
+### 15.3 第二阶段内容补全策略
+
+按模块多轮推进，推荐顺序：
+
+1. **配方数据库**：Workbench Lv1-Lv3、Smelting、Alchemy、Cooking、Building Materials
+2. **资源数据库**：Copper、Iron、Clay、Gunpowder、Sulfur、Hardwood 等
+3. **Boss 数据库**：已确认 Boss、掉落、阶段机制、推荐装备
+4. **船只数据库**：Sloop、Brigantine、Frigate 的配置、材料、战斗定位
+5. **武器/装备数据库**：近战、远程、护甲、弹药、Tier List
+6. **Build 页面**：Beginner、DPS、Tank、Solo、Co-op
+7. **图片与视觉资产**：截图、WebP/AVIF、OG 图
+8. **多语言与工具交互**：英文站稳定后再扩展
+
+每轮补内容都要同步：HTML 页面、`sitemap.xml`、`llms.txt`、Hub 页内链。
+
+### 15.4 上线验证基线
+
+第一阶段上线前至少满足：
+
+- HTML 页面数不少于 40
+- sitemap 收录 URL 不包含 404 页面
+- 所有站内链接检查为 0 个坏链
+- 所有 HTML 页面有 `title`、`meta description`、`canonical`
+- JSON-LD 可正常解析
+- 首页、工具页、服务器页、下载页、核心栏目页本地返回 `200`
+- 无明显 `coming soon` / `TBD` / 空白主内容
+- `README.md` 记录脚本运行方式和维护注意事项

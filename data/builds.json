@@ -1,0 +1,118 @@
+{
+  "type": "build_collection",
+  "generated_at": "2026-05-12",
+  "items": [
+    {
+      "id": "builds-beginner-builds",
+      "slug": "builds/beginner-builds",
+      "name": "Windrose Beginner Builds: Easy Survivability Setups (2026)",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "source_page": "builds/beginner-builds/index.html",
+      "data_type": "build",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "builds/beginner-builds/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "role": "beginner",
+      "recommended_weapons": [],
+      "recommended_armor": [],
+      "recommended_ship": "unknown",
+      "stats_priority": [],
+      "playstyle": "Best Windrose beginner builds for new players. Saber + Musket combo, Copper Armor, stamina stat priority, and simple combat patterns to survive your first playthrough.",
+      "progression_steps": [
+        "\"The Survivor\" — Beginner Build Overview",
+        "Recommended Weapons",
+        "Primary: Saber",
+        "Secondary: Musket",
+        "Stat Allocation",
+        "Armor Suggestions",
+        "Playstyle & Combat Pattern",
+        "Key Survival Tips",
+        "Frequently Asked Questions",
+        "Related Guides"
+      ]
+    },
+    {
+      "id": "builds-dps-builds",
+      "slug": "builds/dps-builds",
+      "name": "Windrose DPS Builds: Max Damage Rapier & Musket Setups (2026)",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "source_page": "builds/dps-builds/index.html",
+      "data_type": "build",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "builds/dps-builds/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "role": "dps",
+      "recommended_weapons": [],
+      "recommended_armor": [],
+      "recommended_ship": "unknown",
+      "stats_priority": [],
+      "playstyle": "Ultimate Windrose DPS builds for maximum damage output. Rapier crit setups, Musket sniper builds, agility stat priority, and boss-melting combat rotations for experienced players.",
+      "progression_steps": [
+        "\"The Duelist\" — Rapier Crit DPS Build",
+        "Recommended Weapons",
+        "Primary: Rapier",
+        "Secondary: Musket",
+        "Stat Allocation",
+        "Armor Suggestions",
+        "Playstyle & Combat Rotation",
+        "When to Use DPS Builds",
+        "Frequently Asked Questions",
+        "Related Guides"
+      ]
+    },
+    {
+      "id": "builds-tank-builds",
+      "slug": "builds/tank-builds",
+      "name": "Windrose Tank Builds: Max Survivability Club & Iron Armor Setups (2026)",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "source_page": "builds/tank-builds/index.html",
+      "data_type": "build",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "builds/tank-builds/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "role": "tank",
+      "recommended_weapons": [],
+      "recommended_armor": [],
+      "recommended_ship": "unknown",
+      "stats_priority": [],
+      "playstyle": "Best Windrose tank builds for maximum survivability. Club + Blunderbuss combo, full Iron Armor, health and stamina stat priority. Stagger-lock enemies and survive boss fights.",
+      "progression_steps": [
+        "\"The Bulwark\" — Tank Build Overview",
+        "Recommended Weapons",
+        "Primary: Club",
+        "Secondary: Blunderbuss",
+        "Stat Allocation",
+        "Armor Suggestions",
+        "Playstyle & Combat Pattern",
+        "Tank Build Strengths & Weaknesses",
+        "Co-op Tanking Tips",
+        "Frequently Asked Questions",
+        "Related Guides"
+      ]
+    }
+  ]
+}

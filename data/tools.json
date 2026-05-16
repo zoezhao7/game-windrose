@@ -1,0 +1,195 @@
+{
+  "type": "tool_collection",
+  "generated_at": "2026-05-12",
+  "items": [
+    {
+      "id": "tools",
+      "slug": "tools",
+      "name": "Windrose Tools Hub",
+      "status": "published",
+      "confidence": "internal",
+      "last_verified": "2026-05-12",
+      "source_page": "tools/index.html",
+      "data_type": "tool_page",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "tools/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "purpose": "Windrose tools hub for recipes, progression, resources, ship comparison, and dedicated server setup. Built for fast planning and Google SEO.",
+      "inputs": [],
+      "outputs": [
+        "static HTML table",
+        "FAQ",
+        "internal links"
+      ],
+      "related_data_files": [],
+      "faq": [
+        {
+          "question": "Does Windrose Guides have interactive tools?",
+          "answer": "The current tools are static, crawlable planning pages. Interactive filters can be added later without changing the URLs."
+        },
+        {
+          "question": "Why add tools before more articles?",
+          "answer": "Tools attract repeated visits and earn links because they solve a player task faster than a long article."
+        }
+      ]
+    },
+    {
+      "id": "tools-progression-checklist",
+      "slug": "tools/progression-checklist",
+      "name": "Windrose Progression Checklist",
+      "status": "published",
+      "confidence": "internal",
+      "last_verified": "2026-05-12",
+      "source_page": "tools/progression-checklist/index.html",
+      "data_type": "tool_page",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "tools/progression-checklist/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "purpose": "Step-by-step Windrose progression checklist from bonfire and workbench to copper tools, first ship, crew rescue, and Foothills.",
+      "inputs": [],
+      "outputs": [
+        "static HTML table",
+        "FAQ",
+        "internal links"
+      ],
+      "related_data_files": [],
+      "faq": [
+        {
+          "question": "Should I build a permanent base early?",
+          "answer": "No. A small camp near resources is more efficient until you understand the island layout and unlock better tools."
+        },
+        {
+          "question": "What should I carry before leaving the first island?",
+          "answer": "Bring bandages, food, repair materials, copper tools, and enough wood or stone to rebuild basic stations."
+        }
+      ]
+    },
+    {
+      "id": "tools-recipe-finder",
+      "slug": "tools/recipe-finder",
+      "name": "Windrose Recipe Finder",
+      "status": "published",
+      "confidence": "internal",
+      "last_verified": "2026-05-12",
+      "source_page": "tools/recipe-finder/index.html",
+      "data_type": "tool_page",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "tools/recipe-finder/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "purpose": "Find Windrose recipes fast: workbench level, materials, progression use, bags, bullets, repair kits, tools, and copper or iron unlocks.",
+      "inputs": [],
+      "outputs": [
+        "static HTML table",
+        "FAQ",
+        "internal links"
+      ],
+      "related_data_files": [],
+      "faq": [
+        {
+          "question": "What is the most important early recipe?",
+          "answer": "Stone Pickaxe is the key early recipe because it starts copper and clay progression."
+        },
+        {
+          "question": "Which recipe increases inventory space?",
+          "answer": "Torn Sailcloth Bag is the first storage upgrade, followed later by Sailor Backpack and Bosun Backpack."
+        },
+        {
+          "question": "Where are the full recipes?",
+          "answer": "Use the Workbench Recipes , Smelting , and crafting subcategory pages."
+        }
+      ]
+    },
+    {
+      "id": "tools-resource-planner",
+      "slug": "tools/resource-planner",
+      "name": "Windrose Resource Planner",
+      "status": "published",
+      "confidence": "internal",
+      "last_verified": "2026-05-12",
+      "source_page": "tools/resource-planner/index.html",
+      "data_type": "tool_page",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "tools/resource-planner/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "purpose": "Plan Windrose resource farming by tool gate, location, and crafting use. Covers copper, iron, clay, gunpowder, sulfur, wood, stone, and fiber.",
+      "inputs": [],
+      "outputs": [
+        "static HTML table",
+        "FAQ",
+        "internal links"
+      ],
+      "related_data_files": [],
+      "faq": [
+        {
+          "question": "What resource should I farm first?",
+          "answer": "Wood and stone are first, but copper and clay are the first real progression resources."
+        },
+        {
+          "question": "Where should I farm gunpowder early?",
+          "answer": "Use smuggler stashes and pirate camps before you can craft gunpowder from sulfur and ash."
+        }
+      ]
+    },
+    {
+      "id": "tools-ship-selector",
+      "slug": "tools/ship-selector",
+      "name": "Windrose Ship Selector",
+      "status": "published",
+      "confidence": "internal",
+      "last_verified": "2026-05-12",
+      "source_page": "tools/ship-selector/index.html",
+      "data_type": "tool_page",
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "tools/ship-selector/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from existing HTML snapshot. Needs structured verification during phase two.",
+      "purpose": "Compare Windrose ships by speed, handling, firepower, durability, solo play, and co-op roles. Choose Sloop, Brigantine, or Frigate.",
+      "inputs": [],
+      "outputs": [
+        "static HTML table",
+        "FAQ",
+        "internal links"
+      ],
+      "related_data_files": [],
+      "faq": [
+        {
+          "question": "What is the best solo ship?",
+          "answer": "The Sloop is the easiest solo ship because speed and turning matter more when you do not have a full crew."
+        },
+        {
+          "question": "What is the best general ship?",
+          "answer": "The Brigantine is the best default recommendation because it balances speed, firepower, and survival."
+        }
+      ]
+    }
+  ]
+}

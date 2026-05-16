@@ -111,14 +111,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/resources" class="active">Resources</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/weapons">Weapons</a></li><li><a href="/builds">Builds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/news">News</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database" class="active">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <div class="container">
         <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -252,27 +252,53 @@
                     <tbody>
                         <tr>
                             <td>Starting Island</td>
-                            <td>Wood, Stone, Clay (riverbanks)</td>
+                            <td>Wood, Stone, Clay (riverbanks), Plant Fiber, Coconuts</td>
                             <td>Stone Pickaxe, Stone Axe</td>
                         </tr>
                         <tr>
                             <td>Coastal Jungle</td>
-                            <td>Copper Ore (caves)</td>
+                            <td>Copper Ore (caves), Rough Hide (boars), Gunpowder (Smuggler's Treasure)</td>
                             <td>Stone Pickaxe, Torches, Weapon</td>
                         </tr>
                         <tr>
                             <td>Foothills</td>
-                            <td>Iron Ore, Sulfur</td>
+                            <td>Iron Ore, Sulfur (yellow deposits), Hardwood, Fertile Soil, Corn, Flax</td>
                             <td>Copper Pickaxe (Iron), Iron Pickaxe (Sulfur)</td>
                         </tr>
                         <tr>
+                            <td>Foothills Farms</td>
+                            <td>Fertile Soil, Corn Seeds, Flax &mdash; found at Ancient Farm POIs</td>
+                            <td>Any gear; bring a Seedbed back to base for passive farming</td>
+                        </tr>
+                        <tr>
+                            <td>Cursed Swamps</td>
+                            <td>Tumbaga Ore, Tanned Leather (crafted), endgame crafting materials</td>
+                            <td>Iron Pickaxe, endgame armor and weapons</td>
+                        </tr>
+                        <tr>
                             <td>Pirate Camps / Caves</td>
-                            <td>Gunpowder (early), Rum, Treasure</td>
+                            <td>Gunpowder, Rum, Treasure, Piastre (currency)</td>
                             <td>Weapons, Torches, Armor</td>
+                        </tr>
+                        <tr>
+                            <td>Ocean / Islands</td>
+                            <td>Scallop Shells (pearls), Coconuts, unique island loot</td>
+                            <td>Ship + ranged weapons for naval combat</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+
+            <section>
+                <h2>Hidden &amp; Missable Resources</h2>
+                <ul>
+                    <li><strong>Gunpowder (Smuggler's Treasure):</strong> On the first Coastal Jungle island, look for a "Smuggler's Treasure" POI. Break the wood pile to find stairs leading down. Defeat the Drowned enemy and open the chest for <strong>10 Gunpowder + 4 Rum Bottles</strong>.</li>
+                    <li><strong>Fast Travel Bell (Supply Cache):</strong> Found in a supply cache in the Coastal Jungle. This secret item lets you teleport home instantly &mdash; incredibly valuable for saving time.</li>
+                    <li><strong>Boar Whistle (Foothills Altar):</strong> Make an offering (Ritual Oil + Meat) at the altar in the Foothills to receive this secret item that summons a boar companion.</li>
+                    <li><strong>Pearls (Scallop Shells):</strong> Right-click scallop shells dropped by beach enemies to extract pearls &mdash; they work as emergency ammunition when you're out of gunpowder.</li>
+                    <li><strong>Fertile Soil + Corn (Ancient Farm):</strong> Found at Ancient Farm POIs in the Foothills. These unlock passive food production via Seedbeds at your base.</li>
+                </ul>
+            </section>
         </article>
 
         <section id="faq">
@@ -320,16 +346,53 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/terms">Terms</a>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
             </div>
-            <p>&copy; 2026 Windrose Guides. Unofficial fan resource. Windrose is developed by Kraken Express.</p>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+                    <li><a href="/builds">Build Guides</a></li>
+                    <li><a href="/server-guide">Server Guide</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/bosses">Bosses</a></li>
+                    <li><a href="/ships">Ships</a></li>
+                    <li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/sources">Sources</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+</footer>
 
     <script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
 </body>

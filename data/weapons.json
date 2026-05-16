@@ -1,0 +1,2593 @@
+{
+  "type": "weapon_collection",
+  "generated_at": "2026-05-12",
+  "items": [
+    {
+      "id": "survivor-s-set",
+      "slug": "weapons/armor",
+      "name": "Survivor's Set",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "armor",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Starter",
+      "pros": [
+        "Low",
+        "None (default)",
+        "Start of game"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/armor/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Armor Sets & Progression"
+    },
+    {
+      "id": "copper-armor-set",
+      "slug": "weapons/armor",
+      "name": "Copper Armor Set",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "armor",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Mid-Game",
+      "pros": [
+        "Medium",
+        "Copper Ingots, Leather Scraps",
+        "Smelting Furnace unlocked"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/armor/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Armor Sets & Progression"
+    },
+    {
+      "id": "iron-armor-set",
+      "slug": "weapons/armor",
+      "name": "Iron Armor Set",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "armor",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Late-Game",
+      "pros": [
+        "High",
+        "Iron Ingots, Hardened Leather",
+        "Iron Ore access"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/armor/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Armor Sets & Progression"
+    },
+    {
+      "id": "saber",
+      "slug": "weapons/melee",
+      "name": "Saber",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Medium-High",
+      "pros": [
+        "Fast",
+        "Low-Medium",
+        "Balanced stats; best all-rounder"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Melee Weapons Comparison",
+      "level": 1,
+      "description": "A simple saber, well-suited to hacking down foes on cramped ship decks.",
+      "icon": "/imgs/database/items/saber.webp",
+      "crafting": {
+        "station": "Weaponsmith",
+        "station_icon": "/imgs/database/items/weaponsmith.webp",
+        "time": "1s (60/min)",
+        "materials": [
+          {
+            "name": "Copper Ingot",
+            "amount": 7,
+            "icon": "/imgs/database/items/copper-ingot.webp"
+          },
+          {
+            "name": "Rough Hide",
+            "amount": 2,
+            "icon": "/imgs/database/items/rough-hide.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rapier",
+      "slug": "weapons/melee",
+      "name": "Rapier",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Medium",
+      "pros": [
+        "Very Fast",
+        "Low",
+        "High crit chance; rapid thrust attacks"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Melee Weapons Comparison"
+    },
+    {
+      "id": "club",
+      "slug": "weapons/melee",
+      "name": "Club",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "High",
+      "pros": [
+        "Slow",
+        "High",
+        "Blunt damage; high stagger/poise break"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Melee Weapons Comparison"
+    },
+    {
+      "id": "spear",
+      "slug": "weapons/melee",
+      "name": "Spear",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Medium",
+      "pros": [
+        "Medium",
+        "Medium",
+        "Long reach; safe poking range"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Melee Weapons Comparison"
+    },
+    {
+      "id": "halberd",
+      "slug": "weapons/melee",
+      "name": "Halberd",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Very High",
+      "pros": [
+        "Slow",
+        "Very High",
+        "Heavy sweeping attacks; wide arc"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Melee Weapons Comparison"
+    },
+    {
+      "id": "standard-pirates",
+      "slug": "weapons/melee",
+      "name": "Standard Pirates",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Saber",
+      "pros": [
+        "Balanced speed and damage handles them efficiently"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Recommended Melee Weapons by Enemy Type"
+    },
+    {
+      "id": "heavy-armored-enemies",
+      "slug": "weapons/melee",
+      "name": "Heavy Armored Enemies",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Club / Halberd",
+      "pros": [
+        "Stagger breaks their guard; blunt weapons ignore some armor"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Recommended Melee Weapons by Enemy Type"
+    },
+    {
+      "id": "fast-agile-enemies",
+      "slug": "weapons/melee",
+      "name": "Fast, Agile Enemies",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Rapier",
+      "pros": [
+        "Matches their speed; low stamina cost lets you keep pace"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Recommended Melee Weapons by Enemy Type"
+    },
+    {
+      "id": "enemy-groups",
+      "slug": "weapons/melee",
+      "name": "Enemy Groups",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Halberd",
+      "pros": [
+        "Wide sweeping attacks hit multiple targets"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Recommended Melee Weapons by Enemy Type"
+    },
+    {
+      "id": "bosses",
+      "slug": "weapons/melee",
+      "name": "Bosses",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "melee",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Rapier / Saber",
+      "pros": [
+        "High DPS and low commitment allow safe windows"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/melee/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Recommended Melee Weapons by Enemy Type"
+    },
+    {
+      "id": "musket",
+      "slug": "weapons/ranged",
+      "name": "Musket",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "ranged",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Very High",
+      "pros": [
+        "Long",
+        "Slow",
+        "High",
+        "Single shot; precise long-range sniping"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/ranged/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Ranged Weapons Stats"
+    },
+    {
+      "id": "blunderbuss",
+      "slug": "weapons/ranged",
+      "name": "Blunderbuss",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "ranged",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "High (spread)",
+      "pros": [
+        "Short",
+        "Very Slow",
+        "Low",
+        "Pellet spread; hits multiple targets close range"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/ranged/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Windrose Ranged Weapons Stats"
+    },
+    {
+      "id": "stone-bullet",
+      "slug": "weapons/ranged",
+      "name": "Stone Bullet",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "ammo",
+      "tier": "uncommon",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Stone + Gunpowder",
+      "pros": [
+        "Base (1x)",
+        "Early game (Workbench Lv1)"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/ranged/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Ammo Crafting Recipes & Progression",
+      "level": 1,
+      "description": "A lump of stone that only just passes for a ball. You will only hit true at close range.",
+      "icon": "/imgs/database/items/stone-bullet.webp",
+      "crafting": {
+        "station": "Workbench",
+        "station_icon": "/imgs/database/items/workbench.webp",
+        "time": "1s (300/min)",
+        "materials": [
+          {
+            "name": "Stone",
+            "amount": 3,
+            "icon": "/imgs/database/items/stone.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "copper-bullet",
+      "slug": "weapons/ranged",
+      "name": "Copper Bullet",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "ranged",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Copper Ingot + Gunpowder",
+      "pros": [
+        "~1.4x damage",
+        "Mid-game (Smelting Furnace unlocked)"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/ranged/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Ammo Crafting Recipes & Progression"
+    },
+    {
+      "id": "iron-bullet",
+      "slug": "weapons/ranged",
+      "name": "Iron Bullet",
+      "status": "published",
+      "confidence": "community",
+      "last_verified": "2026-05-12",
+      "category": "ranged",
+      "tier": "unranked",
+      "damage_type": "unknown",
+      "materials": [],
+      "best_use": "Iron Ingot + Gunpowder",
+      "pros": [
+        "~1.8x damage",
+        "Late-game (Iron Ore access)"
+      ],
+      "cons": [],
+      "related_builds": [],
+      "sources": [
+        {
+          "title": "Existing site HTML content snapshot",
+          "url": "weapons/ranged/index.html",
+          "type": "internal",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "notes": "Migrated from Ammo Crafting Recipes & Progression"
+    },
+    {
+      "id": "eid-melee-weapon-saber-broken-base",
+      "slug": "eid-melee-weapon-saber-broken-base",
+      "name": "Broken Blade",
+      "category": "melee-weapon",
+      "tier": "common",
+      "level": null,
+      "description": "At least it’s still sharp…",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-broken-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-sniper-base",
+      "slug": "eid-range-weapon-musket-sniper-base",
+      "name": "Buccaneer’s Friend",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged for the Caribbean’s best hunters: hold your breath, hold your ground, and even thick hide won’t save your prey.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-sniper-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crude-dmg-regular",
+      "slug": "eid-ring-crude-dmg-regular",
+      "name": "Capricorn Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "This ring radiates brute strength. It’s so heavy it could serve as a knuckle-duster.",
+      "icon": "/imgs/database/items/eid-ring-crude-dmg-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-firearm-projectile-ancient-metal-t03",
+      "slug": "aid-ammo-firearm-projectile-ancient-metal-t03",
+      "name": "Bullet Arborum",
+      "category": "ammo",
+      "tier": "rare",
+      "level": null,
+      "description": "Perfectly balanced and deadly precise. Wrought from a magically tuned alloy, it flies true, as though bewitched.",
+      "icon": "/imgs/database/items/aid-ammo-firearm-projectile-ancient-metal-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-sniper-advanced",
+      "slug": "eid-range-weapon-musket-sniper-advanced",
+      "name": "Buccaneer’s Friend",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Forged for the Caribbean’s best hunters: hold your breath, hold your ground, and even thick hide won’t save your prey.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-sniper-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-blank-base",
+      "slug": "eid-melee-weapon-club-blank-base",
+      "name": "Club",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Sturdy and very heavy. What else do you need from a club?",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-conquistador-base-torso",
+      "slug": "eid-armor-conquistador-base-torso",
+      "name": "Conquistador’s Cuirass",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "This reliable metal armor allowed the Spaniards to conquer the New World thanks to its exceptional durability and toughness.",
+      "icon": "/imgs/database/items/eid-armor-conquistador-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-conquistador-base-feet",
+      "slug": "eid-armor-conquistador-base-feet",
+      "name": "Conquistador’s Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "This reliable metal armor allowed the Spaniards to conquer the New World thanks to its exceptional durability and toughness.",
+      "icon": "/imgs/database/items/eid-armor-conquistador-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-conquistador-base-legs",
+      "slug": "eid-armor-conquistador-base-legs",
+      "name": "Conquistador’s Pants",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "This reliable metal armor allowed the Spaniards to conquer the New World thanks to its exceptional durability and toughness.",
+      "icon": "/imgs/database/items/eid-armor-conquistador-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-axe-t01",
+      "slug": "eid-tool-axe-t01",
+      "name": "Copper Axe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A decent alternative to a stone axe. But it won’t cut through hardwood.",
+      "icon": "/imgs/database/items/eid-tool-axe-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-conquistador-base-head",
+      "slug": "eid-armor-conquistador-base-head",
+      "name": "Conquistador’s Helmet",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "This reliable metal armor allowed the Spaniards to conquer the New World thanks to its exceptional durability and toughness.",
+      "icon": "/imgs/database/items/eid-armor-conquistador-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-firearm-projectile-rough-metal-t02",
+      "slug": "aid-ammo-firearm-projectile-rough-metal-t02",
+      "name": "Copper Bullet",
+      "category": "ammo",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A plain copper ball. No promises it will fly true, but it is decent enough.",
+      "icon": "/imgs/database/items/aid-ammo-firearm-projectile-rough-metal-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-pickaxe-t01",
+      "slug": "eid-tool-pickaxe-t01",
+      "name": "Copper Pickaxe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A decent alternative to a stone pickaxe. But it’ll struggle with tougher stone.",
+      "icon": "/imgs/database/items/eid-tool-pickaxe-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-conquistador-base-hands",
+      "slug": "eid-armor-conquistador-base-hands",
+      "name": "Conquistador’s Gloves",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "This reliable metal armor allowed the Spaniards to conquer the New World thanks to its exceptional durability and toughness.",
+      "icon": "/imgs/database/items/eid-armor-conquistador-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-slash-dmg-regular",
+      "slug": "eid-ring-slash-dmg-regular",
+      "name": "Corsair Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "A similar ring once belonged to notorious Captain Samuel Bellamy. He never lost a battle. The sea didn’t care—it claimed him in a storm.",
+      "icon": "/imgs/database/items/eid-ring-slash-dmg-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-blunderbuss-dragonbreath-advanced",
+      "slug": "eid-range-weapon-blunderbuss-dragonbreath-advanced",
+      "name": "Dragon’s Breath",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A small, single-shot blunderbuss that spits a dense cone of flame, blasting aside everything in its path.",
+      "icon": "/imgs/database/items/eid-range-weapon-blunderbuss-dragonbreath-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-blunderbuss-dragonbreath-base",
+      "slug": "eid-range-weapon-blunderbuss-dragonbreath-base",
+      "name": "Dragon’s Breath",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A small, single-shot blunderbuss that spits a dense cone of flame, blasting aside everything in its path.",
+      "icon": "/imgs/database/items/eid-range-weapon-blunderbuss-dragonbreath-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-drakes-doom-advanced",
+      "slug": "eid-range-weapon-pistol-drakes-doom-advanced",
+      "name": "Drake’s Double-Barreled Pistol",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "An elegant pistol with engraved barrels. The top one reads 'Head,' the bottom - 'Eyes.'",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-drakes-doom-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-parrying-advanced",
+      "slug": "eid-melee-weapon-greatsword-parrying-advanced",
+      "name": "Dueling Greatsword",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A long, straight greatsword, more akin to a ceremonial weapon—yet its blade is sharpened and deadly. The captains of the Old World used such swords to defend their beliefs.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-parrying-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-parrying-base",
+      "slug": "eid-melee-weapon-greatsword-parrying-base",
+      "name": "Dueling Greatsword",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A long, straight greatsword, more akin to a ceremonial weapon—yet its blade is sharpened and deadly. The captains of the Old World used such swords to defend their beliefs.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-parrying-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-drakes-doom-base",
+      "slug": "eid-range-weapon-pistol-drakes-doom-base",
+      "name": "Drake’s Double-Barreled Pistol",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant pistol with engraved barrels. The top one reads 'Head,' the bottom - 'Eyes.'",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-drakes-doom-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-parrying-advanced",
+      "slug": "eid-melee-weapon-saber-parrying-advanced",
+      "name": "Dueling Saber",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "The blade of this saber has a bluish tint, as if it had been hardened in the icy waters of the northern seas.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-parrying-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-parrying-base",
+      "slug": "eid-melee-weapon-saber-parrying-base",
+      "name": "Dueling Saber",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "The blade of this saber has a bluish tint, as if it had been hardened in the icy waters of the northern seas.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-parrying-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-executioner-base",
+      "slug": "eid-melee-weapon-halberd-executioner-base",
+      "name": "Executioner",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "The blade of this halberd bears the memory of every criminal executed for the glory of the Spanish Crown.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-executioner-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-executioner-advanced",
+      "slug": "eid-melee-weapon-halberd-executioner-advanced",
+      "name": "Executioner",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "The blade of this halberd bears the memory of every criminal executed for the glory of the Spanish Crown.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-executioner-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-starter-base-head",
+      "slug": "eid-armor-starter-base-head",
+      "name": "Headband",
+      "category": "armor",
+      "tier": "common",
+      "level": null,
+      "description": "These rags were once fine clothes.",
+      "icon": "/imgs/database/items/eid-armor-starter-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-blank-base",
+      "slug": "eid-melee-weapon-halberd-blank-base",
+      "name": "Halberd",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Long enough to keep enemies at bay, and sharp enough to make them stay there.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-gunpowder-homemade-t02",
+      "slug": "aid-ammo-gunpowder-homemade-t02",
+      "name": "Homemade Gunpowder",
+      "category": "ammo",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Low-quality homemade gunpowder. Use with caution.",
+      "icon": "/imgs/database/items/aid-ammo-gunpowder-homemade-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-infantry-advanced",
+      "slug": "eid-range-weapon-musket-infantry-advanced",
+      "name": "Infantry Musket",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A musket of the French infantry square, tuned for quick drills rather than careful duels. Keep moving, keep aiming, and let the bayonet answer anyone who gets too close.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-infantry-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-axe-t02",
+      "slug": "eid-tool-axe-t02",
+      "name": "Iron Axe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An iron axe—tough enough to bite into the Foothills’ hardwood.",
+      "icon": "/imgs/database/items/eid-tool-axe-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-infantry-base",
+      "slug": "eid-range-weapon-musket-infantry-base",
+      "name": "Infantry Musket",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A musket of the French infantry square, tuned for quick drills rather than careful duels. Keep moving, keep aiming, and let the bayonet answer anyone who gets too close.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-infantry-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-pickaxe-t02",
+      "slug": "eid-tool-pickaxe-t02",
+      "name": "Iron Pickaxe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An iron pickaxe that makes mining ore much easier.",
+      "icon": "/imgs/database/items/eid-tool-pickaxe-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-firearm-projectile-fine-metal-t02",
+      "slug": "aid-ammo-firearm-projectile-fine-metal-t02",
+      "name": "Iron Bullet",
+      "category": "ammo",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A well-made iron bullet with good ballistics. Where you fire, it flies.",
+      "icon": "/imgs/database/items/aid-ammo-firearm-projectile-fine-metal-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-posture-regular",
+      "slug": "eid-ring-posture-regular",
+      "name": "Knight's Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "It’s said Isabella of Castile herself presented a similar ring to her knight after he won a tournament in her honor and named her the lady of his heart.",
+      "icon": "/imgs/database/items/eid-ring-posture-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crude-dmg-major",
+      "slug": "eid-ring-crude-dmg-major",
+      "name": "Major Capricorn Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "This ring radiates brute strength. It’s so heavy it could serve as a knuckle-duster.",
+      "icon": "/imgs/database/items/eid-ring-crude-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-wpn-stmn-cons-major",
+      "slug": "eid-ring-wpn-stmn-cons-major",
+      "name": "Major Champion Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "When laurel wreaths fell out of fashion, winners of knightly tournaments began receiving rings like this as prizes.",
+      "icon": "/imgs/database/items/eid-ring-wpn-stmn-cons-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crit-damage-major",
+      "slug": "eid-ring-crit-damage-major",
+      "name": "Major Cutthroat Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "They say Francis Drake cast a ring like this after his first raid on Nombre de Dios, where he seized Spanish gold. The Spaniards, of course, put a huge bounty on his head for the insult.",
+      "icon": "/imgs/database/items/eid-ring-crit-damage-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-slash-dmg-major",
+      "slug": "eid-ring-slash-dmg-major",
+      "name": "Major Corsair Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "A similar ring once belonged to notorious Captain Samuel Bellamy. He never lost a battle. The sea didn’t care—it claimed him in a storm.",
+      "icon": "/imgs/database/items/eid-ring-slash-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-fisherman-major",
+      "slug": "eid-ring-fisherman-major",
+      "name": "Major Fisherman Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "If all else fails, you can use the ring itself as bait. They say the fish go for it.",
+      "icon": "/imgs/database/items/eid-ring-fisherman-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-endurance-major",
+      "slug": "eid-necklace-endurance-major",
+      "name": "Major Necklace of Endurance",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "Once, a brave warrior who had a similar amulet challenged a monster. He fought it for three days and three nights and finally won. Some say he collapsed from exhaustion, dead atop the beast’s corpse.",
+      "icon": "/imgs/database/items/eid-necklace-endurance-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-mastery-major",
+      "slug": "eid-necklace-mastery-major",
+      "name": "Major Necklace of Mastery",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "Seasoned hunters believed this amulet helped them land a killing blow on their quarry with the first strike.",
+      "icon": "/imgs/database/items/eid-necklace-mastery-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-agility-major",
+      "slug": "eid-necklace-agility-major",
+      "name": "Major Necklace of Agility",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "The owner of an amulet like this becomes agile, like a jaguar in the jungle.",
+      "icon": "/imgs/database/items/eid-necklace-agility-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-range-dmg-major",
+      "slug": "eid-ring-range-dmg-major",
+      "name": "Major Marksman's Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "Musketeers swore a ring like this brought luck—said you could put a bullet through a squirrel’s eye… Pity there aren’t any squirrels on these islands.",
+      "icon": "/imgs/database/items/eid-ring-range-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crit-chance-major",
+      "slug": "eid-ring-crit-chance-major",
+      "name": "Major Jaguar Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "Such rings were given to ancient warriors who proved their mettle in harsh trials.",
+      "icon": "/imgs/database/items/eid-ring-crit-chance-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crit-chance-regular",
+      "slug": "eid-ring-crit-chance-regular",
+      "name": "Jaguar Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "Such rings were given to ancient warriors who proved their mettle in harsh trials.",
+      "icon": "/imgs/database/items/eid-ring-crit-chance-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-vitality-major",
+      "slug": "eid-necklace-vitality-major",
+      "name": "Major Necklace of Vitality",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "Priests of ancient peoples once wore necklaces like these as a mark of devotion to a fertility god.",
+      "icon": "/imgs/database/items/eid-necklace-vitality-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-melee-dmg-major",
+      "slug": "eid-ring-melee-dmg-major",
+      "name": "Major Ring of Bravery",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "A Spanish ring for toreros brave enough to step into the arena against raging bulls.",
+      "icon": "/imgs/database/items/eid-ring-melee-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-precision-major",
+      "slug": "eid-necklace-precision-major",
+      "name": "Major Necklace of Precision",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "The gold-coated pendant glitters in the sun like the eye of a falcon that has spotted its prey from high above.",
+      "icon": "/imgs/database/items/eid-necklace-precision-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-res-stmn-cons-major",
+      "slug": "eid-ring-res-stmn-cons-major",
+      "name": "Major Prospector Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "Reminds its wearer of riches buried below. Funny how the closer the treasure the less tired you are!",
+      "icon": "/imgs/database/items/eid-ring-res-stmn-cons-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crpt-tick-resist-major",
+      "slug": "eid-ring-crpt-tick-resist-major",
+      "name": "Major Sun Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "Warmth emanates from the ring. Perhaps long ago, such rings were worn by priests who worshipped the sun as a god.",
+      "icon": "/imgs/database/items/eid-ring-crpt-tick-resist-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-lightfoot-major",
+      "slug": "eid-ring-lightfoot-major",
+      "name": "Major Ring of Lightfoot",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "not used",
+      "icon": "/imgs/database/items/eid-ring-lightfoot-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-pierce-dmg-major",
+      "slug": "eid-ring-pierce-dmg-major",
+      "name": "Major Spear-Thrower's Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "The black stone set in the ring resembles obsidian, from which ancient peoples crafted spearheads.",
+      "icon": "/imgs/database/items/eid-ring-pierce-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-strength-major",
+      "slug": "eid-necklace-strength-major",
+      "name": "Major Necklace of Strength",
+      "category": "necklace",
+      "tier": "epic",
+      "level": null,
+      "description": "If the legends are to be believed, a warrior who slew dozens of foes before falling in battle wore a similar amulet. The priests of an ancient people buried him with honors in an ancient crypt.",
+      "icon": "/imgs/database/items/eid-necklace-strength-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-feint-dmg-major",
+      "slug": "eid-ring-feint-dmg-major",
+      "name": "Major Warrior Ring",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "Such rings were awarded to veteran warriors of ancient peoples as a mark of distinction for victories in battle.",
+      "icon": "/imgs/database/items/eid-ring-feint-dmg-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-dmg-resist-major",
+      "slug": "eid-ring-dmg-resist-major",
+      "name": "Major Ring of Divine Protection",
+      "category": "ring",
+      "tier": "epic",
+      "level": null,
+      "description": "In ancient times, the coiled spiral motif symbolized the sun and was thought to ward off the evil eye. Who knows… maybe this ring really will protect its wearer.",
+      "icon": "/imgs/database/items/eid-ring-dmg-resist-major.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-mercenary-base-torso",
+      "slug": "eid-armor-mercenary-base-torso",
+      "name": "Marksman’s Doublet",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Tortuga’s marksmen favor attire made of light fabric. It allows easier movement across rough terrain and steadier shots at moving targets.",
+      "icon": "/imgs/database/items/eid-armor-mercenary-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-mercenary-base-legs",
+      "slug": "eid-armor-mercenary-base-legs",
+      "name": "Marksman's Pants",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Tortuga’s marksmen favor attire made of light fabric. It allows easier movement across rough terrain and steadier shots at moving targets.",
+      "icon": "/imgs/database/items/eid-armor-mercenary-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-range-dmg-regular",
+      "slug": "eid-ring-range-dmg-regular",
+      "name": "Marksman's Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "Musketeers swore a ring like this brought luck—said you could put a bullet through a squirrel’s eye… Pity there aren’t any squirrels on these islands.",
+      "icon": "/imgs/database/items/eid-ring-range-dmg-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-mercenary-base-feet",
+      "slug": "eid-armor-mercenary-base-feet",
+      "name": "Marksman's Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Tortuga’s marksmen favor attire made of light fabric. It allows easier movement across rough terrain and steadier shots at moving targets.",
+      "icon": "/imgs/database/items/eid-armor-mercenary-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-mercenary-base-head",
+      "slug": "eid-armor-mercenary-base-head",
+      "name": "Marksman's Tricorne",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Tortuga’s marksmen favor attire made of light fabric. It allows easier movement across rough terrain and steadier shots at moving targets.",
+      "icon": "/imgs/database/items/eid-armor-mercenary-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-mercenary-base-hands",
+      "slug": "eid-armor-mercenary-base-hands",
+      "name": "Marksman's Gloves",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Tortuga’s marksmen favor attire made of light fabric. It allows easier movement across rough terrain and steadier shots at moving targets.",
+      "icon": "/imgs/database/items/eid-armor-mercenary-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crude-dmg-minor",
+      "slug": "eid-ring-crude-dmg-minor",
+      "name": "Minor Capricorn Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "This ring radiates brute strength. It’s so heavy it could serve as a knuckle-duster.",
+      "icon": "/imgs/database/items/eid-ring-crude-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-fisherman-minor",
+      "slug": "eid-ring-fisherman-minor",
+      "name": "Minor Fisherman Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "If all else fails, you can use the ring itself as bait. They say the fish go for it.",
+      "icon": "/imgs/database/items/eid-ring-fisherman-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-range-dmg-minor",
+      "slug": "eid-ring-range-dmg-minor",
+      "name": "Minor Marksman's Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Musketeers swore a ring like this brought luck—said you could put a bullet through a squirrel’s eye… Pity there aren’t any squirrels on these islands.",
+      "icon": "/imgs/database/items/eid-ring-range-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-slash-dmg-minor",
+      "slug": "eid-ring-slash-dmg-minor",
+      "name": "Minor Corsair Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A similar ring once belonged to notorious Captain Samuel Bellamy. He never lost a battle. The sea didn’t care—it claimed him in a storm.",
+      "icon": "/imgs/database/items/eid-ring-slash-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-wpn-stmn-cons-minor",
+      "slug": "eid-ring-wpn-stmn-cons-minor",
+      "name": "Minor Champion Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "When laurel wreaths fell out of fashion, winners of knightly tournaments began receiving rings like this as prizes.",
+      "icon": "/imgs/database/items/eid-ring-wpn-stmn-cons-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crit-chance-minor",
+      "slug": "eid-ring-crit-chance-minor",
+      "name": "Minor Jaguar Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Such rings were given to ancient warriors who proved their mettle in harsh trials.",
+      "icon": "/imgs/database/items/eid-ring-crit-chance-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-agility-minor-02",
+      "slug": "eid-necklace-agility-minor-02",
+      "name": "Minor Necklace of Agility",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "The owner of an amulet like this becomes agile, like a jaguar in the jungle.",
+      "icon": "/imgs/database/items/eid-necklace-agility-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crit-damage-minor",
+      "slug": "eid-ring-crit-damage-minor",
+      "name": "Minor Cutthroat Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "They say Francis Drake cast a ring like this after his first raid on Nombre de Dios, where he seized Spanish gold. The Spaniards, of course, put a huge bounty on his head for the insult.",
+      "icon": "/imgs/database/items/eid-ring-crit-damage-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-precision-minor-02",
+      "slug": "eid-necklace-precision-minor-02",
+      "name": "Minor Necklace of Precision",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "The gold-coated pendant glitters in the sun like the eye of a falcon that has spotted its prey from high above.",
+      "icon": "/imgs/database/items/eid-necklace-precision-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-strength-minor-02",
+      "slug": "eid-necklace-strength-minor-02",
+      "name": "Minor Necklace of Strength",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "If the legends are to be believed, a warrior who slew dozens of foes before falling in battle wore a similar amulet. The priests of an ancient people buried him with honors in an ancient crypt.",
+      "icon": "/imgs/database/items/eid-necklace-strength-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-endurance-minor-02",
+      "slug": "eid-necklace-endurance-minor-02",
+      "name": "Minor Necklace of Endurance",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Once, a brave warrior who had a similar amulet challenged a monster. He fought it for three days and three nights and finally won. Some say he collapsed from exhaustion, dead atop the beast's corpse.",
+      "icon": "/imgs/database/items/eid-necklace-endurance-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-res-stmn-cons-minor",
+      "slug": "eid-ring-res-stmn-cons-minor",
+      "name": "Minor Prospector Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Reminds its wearer of riches buried below. Funny how you don’t tire so quickly when the treasure’s this close?!",
+      "icon": "/imgs/database/items/eid-ring-res-stmn-cons-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-dmg-resist-minor",
+      "slug": "eid-ring-dmg-resist-minor",
+      "name": "Minor Ring of Divine Protection",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "In ancient times, the coiled spiral motif symbolized the sun and was thought to ward off the evil eye. Who knows… maybe this ring really will protect its wearer.",
+      "icon": "/imgs/database/items/eid-ring-dmg-resist-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-melee-dmg-minor",
+      "slug": "eid-ring-melee-dmg-minor",
+      "name": "Minor Ring of Bravery",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A Spanish ring for toreros brave enough to step into the arena against raging bulls.",
+      "icon": "/imgs/database/items/eid-ring-melee-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-mastery-minor-02",
+      "slug": "eid-necklace-mastery-minor-02",
+      "name": "Minor Necklace of Mastery",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Seasoned hunters believed this amulet helped them land a killing blow on their quarry with the first strike.",
+      "icon": "/imgs/database/items/eid-necklace-mastery-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-vitality-minor-02",
+      "slug": "eid-necklace-vitality-minor-02",
+      "name": "Minor Necklace of Vitality",
+      "category": "necklace",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Priests of ancient peoples once wore necklaces like these as a mark of devotion to a fertility god.",
+      "icon": "/imgs/database/items/eid-necklace-vitality-minor-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-crpt-tick-resist-minor",
+      "slug": "eid-ring-crpt-tick-resist-minor",
+      "name": "Minor Sun Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Warmth emanates from the ring. Perhaps long ago, such rings were worn by priests who worshipped the sun as a god.",
+      "icon": "/imgs/database/items/eid-ring-crpt-tick-resist-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-pierce-dmg-minor",
+      "slug": "eid-ring-pierce-dmg-minor",
+      "name": "Minor Spear-Thrower's Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "The black stone set in the ring resembles obsidian, from which ancient peoples crafted spearheads.",
+      "icon": "/imgs/database/items/eid-ring-pierce-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-blank-base",
+      "slug": "eid-range-weapon-musket-blank-base",
+      "name": "Musket",
+      "category": "range-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An ordinary musket that fits your hands like it was made for you.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-feint-dmg-minor",
+      "slug": "eid-ring-feint-dmg-minor",
+      "name": "Minor Warrior Ring",
+      "category": "ring",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Such rings were awarded to veteran warriors of ancient peoples as a mark of distinction for victories in battle.",
+      "icon": "/imgs/database/items/eid-ring-feint-dmg-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-endurance-regular",
+      "slug": "eid-necklace-endurance-regular",
+      "name": "Necklace of Endurance",
+      "category": "necklace",
+      "tier": "rare",
+      "level": null,
+      "description": "Once, a brave warrior who had a similar amulet challenged a monster. He fought it for three days and three nights and finally won. Some say he collapsed from exhaustion, dead atop the beast’s corpse.",
+      "icon": "/imgs/database/items/eid-necklace-endurance-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-mastery-regular",
+      "slug": "eid-necklace-mastery-regular",
+      "name": "Necklace of Mastery",
+      "category": "necklace",
+      "tier": "rare",
+      "level": null,
+      "description": "Seasoned hunters believed this amulet helped them land a killing blow on their quarry with the first strike.",
+      "icon": "/imgs/database/items/eid-necklace-mastery-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-agility-regular",
+      "slug": "eid-necklace-agility-regular",
+      "name": "Necklace of Agility",
+      "category": "necklace",
+      "tier": "rare",
+      "level": null,
+      "description": "The owner of an amulet like this becomes agile, like a jaguar in the jungle.",
+      "icon": "/imgs/database/items/eid-necklace-agility-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-strength-regular",
+      "slug": "eid-necklace-strength-regular",
+      "name": "Necklace of Strength",
+      "category": "necklace",
+      "tier": "rare",
+      "level": null,
+      "description": "If the legends are to be believed, a warrior who slew dozens of foes before falling in battle wore a similar amulet. The priests of an ancient people buried him with honors in an ancient crypt.",
+      "icon": "/imgs/database/items/eid-necklace-strength-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-vitality-regular",
+      "slug": "eid-necklace-vitality-regular",
+      "name": "Necklace of Vitality",
+      "category": "necklace",
+      "tier": "rare",
+      "level": null,
+      "description": "Priests of ancient peoples once wore necklaces like these as a mark of devotion to a fertility god.",
+      "icon": "/imgs/database/items/eid-necklace-vitality-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-scallop-pearl-t01",
+      "slug": "aid-ammo-scallop-pearl-t01",
+      "name": "Pearl",
+      "category": "ammo",
+      "tier": "common",
+      "level": null,
+      "description": "An alchemicy ingredient. However, this small, round, sturdy item may be useful elsewhere.",
+      "icon": "/imgs/database/items/aid-ammo-scallop-pearl-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-pikeman-base-torso",
+      "slug": "eid-armor-pikeman-base-torso",
+      "name": "Pikeman’s Cuirass",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Infantry armor of the Spanish tercio. Favored by buccaneers of the archipelago for its ideal balance of protection and mobility—essential for hunting the local beasts.",
+      "icon": "/imgs/database/items/eid-armor-pikeman-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-pikeman-base-head",
+      "slug": "eid-armor-pikeman-base-head",
+      "name": "Pikeman’s Helmet",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Infantry armor of the Spanish tercio. Favored by buccaneers of the archipelago for its ideal balance of protection and mobility—essential for hunting the local beasts.",
+      "icon": "/imgs/database/items/eid-armor-pikeman-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-pikeman-base-legs",
+      "slug": "eid-armor-pikeman-base-legs",
+      "name": "Pikeman’s Pants",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Infantry armor of the Spanish tercio. Favored by buccaneers of the archipelago for its ideal balance of protection and mobility—essential for hunting the local beasts.",
+      "icon": "/imgs/database/items/eid-armor-pikeman-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-pikeman-base-feet",
+      "slug": "eid-armor-pikeman-base-feet",
+      "name": "Pikeman’s Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Infantry armor of the Spanish tercio. Favored by buccaneers of the archipelago for its ideal balance of protection and mobility—essential for hunting the local beasts.",
+      "icon": "/imgs/database/items/eid-armor-pikeman-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-pikeman-base-hands",
+      "slug": "eid-armor-pikeman-base-hands",
+      "name": "Pikeman’s Gloves",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Infantry armor of the Spanish tercio. Favored by buccaneers of the archipelago for its ideal balance of protection and mobility—essential for hunting the local beasts.",
+      "icon": "/imgs/database/items/eid-armor-pikeman-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-blank-base",
+      "slug": "eid-range-weapon-pistol-blank-base",
+      "name": "Pistol",
+      "category": "range-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "What’s better than one shot? Two shots! It fires gentle, with hardly any kick. Just make sure you reload in time.",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-corrupted-advanced",
+      "slug": "eid-melee-weapon-halberd-corrupted-advanced",
+      "name": "Plague Halberd",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Wounds the body, destroys the soul. It stinks like a ship’s hold after a long voyage.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-corrupted-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-corrupted-base",
+      "slug": "eid-melee-weapon-halberd-corrupted-base",
+      "name": "Plague Halberd",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Wounds the body, destroys the soul. It stinks like a ship’s hold after a long voyage.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-corrupted-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-corrupted-advanced",
+      "slug": "eid-range-weapon-pistol-corrupted-advanced",
+      "name": "Plague Pistol",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "It feels like this pistol’s bullets have an unnatural thirst for someone else’s blood.",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-corrupted-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-armor-vanilla-base-feet",
+      "slug": "did-misc-recipe-paper-unlock-armor-vanilla-base-feet",
+      "name": "Plans: Privateer’s Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-vanilla-base-feet",
+      "slug": "eid-armor-vanilla-base-feet",
+      "name": "Privateer’s Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/eid-armor-vanilla-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-backpack-l03-t01",
+      "slug": "eid-backpack-l03-t01",
+      "name": "Quartermaster Backpack",
+      "category": "backpack",
+      "tier": "uncommon",
+      "level": null,
+      "description": "As bottomless as the sea’s depths!",
+      "icon": "/imgs/database/items/eid-backpack-l03-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-vanilla-base-head",
+      "slug": "eid-armor-vanilla-base-head",
+      "name": "Privateer’s Tricorne",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/eid-armor-vanilla-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-vanilla-base-legs",
+      "slug": "eid-armor-vanilla-base-legs",
+      "name": "Privateer’s Pants",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/eid-armor-vanilla-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-vanilla-base-torso",
+      "slug": "eid-armor-vanilla-base-torso",
+      "name": "Privateer’s Doublet",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/eid-armor-vanilla-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-vanilla-base-hands",
+      "slug": "eid-armor-vanilla-base-hands",
+      "name": "Privateer’s Gloves",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "An elegant attire worn by captains. It’s just as easy to deal lethal blows during a boarding operation as to strut about at the governor’s reception.",
+      "icon": "/imgs/database/items/eid-armor-vanilla-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-blank-base",
+      "slug": "eid-melee-weapon-rapier-blank-base",
+      "name": "Rapier",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A balanced rapier without excess. Its guard is studded with chips… jagged notches from hundreds of parried blows.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-flawless-advanced",
+      "slug": "eid-melee-weapon-saber-flawless-advanced",
+      "name": "Razor",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Nassau pirates prefer swift and brutal weapons. This saber, razor-sharp and battle-hardened, is getting their highest praise.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-flawless-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-bleeding-base",
+      "slug": "eid-melee-weapon-rapier-bleeding-base",
+      "name": "Rapier of a Thousand Cuts",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "An expensive Spanish rapier with a silver hilt. Its thin blade deals dozens of small wounds—each one slowly draining the life from its victim and leaving them to bleed out.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-bleeding-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-blunderbuss-reliable-base",
+      "slug": "eid-range-weapon-blunderbuss-reliable-base",
+      "name": "Reliable Blunderbuss",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A practical blunderbuss for firing in a cramped crew’s quarters. Its only job is to send a hail of shot somewhere in the enemy’s direction.",
+      "icon": "/imgs/database/items/eid-range-weapon-blunderbuss-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-bleeding-advanced",
+      "slug": "eid-melee-weapon-rapier-bleeding-advanced",
+      "name": "Rapier of a Thousand Cuts",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "The scarlet rose on the guard of this elegant rapier blooms by magic when drops of blood fall upon it.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-bleeding-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-eviscerate-advanced",
+      "slug": "eid-melee-weapon-rapier-eviscerate-advanced",
+      "name": "Rapier of Devastation",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Plague wood winds its thin shoots around rough metal. The branches seem almost alive, waiting for a chance to sink into the enemy’s flesh.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-eviscerate-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-eviscerate-base",
+      "slug": "eid-melee-weapon-rapier-eviscerate-base",
+      "name": "Rapier of Devastation",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Plague wood winds its thin shoots around rough metal. The branches seem almost alive, waiting for a chance to sink into the enemy’s flesh.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-eviscerate-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-blunderbuss-reliable-advanced",
+      "slug": "eid-range-weapon-blunderbuss-reliable-advanced",
+      "name": "Reliable Blunderbuss",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A practical blunderbuss for firing in cramped crew quarters. Its only purpose is to throw a hail of shot in the enemy’s general direction.",
+      "icon": "/imgs/database/items/eid-range-weapon-blunderbuss-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-dmg-resist-regular",
+      "slug": "eid-ring-dmg-resist-regular",
+      "name": "Regular Ring of Divine Protection",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "In ancient times, the coiled spiral motif symbolized the sun and was thought to ward off the evil eye. Who knows… maybe this ring really will protect its wearer.",
+      "icon": "/imgs/database/items/eid-ring-dmg-resist-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-flawless-base",
+      "slug": "eid-melee-weapon-saber-flawless-base",
+      "name": "Razor",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Nassau pirates prefer swift and brutal weapons. This saber, razor-sharp and battle-hardened, is getting their highest praise.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-flawless-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-reliable-advanced",
+      "slug": "eid-range-weapon-musket-reliable-advanced",
+      "name": "Reliable Musket",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "It won’t win any prizes for accuracy, but it never misfires—even in the foulest weather.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-reliable-advanced",
+      "slug": "eid-range-weapon-pistol-reliable-advanced",
+      "name": "Reliable Pistol",
+      "category": "range-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A simple, sturdy pistol that always catches enemies off guard.",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-musket-reliable-base",
+      "slug": "eid-range-weapon-musket-reliable-base",
+      "name": "Reliable Musket",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "It won’t win any prizes for accuracy, but it never misfires—even in the foulest weather.",
+      "icon": "/imgs/database/items/eid-range-weapon-musket-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-reliable-base",
+      "slug": "eid-range-weapon-pistol-reliable-base",
+      "name": "Reliable Pistol",
+      "category": "range-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A simple, sturdy pistol that always catches enemies off guard.",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-melee-dmg-regular",
+      "slug": "eid-ring-melee-dmg-regular",
+      "name": "Ring of Bravery",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "A Spanish ring for toreros brave enough to step into the arena against raging bulls.",
+      "icon": "/imgs/database/items/eid-ring-melee-dmg-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-blank-base",
+      "slug": "eid-melee-weapon-saber-blank-base",
+      "name": "Saber",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A simple saber, well-suited to hacking down foes on cramped ship decks.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-backpack-l01-t01",
+      "slug": "eid-backpack-l01-t01",
+      "name": "Sailor Backpack",
+      "category": "backpack",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Capable of holding a week's worth of provisions and two bottles of rum.",
+      "icon": "/imgs/database/items/eid-backpack-l01-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-shovel-t01",
+      "slug": "eid-tool-shovel-t01",
+      "name": "Shovel",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Perfect for digging up treasure, leveling ground, or piling up a mound.",
+      "icon": "/imgs/database/items/eid-tool-shovel-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-fish-base",
+      "slug": "eid-melee-weapon-club-fish-base",
+      "name": "Smasher",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A real swordfish — just not a well-known one.",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-fish-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-fishing-rod-t02",
+      "slug": "eid-tool-fishing-rod-t02",
+      "name": "Simple Fishing Rod",
+      "category": "tool",
+      "tier": "rare",
+      "level": null,
+      "description": "With this in hand, every day’s a good day for fishing!",
+      "icon": "/imgs/database/items/eid-tool-fishing-rod-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-souldrinker-advanced",
+      "slug": "eid-melee-weapon-greatsword-souldrinker-advanced",
+      "name": "Soul Eater",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "It is said this sword once belonged to the Ghost Captain. Its blade is as dark as the waters that will one day swallow its new owner.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-souldrinker-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-souldrinker-base",
+      "slug": "eid-melee-weapon-greatsword-souldrinker-base",
+      "name": "Soul Eater",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "It is said this sword once belonged to the Ghost Captain. Its blade is as dark as the waters that will one day swallow its new owner.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-souldrinker-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-reliable-base",
+      "slug": "eid-melee-weapon-greatsword-reliable-base",
+      "name": "Stalwart Greatsword",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A two-handed sword that favors control of the opponent’s blade over brute strength.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-pickaxe-t00",
+      "slug": "eid-tool-pickaxe-t00",
+      "name": "Stone Pickaxe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Chips? Chips. Chip-chip",
+      "icon": "/imgs/database/items/eid-tool-pickaxe-t00.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-tool-axe-t00",
+      "slug": "eid-tool-axe-t00",
+      "name": "Stone Axe",
+      "category": "tool",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Chops? Chops. Chop-chop.",
+      "icon": "/imgs/database/items/eid-tool-axe-t00.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ring-pierce-dmg-regular",
+      "slug": "eid-ring-pierce-dmg-regular",
+      "name": "Spear-Thrower's Ring",
+      "category": "ring",
+      "tier": "rare",
+      "level": null,
+      "description": "The black stone set in the ring resembles obsidian, from which ancient peoples crafted spearheads.",
+      "icon": "/imgs/database/items/eid-ring-pierce-dmg-regular.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "aid-ammo-firearm-projectile-stone-bullet-t01",
+      "slug": "aid-ammo-firearm-projectile-stone-bullet-t01",
+      "name": "Stone Bullet",
+      "category": "ammo",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A lump of stone that only just passes for a ball. You will only hit true at close range.",
+      "icon": "/imgs/database/items/aid-ammo-firearm-projectile-stone-bullet-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-reliable-base",
+      "slug": "eid-melee-weapon-halberd-reliable-base",
+      "name": "Sturdy Halberd",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A sturdy weapon built to withstand head-on assaults, boarding actions, and even rust.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-reliable-advanced",
+      "slug": "eid-melee-weapon-greatsword-reliable-advanced",
+      "name": "Stalwart Greatsword",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A two-handed sword that favors control of the opponent’s blade over brute strength.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-halberd-reliable-advanced",
+      "slug": "eid-melee-weapon-halberd-reliable-advanced",
+      "name": "Sturdy Halberd",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A sturdy weapon built to withstand head-on assaults, boarding actions, and even rust.",
+      "icon": "/imgs/database/items/eid-melee-weapon-halberd-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-reliable-advanced",
+      "slug": "eid-melee-weapon-club-reliable-advanced",
+      "name": "Sturdy Mace",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A well-crafted flanged mace mounted on a stout haft. It carries just the right weight to crunch ribs with a dull, satisfying thud—without numbing your hands or flying loose after a couple of blows.",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-reliable-advanced",
+      "slug": "eid-melee-weapon-saber-reliable-advanced",
+      "name": "Sturdy Saber",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A simple, sturdy saber with no frills. Its blade is scored with jagged notches from countless skirmishes—and more than once it’s spared its owner a mortal wound.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-reliable-base",
+      "slug": "eid-melee-weapon-club-reliable-base",
+      "name": "Sturdy Mace",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A well-crafted flanged mace mounted on a stout haft. It carries just the right weight to crunch ribs with a dull, satisfying thud—without numbing your hands or flying loose after a couple of blows.",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-reliable-advanced",
+      "slug": "eid-melee-weapon-rapier-reliable-advanced",
+      "name": "Sturdy Rapier",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "A slender steel rapier, seemingly made for friendly meetings beyond the city limits at dawn.",
+      "icon": "/imgs/database/items/eid-melee-weapon-rapier-reliable-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-rapier-reliable-base",
+      "slug": "eid-melee-weapon-rapier-reliable-base",
+      "name": "Sturdy Rapier",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A slender steel rapier, seemingly made for friendly meetings beyond the city limits at dawn.",
+      "icon": "",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-saber-reliable-base",
+      "slug": "eid-melee-weapon-saber-reliable-base",
+      "name": "Sturdy Saber",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "A simple, sturdy saber with no frills. Its blade is scored with jagged notches from countless skirmishes—and more than once it’s spared its owner a mortal wound.",
+      "icon": "/imgs/database/items/eid-melee-weapon-saber-reliable-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-adventurer-base-hands",
+      "slug": "eid-armor-adventurer-base-hands",
+      "name": "Survivor’s Gloves",
+      "category": "armor",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks.",
+      "icon": "/imgs/database/items/eid-armor-adventurer-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-adventurer-base-torso",
+      "slug": "eid-armor-adventurer-base-torso",
+      "name": "Survivor’s Jacket",
+      "category": "armor",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks.",
+      "icon": "/imgs/database/items/eid-armor-adventurer-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-corrupted-base",
+      "slug": "eid-melee-weapon-club-corrupted-base",
+      "name": "Swamp Creature’s Tooth",
+      "category": "melee-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "This weapon can not only stun, but also bite while it’s at it, leaving terrible lacerations behind.",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-corrupted-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-club-corrupted-advanced",
+      "slug": "eid-melee-weapon-club-corrupted-advanced",
+      "name": "Swamp Creature’s Tooth",
+      "category": "melee-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "This weapon can not only stun, but also bite while it’s at it, leaving terrible lacerations behind.",
+      "icon": "/imgs/database/items/eid-melee-weapon-club-corrupted-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-adventurer-base-head",
+      "slug": "eid-armor-adventurer-base-head",
+      "name": "Survivor’s Bandana",
+      "category": "armor",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks.",
+      "icon": "/imgs/database/items/eid-armor-adventurer-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-adventurer-base-feet",
+      "slug": "eid-armor-adventurer-base-feet",
+      "name": "Survivor’s Boots",
+      "category": "armor",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks.",
+      "icon": "/imgs/database/items/eid-armor-adventurer-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-adventurer-base-legs",
+      "slug": "eid-armor-adventurer-base-legs",
+      "name": "Survivor’s Pants",
+      "category": "armor",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks.",
+      "icon": "/imgs/database/items/eid-armor-adventurer-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-agility-minor",
+      "slug": "eid-necklace-agility-minor",
+      "name": "Tiny Necklace of Agility",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "The owner of an amulet like this becomes agile, like a jaguar in the jungle.",
+      "icon": "/imgs/database/items/eid-necklace-agility-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-endurance-minor",
+      "slug": "eid-necklace-endurance-minor",
+      "name": "Tiny Necklace of Endurance",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "Once, a brave warrior who had a similar amulet challenged a monster. He fought it for three days and three nights and finally won. Some say he collapsed from exhaustion, dead atop the beast’s corpse.",
+      "icon": "/imgs/database/items/eid-necklace-endurance-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-mastery-minor",
+      "slug": "eid-necklace-mastery-minor",
+      "name": "Tiny Necklace of Mastery",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "Seasoned hunters believed this amulet helped them land a killing blow on their quarry with the first strike.",
+      "icon": "/imgs/database/items/eid-necklace-mastery-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-vitality-minor",
+      "slug": "eid-necklace-vitality-minor",
+      "name": "Tiny Necklace of Vitality",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "Priests of ancient peoples once wore necklaces like these as a mark of devotion to a fertility god.",
+      "icon": "/imgs/database/items/eid-necklace-vitality-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-strength-minor",
+      "slug": "eid-necklace-strength-minor",
+      "name": "Tiny Necklace of Strength",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "If the legends are to be believed, a warrior who slew dozens of foes before falling in battle wore a similar amulet. The priests of an ancient people buried him with honors in an ancient crypt.",
+      "icon": "/imgs/database/items/eid-necklace-strength-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-necklace-precision-minor",
+      "slug": "eid-necklace-precision-minor",
+      "name": "Tiny Necklace of Precision",
+      "category": "necklace",
+      "tier": "common",
+      "level": null,
+      "description": "The gold-coated pendant glitters in the sun like the eye of a falcon that has spotted its prey from high above.",
+      "icon": "/imgs/database/items/eid-necklace-precision-minor.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-starter-base-legs",
+      "slug": "eid-armor-starter-base-legs",
+      "name": "Torn Pants",
+      "category": "armor",
+      "tier": "common",
+      "level": null,
+      "description": "These rags were once fine clothes.",
+      "icon": "/imgs/database/items/eid-armor-starter-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-bandit-base-feet",
+      "slug": "eid-armor-bandit-base-feet",
+      "name": "Tracker’s Boots",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Well-treated, thick leather can withstand even a crocodile’s bite. Wearing it makes moving about feel safer.",
+      "icon": "/imgs/database/items/eid-armor-bandit-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-starter-base-hands",
+      "slug": "eid-armor-starter-base-hands",
+      "name": "Torn Gloves",
+      "category": "armor",
+      "tier": "common",
+      "level": null,
+      "description": "These rags were once fine clothes.",
+      "icon": "/imgs/database/items/eid-armor-starter-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-backpack-l00-t01",
+      "slug": "eid-backpack-l00-t01",
+      "name": "Torn Sailcloth Bag",
+      "category": "backpack",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Full of holes, but quite spacious.",
+      "icon": "/imgs/database/items/eid-backpack-l00-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-starter-base-feet",
+      "slug": "eid-armor-starter-base-feet",
+      "name": "Torn Boots",
+      "category": "armor",
+      "tier": "common",
+      "level": null,
+      "description": "These rags were once fine clothes.",
+      "icon": "/imgs/database/items/eid-armor-starter-base-feet.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-bandit-base-hands",
+      "slug": "eid-armor-bandit-base-hands",
+      "name": "Tracker’s Gloves",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Well-treated, thick leather can withstand even a crocodile’s bite. Wearing it makes moving about feel safer.",
+      "icon": "/imgs/database/items/eid-armor-bandit-base-hands.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-bandit-base-legs",
+      "slug": "eid-armor-bandit-base-legs",
+      "name": "Tracker's Pants",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Well-treated, thick leather can withstand even a crocodile’s bite. Wearing it makes moving about feel safer.",
+      "icon": "/imgs/database/items/eid-armor-bandit-base-legs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-bandit-base-torso",
+      "slug": "eid-armor-bandit-base-torso",
+      "name": "Tracker’s Jacket",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Well-treated, thick leather can withstand even a crocodile’s bite. Wearing it makes moving about feel safer.",
+      "icon": "/imgs/database/items/eid-armor-bandit-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-bandit-base-head",
+      "slug": "eid-armor-bandit-base-head",
+      "name": "Tracker’s Hat",
+      "category": "armor",
+      "tier": "rare",
+      "level": null,
+      "description": "Well-treated, thick leather can withstand even a crocodile’s bite. Wearing it makes moving about feel safer.",
+      "icon": "/imgs/database/items/eid-armor-bandit-base-head.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-armor-starter-base-torso",
+      "slug": "eid-armor-starter-base-torso",
+      "name": "Torn Doublet",
+      "category": "armor",
+      "tier": "common",
+      "level": null,
+      "description": "These rags were once fine clothes.",
+      "icon": "/imgs/database/items/eid-armor-starter-base-torso.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-backpack-l04-t01",
+      "slug": "eid-backpack-l04-t01",
+      "name": "traveler Backpack",
+      "category": "backpack",
+      "tier": "uncommon",
+      "level": null,
+      "description": "With it, even the longest journey feels less daunting!",
+      "icon": "/imgs/database/items/eid-backpack-l04-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-melee-weapon-greatsword-blank-base",
+      "slug": "eid-melee-weapon-greatsword-blank-base",
+      "name": "Two-Handed Sword",
+      "category": "melee-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A greatsword well suited to combat against both large beasts and groups of two-legged foes.",
+      "icon": "/imgs/database/items/eid-melee-weapon-greatsword-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-range-weapon-pistol-rusty-base",
+      "slug": "eid-range-weapon-pistol-rusty-base",
+      "name": "Worn-Out Pistol",
+      "category": "range-weapon",
+      "tier": "common",
+      "level": null,
+      "description": "You can fire it… if you’re truly desperate.",
+      "icon": "/imgs/database/items/eid-range-weapon-pistol-rusty-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    }
+  ],
+  "tier_list": {
+    "lastUpdated": "2026-05-13",
+    "note": "Tier rankings based on community consensus. Subject to balance patches.",
+    "confidence": "community",
+    "tiers": {
+      "S": [
+        {
+          "name": "Cutlass",
+          "type": "melee",
+          "reason": "Best overall DPS + reach"
+        },
+        {
+          "name": "Musket",
+          "type": "ranged",
+          "reason": "Highest single-shot damage"
+        }
+      ],
+      "A": [
+        {
+          "name": "Rapier",
+          "type": "melee",
+          "reason": "Fast attacks, high DPS but short range"
+        },
+        {
+          "name": "Saber",
+          "type": "melee",
+          "reason": "Good reach, balanced"
+        },
+        {
+          "name": "Flintlock Pistol",
+          "type": "ranged",
+          "reason": "Quick draw, decent damage"
+        }
+      ],
+      "B": [
+        {
+          "name": "Club",
+          "type": "melee",
+          "reason": "High stagger but slow"
+        },
+        {
+          "name": "Boarding Axe",
+          "type": "melee",
+          "reason": "Good for ship combat"
+        }
+      ],
+      "C": [
+        {
+          "name": "Stone Axe",
+          "type": "melee",
+          "reason": "Early game only"
+        },
+        {
+          "name": "Stone Pickaxe",
+          "type": "melee",
+          "reason": "Emergency weapon"
+        }
+      ]
+    }
+  },
+  "lastUpdated": "2026-05-13"
+}

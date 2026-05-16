@@ -1,0 +1,458 @@
+[
+  {
+    "title": "Stone Axe",
+    "description": "Tool — 3x Stone, 3x Wood. Basic wood chopping tool.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Stone Pickaxe",
+    "description": "Tool — 3x Stone, 3x Wood. First mining tool. Mines Clay, Copper.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Torch",
+    "description": "Tool — 1x Wood, 2x Plant Fiber. Essential for caves.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Bandage",
+    "description": "Consumable — 1x Coarse Fabric. Basic healing. Always carry 10+.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Coarse Fabric",
+    "description": "Material — 3x Plant Fiber. Used in bags, bandages, sails.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Rope",
+    "description": "Material — 3x Plant Fiber. Used in bags, bells, ship parts.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Torn Sailcloth Bag",
+    "description": "Equipment — 2x Coarse Fabric, 1x Rope. First inventory upgrade.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Fast Travel Bell",
+    "description": "Structure — 10x Copper Ingot, 3x Rope. Place at bases for teleportation.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Bonfire",
+    "description": "Structure — 5x Wood. Light, warmth, Ash production.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Workbench",
+    "description": "Structure — 5x Wood. Core crafting station.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Cooking Fire",
+    "description": "Structure — 3x Wood, 3x Stone. Cook food for better buffs.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Tent",
+    "description": "Structure — 4x Wood, 10x Plant Fiber. First shelter. Sets respawn.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Charcoal Kiln",
+    "description": "Structure — 25x Wood, 20x Clay. Converts Wood to Charcoal.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Smelting Furnace",
+    "description": "Structure — 15x Clay, 30x Stone. Smelt ores into ingots.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Armor Workshop",
+    "description": "Structure — 5x Rough Hide, 10x Wood. Requires roof to place!",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Weaponsmith Workshop",
+    "description": "Structure — 10x Wood, 5x Copper Ingot. Requires roof!",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Sawhorse",
+    "description": "Upgrade — 20x Wood, 10x Copper Ingot. Place near WB for Lv2.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Toolbox",
+    "description": "Upgrade — 10x Wood, 20x Nails, 5x Foothills Iron Ingot. Place near WB for Lv3.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Copper Pickaxe",
+    "description": "Tool — 3x Copper Ingot, 3x Wood. Mines Iron Ore.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Copper Axe",
+    "description": "Tool — 3x Copper Ingot, 3x Wood. Faster wood chopping.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Copper Ingot",
+    "description": "Material — 6x Poor Copper Ore, 1x Charcoal. Base metal for tools/weapons.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Charcoal",
+    "description": "Material — 1x Wood. Fuel for smelting.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Foothills Iron Ingot",
+    "description": "Material — 4x Iron Ore, 2x Charcoal. Advanced metal. Foothills region.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Sailor Backpack",
+    "description": "Equipment — 1x Torn Sailcloth Bag, 5x Rough Hide, 2x Copper Ingot. Medium inventory.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Iron Pickaxe",
+    "description": "Tool — 3x Foothills Iron Ingot, 3x Wood. Mines Sulfur.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Iron Axe",
+    "description": "Tool — 3x Foothills Iron Ingot, 3x Wood. Best axe tier.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Bosun Backpack",
+    "description": "Equipment — 1x Sailor Backpack, 5x Tanned Leather, 2x Foothills Iron Ingot. Max inventory.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Gunpowder",
+    "description": "Material — 10x Sulfur, 20x Ash. For ranged weapons/cannons.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Saber",
+    "description": "Weapon — 5x Copper Ingot, 2x Wood. Fast, good reach. Best early melee.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Rapier",
+    "description": "Weapon — 4x Copper Ingot, 1x Wood. Highest DPS, short range.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Club",
+    "description": "Weapon — 3x Copper Ingot, 4x Wood. High stagger, slow.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Flintlock Pistol",
+    "description": "Weapon — 8x Copper Ingot, 3x Wood. Ranged. Needs Gunpowder ammo.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Musket",
+    "description": "Weapon — 6x Foothills Iron Ingot, 4x Wood. Long range, slow reload.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Cutlass",
+    "description": "Weapon — 5x Foothills Iron Ingot, 2x Wood. Upgraded saber. Good all-rounder.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Survivor's Boots",
+    "description": "Armor — 2x Rough Hide, 2x Coarse Fabric. First armor piece.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Survivor's Vest",
+    "description": "Armor — 4x Rough Hide, 3x Coarse Fabric. Early chest armor.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Survivor's Gloves",
+    "description": "Armor — 2x Rough Hide, 1x Coarse Fabric. Early hand armor.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Copper Helm",
+    "description": "Armor — 4x Copper Ingot, 2x Rough Hide. Medium head armor.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Copper Cuirass",
+    "description": "Armor — 8x Copper Ingot, 4x Rough Hide. Medium chest armor.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Cooked Meat",
+    "description": "Food — 1x Raw Meat. Basic food. HP regen.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Cooked Fish",
+    "description": "Food — 1x Raw Fish. Stamina boost food.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Stew",
+    "description": "Food — 2x Raw Meat, 1x Vegetable. Strong buff. Stack with other food.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Nails",
+    "description": "Material — 1x Copper Ingot. For storage, ship repair, Toolbox.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Planks",
+    "description": "Material — 3x Wood. Building material.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Clay Pot",
+    "description": "Material — 3x Clay. Storage and alchemy.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Clay Bottle",
+    "description": "Material — 2x Clay. Water storage, potion base.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Health Potion",
+    "description": "Consumable — 1x Clay Bottle, 2x Red Herb. Instant large heal.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Stamina Potion",
+    "description": "Consumable — 1x Clay Bottle, 2x Green Herb. Stamina recovery.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Storage Chest",
+    "description": "Structure — 10x Wood, 5x Nails. Base storage. Build many.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Large Storage Chest",
+    "description": "Structure — 20x Wood, 10x Nails, 2x Copper Ingot. Double capacity.",
+    "url": "/crafting/",
+    "type": "recipe"
+  },
+  {
+    "title": "Wood",
+    "description": "Resource — Chop trees. Most common resource. Always gather when passing trees.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Stone",
+    "description": "Resource — Pick up loose rocks, mine boulders. Found everywhere on the ground.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Plant Fiber",
+    "description": "Resource — Harvest bushes and tall grass. Gather constantly. Needed for fabric and rope.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Rough Hide",
+    "description": "Resource — Kill Boars. Hunt boars near beaches. First animal drop.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Tanned Leather",
+    "description": "Resource — Process hides at Tanning Rack. Mid-game material. Requires Foothills progression.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Salt",
+    "description": "Resource — Harvest salt deposits on beaches. Found along coastlines.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Rum",
+    "description": "Resource — Loot from pirate camps and shipwrecks. Also found in Smuggler's Treasure locations.",
+    "url": "/resources/",
+    "type": "resource"
+  },
+  {
+    "title": "Ketch",
+    "description": "Small ship — Solo exploration, resource runs, early game",
+    "url": "/ships/",
+    "type": "ship"
+  },
+  {
+    "title": "Brigantine",
+    "description": "Medium ship — Small group play, balanced combat and exploration",
+    "url": "/ships/",
+    "type": "ship"
+  },
+  {
+    "title": "Frigate",
+    "description": "Large ship — Large group naval combat, fleet operations",
+    "url": "/ships/",
+    "type": "ship"
+  },
+  {
+    "title": "Beginner Guide",
+    "description": "Day 1-10 walkthrough, first tools, base building, combat basics",
+    "url": "/beginner-guide/",
+    "type": "page"
+  },
+  {
+    "title": "Strategy Guides",
+    "description": "Deep-dive walkthroughs: mining routes, boss strategies, builds",
+    "url": "/guides/",
+    "type": "page"
+  },
+  {
+    "title": "Mining Routes",
+    "description": "Optimized mining routes for Copper, Iron, Clay, Sulfur",
+    "url": "/guides/mining-routes/",
+    "type": "page"
+  },
+  {
+    "title": "Boss Tracker",
+    "description": "Boss strategies, progression order, and drop tables",
+    "url": "/bosses/",
+    "type": "page"
+  },
+  {
+    "title": "Best Early Builds",
+    "description": "Optimal stat allocation for DPS, Tank, Balanced",
+    "url": "/guides/best-early-builds/",
+    "type": "page"
+  },
+  {
+    "title": "Crafting Progression",
+    "description": "Efficient crafting order from Day 1 to endgame",
+    "url": "/guides/crafting-progression/",
+    "type": "page"
+  },
+  {
+    "title": "Sailing & Navigation",
+    "description": "Wind mechanics, ship types, ocean survival",
+    "url": "/guides/sailing-navigation/",
+    "type": "page"
+  },
+  {
+    "title": "Co-op Guide",
+    "description": "Server setup, role specialization, crew coordination",
+    "url": "/guides/coop-multiplayer/",
+    "type": "page"
+  },
+  {
+    "title": "Naval Combat",
+    "description": "Ship building, upgrading, and combat tactics",
+    "url": "/guides/ship-building-naval-combat/",
+    "type": "page"
+  },
+  {
+    "title": "FAQ",
+    "description": "Top 30+ frequently asked questions about Windrose",
+    "url": "/faq/",
+    "type": "page"
+  },
+  {
+    "title": "Crafting Recipes",
+    "description": "All workbench, smelting, alchemy, cooking recipes",
+    "url": "/crafting/",
+    "type": "page"
+  },
+  {
+    "title": "Weapons & Armor",
+    "description": "Melee, ranged weapons and armor sets with tier list",
+    "url": "/weapons/",
+    "type": "page"
+  },
+  {
+    "title": "Download & Game Info",
+    "description": "Steam page, system requirements, platforms",
+    "url": "/download/",
+    "type": "page"
+  },
+  {
+    "title": "Server Guide",
+    "description": "Dedicated server setup, firewall, configuration",
+    "url": "/server-guide/",
+    "type": "page"
+  },
+  {
+    "title": "News & Updates",
+    "description": "Latest Windrose patch notes and community news",
+    "url": "/news/",
+    "type": "page"
+  },
+  {
+    "title": "Tools & Calculators",
+    "description": "Recipe finder, resource planner, progression checklist",
+    "url": "/tools/",
+    "type": "page"
+  }
+]

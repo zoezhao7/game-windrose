@@ -88,14 +88,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/resources">Resources</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships" class="active">Ships</a></li><li><a href="/weapons">Weapons</a></li><li><a href="/builds">Builds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/news">News</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships" class="active">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
         <div class="container">
@@ -297,16 +297,53 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/terms">Terms</a>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
             </div>
-            <p>&copy; 2026 Windrose Guides. All rights reserved. Not affiliated with the game developer.</p>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+                    <li><a href="/builds">Build Guides</a></li>
+                    <li><a href="/server-guide">Server Guide</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/bosses">Bosses</a></li>
+                    <li><a href="/ships">Ships</a></li>
+                    <li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/sources">Sources</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+</footer>
 
     <script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
 </body>

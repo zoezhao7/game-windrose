@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Bosses | Windrose Guides</title>
+<meta name="description" content="All bosses.">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../db-style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database" class="active">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Categories</div>
+  <ul class="db-nav">
+    <li><a href="/database/" class="db-nav-top">Overview</a></li>
+    <li><a href="/database/" class="db-nav-top active">All Items <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Weapons</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/database/weapons/" class="db-sub-viewall">View all Weapons</a></li>
+        <li><a href="/database/weapons/melee/" class="db-sub-item">Melee Weapons <span class="db-count">43</span></a></li>
+        <li><a href="/database/weapons/ranged/" class="db-sub-item">Ranged Weapons <span class="db-count">19</span></a></li>
+        <li><a href="/database/weapons/tools/" class="db-sub-item">Tools <span class="db-count">8</span></a></li>
+        <li><a href="/database/weapons/ammo/" class="db-sub-item">Ammo <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ships</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/database/ships/" class="db-sub-viewall">View all Ships</a></li>
+        <li><a href="/database/ships/ship-weapons/" class="db-sub-item">Ship Weapons <span class="db-count">29</span></a></li>
+        <li><a href="/database/ships/hull-modules/" class="db-sub-item">Hull Modules <span class="db-count">10</span></a></li>
+        <li><a href="/database/ships/combat-orders/" class="db-sub-item">Combat Orders <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Resources</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/database/resources/" class="db-sub-viewall">View all Resources</a></li>
+        <li><a href="/database/resources/resources/" class="db-sub-item">Resources <span class="db-count">135</span></a></li>
+        <li><a href="/database/resources/metals/" class="db-sub-item">Metals <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consumables</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/database/consumables/" class="db-sub-viewall">View all Consumables</a></li>
+        <li><a href="/database/consumables/food/" class="db-sub-item">Food <span class="db-count">50</span></a></li>
+        <li><a href="/database/consumables/alchemy/" class="db-sub-item">Alchemy <span class="db-count">11</span></a></li>
+        <li><a href="/database/consumables/medicine/" class="db-sub-item">Medicine <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Equipment</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/database/equipment/" class="db-sub-viewall">View all Equipment</a></li>
+        <li><a href="/database/equipment/armor/" class="db-sub-item">Armor <span class="db-count">41</span></a></li>
+        <li><a href="/database/equipment/rings/" class="db-sub-item">Rings <span class="db-count">36</span></a></li>
+        <li><a href="/database/equipment/necklaces/" class="db-sub-item">Necklaces <span class="db-count">24</span></a></li>
+        <li><a href="/database/equipment/backpacks/" class="db-sub-item">Backpacks <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Misc</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/database/misc/" class="db-sub-viewall">View all Misc</a></li>
+        <li><a href="/database/misc/misc/" class="db-sub-item">Misc <span class="db-count">514</span></a></li>
+        <li><a href="/database/misc/default/" class="db-sub-item">Default <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Database</span> / Bosses</div>
+    <div class="db-header-meta">WINDROSE GUIDES • DATABASE</div>
+    <h1>Bosses</h1>
+    <p class="db-desc">5 boss encounters.</p>
+    <div class="db-guide-link">📖 <a href="/bosses/">View the full strategy guide for this category →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Search by name..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Showing 25 items
+            <label>Sort <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Name</option><option value="rarity">Rarity</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/bosses/thomas-richards/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/thomas_richards.png" alt="Thomas Richards" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Thomas Richards</h3>
+                <p class="db-card-type">Coastal Jungle • Lv 5 to 6</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/bosses/israel-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/israel_hands.png" alt="Israel Hands" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Israel Hands</h3>
+                <p class="db-card-type">Foothills • Lv 8 to 10</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/bosses/high-priestess/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/high_priestess.png" alt="High Priestess" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">High Priestess</h3>
+                <p class="db-card-type">Cursed Swamps • Lv 12 to 15</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/bosses/ghost-captain/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ghost_captain.png" alt="Ghost Captain" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Ghost Captain</h3>
+                <p class="db-card-type">Unknown • Lv 10 to 12</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/bosses/charons-obols-legacy-page/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Charon&#x27;s Obols Legacy Page</h3>
+                <p class="db-card-type">Unknown • Lv Needs verification</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

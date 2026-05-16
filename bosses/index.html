@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windrose Boss Guide: All Bosses, Strategies &amp; Drops (2026)</title>
-    <meta name="description" content="Complete Windrose boss guide covering all boss encounters, strategies, phases, drops, and post-battle unlocks. Includes Charon's Obols, Blackbeard, and more. Updated for 2026.">
-    <link rel="canonical" href="https://windrose-guides.com/bosses">
+    <title>Windrose Bosses: All Boss Guides, Strategies & Drops (2026) | Windrose Guides</title>
+    <meta name="description" content="Complete Windrose boss guide covering all story arena bosses and optional encounters. Strategies, recommended gear, drops, and phase breakdowns for Thomas Richards, Israel Hands, High Priestess, and Ghost Captain.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://windrose-guides.com/bosses">
+    <link rel="stylesheet" href="../css/style.css">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://windrose-guides.com/bosses">
-    <meta property="og:title" content="Windrose Boss Guide: All Bosses, Strategies &amp; Drops (2026)">
-    <meta property="og:description" content="Complete Windrose boss guide covering all boss encounters, strategies, phases, drops, and post-battle unlocks.">
-    <meta property="og:image" content="https://windrose-guides.com/imgs/og-bosses.webp">
+    <meta property="og:title" content="Windrose Bosses: All Boss Guides, Strategies & Drops (2026)">
+    <meta property="og:description" content="Complete Windrose boss guide covering all story arena bosses and optional encounters. Strategies, recommended gear, drops, and phase breakdowns.">
+    <meta property="og:image" content="https://windrose-guides.com/imgs/og_bosses.png">
     <meta property="og:site_name" content="Windrose Guides">
-    <meta property="article:published_time" content="2026-01-15">
-    <meta property="article:modified_time" content="2026-05-12">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Windrose Boss Guide: All Bosses, Strategies &amp; Drops (2026)">
-    <meta name="twitter:description" content="Complete Windrose boss guide covering all boss encounters, strategies, phases, drops, and post-battle unlocks.">
-    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og-bosses.webp">
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="twitter:title" content="Windrose Bosses: All Boss Guides (2026)">
+    <meta name="twitter:description" content="Complete Windrose boss guide covering all story arena bosses and optional encounters.">
+    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og_bosses.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@graph": [
             {
                 "@type": "WebSite",
+                "@id": "https://windrose-guides.com/#website",
                 "url": "https://windrose-guides.com/",
-                "name": "Windrose Guides - Game Wiki &amp; Database",
-                "publisher": { "@id": "https://windrose-guides.com/#org" }
+                "name": "Windrose Guides",
+                "publisher": {"@id": "https://windrose-guides.com/#org"}
             },
             {
                 "@type": "Organization",
@@ -38,167 +37,530 @@
             },
             {
                 "@type": "WebPage",
+                "@id": "https://windrose-guides.com/bosses#webpage",
                 "url": "https://windrose-guides.com/bosses",
-                "name": "Boss Guide",
-                "dateModified": "2026-05-12",
-                "isPartOf": { "@id": "https://windrose-guides.com/#website" },
-                "breadcrumb": { "@id": "https://windrose-guides.com/#breadcrumb" }
+                "name": "Windrose Bosses: All Boss Guides, Strategies & Drops (2026)",
+                "description": "Complete Windrose boss guide covering all story arena bosses and optional encounters.",
+                "dateModified": "2026-05-16",
+                "isPartOf": {"@id": "https://windrose-guides.com/#website"},
+                "breadcrumb": {"@id": "https://windrose-guides.com/bosses#breadcrumb"}
             },
             {
                 "@type": "BreadcrumbList",
-                "@id": "https://windrose-guides.com/#breadcrumb",
+                "@id": "https://windrose-guides.com/bosses#breadcrumb",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windrose-guides.com/" },
-                    { "@type": "ListItem", "position": 2, "name": "Bosses", "item": "https://windrose-guides.com/bosses" }
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://windrose-guides.com/"},
+                    {"@type": "ListItem", "position": 2, "name": "Bosses"}
+                ]
+            },
+            {
+                "@type": "Article",
+                "headline": "Windrose Bosses: All Boss Guides (2026)",
+                "datePublished": "2026-05-12",
+                "dateModified": "2026-05-16",
+                "author": {"@type": "Organization", "name": "Windrose Guides"}
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How many bosses are in Windrose?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "Current Early Access content includes 3 confirmed story arena bosses (Thomas Richards, Israel Hands, High Priestess) and 1 optional dungeon encounter (Ghost Captain). More bosses are expected as development continues."}
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the boss order in Windrose?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The progression order is: Thomas Richards (Coastal Jungle, Lv 5-6) → Israel Hands (Foothills, Lv 8-10) → High Priestess (Cursed Swamps, Lv 12-15). Ghost Captain is optional and can be fought around Lv 10-12."}
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I fight bosses in co-op?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "Yes! Windrose supports 1-8 player co-op. Bosses scale with player count, but having teammates to split aggro makes fights significantly easier."}
+                    }
                 ]
             }
         ]
     }
     </script>
+    <style>
+        /* Boss 卡片网格布局 - 为 bosses 页面提供丰富的视觉展示 */
+        .boss-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .boss-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .boss-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent, #d4a853);
+            box-shadow: 0 12px 40px rgba(212, 168, 83, 0.2), 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .boss-card-img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-bottom: 2px solid var(--border, rgba(212, 168, 83, 0.15));
+            transition: transform 0.4s ease;
+        }
+        .boss-card:hover .boss-card-img {
+            transform: scale(1.05);
+        }
+        .boss-card-img-wrapper {
+            overflow: hidden;
+            position: relative;
+        }
+        .boss-card-badge {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            z-index: 2;
+        }
+        .badge-story {
+            background: rgba(212, 168, 83, 0.9);
+            color: #1a1207;
+        }
+        .badge-optional {
+            background: rgba(100, 116, 139, 0.9);
+            color: #f1f5f9;
+        }
+        .badge-unconfirmed {
+            background: rgba(239, 68, 68, 0.8);
+            color: #fff;
+        }
+        .boss-card-body {
+            padding: 1.25rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .boss-card-body h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+            color: #f1f5f9;
+        }
+        .boss-card-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .boss-card-meta span {
+            font-size: 0.8rem;
+            color: var(--text-muted, #94a3b8);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card-meta .meta-icon {
+            font-size: 0.9rem;
+        }
+        .boss-card-body p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--text-muted, #94a3b8);
+            line-height: 1.5;
+            flex: 1;
+        }
+        .boss-card-cta {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent, #d4a853);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card:hover .boss-card-cta {
+            gap: 0.6rem;
+        }
+        .boss-progression {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .boss-progression-step {
+            text-align: center;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            min-width: 140px;
+        }
+        .boss-progression-step strong {
+            display: block;
+            color: #f1f5f9;
+            font-size: 0.9rem;
+        }
+        .boss-progression-step span {
+            font-size: 0.75rem;
+            color: var(--text-muted, #94a3b8);
+        }
+        .boss-progression-arrow {
+            font-size: 1.5rem;
+            color: var(--accent, #d4a853);
+            padding: 0 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .boss-grid {
+                grid-template-columns: 1fr;
+            }
+            .boss-progression {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .boss-progression-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/resources">Resources</a></li><li><a href="/bosses" class="active">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/weapons">Weapons</a></li><li><a href="/builds">Builds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/news">News</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses" class="active">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
         <div class="container">
             <ol>
                 <li><a href="/">Home</a></li>
-                <li>Bosses</li>
+                <li aria-current="page">Bosses</li>
             </ol>
         </div>
     </nav>
 
-    <main class="container">
-        <h1>Windrose Boss Guide: All Bosses, Strategies &amp; Drops (2026)</h1>
+    <main>
+        <section class="page-hero">
+            <h1>Windrose Boss Guide: All Bosses, Strategies & Drops</h1>
+            <p class="hero-subtitle">Master every boss encounter in Windrose — from the Coastal Jungle to the Cursed Swamps. Strategies, recommended gear, phase breakdowns, and verified drop tables.</p>
+        </section>
 
-        <p>Boss encounters in <strong>Windrose</strong> are multi-phase naval and melee battles that test your ship handling, crew management, and combat skills. Each boss has unique mechanics, attack patterns, and valuable drops. This guide covers every known boss in the game.</p>
-
-        <section>
-            <h2>Known Bosses</h2>
-
-            <div class="quick-nav-grid">
-                <a href="/bosses/charons-obols" class="card quick-nav-card">
-                    <div class="nav-icon">&#9760;</div>
-                    <h3>Charon's Obols</h3>
-                    <p>3rd boss encounter. A spectral ferryman with devastating phase transitions and unique obol currency drops.</p>
-                </a>
-
-                <div class="card quick-nav-card">
-                    <div class="nav-icon">&#9875;</div>
-                    <h3>Blackbeard</h3>
-                    <p>The main target boss. A legendary pirate captain commanding a heavily armored warship. Full guide coming soon.</p>
+        <section class="content-section">
+            <div class="container">
+                <div class="quick-stats">
+                    <div class="stat"><div class="stat-label">Story Bosses</div><div class="stat-value">3 Confirmed</div></div>
+                    <div class="stat"><div class="stat-label">Optional Encounters</div><div class="stat-value">1+ Known</div></div>
+                    <div class="stat"><div class="stat-label">Data Status</div><div class="stat-value">Early Access Tracker</div></div>
                 </div>
 
-                <div class="card quick-nav-card">
-                    <div class="nav-icon">&#9764;</div>
-                    <h3>Starter Boss</h3>
-                    <p>The introductory boss encounter. Designed to teach core combat mechanics. Full guide coming soon.</p>
+                <h2>Boss Progression Order</h2>
+                <p>Windrose features a linear boss progression tied to biome advancement. Defeat each story boss to unlock the next biome and crafting tier.</p>
+
+                <div class="boss-progression">
+                    <div class="boss-progression-step">
+                        <strong>Thomas Richards</strong>
+                        <span>Coastal Jungle · Lv 5-6</span>
+                    </div>
+                    <span class="boss-progression-arrow">→</span>
+                    <div class="boss-progression-step">
+                        <strong>Israel Hands</strong>
+                        <span>Foothills · Lv 8-10</span>
+                    </div>
+                    <span class="boss-progression-arrow">→</span>
+                    <div class="boss-progression-step">
+                        <strong>High Priestess</strong>
+                        <span>Cursed Swamps · Lv 12-15</span>
+                    </div>
+                </div>
+
+                <h2>All Boss Encounters</h2>
+
+                <div class="boss-grid">
+                    <!-- Thomas Richards -->
+                    <a href="/bosses/thomas-richards/" class="boss-card" id="boss-thomas-richards">
+                        <div class="boss-card-img-wrapper">
+                            <span class="boss-card-badge badge-story">Story Boss #1</span>
+                            <img src="/imgs/thomas_richards.png" alt="Thomas Richards - Windrose Boss" class="boss-card-img" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="boss-card-body">
+                            <h3>Thomas Richards</h3>
+                            <div class="boss-card-meta">
+                                <span><span class="meta-icon">📍</span> Coastal Jungle</span>
+                                <span><span class="meta-icon">⚔️</span> Lv 5-6</span>
+                            </div>
+                            <p>The first story arena boss. A brutal melee fighter with explosive grenades and an unblockable grab attack. Defeat him to unlock the Foothills biome.</p>
+                            <span class="boss-card-cta">View Full Strategy →</span>
+                        </div>
+                    </a>
+
+                    <!-- Israel Hands -->
+                    <a href="/bosses/israel-hands/" class="boss-card" id="boss-israel-hands">
+                        <div class="boss-card-img-wrapper">
+                            <span class="boss-card-badge badge-story">Story Boss #2</span>
+                            <img src="/imgs/israel_hands.png" alt="Israel Hands - Windrose Boss" class="boss-card-img" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="boss-card-body">
+                            <h3>Israel Hands</h3>
+                            <div class="boss-card-meta">
+                                <span><span class="meta-icon">📍</span> Foothills</span>
+                                <span><span class="meta-icon">⚔️</span> Lv 8-10</span>
+                            </div>
+                            <p>The second arena boss encountered via "Needle in a Haystack" questline. Drops the legendary Soul Eater greatsword and Charon's Obol.</p>
+                            <span class="boss-card-cta">View Full Strategy →</span>
+                        </div>
+                    </a>
+
+                    <!-- High Priestess -->
+                    <a href="/bosses/high-priestess/" class="boss-card" id="boss-high-priestess">
+                        <div class="boss-card-img-wrapper">
+                            <span class="boss-card-badge badge-story">Story Boss #3</span>
+                            <img src="/imgs/high_priestess.png" alt="High Priestess - Windrose Boss" class="boss-card-img" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="boss-card-body">
+                            <h3>High Priestess</h3>
+                            <div class="boss-card-meta">
+                                <span><span class="meta-icon">📍</span> Cursed Swamps</span>
+                                <span><span class="meta-icon">⚔️</span> Lv 12-15</span>
+                            </div>
+                            <p>The final story boss in current Early Access content. A challenging late-game encounter in the Cursed Swamps biome. Drops Charon's Obol.</p>
+                            <span class="boss-card-cta">View Full Strategy →</span>
+                        </div>
+                    </a>
+
+                    <!-- Ghost Captain -->
+                    <a href="/bosses/ghost-captain/" class="boss-card" id="boss-ghost-captain">
+                        <div class="boss-card-img-wrapper">
+                            <span class="boss-card-badge badge-optional">Optional</span>
+                            <img src="/imgs/ghost_captain.png" alt="Ghost Captain - Windrose Boss" class="boss-card-img" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="boss-card-body">
+                            <h3>Ghost Captain</h3>
+                            <div class="boss-card-meta">
+                                <span><span class="meta-icon">📍</span> Temple Dungeon</span>
+                                <span><span class="meta-icon">⚔️</span> Lv 10-12</span>
+                            </div>
+                            <p>An optional major dungeon encounter found in the Temple route. Rewards the Soul Eater greatsword for players seeking extra loot.</p>
+                            <span class="boss-card-cta">View Full Strategy →</span>
+                        </div>
+                    </a>
+
+                    <!-- Charon's Obols -->
+                    <div class="boss-card" id="boss-charons-obols" style="opacity: 0.7; cursor: default;">
+                        <div class="boss-card-img-wrapper">
+                            <span class="boss-card-badge badge-unconfirmed">Needs Verification</span>
+                            <img src="/imgs/icon_boss.png" alt="Charon's Obols - Unverified" class="boss-card-img" width="400" height="400" loading="lazy" style="filter: grayscale(60%);">
+                        </div>
+                        <div class="boss-card-body">
+                            <h3>Charon's Obols</h3>
+                            <div class="boss-card-meta">
+                                <span><span class="meta-icon">📍</span> Unknown</span>
+                                <span><span class="meta-icon">❓</span> Unconfirmed</span>
+                            </div>
+                            <p>Legacy page from older data. Cross-checked wiki sources suggest Charon's Obol is a reward item, not a boss. Kept for tracking until verified in-game.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>Boss Battle Basics</h2>
-
-            <p>All boss battles in Windrose share core mechanics that you will need to master:</p>
-
-            <h3>Naval Phase</h3>
-            <p>Most boss encounters begin with a naval engagement. You will need to position your ship, manage cannon fire, and avoid the boss's ranged attacks. Ship choice matters significantly — a <a href="/ships/frigate">Frigate</a> offers superior firepower while a <a href="/ships/sloop">Sloop</a> provides better maneuverability.</p>
-
-            <h3>Boarding &amp; Melee Phase</h3>
-            <p>After depleting the boss ship's armor, you can board for close-quarters combat. Crew composition and individual combat skills become critical here.</p>
-
-            <h3>Phase Transitions</h3>
-            <p>Bosses typically have 2-3 phases. Each phase transition introduces new attack patterns, environmental hazards, or reinforcement waves. Recognizing phase tells is essential for survival.</p>
-
-            <h3>Post-Battle Rewards</h3>
-            <p>Defeating a boss grants unique loot including rare crafting materials, ship upgrades, and sometimes unlocks new game mechanics or areas.</p>
-        </section>
-
-        <section>
-            <h2>Boss Difficulty Overview</h2>
-
-            <div class="table-responsive">
+        <section class="content-section">
+            <div class="container">
+                <h2>General Boss Preparation</h2>
+                <p>Every boss in Windrose rewards preparation. Here's a universal checklist before entering any boss arena:</p>
                 <table>
-                    <caption>Windrose Boss Difficulty &amp; Requirements</caption>
+                    <caption>Boss Preparation Checklist</caption>
                     <thead>
                         <tr>
-                            <th>Boss</th>
-                            <th>Order</th>
-                            <th>Recommended Level</th>
-                            <th>Phases</th>
-                            <th>Ship Recommendation</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Recommendation</th>
+                            <th scope="col">Why It Matters</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Starter Boss</td>
-                            <td>1st</td>
-                            <td>1-5</td>
-                            <td>1</td>
-                            <td>Starter Ship</td>
+                            <td><strong>Food Buffs</strong></td>
+                            <td>Bacon and Eggs, Coconut Milk, or best available meal</td>
+                            <td>Increases max HP and stamina recovery during the fight</td>
                         </tr>
                         <tr>
-                            <td>Blackbeard</td>
-                            <td>Main Target</td>
-                            <td>TBD</td>
-                            <td>2-3</td>
-                            <td><a href="/ships/brigantine">Brigantine</a> or <a href="/ships/frigate">Frigate</a></td>
+                            <td><strong>Healing</strong></td>
+                            <td>10-15 Bandages minimum, potions if available</td>
+                            <td>Boss fights are long; running out of healing means a wipe</td>
                         </tr>
                         <tr>
-                            <td><a href="/bosses/charons-obols">Charon's Obols</a></td>
-                            <td>3rd</td>
-                            <td>TBD</td>
-                            <td>3</td>
-                            <td><a href="/ships/brigantine">Brigantine</a></td>
+                            <td><strong>Rested Buff</strong></td>
+                            <td>Sleep at your Bonfire before traveling to the boss</td>
+                            <td>Provides passive stat boost that stacks with food</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gear Level</strong></td>
+                            <td>Match or exceed the boss's recommended level</td>
+                            <td>Under-leveled gear leads to low damage and high incoming damage</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ranged Option</strong></td>
+                            <td>Bring a Blunderbuss or Musket with 20+ bullets</td>
+                            <td>Ranged pressure is safe damage; especially useful for kiting</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Repair Kits</strong></td>
+                            <td>2-3 Repair Kits or Combat Repair Kits</td>
+                            <td>Weapons and armor degrade during long fights</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
 
-        <section>
-            <h2>General Boss Strategy Tips</h2>
+        <section class="content-section">
+            <div class="container">
+                <h2>Boss Drops Quick Reference</h2>
+                <table>
+                    <caption>Known Boss Drops (Community-Sourced)</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Boss</th>
+                            <th scope="col">Notable Drops</th>
+                            <th scope="col">Unlocks</th>
+                            <th scope="col">Data Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/bosses/thomas-richards/">Thomas Richards</a></td>
+                            <td>50 XP, Thomas Richards' Journal, Seafood Platter, Silver Ingot</td>
+                            <td>Foothills biome, iron-tier progression</td>
+                            <td>Community</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/bosses/israel-hands/">Israel Hands</a></td>
+                            <td>Soul Eater greatsword, 30 Undead Essence, Charon's Obol</td>
+                            <td>Cursed Swamps, next story gate</td>
+                            <td>Community</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/bosses/high-priestess/">High Priestess</a></td>
+                            <td>Charon's Obol</td>
+                            <td>End of current main story (Chapter 1)</td>
+                            <td>Community</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/bosses/ghost-captain/">Ghost Captain</a></td>
+                            <td>Soul Eater greatsword</td>
+                            <td>Optional loot route</td>
+                            <td>Community</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="update-note"><strong>Data note:</strong> Windrose is in Early Access (v0.10.0.5.120). Boss drops and mechanics can change with patches. All data on this page is community-sourced and will be updated as official information becomes available.</p>
+            </div>
+        </section>
 
-            <ul>
-                <li><strong>Stock up on repairs:</strong> Always bring extra ship repair kits and healing items before engaging a boss.</li>
-                <li><strong>Learn the patterns:</strong> Each boss has telegraphed attack patterns. Spend your first attempt observing rather than attacking.</li>
-                <li><strong>Crew positioning matters:</strong> Assign crew to roles that match their strengths — gunners for naval phase, fighters for melee.</li>
-                <li><strong>Upgrade your ship first:</strong> A fully upgraded ship makes a significant difference in survivability and damage output.</li>
-                <li><strong>Save burst damage for phase transitions:</strong> Many bosses become vulnerable during phase change animations.</li>
-            </ul>
+        <section class="content-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <details>
+                    <summary>How many bosses are in Windrose?</summary>
+                    <div class="faq-answer"><p>Current Early Access content includes 3 confirmed story arena bosses (Thomas Richards, Israel Hands, High Priestess) and 1 optional dungeon encounter (Ghost Captain). More bosses are expected as development continues.</p></div>
+                </details>
+                <details>
+                    <summary>What is the boss order in Windrose?</summary>
+                    <div class="faq-answer"><p>The progression order is: Thomas Richards (Coastal Jungle, Lv 5-6) → Israel Hands (Foothills, Lv 8-10) → High Priestess (Cursed Swamps, Lv 12-15). Ghost Captain is optional and can be fought around Lv 10-12.</p></div>
+                </details>
+                <details>
+                    <summary>Can I fight bosses in co-op?</summary>
+                    <div class="faq-answer"><p>Yes! Windrose supports 1-8 player co-op. Bosses scale with player count, but having teammates to split aggro makes fights significantly easier.</p></div>
+                </details>
+                <details>
+                    <summary>Are all boss drops confirmed?</summary>
+                    <div class="faq-answer"><p>No. Early Access data can change, so exact drops should be rechecked after patches and marked with source confidence. We mark all unverified data as "Community" sourced.</p></div>
+                </details>
+                <details>
+                    <summary>What's the best weapon for boss fights?</summary>
+                    <div class="faq-answer"><p>A Saber for melee (fast combos) combined with a Blunderbuss for ranged kiting is generally the most effective combination. The Soul Eater greatsword becomes available after defeating Israel Hands or Ghost Captain.</p></div>
+                </details>
+            </div>
         </section>
 
         <aside class="related-guides">
-            <h2>Related Guides</h2>
-            <ul>
-                <li><a href="/bosses/charons-obols">Charon's Obols Boss Guide — Full Strategy &amp; Drops</a></li>
-                <li><a href="/ships">Windrose Ships Guide — Sloop, Brigantine &amp; Frigate</a></li>
-                <li><a href="/crafting">Windrose Crafting Guide — Recipes &amp; Materials</a></li>
-            </ul>
+            <div class="container">
+                <h2>Related Guides</h2>
+                <ul>
+                    <li><a href="/guides/boss-progression/">Boss Progression & Strategy Guide</a></li>
+                    <li><a href="/beginner-guide/">Beginner Guide — Day 1-10</a></li>
+                    <li><a href="/crafting/workbench/">Workbench Recipes Lv1-3</a></li>
+                    <li><a href="/guides/best-early-builds/">Best Early-Game Builds</a></li>
+                    <li><a href="/database/bosses/">Database: Boss List</a></li>
+                </ul>
+            </div>
         </aside>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/terms">Terms</a>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
             </div>
-            <p>&copy; 2026 Windrose Guides. All rights reserved. Not affiliated with the game developer.</p>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+                    <li><a href="/builds">Build Guides</a></li>
+                    <li><a href="/server-guide">Server Guide</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/bosses">Bosses</a></li>
+                    <li><a href="/ships">Ships</a></li>
+                    <li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/sources">Sources</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
-
-    <script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+<script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
 </body>
 </html>

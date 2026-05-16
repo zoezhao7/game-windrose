@@ -1,0 +1,3958 @@
+{
+  "eid-cannon-12-vulnerability-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-cold-barrels-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-perfect-timing-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-vulnerability-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-vulnerability-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-12-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-vulnerability-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-perfect-timing-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-cold-barrels-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-vulnerability-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-cold-barrels-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-24-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-perfect-timing-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-cannon-36-vulnerability-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-trade-outpost-aloe-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-alchemical-base-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-cannon-36-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-trade-outpost-aloe-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-3-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-mid-senkamati-stuff-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-for-chests-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-mid-senkamati-stuff-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-aloe-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-aloe-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-ancient-relic-fragment-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-for-chests-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-anvil-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-ancient-steel-piece-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-fat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gem-mobility-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-corrupted-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-iron-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-fat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-corrupted-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-armor-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-box-of-leathers-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-armor-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-ash-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-banana-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-armor-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-arsenal-key-t04-01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-banana-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-bacon-and-eggs-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-coffee-banana-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-banana-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-sweet-cupcake-banana-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-compost-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-banana-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-potatoshrooms-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-black-bean-seeds-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-bean-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-bandages-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-4-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bean-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-bezoar-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-09": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bezoar-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-meat-bird-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-black-mark-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-08": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-05": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-bird-meat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-blunderbuss-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-misc-fish-small-blue-tang-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-06": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-smuggler-note-2-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-boar-head-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-boar-tusk-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-dead-pirate-note-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-treasure-map-blackbeard-07": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-spawner-boar-l1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-backpack-l02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-crew-power-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-club-massive-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-food-second-crab-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bone-meal-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cheap-senkamati-stuff-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-boar-tusk-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-massive-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-bones-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-enhance-broken-family-amulet-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-broken-base": {
+    "level": 1,
+    "attack": 90
+  },
+  "did-resource-broadcloth-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bromelia-seeds-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-broken-musket-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-broken-family-amulet-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-alcohol-lucky": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-sniper-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-bromeliaceae-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-pepper-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-cane-sugar-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-pepper-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crude-dmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-pepper-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-pepper-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-burrito-meat-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-sniper-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-juan-de-la-cosa-journal-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-firearm-projectile-ancient-metal-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-resource-clay-pot-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cultists-manifesto-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-clay-bottle-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ancient-relic-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-chicha-morada-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ancient-relic-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-coal-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-clay-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-clay-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-chowder-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-club-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-club-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-coconut-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-club-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-coconana-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-fabric-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-coconut-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cheap-senkamati-stuff-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-scallop-shell-closed-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-repair-kit-base": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-coffee-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-icaco-seeds-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-sweet-cake-peanut-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-conquistador-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-coconut-oil-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-pouch-coin-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-coconut-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-coffee-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-icaco-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-contraband": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-conquistador-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-conquistador-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-box-of-supplies-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-axe-t01": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-armor-conquistador-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-copper-ore-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-conquistador-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-firearm-projectile-rough-metal-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-metal-copper-ingot-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-corn-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-corn-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-cornmeal-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-corn-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-crab-meat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-pickaxe-t01": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-trade-outpost-corn-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-slash-dmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-meat-crab-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-resource-copper-pot-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-crocodile-head-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-clay-tablet-03-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-medicines-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-tomato-crab-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-reptile-in-swamp-sauce-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-crab-shell-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-crocodile-tail-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-spawner-croc-l1-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-forceful-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-crocodile-leather-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-06-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-05-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-forceful-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-al-main-quest-note-02-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-boarding-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-saber-boarding-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-al-main-quest-note-07-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-01-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crit-damage-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-03-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-08-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-06": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-09": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-05": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-church-key-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-08": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-decoder-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-07": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-clay-tablet-02-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-rum-precision": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-11": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-broken-flask-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-horns-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-fisherman-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-12": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-blackbeard-sign-02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-combine-furniture-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-10": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-clay-torches-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-books-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-iron-lights-t02-cool": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-carpets-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-iron-lights-t04-chain": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-military-cannons-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-lights-t02-clay-torch": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-canopy-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-miniatures-brig-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-dishes-clay-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-carpets-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-dishes-iron-utensils-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-combine-curtains-and-shelves-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-utility-bed-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-books-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-crate-bottles-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-combine-wardrobes-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-statues-crocodile-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-miniatures-cutter-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-utility-bed-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-miniatures-frigate-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-food-t02-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-dishes-iron-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-iron-lights-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-wardrobe-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-miniatures-ketch-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-combine-garden-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-barrel-rope-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-military-swords-wall-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-fireplace-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-parrot-cage-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-seats-t04-stool-bench-chair-cool": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-utility-bed-t04-cool": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-seats-t01-stool-bench-cool": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-combine-tables-and-stands-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-carpets-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-container-wood-chest-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-flags-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-tortuga": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-shells-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-flags-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-shared": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-paintings-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-pier": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-container-wood-chest-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-utility-bed-t01-cool": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-lights-t01-chandelier": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-wine-barrels-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-fort-stockade-and-gate": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-dishes-wood-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-misc-clock-and-globe-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-seats-t01-chair": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-lights-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-flags-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-flags-t01-wall": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-iron-lights-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-iron-lights-chandelier-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-kitchen-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-shelves-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-wardrobe-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-container-wood-chest-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-seats-t01-stool-bench": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-tables-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-deco-carpets-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-5-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-door-key-t04-01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-bird-broth-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-dodo-head-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-dodo-egg-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-6-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-robinson-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-robinson-note-2-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-dodo-egg-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-robinson-note-4-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-diamond-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-parrying-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-saber-parrying-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-greatsword-parrying-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-greatsword-parrying-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-blunderbuss-dragonbreath-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-blunderbuss-dragonbreath-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-pistol-drakes-doom-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-pistol-drakes-doom-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-elastic-leather-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-crit-damage": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-enchanted-ritual-knife-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-melee-damage": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-damage-resist": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-medium-emerald-bluefish-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-umbra-essence-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-global-damage": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gem-agility-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-halberd-executioner-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-halberd-executioner-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-alchemy-elixir-range-damage": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-feather-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-paper-copy-of-clay-tablet-01-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-enchanted-fabric-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-soil-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ship-bell-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-firefly-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-fish-and-tostones-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-fish-meat-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-ficus-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-feather-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-flibustier-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-flibustier-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-flax-fiber-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-flax-oil-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-flibustier-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-flax-fiber-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-flax-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-flibustier-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-flibustier-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-flax-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-letter-from-boatswain-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-metal-ingot-iron-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-glass-bottle-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-large-giant-mackerel-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-gazpacho-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-iron-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gem-vlitality-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-expensive-senkamati-stuff-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-key-boss-arena-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gold-ingot-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-expensive-senkamati-stuff-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-expensive-senkamati-stuff-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-secret-of-the-expedition-story-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-secret-of-the-expedition-story-02-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-greatsword-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-grapes-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-secret-of-the-expedition-story-03-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-greatsword-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-greatsword-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-potion-great-healing-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-hardwood-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-rum-reload": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-for-bb-chests-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-rum-defence": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-coin-guinea-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-halberd-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-hardwood-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-halberd-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-halberd-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-halberd-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-hewn-stone-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-elite-goat-head-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-soup-broth-with-potato-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-potion-enhanced-healing-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-enchanted-leather-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-gunpowder-homemade-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-healing-herbs-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-starter-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-healing-herbs-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-family-amulet-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-fine-tools-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-improvised-defenses-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-potion-recall-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-fortified-hull-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-threads-needles-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-improvised-defenses-base": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-active-defence-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-active-defence-base": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-hull-fortified-hull-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-ship-tools-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-infantry-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-alchemy-elixir-global-damage-extra-duration": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-umbra-fruit-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-range-damage-extra-duration": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-blacksmith-flux-02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-crit-damage-extra-duration": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-elixir-melee-damage-extra-duration": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-infantry-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-enchanted-ingot-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ksant-handbook-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-iron-utensils-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-pickaxe-t02": {
+    "level": 1,
+    "attack": 200
+  },
+  "eid-tool-axe-t02": {
+    "level": 1,
+    "attack": 200
+  },
+  "eid-ring-crit-chance-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-captains-journal-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-firearm-projectile-fine-metal-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-door-key-t04-02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-jewelry-2": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-jewelry-1": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-utilities-labels-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-lantern-l1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-faction-sign-01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-large-great-barracuda-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-leek-seeds-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-smuggler-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-journal-fragment-3-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-lime-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-posture-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-onion-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-linen-fabric-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-lime-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-luxuries": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-lime-tree-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-lobstershroom-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-lime-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-robinson-note-3-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-7-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-alcohol-officer": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crude-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-endurance-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-precision-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-fisherman-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-slash-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-mastery-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-range-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-agility-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-wpn-stmn-cons-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crit-damage-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crit-chance-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-dmg-resist-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-pierce-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-map-piece-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crpt-tick-resist-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-lightfoot-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-strength-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-melee-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-feint-dmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-res-stmn-cons-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-vitality-major": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-mercenary-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-range-dmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-mercenary-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-mercenary-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-mercenary-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-mercenary-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-meat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-fine-tools-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-journal-fragment-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-repair-kit-big": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-medical-book-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-wine-meat-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-spicy-reptile-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-meat-salad-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-meatshrooms-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-melee-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-meat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-melee-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-melee-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-medicine": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-spawner-boar-l2-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crit-damage-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-trade-contact-resources": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-wpn-stmn-cons-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-trade-contact-animals": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-slash-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-letter-with-girl-name-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-millstone-parts-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crude-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-trade-contact-food": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-mastery-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-range-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-alchemy-potion-healing-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-strength-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-fisherman-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-precision-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-endurance-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crit-chance-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-agility-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-vitality-minor-02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-crpt-tick-resist-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-misty-orchid-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-metal-ingot-ancient-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-small-moon-angelfish-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-feint-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-goat-horn-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-pierce-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-melee-dmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-dmg-resist-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-res-stmn-cons-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-nails-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-naval-supplies": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-goat-horn-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-musket-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-senkamati-umbra-pepper-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-munitions": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-combat-orders-ambusher": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-musket-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-musket-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-combat-orders-combat-repairs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-navigation-instruments-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-precision-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-endurance-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-combat-orders-efficient-consumption": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-agility-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-combat-orders-suppressing-fire": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-mastery-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ship-combat-orders-focused-maintenance": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-strength-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-peanut-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-obsidian-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-for-chests-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-journal-lost-cargo-02-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-dear-huanita-note-1-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-journal-lost-cargo-01-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-blackbeard-sign-04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-blackbeard-sign-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-cave-pirate-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-vitality-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-goods-wood-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-journal-lost-cargo-03-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-palm-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-goods-iron-ingot-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-goods-hardwood-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-goods-copper-ingot-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-journal-fragment-2-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-pikeman-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-small-pink-wrasse-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-civilians": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-pikeman-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-pikeman-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-pastechi-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-pikeman-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-coin-piastre-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-scallop-pearl-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-pikeman-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-enchanted-wood-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-pistol-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-corrupted-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-pirate-note-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-halberd-corrupted-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-pistol-corrupted-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-halberd-corrupted-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-pistol-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-pistol-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-pistol-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t01-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-blunderbuss-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-sniper-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-massive-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-crudedmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t03-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-corrupted-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-sniper-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-swamp-set-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-massive-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-conquistador-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-conquistador-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-conquistador-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-boarding-saber-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t04-pillars-and-arch": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-forceful-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-conquistador-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-forceful-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-conquistador-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-boarding-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-drakesdoom-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-blunderbuss-dragonbreath-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-drakesdoom-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-boarding-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-drake-pistol-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-12-vulnerability-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-24-vulnerability-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-blunderbuss-dragonbreath-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-36-vulnerability-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-parrying-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-fiber-set-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-parrying-saber-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-parrying-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-parrying-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-executioner-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-executioner-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-parrying-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t04-windows-doors": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-reliable-rapier-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-armor-flibustier-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-flibustier-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-flibustier-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-flibustier-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-infantry-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-infantry-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-infantry-musket-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-flibustier-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-rangedmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critchance-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t01-triangle-wall-roof26and64": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-wpnstmncons-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-posture-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t04-balustrade-and-stairs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-crudedmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critchance-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-hull-active-defence-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-ring-fisherman-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-meleedmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-mastery-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-endurance-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-piercedmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-agility-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-strength-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-precision-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-slashdmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-vitality-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-resstmncons-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-dmgresist-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t04-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-mercenary-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-feintdmg-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critdamage-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-crpttickresist-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-mercenary-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-rangedmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-mercenary-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-lightfoot-major": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-fisherman-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-wpnstmncons-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-mercenary-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-crudedmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-mastery-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critchance-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-agility-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-rangedmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-mercenary-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-endurance-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critdamage-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-resstmncons-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-piercedmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-dmgresist-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-strength-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-crpttickresist-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-slashdmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-meleedmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-vitality-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-precision-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-mastery-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-necklace-agility-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-precision-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-vitality-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-necklace-endurance-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-necklace-strength-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-feintdmg-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-corrupted-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-pikeman-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-pikeman-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-corrupted-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-armor-pikeman-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-pikeman-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-pikeman-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-slashdmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-bleeding-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t02-windows-doors": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-vanilla-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-vanilla-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-vanilla-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-corrupted-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-bleeding-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-vanilla-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-vanilla-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-eviscerate-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-flawless-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-blunderbuss-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-blunderbuss-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-halberd-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-eviscerating-rapier-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-eviscerate-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-flawless-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t03-triangle-wall-roof26and64": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-pistol-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-reliable-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-rapier-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-range-weapon-musket-reliable-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-ring-dmgresist-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-critdamage-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-souldrinker-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-souldrinker-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-saber-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-meleedmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-fish-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ring-piercedmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t03-round": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-adventurer-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t02-triangle-wall-roof26and64": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-corrupted-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-club-corrupted-advanced": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-adventurer-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t02-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-adventurer-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-adventurer-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-armor-adventurer-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t04-triangle-wall-roof13and64": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-bandit-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-bandit-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-fahwerk-set-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-bits-t02-pillars-fence": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-bandit-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-armor-bandit-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-armor-bandit-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-fiber-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-vanilla-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-fiber-plant-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-melee-weapon-greatsword-blank-base": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t01-pillars-fence": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-mid-senkamati-stuff-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-vanilla-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t01-windows-doors": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t03-windows-doors": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-bits-t03-pillars-fence": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-range-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-vanilla-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-supplies-for-residents-of-tortuga-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-vanilla-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-vanilla-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-range-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-small-queen-angelfish-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-quagmire-powder-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-provisions": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-backpack-l03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-rapier-bleeding-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-range-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-rapier-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-rapier-eviscerate-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-saber-flawless-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-rapier-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-rapier-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-rapier-eviscerate-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-rapier-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-rapier-bleeding-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-ring-dmg-resist-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-sour-tomato-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-medium-red-snapper-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-blunderbuss-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-cj-exquemelin-note-2-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-misc-fish-small-reef-snapper-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-musket-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-saber-flawless-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-range-weapon-blunderbuss-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-collectible-knife-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-for-bb-chests-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-melee-dmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-key-boss-arena-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-rigging-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-ship-consumable-repair-kit-small": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-pistol-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-collectible-knife-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-collectible-knife-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-pistol-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-gem-strengh-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ritual-key-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-collectible-mask-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-rum-bottle-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-leather-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-rope-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-ritual-oil-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-barrel-of-rum-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-leather-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-buccaneers": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-misc-fish-small-sapphire-wrasse-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-backpack-l01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gem-fortitude-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-second-seafood-platter-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-upgrade-saber-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-paper-copy-of-clay-tablet-04-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-saber-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-salt-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-saber-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-brig-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-frigate-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-ketch-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-frigate-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-brig-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-ketch-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-brig-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-seafood-harpoon-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-paper-copy-of-clay-tablet-02-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-threads-needles-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-ship-eq-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-mid-drowned-stuff-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-ship-tools-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-ship-ketch-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-ship-eq-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-ship-eq-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bush-mancinella-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cheap-drowned-stuff-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-shovel-t01": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-recipe-paper-unlock-ship-frigate-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-contraband-goods-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-blacksmith-flux-01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-reptile-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-meat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-secret-of-the-expedition-story-04-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-silver-ingot-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-smugglers": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cheap-drowned-stuff-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-fishing-rod-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-fish-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-food-second-bird-on-potato-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-spirits": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-skewer-spicy-crab-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-icaco-coco-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-goods-specialized-tools": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-smuggler-skeleton-note-1-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-greatsword-souldrinker-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-greatsword-souldrinker-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-food-skewer-bird-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-ring-pierce-dmg-regular": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-nails-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-sw-fait-of-the-prophet-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-stone-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-sw-fait-of-the-prophet-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "aid-ammo-firearm-projectile-stone-bullet-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-greatsword-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-resource-stone-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-tool-pickaxe-t00": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-greatsword-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-tool-axe-t00": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-halberd-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-rapier-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-rapier-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-saber-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-halberd-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-sw-fait-of-the-prophet-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-saber-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-club-reliable-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "eid-melee-weapon-club-reliable-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "did-misc-item-item-unlock-ship-custom-flags-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-hull-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-hull-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-flags-smugglers": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-flags-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-sails-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-sails-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-sails-stock": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-flags-brethren": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-hull-blackbeard": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-item-item-unlock-ship-custom-flags-bucaneers": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-adventurer-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-adventurer-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-adventurer-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-drink-coco-peanut-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-adventurer-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-corrupted-advanced": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-trade-outpost-sulfur-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-sulfur-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-adventurer-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-club-corrupted-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-food-drink-sweet-lime-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-burrito-beans-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-potato-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-potato-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-potato-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-tamale-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tainted-bile-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-sweet-cake-icaco-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-corrupted-mask-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-potato-seeds-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-sw-jokes-of-the-gods-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tarred-fabric-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-resin-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-crocodile-tears-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tarred-planks-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tan-leather-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-sw-jokes-of-the-gods-03-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-sweet-corn-roll-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tannin-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-sw-jokes-of-the-gods-01-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-paper-copy-of-clay-tablet-03-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-richards-journal-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-endurance-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-raw-tomato-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-vitality-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-precision-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-wooden-beam-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-strength-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-agility-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-necklace-mastery-minor": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-tomato-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-starter-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-starter-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-gem-precision-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-starter-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-tomato-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-starter-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-backpack-l00-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tomato-seeds-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-broken-hat-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-bandit-base-feet": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-food-dough-corn-casabe-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-bandit-base-legs": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tritons-trumpet-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-bark-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-bandit-base-torso": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-bark-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-bandit-base-head": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-backpack-l04-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-armor-bandit-base-hands": {
+    "level": 1,
+    "attack": null
+  },
+  "did-reputation-blackbeard-sign-03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-exquemelin-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-tumbago-ingot-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-undead-essence-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-undead-essence-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-vault-key-t04-01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-melee-weapon-greatsword-blank-base": {
+    "level": 1,
+    "attack": 100
+  },
+  "cid-trade-outpost-wood-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-wood-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-planks-wood-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-door-key-t04-03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-wolf-head-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "cid-trade-outpost-wolf-fang-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-trade-craft-alcohol-sugarcane": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-wolf-fang-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-clay-tablet-01-t03": {
+    "level": 1,
+    "attack": null
+  },
+  "did-resource-vinegar-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-al-main-quest-note-04-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-musket-butt-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-elia-shell-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cj-juan-de-la-cosa-journal-t02": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-faction-codex-note-1-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-musket-barrel-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "eid-range-weapon-pistol-rusty-base": {
+    "level": 1,
+    "attack": 90
+  },
+  "did-misc-lucky-coin-t04": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-musket-lock-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "did-misc-cheap-senkamati-stuff-02-t01": {
+    "level": 1,
+    "attack": null
+  },
+  "saber": {
+    "level": 1,
+    "attack": null
+  },
+  "stone-bullet": {
+    "level": 1,
+    "attack": null
+  },
+  "stone-axe": {
+    "level": 1,
+    "attack": null
+  },
+  "stone-pickaxe": {
+    "level": 1,
+    "attack": null
+  },
+  "bandage": {
+    "level": 1,
+    "attack": null
+  },
+  "coarse-fabric": {
+    "level": 1,
+    "attack": null
+  },
+  "rope": {
+    "level": 1,
+    "attack": null
+  },
+  "torn-sailcloth-bag": {
+    "level": 1,
+    "attack": null
+  },
+  "clay-pot": {
+    "level": 1,
+    "attack": null
+  },
+  "copper-axe": {
+    "level": 1,
+    "attack": null
+  },
+  "copper-pickaxe": {
+    "level": 1,
+    "attack": null
+  },
+  "copper-bullet": {
+    "level": 1,
+    "attack": null
+  },
+  "nails": {
+    "level": 1,
+    "attack": null
+  },
+  "copper-pot": {
+    "level": 1,
+    "attack": null
+  },
+  "lamp": {
+    "level": 1,
+    "attack": null
+  },
+  "fast-travel-bell": {
+    "level": 1,
+    "attack": null
+  },
+  "shovel": {
+    "level": 1,
+    "attack": null
+  },
+  "combat-repair-kit": {
+    "level": 1,
+    "attack": null
+  },
+  "repair-kit": {
+    "level": 1,
+    "attack": null
+  },
+  "anvil": {
+    "level": 2,
+    "attack": null
+  },
+  "wooden-plank": {
+    "level": 2,
+    "attack": null
+  },
+  "iron-axe": {
+    "level": 2,
+    "attack": null
+  },
+  "iron-pickaxe": {
+    "level": 2,
+    "attack": null
+  },
+  "iron-bullet": {
+    "level": 2,
+    "attack": null
+  },
+  "ironware": {
+    "level": 2,
+    "attack": null
+  },
+  "iron-nails": {
+    "level": 2,
+    "attack": null
+  },
+  "millstone-parts": {
+    "level": 2,
+    "attack": null
+  },
+  "master-combat-repair-kit": {
+    "level": 2,
+    "attack": null
+  },
+  "sailor-backpack": {
+    "level": 2,
+    "attack": null
+  },
+  "simple-fishing-rod": {
+    "level": 2,
+    "attack": null
+  },
+  "bosun-backpack": {
+    "level": 3,
+    "attack": null
+  },
+  "quartermaster-backpack": {
+    "level": 3,
+    "attack": null
+  },
+  "timber": {
+    "level": 3,
+    "attack": null
+  },
+  "hewn-stone": {
+    "level": 3,
+    "attack": null
+  },
+  "tarred-planks": {
+    "level": 3,
+    "attack": null
+  },
+  "bullet-arborum": {
+    "level": 3,
+    "attack": null
+  },
+  "ketch": {
+    "level": 1,
+    "attack": 4
+  },
+  "brigantine": {
+    "level": 2,
+    "attack": 8
+  },
+  "frigate": {
+    "level": 3,
+    "attack": 16
+  }
+}

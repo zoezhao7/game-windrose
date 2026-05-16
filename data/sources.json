@@ -1,0 +1,166 @@
+{
+  "type": "source_collection",
+  "generated_at": "2026-05-12",
+  "items": [
+    {
+      "id": "game_wiki_bosses",
+      "slug": "sources",
+      "name": "Bosses | Windrose Wiki",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://game.wiki/windrose/bosses",
+      "source_type": "wiki",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "Bosses | Windrose Wiki",
+          "url": "https://game.wiki/windrose/bosses",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "thegameswiki_bosses",
+      "slug": "sources",
+      "name": "Bosses - Windrose Wiki | The Games Wiki",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://thegameswiki.com/windrose/wiki/bosses",
+      "source_type": "wiki",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "Bosses - Windrose Wiki | The Games Wiki",
+          "url": "https://thegameswiki.com/windrose/wiki/bosses",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "game_wiki_workbench",
+      "slug": "sources",
+      "name": "Workbench | Windrose Wiki",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://game.wiki/windrose/workbench",
+      "source_type": "wiki",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "Workbench | Windrose Wiki",
+          "url": "https://game.wiki/windrose/workbench",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "mobalytics_workbench",
+      "slug": "sources",
+      "name": "Windrose How to Upgrade Your Workbench",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://mobalytics.gg/news/guides/how-to-upgrade-workbench-windrose",
+      "source_type": "guide",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "Windrose How to Upgrade Your Workbench",
+          "url": "https://mobalytics.gg/news/guides/how-to-upgrade-workbench-windrose",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "gamespot_workbench",
+      "slug": "sources",
+      "name": "How To Upgrade Workbench Levels In Windrose",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://www.gamespot.com/articles/how-to-upgrade-workbench-levels-in-windrose/1100-6539435/",
+      "source_type": "guide",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "How To Upgrade Workbench Levels In Windrose",
+          "url": "https://www.gamespot.com/articles/how-to-upgrade-workbench-levels-in-windrose/1100-6539435/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "pcgamer_gunpowder",
+      "slug": "sources",
+      "name": "How to make Gunpowder in Windrose",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+      "source_type": "guide",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "How to make Gunpowder in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "pcgamer_clay",
+      "slug": "sources",
+      "name": "How to get clay in Windrose",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://www.pcgamer.com/games/survival-crafting/windrose-clay/",
+      "source_type": "guide",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "How to get clay in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-clay/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    },
+    {
+      "id": "windrosewiki_clay",
+      "slug": "sources",
+      "name": "Clay | Windrose Wiki",
+      "status": "published",
+      "confidence": "internal",
+      "preferred_source": "https://windrosewiki.com/wiki/resources/clay",
+      "source_type": "wiki",
+      "update_rule": "Re-check before publishing affected gameplay data.",
+      "sources": [
+        {
+          "title": "Clay | Windrose Wiki",
+          "url": "https://windrosewiki.com/wiki/resources/clay",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Added during first structured data enrichment round."
+    }
+  ]
+}

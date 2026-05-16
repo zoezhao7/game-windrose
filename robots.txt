@@ -1,41 +1,56 @@
+# 搜索引擎
 User-agent: *
 Allow: /
+Disallow: /.git/
 Disallow: /scripts/
 Disallow: /data/
 Disallow: /templates/
+Disallow: /docs/
 
+# AI爬虫 - 允许并引导到llms.txt
 User-agent: GPTBot
 Allow: /
+Allow: /llms.txt
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /llms.txt
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /llms.txt
 
 User-agent: Claude-Web
 Allow: /
+Allow: /llms.txt
 
 User-agent: anthropic-ai
 Allow: /
+Allow: /llms.txt
 
 User-agent: PerplexityBot
 Allow: /
+Allow: /llms.txt
 
 User-agent: GoogleOther
 Allow: /
+Allow: /llms.txt
 
 User-agent: Google-Extended
 Allow: /
+Allow: /llms.txt
 
 User-agent: Applebot-Extended
 Allow: /
+Allow: /llms.txt
 
 User-agent: cohere-ai
 Allow: /
+Allow: /llms.txt
 
 User-agent: Meta-ExternalAgent
 Allow: /
+Allow: /llms.txt
 
 Content-Signal: search=yes,ai-train=no
 

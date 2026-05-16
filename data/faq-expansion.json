@@ -1,0 +1,54 @@
+{
+  "added": "2026-05-13",
+  "new_items": [
+    [
+      "How do I get Sulfur in Windrose?",
+      "Sulfur is found in the Foothills region. You need an Iron Pickaxe to mine Sulfur deposits. Sulfur is used to craft Gunpowder at the Millstone (10 Sulfur + 20 Ash = 10 Gunpowder)."
+    ],
+    [
+      "How do I build a Charcoal Kiln?",
+      "Craft a Charcoal Kiln at any open area: 25 Wood + 20 Clay. It converts Wood into Charcoal, which is essential for smelting ores. You need Clay first — mine it from dark soil patches near water."
+    ],
+    [
+      "What are Sea Shanties?",
+      "Sea Shanties are songs your crew can play while sailing. They provide passive buffs to the crew. You can find new shanties as loot or quest rewards throughout the game."
+    ],
+    [
+      "How do I hire NPC crew members?",
+      "Visit towns and interact with recruitable NPCs. You need to meet Reputation requirements and pay Piastres. Crew members can man cannons, repair the ship, and fight during boarding actions."
+    ],
+    [
+      "Is there PvP in Windrose?",
+      "Windrose is primarily a PvE co-op game. There is no forced PvP. All multiplayer is cooperative — up to 10 players working together against AI enemies and bosses."
+    ],
+    [
+      "How do I extend the Rested buff?",
+      "Build diverse Decoration items in your base. The more unique decoration sub-categories you place, the longer the Rested buff lasts. The Rested buff boosts various stats including stamina regen."
+    ],
+    [
+      "What does the Millstone do?",
+      "The Millstone is a crafting station that produces Gunpowder (10 Sulfur + 20 Ash) and processes various materials. It requires Iron-tier progression to build."
+    ],
+    [
+      "How do I repair my ship?",
+      "Carry Wood and Nails on your ship. When damaged, use repair materials from your inventory while near the damaged hull section. Always stock repair mats before long voyages."
+    ],
+    [
+      "What are Piastres used for?",
+      "Piastres are the in-game currency used to buy ships at the Wharf, hire crew, and purchase items from merchants. Earn them by completing quests, selling loot, and clearing POIs."
+    ],
+    [
+      "How do I increase Reputation?",
+      "Complete faction quests, clear POIs, and help NPCs. Higher Reputation unlocks better ships, crew options, and merchant inventory. Each faction has its own Reputation track."
+    ],
+    [
+      "Can I play Windrose offline?",
+      "Yes, Windrose supports single-player offline mode. Your world saves locally. You can also host a world and invite friends for co-op."
+    ],
+    [
+      "What's the Ashlands update?",
+      "The Ashlands is the first major content update planned for Windrose, at least 6 months after Early Access launch. It will add new biomes, bosses, ships, and story content. The developer confirmed no save/server wipes."
+    ]
+  ],
+  "total_target": "32+"
+}

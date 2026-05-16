@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rope — Windrose Database | Windrose Guides</title>
+<meta name="description" content="Rope in Windrose. View stats, crafting recipe, locations, and related items.">
+<link rel="stylesheet" href="../../../css/style.css">
+<link rel="stylesheet" href="../../../database/db-style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database" class="active">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
+
+<div class="detail-wrap">
+    <div class="detail-breadcrumbs">
+        <a href="/database/">Database</a> / <a href="/database/resources/">Resources</a> / Rope
+    </div>
+
+    <!-- 双栏主体 -->
+    <div class="detail-two-col">
+        <!-- ========== 左栏：物品信息 ========== -->
+        <div class="detail-left">
+            <!-- 物品图片 -->
+            <div class="detail-item-image">
+                <img src="/imgs/database/items/did-resource-rope-t01.webp" alt="Rope" width="300" height="300" loading="eager" onerror="this.src='/imgs/database/items/placeholder.webp'">
+            </div>
+
+            <!-- 物品基础信息 -->
+            <div class="detail-item-info">
+                <div class="item-label">物品</div>
+                <h1 class="item-name">Rope <span class="db-badge" style="color:#3fb950;border:1px solid #3fb95033;background:#3fb95015;margin-left:0.5rem;font-size:0.8rem;vertical-align:middle">Verified</span></h1>
+                <div class="item-type-row">
+                    <span>Resource</span>
+                    <span class="item-rarity-badge rarity-uncommon">Uncommon</span>
+                </div>
+
+                <div class="detail-stat-grid"><div class="detail-stat-box"><div class="stat-label">Level</div><div class="stat-value">1</div></div></div>
+            </div>
+
+            <div class="detail-overview-card">
+        <div class="overview-title">Overview</div>
+        <p class="overview-text">An adventurer’s best friend.</p>
+        
+    </div>
+        </div>
+
+        <!-- ========== 右栏：制作与其他信息 ========== -->
+        <div class="detail-right">
+            <section class="detail-crafting-premium" id="crafting">
+            <div class="crafting-premium-header">
+                <div class="header-titles">
+                    <h2 class="title">Crafting</h2>
+                    <p class="subtitle">Where and how this entry can be fabricated, including station requirements and ingredients.</p>
+                </div>
+                <div class="station-badge">
+                    <img src="/imgs/database/items/workbench.webp" alt="Workbench" style="width:24px;height:24px;vertical-align:middle;margin-right:8px;"><span>Workbench</span>
+                </div>
+            </div>
+            <div class="crafting-tiers-list">
+                
+            <div class="tier-card">
+                <div class="tier-indicator tier-1">
+                    <span class="dot"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="tier-content">
+                    <div class="tier-top">
+                        <span class="tier-name">Tier 1</span>
+                        <div class="tier-reqs">
+                            <span class="req">Station Lv 1</span>
+                            <span class="req" style="margin-left:8px;color:#8b949e">⏱ 1s (60/min)</span>
+                        </div>
+                    </div>
+                    <div class="tier-mats">
+                        <a href="/database/items/did-resource-fiber-plant-t01/" class="mat-pill"><img src="/imgs/database/items/did-resource-fiber-plant-t01.webp" alt="Plant Fiber" loading="lazy"><span class="mat-name">Plant Fiber</span><span class="mat-count">×3</span></a><a href="/database/items/did-resource-rope-t01/" class="mat-pill"><img src="/imgs/database/items/did-resource-rope-t01.webp" alt="Rope" loading="lazy"><span class="mat-name">Rope</span><span class="mat-count">×1</span></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+            
+            
+            <a href="/database/resources/" class="detail-back">← Back to Resources</a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+</script>
+</body></html>

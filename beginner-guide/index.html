@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://windrose-guides.com/beginner-guide">
     <meta property="og:title" content="Windrose Beginner Guide: Day 1-10 Walkthrough &amp; Tips (2026)">
     <meta property="og:description" content="Complete Windrose beginner guide covering difficulty selection, first 30 minutes survival, Island quests, combat basics, base building tips. Everything new players need to know. Updated 2026.">
-    <meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+    <meta property="og:image" content="https://windrose-guides.com/imgs/og_home.png">
     <meta property="og:site_name" content="Windrose Guides">
     <meta property="article:published_time" content="2026-05-12">
     <meta property="article:modified_time" content="2026-05-12">
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Windrose Beginner Guide: Day 1-10 Walkthrough &amp; Tips (2026)">
     <meta name="twitter:description" content="Complete Windrose beginner guide covering difficulty selection, first 30 minutes survival, Island quests, combat basics, base building tips. Everything new players need to know. Updated 2026.">
-    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og.webp">
+    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og_home.png">
 
     <script type="application/ld+json">
     {
@@ -73,10 +73,55 @@
                 "headline": "Windrose Beginner Guide: Day 1-10 Walkthrough & Tips (2026)",
                 "description": "Complete Windrose beginner guide covering difficulty selection, first 30 minutes survival, Island quests, combat basics, base building tips.",
                 "datePublished": "2026-05-12",
-                "dateModified": "2026-05-12",
+                "dateModified": "2026-05-16",
                 "author": { "@type": "Organization", "name": "Windrose Guides", "url": "https://windrose-guides.com/" },
                 "isPartOf": { "@id": "https://windrose-guides.com/beginner-guide#webpage" },
                 "mainEntityOfPage": { "@id": "https://windrose-guides.com/beginner-guide#webpage" }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What's the best difficulty for a complete beginner?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Calm Waters is the recommended difficulty for players new to survival games. It reduces enemy damage and stress levels, giving you room to learn the mechanics without constant punishment. If you have experience with games like Valheim or Enshrouded, High Seas (the standard experience) is a good starting point."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I change the difficulty after starting?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. Difficulty is locked once you create your world. You cannot change it mid-game. If you want to switch difficulties, you must start a new world. Choose carefully during world creation."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I get my first ship?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Follow the Island quest progression chain: craft a Stone Pickaxe, mine Poor Copper Ore, build a Charcoal Kiln and Smelting Furnace, produce Copper Ingots, build the Weaponsmith Workshop and craft a melee weapon. Upon completing this chain, you receive your first ship for free."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens when I die?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "When you die, you drop your items at the location of your death. You can return to that spot to recover them. Enemies do not regenerate health when you disengage, so you can retreat and approach fights cautiously."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I get more inventory space early on?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Craft the Torn Sailcloth Bag at the Workbench. It requires 2 Coarse Fabric + 1 Rope. Both Coarse Fabric and Rope are made from Plant Fiber (3 Plant Fiber each) at the Workbench. Later, upgrade to the Sailor Backpack (Lv2 Workbench) and eventually the Bosun Backpack (Lv3 Workbench)."
+                        }
+                    }
+                ]
             }
         ]
     }
@@ -84,28 +129,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo" aria-label="Windrose Guides Home">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('open'); this.setAttribute('aria-expanded', this.classList.contains('open') ? 'true' : 'false');">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/beginner-guide" class="active">Beginner Guide</a></li>
-                    <li><a href="/crafting/workbench">Workbench</a></li>
-                    <li><a href="/crafting/smelting">Smelting</a></li>
-                    <li><a href="/resources">Resources</a></li>
-                    <li><a href="/bosses">Bosses</a></li>
-                    <li><a href="/ships">Ships</a></li>
-                    <li><a href="/weapons">Weapons</a></li>
-                    <li><a href="/faq">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide" class="active">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <div class="container">
         <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -120,6 +151,22 @@
         <h1>Windrose Beginner Guide: Day 1-10 Walkthrough &amp; Tips (2026)</h1>
 
         <p>Welcome to <strong>Windrose</strong>, the pirate-themed survival adventure from <strong>Kraken Express</strong>. This guide walks you through everything a new player needs to know — from choosing your difficulty to building your first base and sailing your first ship. Whether you are completely new to survival games or a genre veteran, this guide has you covered.</p>
+
+        <nav class="card" aria-label="Table of Contents" style="padding: 1.5rem; margin-bottom: 2rem;">
+            <h2 style="margin-top:0; font-size: 1.1rem;">📑 Table of Contents</h2>
+            <ol style="margin-bottom:0; padding-left: 1.2rem;">
+                <li><a href="#difficulty">Difficulty Selection</a></li>
+                <li><a href="#first-30-minutes">First 30 Minutes: Survival Setup</a></li>
+                <li><a href="#island-quests">Island Quest Progression</a></li>
+                <li><a href="#combat">Combat Basics</a></li>
+                <li><a href="#base-building">Base Building</a></li>
+                <li><a href="#food-cooking">Food &amp; Cooking System</a></li>
+                <li><a href="#skills-leveling">Skills &amp; Leveling Guide</a></li>
+                <li><a href="#first-voyage">Your First Voyage</a></li>
+                <li><a href="#beginner-tips">Beginner Tips &amp; Tricks</a></li>
+                <li><a href="#faq">Frequently Asked Questions</a></li>
+            </ol>
+        </nav>
 
         <section id="difficulty">
             <h2>1. Difficulty Selection</h2>
@@ -312,11 +359,20 @@
             <ul>
                 <li><strong>Stamina Management</strong> — Every attack, dodge, and block consumes stamina. Watch the green bar carefully. Running out of stamina mid-fight is often fatal.</li>
                 <li><strong>Dodge (Ctrl)</strong> — Your primary defensive tool. Dodging has invincibility frames (i-frames). Time your dodges to roll through enemy attacks.</li>
-                <li><strong>Parry</strong> — Well-timed blocks can parry enemy attacks, briefly staggering them and opening a window for counter-attacks. Practice the timing on weaker enemies first.</li>
+                <li><strong>Perfect Block</strong> — Tap block at the <strong>precise moment</strong> of an enemy's strike. This performs a perfect block that negates all damage and staggers the enemy, creating a large window for heavy counter-attacks. Practice on boars first.</li>
                 <li><strong>Lock-On (T)</strong> — Press T to lock onto an enemy. You can enable <strong>auto-lock-on</strong> in the settings menu for a smoother experience.</li>
+                <li><strong>Food Buffs</strong> — You can stack <strong>two food buffs simultaneously</strong>. Always eat before combat. Food buffs are the primary way to raise your health, stamina, and offensive stats.</li>
                 <li><strong>Combat Rhythm</strong> — A safe pattern: land 1-2 hits → dodge backward → wait for the enemy to approach → punish with a heavy or sprint attack. Repeat.</li>
                 <li><strong>Death Drops</strong> — When you die, you drop your items at the death location. You can return to recover them. Act quickly — your dropped items persist but may be in dangerous territory.</li>
                 <li><strong>No Enemy Regeneration</strong> — Enemies do <em>not</em> regenerate health when you disengage. This means you can use hit-and-run tactics: chip away at tough enemies, retreat to heal, and return to finish them off.</li>
+            </ul>
+
+            <h3>Progression &amp; Leveling</h3>
+            <ul>
+                <li><strong>XP from POIs, not kills:</strong> You gain XP primarily by <strong>completing quests and clearing Points of Interest (POIs)</strong>, not by killing enemies. A POI is only "cleared" when every chest inside is fully emptied.</li>
+                <li><strong>Stats &amp; Talents:</strong> As you level up, allocate points via the Progression/Talents tabs (press D). Early on, prioritize survival talents in the <strong>Toughguy tree</strong> (stamina, HP) over raw damage.</li>
+                <li><strong>Free respecs:</strong> Respecs are free at any time. Don't be afraid to experiment with different stat distributions.</li>
+                <li><strong>Rested buff:</strong> Build varied decorations in your base to extend the <strong>Rested buff</strong> duration. The more unique decoration sub-categories you place, the longer it lasts.</li>
             </ul>
         </section>
 
@@ -349,8 +405,96 @@
             </ul>
         </section>
 
+        <section id="food-cooking">
+            <h2>6. Food &amp; Cooking System</h2>
+            <p>Food is the single most important resource in Windrose. Unlike many survival games where food only restores hunger, Windrose's food system directly impacts your <strong>combat effectiveness</strong>. You can stack <strong>two food buffs simultaneously</strong>, making pre-fight meal planning a critical habit.</p>
+
+            <h3>Best Early-Game Foods</h3>
+            <div class="table-responsive">
+                <table>
+                    <caption>Early Game Food Tier List</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Food</th>
+                            <th scope="col">Source</th>
+                            <th scope="col">Buff</th>
+                            <th scope="col">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Coconut</strong></td>
+                            <td>Palm Trees</td>
+                            <td>Hunger + Water</td>
+                            <td>Best all-round early food. No cooking needed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Grilled Meat</strong></td>
+                            <td>Boar → Cooking Fire</td>
+                            <td>+HP, +Stamina</td>
+                            <td>First cooked food. Always cook raw meat.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fish Stew</strong></td>
+                            <td>Fish + Vegetables → Cooking Pot</td>
+                            <td>+HP, +Stamina, +Regen</td>
+                            <td>Requires Cooking Pot (mid-game). Very strong buff.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fruit Salad</strong></td>
+                            <td>Mixed Fruits → Cooking Fire</td>
+                            <td>+Water, +Stamina Regen</td>
+                            <td>Good supplement. Pair with a meat dish.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><strong>Key rule:</strong> Always eat two different foods before combat. The stat bonuses stack and make a massive difference in survivability, especially against bosses and elite enemies.</p>
+        </section>
+
+        <section id="skills-leveling">
+            <h2>7. Skills &amp; Leveling Guide</h2>
+            <p>Windrose features a talent system with multiple branches. You gain XP by <strong>clearing POIs</strong> (emptying all chests) and <strong>completing quests</strong>, not by killing enemies. Here is what you need to know about early stat allocation:</p>
+
+            <h3>Talent Tree Overview</h3>
+            <ul>
+                <li><strong>Toughguy (Survival)</strong> — Increases max HP, stamina, and damage resistance. <strong>Recommended for beginners.</strong> Prioritize this tree for your first 10-15 levels to build a solid survival foundation.</li>
+                <li><strong>Swashbuckler (Combat)</strong> — Boosts melee damage, attack speed, and critical hit chance. Best for experienced players who are confident in dodging and blocking.</li>
+                <li><strong>Mariner (Sailing &amp; Utility)</strong> — Improves sailing speed, resource gathering efficiency, and crafting bonuses. Worth investing in mid-game when you start multi-island exploration.</li>
+            </ul>
+
+            <h3>Early Stat Priority</h3>
+            <ol>
+                <li><strong>Stamina (Toughguy)</strong> — More stamina = more dodges, more attacks, more survival. The most universally useful stat.</li>
+                <li><strong>HP (Toughguy)</strong> — Gives you room for mistakes. Essential while learning boss patterns.</li>
+                <li><strong>Melee Damage (Swashbuckler)</strong> — Once comfortable with combat, start investing here for faster kills.</li>
+            </ol>
+            <p><strong>Remember:</strong> Respecs are completely free at any time. Do not agonize over your first few stat points — experiment freely and respec once you find your preferred playstyle.</p>
+        </section>
+
+        <section id="first-voyage">
+            <h2>8. Your First Voyage</h2>
+            <p>After completing the island quest chain and receiving your first ship, you unlock the open sea. Your first voyage is both exciting and dangerous. Follow these guidelines to survive:</p>
+
+            <h3>Pre-Departure Checklist</h3>
+            <ul>
+                <li><strong>Repair your ship</strong> — Check hull integrity before setting sail. Carry extra Wood and Nails for emergency repairs at sea.</li>
+                <li><strong>Stock food &amp; bandages</strong> — Bring at least 10 food items and 10+ bandages. You may not find resources on the next island immediately.</li>
+                <li><strong>Bring a full tool set</strong> — Pickaxe, Axe, and a melee weapon are mandatory. You will need to harvest resources on any island you reach.</li>
+                <li><strong>Check the wind direction</strong> — Windrose has dynamic wind mechanics. Sailing with the wind is significantly faster than against it. Plan your route accordingly.</li>
+                <li><strong>Mark your home base on the map</strong> — Right-click the map to place a marker with "Show on minimap" enabled. You do not want to lose your way home.</li>
+            </ul>
+
+            <h3>Sailing Tips</h3>
+            <ul>
+                <li><strong>Stay near the coast initially</strong> — Hug coastlines for your first few voyages. Open water is dangerous and offers no shelter if a storm hits.</li>
+                <li><strong>Dock at every island you see</strong> — Each island has unique resources and POIs. Even a brief stop can yield valuable crafting materials.</li>
+                <li><strong>Watch for sea enemies</strong> — Some creatures attack your ship. Keep an eye on the water and be ready to repair hull damage during encounters.</li>
+            </ul>
+        </section>
+
         <section id="beginner-tips">
-            <h2>6. Beginner Tips &amp; Tricks</h2>
+            <h2>9. Beginner Tips &amp; Tricks</h2>
 
             <h3>Inventory Expansion</h3>
             <p>Inventory space is tight at the start. Craft the <strong>Torn Sailcloth Bag</strong> as early as possible:</p>
@@ -372,7 +516,7 @@
         </section>
 
         <section id="faq">
-            <h2>7. Frequently Asked Questions</h2>
+            <h2>10. Frequently Asked Questions</h2>
 
             <details>
                 <summary>What's the best difficulty for a complete beginner?</summary>
@@ -424,15 +568,52 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/terms">Terms of Service</a>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
             </div>
-            <p>Windrose Guides is an unofficial, community-maintained resource. Windrose is developed by Kraken Express. All game content and trademarks belong to their respective owners. &copy; 2026 Windrose Guides.</p>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+                    <li><a href="/builds">Build Guides</a></li>
+                    <li><a href="/server-guide">Server Guide</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/bosses">Bosses</a></li>
+                    <li><a href="/ships">Ships</a></li>
+                    <li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/sources">Sources</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,598 @@
+{
+  "lastUpdated": "2026-05-13",
+  "ships": [
+    {
+      "id": "ketch",
+      "name": "Ketch",
+      "tier": 1,
+      "size": "Small",
+      "crew": "1-2",
+      "speed": "Fast",
+      "hp": 500,
+      "cannons": 4,
+      "cargo": "Small",
+      "unlock": "Quest reward (free)",
+      "variants": [
+        {
+          "name": "Stock Ketch",
+          "cannons": 4,
+          "cargo": "Standard",
+          "notes": "Default variant"
+        },
+        {
+          "name": "Brethren Ketch",
+          "cannons": 6,
+          "cargo": "Reduced",
+          "notes": "More firepower"
+        },
+        {
+          "name": "Blackbeard Ketch",
+          "cannons": 4,
+          "cargo": "Large",
+          "notes": "More cargo space"
+        }
+      ],
+      "pros": [
+        "Fastest ship",
+        "Easy to solo",
+        "Low material cost",
+        "Great for exploration"
+      ],
+      "cons": [
+        "Low HP",
+        "Few cannons",
+        "Small cargo hold"
+      ],
+      "best_for": "Solo exploration, resource runs, early game",
+      "confidence": "community"
+    },
+    {
+      "id": "brigantine",
+      "name": "Brigantine",
+      "tier": 2,
+      "size": "Medium",
+      "crew": "2-4",
+      "speed": "Moderate",
+      "hp": 1200,
+      "cannons": 8,
+      "cargo": "Medium",
+      "unlock": "Reputation Lv2 + Piastres",
+      "variants": [
+        {
+          "name": "Stock Brigantine",
+          "cannons": 8,
+          "cargo": "Standard",
+          "notes": "Balanced"
+        },
+        {
+          "name": "Brethren Brigantine",
+          "cannons": 12,
+          "cargo": "Reduced",
+          "notes": "Combat focus"
+        },
+        {
+          "name": "Blackbeard Brigantine",
+          "cannons": 8,
+          "cargo": "Large",
+          "notes": "Trading focus"
+        }
+      ],
+      "pros": [
+        "Good balance of speed and firepower",
+        "Fits 2-4 crew well",
+        "Versatile"
+      ],
+      "cons": [
+        "Requires reputation grind",
+        "More expensive to repair",
+        "Needs crew for full potential"
+      ],
+      "best_for": "Small group play, balanced combat and exploration",
+      "confidence": "community"
+    },
+    {
+      "id": "frigate",
+      "name": "Frigate",
+      "tier": 3,
+      "size": "Large",
+      "crew": "4-10",
+      "speed": "Slow",
+      "hp": 2500,
+      "cannons": 16,
+      "cargo": "Large",
+      "unlock": "Reputation Lv3+ + expensive",
+      "variants": [
+        {
+          "name": "Stock Frigate",
+          "cannons": 16,
+          "cargo": "Standard",
+          "notes": "War machine"
+        },
+        {
+          "name": "Brethren Frigate",
+          "cannons": 20,
+          "cargo": "Reduced",
+          "notes": "Maximum firepower"
+        },
+        {
+          "name": "Blackbeard Frigate",
+          "cannons": 16,
+          "cargo": "Huge",
+          "notes": "Fleet cargo hauler"
+        }
+      ],
+      "pros": [
+        "Highest HP",
+        "Most cannons",
+        "Huge cargo",
+        "Intimidating"
+      ],
+      "cons": [
+        "Very slow",
+        "Expensive",
+        "Needs large crew",
+        "Hard to maneuver"
+      ],
+      "best_for": "Large group naval combat, fleet operations",
+      "confidence": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "eid-cannon-36-vulnerability-advanced",
+      "slug": "eid-cannon-36-vulnerability-advanced",
+      "name": "36-Pounders: Devastating",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow.",
+      "icon": "/imgs/database/items/eid-cannon-36-vulnerability-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-cold-barrels-base",
+      "slug": "eid-cannon-12-cold-barrels-base",
+      "name": "12-Pounders: Tempered",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/eid-cannon-12-cold-barrels-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-blank-base",
+      "slug": "eid-cannon-12-blank-base",
+      "name": "12-Pounders",
+      "category": "ship-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Reliable cannons suited to a wide range of naval engagements.",
+      "icon": "/imgs/database/items/eid-cannon-12-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-36-blank-base",
+      "slug": "eid-cannon-36-blank-base",
+      "name": "36-Pounders",
+      "category": "ship-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Massive cannons built to deliver crushing blows. Reserved for ships capable of bearing its weight and recoil.",
+      "icon": "/imgs/database/items/eid-cannon-36-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-24-perfect-timing-advanced",
+      "slug": "eid-cannon-24-perfect-timing-advanced",
+      "name": "24-Pounders: Perfectly Ordered",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/eid-cannon-24-perfect-timing-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-vulnerability-base",
+      "slug": "eid-cannon-12-vulnerability-base",
+      "name": "12-Pounders: Devastating",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow.",
+      "icon": "/imgs/database/items/eid-cannon-12-vulnerability-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-perfect-timing-base",
+      "slug": "eid-cannon-12-perfect-timing-base",
+      "name": "12-Pounders: Perfectly Ordered",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/eid-cannon-12-perfect-timing-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-36-perfect-timing-advanced",
+      "slug": "eid-cannon-36-perfect-timing-advanced",
+      "name": "36-Pounders: Perfectly Ordered",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/eid-cannon-36-perfect-timing-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-36-vulnerability-base",
+      "slug": "eid-cannon-36-vulnerability-base",
+      "name": "36-Pounders: Devastating",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow that follows.",
+      "icon": "/imgs/database/items/eid-cannon-36-vulnerability-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-cold-barrels-advanced",
+      "slug": "eid-cannon-12-cold-barrels-advanced",
+      "name": "12-Pounder: Tempered",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/eid-cannon-12-cold-barrels-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-vulnerability-advanced",
+      "slug": "eid-cannon-12-vulnerability-advanced",
+      "name": "12-Pounders: Devastating",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow that follows.",
+      "icon": "/imgs/database/items/eid-cannon-12-vulnerability-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-12-perfect-timing-advanced",
+      "slug": "eid-cannon-12-perfect-timing-advanced",
+      "name": "12-Pounders: Perfectly Ordered",
+      "category": "ship-weapon",
+      "tier": "epic",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/eid-cannon-12-perfect-timing-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-24-cold-barrels-base",
+      "slug": "eid-cannon-24-cold-barrels-base",
+      "name": "24-Pounders: Tempered",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/eid-cannon-24-cold-barrels-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-24-blank-base",
+      "slug": "eid-cannon-24-blank-base",
+      "name": "24-Pounders",
+      "category": "ship-weapon",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Powerful, well-balanced cannon forming the backbone of many naval batteries.",
+      "icon": "/imgs/database/items/eid-cannon-24-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-cannon-24-perfect-timing-base",
+      "slug": "eid-cannon-24-perfect-timing-base",
+      "name": "24-Pounders: Perfectly Ordered",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/eid-cannon-24-perfect-timing-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-active-defence-base",
+      "slug": "eid-ship-hull-active-defence-base",
+      "name": "Hull bracing: Keelhold",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Bracing intended to steady the ship during repairs, keeping the keel true while the worst damage is brought under control.",
+      "icon": "/imgs/database/items/eid-ship-hull-active-defence-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-active-defence-advanced",
+      "slug": "eid-ship-hull-active-defence-advanced",
+      "name": "Hull bracing: Keelhold",
+      "category": "ship-hull-mod",
+      "tier": "epic",
+      "level": null,
+      "description": "Bracing intended to steady the ship during repairs, keeping the keel true while the worst damage is brought under control.",
+      "icon": "/imgs/database/items/eid-ship-hull-active-defence-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-improvised-defenses-base",
+      "slug": "eid-ship-hull-improvised-defenses-base",
+      "name": "Hull bracing: Standfast",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Wedges, shores, and lashings kept ready to be driven in when the hull is hit, buying the ship a brief moment to steady herself.",
+      "icon": "/imgs/database/items/eid-ship-hull-improvised-defenses-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-fortified-hull-base",
+      "slug": "eid-ship-hull-fortified-hull-base",
+      "name": "Hull bracing: Iron resolve",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Reinforced where strain is greatest, this bracing is meant to hold when the hull is already failing. Its ironwork is scavenged from wrecks and prizes, reforged and driven into the ship’s bones.",
+      "icon": "/imgs/database/items/eid-ship-hull-fortified-hull-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-blank-base",
+      "slug": "eid-ship-hull-blank-base",
+      "name": "Hull bracing",
+      "category": "ship-hull-mod",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Standard timber bracing added to steady the hull under strain.",
+      "icon": "/imgs/database/items/eid-ship-hull-blank-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-improvised-defenses-advanced",
+      "slug": "eid-ship-hull-improvised-defenses-advanced",
+      "name": "Hull bracing: Standfast",
+      "category": "ship-hull-mod",
+      "tier": "epic",
+      "level": null,
+      "description": "Wedges, shores, and lashings kept ready to be driven in when the hull is hit, buying the ship a brief moment to steady herself.",
+      "icon": "/imgs/database/items/eid-ship-hull-improvised-defenses-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-hull-fortified-hull-advanced",
+      "slug": "eid-ship-hull-fortified-hull-advanced",
+      "name": "Hull bracing: Iron resolve",
+      "category": "ship-hull-mod",
+      "tier": "epic",
+      "level": null,
+      "description": "Reinforced where strain is greatest, this bracing is meant to hold when the hull is already failing. Its ironwork is scavenged from wrecks and prizes, reforged and driven into the ship’s bones.",
+      "icon": "/imgs/database/items/eid-ship-hull-fortified-hull-advanced.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-combat-orders-ambusher",
+      "slug": "eid-ship-combat-orders-ambusher",
+      "name": "Naval Tactics I: Ambush",
+      "category": "ship-combat-order",
+      "tier": "rare",
+      "level": null,
+      "description": "An extended discussion of surprise at sea. One line, underlined and re-underlined by a former captain, cautions that a single well-timed volley is worth more than any number fired in haste.",
+      "icon": "/imgs/database/items/eid-ship-combat-orders-ambusher.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-combat-orders-combat-repairs",
+      "slug": "eid-ship-combat-orders-combat-repairs",
+      "name": "Naval Tactics II: No Quarter",
+      "category": "ship-combat-order",
+      "tier": "rare",
+      "level": null,
+      "description": "A privateer adaptation of Spanish Armada naval practice, favoring close action and decisive endings. The margin notes that ships sent down swiftly spare one’s crew the cost of prolonged prize-taking fights.",
+      "icon": "/imgs/database/items/eid-ship-combat-orders-combat-repairs.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-combat-orders-efficient-consumption",
+      "slug": "eid-ship-combat-orders-efficient-consumption",
+      "name": "Naval Tactics III: Stretch the Supply",
+      "category": "ship-combat-order",
+      "tier": "rare",
+      "level": null,
+      "description": "A long-standing naval practice emphasizing careful rationing and strict issue. Properly husbanded stores are said to keep a ship effective long after others are spent.",
+      "icon": "/imgs/database/items/eid-ship-combat-orders-efficient-consumption.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-combat-orders-suppressing-fire",
+      "slug": "eid-ship-combat-orders-suppressing-fire",
+      "name": "Naval Tactics V: Silence the Guns",
+      "category": "ship-combat-order",
+      "tier": "rare",
+      "level": null,
+      "description": "A French naval doctrine favoring deliberate fire to disrupt enemy batteries. The margin adds, in a coarse and difficult hand: \"Break the rhythm\"",
+      "icon": "/imgs/database/items/eid-ship-combat-orders-suppressing-fire.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-ship-combat-orders-focused-maintenance",
+      "slug": "eid-ship-combat-orders-focused-maintenance",
+      "name": "Naval Tactics IV: Shipshape",
+      "category": "ship-combat-order",
+      "tier": "rare",
+      "level": null,
+      "description": "A well known Royal Navy doctrine holding that a well-kept ship preserves herself. Constant attention to order, repair, and routine is said to spare both hull and crew when battle finally comes.",
+      "icon": "/imgs/database/items/eid-ship-combat-orders-focused-maintenance.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-36-vulnerability-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-36-vulnerability-base",
+      "name": "Plans: Devastating 36-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-vulnerability-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-24-vulnerability-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-24-vulnerability-base",
+      "name": "Plans: Devastating 24-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Guns favored for raking fire that punish alignment errors brutally. Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-vulnerability-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base",
+      "slug": "did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base",
+      "name": "Plans: Iron resolve hull bracing",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Reinforced where strain is greatest, this bracing is meant to hold when the hull is already failing. Its ironwork is scavenged from wrecks and prizes, reforged and driven into the ship’s bones.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-ship-hull-active-defence-base",
+      "slug": "did-misc-recipe-paper-unlock-ship-hull-active-defence-base",
+      "name": "Plans: Keelhold hull bracing",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Bracing intended to steady the ship during repairs, keeping the keel true while the worst damage is brought under control.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-active-defence-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base",
+      "name": "Plans: Perfectly Ordered 36-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base",
+      "name": "Plans: Perfectly Ordered 12-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base",
+      "name": "Plans: Perfectly Ordered 24-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Set out and kept in proper order, these guns cycle cleanly once engaged, answering shot with shot as their motion settles into rhythm.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base",
+      "slug": "did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base",
+      "name": "Plans: Standfast hull bracing",
+      "category": "ship-hull-mod",
+      "tier": "rare",
+      "level": null,
+      "description": "Wedges, shores, and lashings kept ready to be driven in when the hull is hit, buying the ship a brief moment to steady herself.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base",
+      "name": "Plans: Tempered 24-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base",
+      "name": "Plans: Tempered 36-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base",
+      "slug": "did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base",
+      "name": "Plans: Tempered 12-Pounders",
+      "category": "ship-weapon",
+      "tier": "rare",
+      "level": null,
+      "description": "Forged and handled with restraint, these guns are meant to be fired with deliberation, not haste.",
+      "icon": "/imgs/database/items/did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base.webp",
+      "status": "verified",
+      "confidence": "verified"
+    }
+  ]
+}

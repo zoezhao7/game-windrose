@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Complete Windrose crafting recipes database covering workbench, smelting, alchemy, cooking, and building materials. All crafting stations explained with full ingredient lists.">
-    <meta property="og:title" content="Windrose Crafting Recipes Database: All Workbench, Smelting & Alchemy (2026)">
+    <title>Windrose Crafting Recipes Database: All Workbench, Smelting &amp; Alchemy (2026)</title>
+    <meta name="description" content="Complete Windrose crafting recipes database covering workbench, smelting, alchemy, cooking, and building materials. All crafting stations explained with full ingredient lists and progression order.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://windrose-guides.com/crafting">
+    <meta property="og:title" content="Windrose Crafting Recipes Database: All Workbench, Smelting &amp; Alchemy (2026)">
     <meta property="og:description" content="Complete Windrose crafting recipes database covering workbench, smelting, alchemy, cooking, and building materials. All crafting stations explained with full ingredient lists.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://windrose-guides.com/crafting">
     <meta property="og:site_name" content="Windrose Guides">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Windrose Crafting Recipes Database: All Workbench, Smelting & Alchemy (2026)">
+    <meta name="twitter:title" content="Windrose Crafting Recipes Database: All Workbench, Smelting &amp; Alchemy (2026)">
     <meta name="twitter:description" content="Complete Windrose crafting recipes database covering workbench, smelting, alchemy, cooking, and building materials.">
-    <link rel="canonical" href="https://windrose-guides.com/crafting">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Windrose Crafting Recipes Database: All Workbench, Smelting & Alchemy (2026)</title>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -25,8 +26,12 @@
                 "url": "https://windrose-guides.com/crafting",
                 "name": "Windrose Crafting Recipes Database: All Workbench, Smelting & Alchemy (2026)",
                 "description": "Complete Windrose crafting recipes database covering workbench, smelting, alchemy, cooking, and building materials.",
+                "dateModified": "2026-05-16",
                 "isPartOf": {
                     "@id": "https://windrose-guides.com/#website"
+                },
+                "breadcrumb": {
+                    "@id": "https://windrose-guides.com/crafting#breadcrumb"
                 }
             },
             {
@@ -46,6 +51,35 @@
                         "item": "https://windrose-guides.com/crafting"
                     }
                 ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How many crafting stations are in Windrose?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Windrose has 7+ main crafting stations: Workbench (Lv1-3), Charcoal Kiln, Smelting Furnace, Weaponsmith, Armor Workshop, Cooking Station, and Alchemy Lab. Some stations require upgrades or specific placement (e.g. under a roof)."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the crafting progression order in Windrose?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The crafting progression follows: Hand Crafting → Workbench Lv1 → Charcoal Kiln + Smelting Furnace → Workbench Lv2 → Weaponsmith → Armor Workshop → Workbench Lv3. Each tier unlocks recipes that feed into the next."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why can't I see certain crafting recipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most recipes in Windrose are hidden until you collect the primary material for the first time. Pick up new resources to unlock recipes automatically. Some recipes also require upgrading your workbench to the appropriate level."
+                        }
+                    }
+                ]
             }
         ]
     }
@@ -53,65 +87,379 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/crafting" class="active">Crafting</a></li><li><a href="/resources">Resources</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/weapons">Weapons</a></li><li><a href="/builds">Builds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/news">News</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting" class="active">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
-        <ol>
-            <li><a href="/">Home</a></li>
-            <li aria-current="page">Crafting</li>
-        </ol>
+        <div class="container">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li aria-current="page">Crafting</li>
+            </ol>
+        </div>
     </nav>
 
     <main>
         <section class="page-hero">
             <h1>Windrose Crafting Recipes Database</h1>
-            <p class="hero-subtitle">Every crafting recipe in Windrose — from basic workbench tools to advanced smelting and alchemy.</p>
+            <p class="hero-subtitle">Every crafting recipe in Windrose &mdash; from basic workbench tools to advanced smelting, alchemy, and cooking. Find the station, materials, and unlock requirements for any item you need to craft.</p>
         </section>
 
-        <section class="content-section">
-            <h2>Crafting Stations</h2>
-            <p>Windrose features several crafting stations, each with its own recipe tree. The Workbench is your primary station, upgraded through three tiers as you progress. Smelting converts raw ore into usable ingots, while Alchemy, Cooking, and Building each serve specialized roles in your survival journey.</p>
+        <div class="container">
 
-            <div class="quick-nav-grid">
-                <a href="crafting/workbench/" class="quick-nav-card">
-                    <h3>Workbench</h3>
-                    <p>Lv1–Lv3 crafting recipes for tools, weapons, armor, backpacks, and repair kits.</p>
-                    <span class="card-cta">View Recipes →</span>
-                </a>
-                <a href="crafting/smelting/" class="quick-nav-card">
-                    <h3>Smelting</h3>
-                    <p>Convert Copper and Iron ore into ingots using the Smelting Furnace and Charcoal Kiln.</p>
-                    <span class="card-cta">View Recipes →</span>
-                </a>
-                <a href="crafting/alchemy/" class="quick-nav-card">
-                    <h3>Alchemy</h3>
-                    <p>Potions, elixirs, and consumable buffs — data coming as game content is explored.</p>
-                    <span class="card-cta">View Recipes →</span>
-                </a>
-                <a href="crafting/cooking/" class="quick-nav-card">
-                    <h3>Cooking</h3>
-                    <p>Food recipes for health regeneration, stamina boosts, and survival buffs.</p>
-                    <span class="card-cta">View Recipes →</span>
-                </a>
-                <a href="crafting/building/" class="quick-nav-card">
-                    <h3>Building Materials</h3>
-                    <p>Construction components for bases, ships, and fortifications.</p>
-                    <span class="card-cta">View Recipes →</span>
-                </a>
-            </div>
-        </section>
+            <!-- 制作系统概述 -->
+            <section class="content-section">
+                <h2>How Crafting Works in Windrose</h2>
+                <p>Crafting is the core progression system in Windrose. Every piece of equipment, tool, weapon, and consumable you use is built at one of several <strong>crafting stations</strong>. Each station specializes in a different category of items, and most stations can be upgraded to unlock higher-tier recipes.</p>
+                <p>The crafting system follows a <strong>material-gated discovery model</strong>: recipes don't appear in your crafting menu until you pick up the primary ingredient for the first time. This means exploration and resource gathering directly drive your crafting progress.</p>
+
+                <div class="quick-stats">
+                    <div class="stat">
+                        <div class="stat-label">Stations</div>
+                        <div class="stat-value">7+ Main</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Recipes</div>
+                        <div class="stat-value">950+ Items</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Tiers</div>
+                        <div class="stat-value">Stone → Copper → Iron</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 制作站分类导航 -->
+            <section class="content-section">
+                <h2>Crafting Stations</h2>
+                <p>Click any station below to see its complete recipe list, material requirements, and crafting tips.</p>
+
+                <div class="quick-nav-grid">
+                    <a href="/crafting/workbench/" class="card quick-nav-card">
+                        <span class="nav-icon">🔨</span>
+                        <h3>Workbench (Lv1&ndash;Lv3)</h3>
+                        <p>Your primary crafting station. Tools, weapons, armor, backpacks, repair kits, nails, and utility items across three upgrade tiers.</p>
+                    </a>
+                    <a href="/crafting/smelting/" class="card quick-nav-card">
+                        <span class="nav-icon">🔥</span>
+                        <h3>Smelting &amp; Kiln</h3>
+                        <p>Convert Copper and Iron ore into usable ingots. Includes Charcoal Kiln (fuel + ash) and Smelting Furnace recipes.</p>
+                    </a>
+                    <a href="/crafting/alchemy/" class="card quick-nav-card">
+                        <span class="nav-icon">🧪</span>
+                        <h3>Alchemy</h3>
+                        <p>Potions, elixirs, and consumable buffs for combat and exploration. Requires the Alchemy Lab station.</p>
+                    </a>
+                    <a href="/crafting/cooking/" class="card quick-nav-card">
+                        <span class="nav-icon">🍖</span>
+                        <h3>Cooking</h3>
+                        <p>Food recipes for health regeneration, stamina recovery, and survival buffs. From basic grilled meat to advanced dishes.</p>
+                    </a>
+                    <a href="/crafting/building/" class="card quick-nav-card">
+                        <span class="nav-icon">🏗️</span>
+                        <h3>Building Materials</h3>
+                        <p>Walls, floors, roofs, doors, and structural components for base construction, ship building, and fortifications.</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 制作站总览表格 -->
+            <section class="content-section">
+                <h2>Crafting Station Overview</h2>
+                <p>This table shows every major crafting station in Windrose, what you need to build it, and what it unlocks. Use this as a quick reference to plan your progression.</p>
+
+                <div class="table-responsive">
+                    <table>
+                        <caption>All Windrose Crafting Stations &mdash; Requirements &amp; Key Recipes</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Station</th>
+                                <th scope="col">Build Cost</th>
+                                <th scope="col">Prerequisite</th>
+                                <th scope="col">Key Recipes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Workbench Lv1</strong></td>
+                                <td>5 Wood</td>
+                                <td>None</td>
+                                <td>Stone Axe, Stone Pickaxe, Rope, Bandage, Bags, Copper tools</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Charcoal Kiln</strong></td>
+                                <td>25 Wood + 20 Clay</td>
+                                <td>Stone Pickaxe (for clay)</td>
+                                <td>Charcoal (smelting fuel) + Ash (gunpowder ingredient)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Smelting Furnace</strong></td>
+                                <td>15 Clay + 30 Stone</td>
+                                <td>Stone Pickaxe</td>
+                                <td>Copper Ingot, Foothills Iron Ingot, Clay Pot</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Workbench Lv2</strong></td>
+                                <td>Sawhorse add-on</td>
+                                <td>20 Wood + 10 Copper Ingot</td>
+                                <td>Iron tools, Sailor Backpack, Anvil, Fishing Rod</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Weaponsmith</strong></td>
+                                <td>10 Wood + 5 Copper Ingot</td>
+                                <td>Roof required</td>
+                                <td>Saber, Rapier, Club, Musket, Pistol, Blunderbuss</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Armor Workshop</strong></td>
+                                <td>Rough Hide (from Boars)</td>
+                                <td>Roof required</td>
+                                <td>All armor sets (Copper, Iron, Steel tier)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Workbench Lv3</strong></td>
+                                <td>Toolbox add-on</td>
+                                <td>10 Wood + 20 Nails + 5 Iron Ingot</td>
+                                <td>Bosun Backpack, Timber, late-game tools</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 制作升级路线 -->
+            <section class="content-section">
+                <h2>Crafting Progression Order</h2>
+                <p>Not sure what to build first? Follow this recommended progression path to unlock crafting stations in the most efficient order:</p>
+
+                <ol>
+                    <li><strong>Build Bonfire + Workbench Lv1</strong> &mdash; The starting combo. The Bonfire establishes your base zone; the Workbench unlocks Stone tools.</li>
+                    <li><strong>Craft Stone Pickaxe</strong> &mdash; This is the first real progression gate. It lets you mine Copper Ore and Clay.</li>
+                    <li><strong>Build Charcoal Kiln</strong> &mdash; Turns Wood into Charcoal (smelting fuel) and Ash (gunpowder later). Many players skip this &mdash; <em>don't</em>.</li>
+                    <li><strong>Build Smelting Furnace</strong> &mdash; Converts Copper Ore + Charcoal into Copper Ingots. This is the gateway to metal-tier gear.</li>
+                    <li><strong>Craft Copper Tools + Upgrade to Workbench Lv2</strong> &mdash; Build the Sawhorse add-on (20 Wood + 10 Copper Ingot) near your Workbench.</li>
+                    <li><strong>Build Weaponsmith + Armor Workshop</strong> &mdash; Both require a roof overhead. The Weaponsmith unlocks melee and ranged weapons; the Armor Workshop unlocks all armor sets.</li>
+                    <li><strong>Push to Iron + Workbench Lv3</strong> &mdash; Mine Foothills Iron Ore, smelt Iron Ingots, build the Toolbox add-on for endgame recipes.</li>
+                </ol>
+
+                <p>For a complete step-by-step walkthrough, see our <a href="/guides/crafting-progression/">Crafting Progression Guide</a>.</p>
+            </section>
+
+            <!-- 常见错误 -->
+            <section class="content-section">
+                <h2>Common Crafting Mistakes</h2>
+                <ul>
+                    <li><strong>Skipping the Charcoal Kiln</strong> &mdash; You cannot smelt ore without Charcoal. The Kiln is mandatory before the Furnace is useful.</li>
+                    <li><strong>Forgetting roof requirements</strong> &mdash; The Weaponsmith and Armor Workshop will <em>not</em> function without a roof structure above them.</li>
+                    <li><strong>Not picking up new materials</strong> &mdash; Recipes are material-gated. If you don't see a recipe, you probably haven't picked up its key ingredient yet.</li>
+                    <li><strong>Wasting early Copper on low-priority items</strong> &mdash; Prioritize Copper Pickaxe and Copper Axe before spending ingots on cosmetic or situational items.</li>
+                    <li><strong>Ignoring the Bonfire radius</strong> &mdash; Workbench upgrade add-ons (Sawhorse, Toolbox) must be placed within the same Bonfire radius to take effect.</li>
+                </ul>
+            </section>
+
+            <!-- 高价值配方速查 -->
+            <section class="content-section">
+                <h2>Most Searched Recipes</h2>
+                <p>These are the recipes players search for most often. Click any item for details.</p>
+
+                <div class="table-responsive">
+                    <table>
+                        <caption>Top Windrose Crafting Recipes &mdash; Quick Reference</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Station</th>
+                                <th scope="col">Materials</th>
+                                <th scope="col">Why It Matters</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="/database/items/stone-pickaxe/">Stone Pickaxe</a></td>
+                                <td>Workbench Lv1</td>
+                                <td>3 Stone + 3 Wood</td>
+                                <td>Unlocks copper and clay mining</td>
+                            </tr>
+                            <tr>
+                                <td><a href="/database/items/copper-pickaxe/">Copper Pickaxe</a></td>
+                                <td>Workbench Lv1</td>
+                                <td>5 Copper Ingot + 5 Wood</td>
+                                <td>Faster mining, required for iron</td>
+                            </tr>
+                            <tr>
+                                <td><a href="/database/items/torn-sailcloth-bag/">Torn Sailcloth Bag</a></td>
+                                <td>Workbench Lv1</td>
+                                <td>2 Coarse Fabric + 1 Rope</td>
+                                <td>First inventory expansion</td>
+                            </tr>
+                            <tr>
+                                <td><a href="/database/items/sailor-backpack/">Sailor Backpack</a></td>
+                                <td>Workbench Lv2</td>
+                                <td>1 Bag + 5 Rough Hide + 2 Copper Ingot</td>
+                                <td>Major storage upgrade</td>
+                            </tr>
+                            <tr>
+                                <td><a href="/database/items/iron-axe/">Iron Axe</a></td>
+                                <td>Workbench Lv2</td>
+                                <td>5 Iron Ingot + 5 Wood</td>
+                                <td>Harvests Hardwood for Lv3 recipes</td>
+                            </tr>
+                            <tr>
+                                <td><a href="/database/items/repair-kit/">Repair Kit</a></td>
+                                <td>Workbench Lv1</td>
+                                <td>10 Wood</td>
+                                <td>Essential for tool maintenance</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 相关页面链接 -->
+            <section class="content-section">
+                <h2>Related Pages</h2>
+                <div class="quick-nav-grid">
+                    <a href="/guides/crafting-progression/" class="card quick-nav-card">
+                        <span class="nav-icon">📈</span>
+                        <h3>Crafting Progression Guide</h3>
+                        <p>Step-by-step walkthrough of the station unlock order, material requirements, and common mistakes.</p>
+                    </a>
+                    <a href="/tools/recipe-finder/" class="card quick-nav-card">
+                        <span class="nav-icon">🔍</span>
+                        <h3>Recipe Finder Tool</h3>
+                        <p>Search for any Windrose recipe by name, station, or material. Fast answers to crafting questions.</p>
+                    </a>
+                    <a href="/resources/" class="card quick-nav-card">
+                        <span class="nav-icon">⛏️</span>
+                        <h3>Resource Locations</h3>
+                        <p>Where to find every crafting material &mdash; copper, iron, clay, gunpowder, wood, and more.</p>
+                    </a>
+                    <a href="/database/" class="card quick-nav-card">
+                        <span class="nav-icon">🗄️</span>
+                        <h3>Full Item Database</h3>
+                        <p>Browse all 950+ items with crafting recipes, stats, and tier information.</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="content-section">
+                <h2>Frequently Asked Questions</h2>
+
+                <details>
+                    <summary>How many crafting stations are in Windrose?</summary>
+                    <div class="faq-answer">
+                        <p>Windrose has <strong>7+ main crafting stations</strong>: Workbench (Lv1-3), Charcoal Kiln, Smelting Furnace, Weaponsmith, Armor Workshop, Cooking Station, and Alchemy Lab. Some stations require upgrades or specific placement (e.g. under a roof).</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>What is the crafting progression order?</summary>
+                    <div class="faq-answer">
+                        <p>The recommended order is: <strong>Workbench Lv1 → Charcoal Kiln → Smelting Furnace → Copper tools → Workbench Lv2 → Weaponsmith → Armor Workshop → Workbench Lv3</strong>. See our <a href="/guides/crafting-progression/">Crafting Progression Guide</a> for the full walkthrough.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Why can't I see certain recipes?</summary>
+                    <div class="faq-answer">
+                        <p>Windrose uses a <strong>material-gated discovery system</strong>. Recipes remain hidden until you pick up the primary ingredient for the first time. If you're missing a recipe, try gathering new materials from unexplored areas.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Do crafting stations need to be under a roof?</summary>
+                    <div class="faq-answer">
+                        <p>Only the <strong>Weaponsmith</strong> and <strong>Armor Workshop</strong> require a roof to be placed. All other stations (Workbench, Kiln, Furnace, etc.) can be placed outdoors. However, all stations must be within a <strong>Bonfire radius</strong> to function.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>What is the most important early-game crafting recipe?</summary>
+                    <div class="faq-answer">
+                        <p>The <strong>Stone Pickaxe</strong> (3 Stone + 3 Wood at Workbench Lv1) is the single most important early recipe. It unlocks copper ore and clay mining, which opens the entire smelting and mid-game crafting chain.</p>
+                    </div>
+                </details>
+            </section>
+
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Windrose Guides. All rights reserved.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                    <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Guides</h4>
+                    <ul>
+                        <li><a href="/beginner-guide">Beginner Guide</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                        <li><a href="/builds">Build Guides</a></li>
+                        <li><a href="/server-guide">Server Guide</a></li>
+                        <li><a href="/download">Download</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Database</h4>
+                    <ul>
+                        <li><a href="/crafting">Crafting</a></li>
+                        <li><a href="/resources">Resources</a></li>
+                        <li><a href="/bosses">Bosses</a></li>
+                        <li><a href="/ships">Ships</a></li>
+                        <li><a href="/weapons">Weapons</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/tools">Tools</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/search">Search</a></li>
+                        <li><a href="/sources">Sources</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+                <nav>
+                    <a href="/pages">All Pages</a>
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                </nav>
+            </div>
+        </div>
     </footer>
-    <script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
+
+    <script>
+    (function () {
+        var hamburger = document.querySelector('.hamburger');
+        var navLinks = document.querySelector('.nav-links');
+        if (!hamburger || !navLinks) return;
+        hamburger.addEventListener('click', function () {
+            var isOpen = navLinks.classList.toggle('open');
+            hamburger.classList.toggle('open');
+            hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+        document.addEventListener('click', function (e) {
+            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+        });
+    })();
+    </script>
 </body>
 </html>

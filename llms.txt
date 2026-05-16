@@ -11,6 +11,17 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 ### [Getting Started](https://windrose-guides.com/beginner-guide)
 - [Beginner Guide](https://windrose-guides.com/beginner-guide): Day 1 to Day 10 walkthrough, first tools, base building basics
 
+
+### [Strategy Guides](https://windrose-guides.com/guides)
+- [Mining Routes](https://windrose-guides.com/guides/mining-routes): Optimized mining routes for Copper, Iron, Clay, Sulfur
+- [Boss Progression](https://windrose-guides.com/guides/boss-progression): Phase-by-phase boss strategies and progression order
+- [Boss Tracker](https://windrose-guides.com/bosses): Boss strategies, progression order, and drop tables
+- [Best Early Builds](https://windrose-guides.com/guides/best-early-builds): Optimal stat allocation for DPS, Tank, Balanced
+- [Crafting Progression](https://windrose-guides.com/guides/crafting-progression): Efficient crafting order from Day 1 to endgame
+- [Sailing & Navigation](https://windrose-guides.com/guides/sailing-navigation): Wind mechanics, ship types, ocean survival
+- [Co-op Guide](https://windrose-guides.com/guides/coop-multiplayer): Server setup, role specialization, crew coordination
+- [Naval Combat](https://windrose-guides.com/guides/ship-building-naval-combat): Ship building, upgrading, and combat tactics
+
 ### [Crafting Recipes](https://windrose-guides.com/crafting)
 - [Workbench Lv1-3](https://windrose-guides.com/crafting/workbench): Tools, weapons, armor, building materials
 - [Smelting](https://windrose-guides.com/crafting/smelting): Ore to ingot recipes
@@ -43,7 +54,25 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 - [Frequently Asked Questions](https://windrose-guides.com/faq): Common questions about gameplay, progress, and systems
 
 ### [News](https://windrose-guides.com/news)
-- [Latest Updates](https://windrose-guides.com/news): Game updates, patch notes, and community news
+- [News Hub](https://windrose-guides.com/news): All game updates, patch notes, milestones, and guide impact analysis
+- [Patch v0.10.0.5.120](https://windrose-guides.com/news/patch-notes-v0-10-0-5-120): Steam Cloud Saves fix and stability update
+- [Ashlands & Building Update](https://windrose-guides.com/news/ashlands-building-pieces-performance-update): New building pieces, performance improvements, Ashlands biome preview
+- [1.5 Million Copies Sold](https://windrose-guides.com/news/windrose-1-5-million-copies-sold): Accolades trailer and sales milestone
+- [Steam Top Sellers W20](https://windrose-guides.com/news/steam-top-sellers-2026-w20): Week 20 chart presence
+- [Steam Top Sellers W19](https://windrose-guides.com/news/steam-top-sellers-2026-w19): Week 19 chart presence
+
+
+
+### [Tools](https://windrose-guides.com/tools)
+- [Recipe Finder](https://windrose-guides.com/tools/recipe-finder): Workbench level, materials, and crafting use lookup
+- [Progression Checklist](https://windrose-guides.com/tools/progression-checklist): Early route from first camp to copper tools, first ship, and Foothills
+- [Resource Planner](https://windrose-guides.com/tools/resource-planner): Core resources by location, tool gate, and primary use
+- [Ship Selector](https://windrose-guides.com/tools/ship-selector): Sloop vs Brigantine vs Frigate comparison
+
+### [Utility Pages](https://windrose-guides.com/download)
+- [Download & Game Info](https://windrose-guides.com/download): Steam page, Early Access status, developer, publisher, and platform
+- [Dedicated Server Guide](https://windrose-guides.com/server-guide): Hosting checklist and official server documentation link
+- [Sources & Update Policy](https://windrose-guides.com/sources): Verification policy for Early Access guide data
 
 ## Key Topics
 
@@ -53,6 +82,13 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 - Ship building and naval combat mechanics
 - Boss strategies for Charon's Obols and others
 - Build recommendations for DPS, tank, and beginner playstyles
+
+
+### [Chinese Version / 中文版](https://windrose-guides.com/zh/)
+- [中文首页](https://windrose-guides.com/zh/): Windrose 非官方中文攻略站首页
+
+### [Secrets & Easter Eggs](https://windrose-guides.com/guides/secrets)
+- [Hidden Content Tracker](https://windrose-guides.com/guides/secrets): Community-discovered secrets, Easter eggs, and hidden mechanics
 
 ## Contact
 

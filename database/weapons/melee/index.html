@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melee Weapons | Windrose Guides</title>
+<meta name="description" content="All melee weapons in Windrose.">
+<link rel="stylesheet" href="../../../css/style.css">
+<link rel="stylesheet" href="../../db-style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database" class="active">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Categories</div>
+  <ul class="db-nav">
+    <li><a href="/database/" class="db-nav-top">Overview</a></li>
+    <li><a href="/database/" class="db-nav-top">All Items <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Weapons</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub" id="sub-weapons">
+        <li><a href="/database/weapons/" class="db-sub-viewall">View all Weapons</a></li>
+        <li><a href="/database/weapons/melee/" class="db-sub-item">Melee Weapons <span class="db-count">43</span></a></li>
+        <li><a href="/database/weapons/ranged/" class="db-sub-item">Ranged Weapons <span class="db-count">19</span></a></li>
+        <li><a href="/database/weapons/tools/" class="db-sub-item">Tools <span class="db-count">8</span></a></li>
+        <li><a href="/database/weapons/ammo/" class="db-sub-item">Ammo <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ships</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/database/ships/" class="db-sub-viewall">View all Ships</a></li>
+        <li><a href="/database/ships/ship-weapons/" class="db-sub-item">Ship Weapons <span class="db-count">29</span></a></li>
+        <li><a href="/database/ships/hull-modules/" class="db-sub-item">Hull Modules <span class="db-count">10</span></a></li>
+        <li><a href="/database/ships/combat-orders/" class="db-sub-item">Combat Orders <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Resources</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/database/resources/" class="db-sub-viewall">View all Resources</a></li>
+        <li><a href="/database/resources/resources/" class="db-sub-item">Resources <span class="db-count">135</span></a></li>
+        <li><a href="/database/resources/metals/" class="db-sub-item">Metals <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consumables</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/database/consumables/" class="db-sub-viewall">View all Consumables</a></li>
+        <li><a href="/database/consumables/food/" class="db-sub-item">Food <span class="db-count">50</span></a></li>
+        <li><a href="/database/consumables/alchemy/" class="db-sub-item">Alchemy <span class="db-count">11</span></a></li>
+        <li><a href="/database/consumables/medicine/" class="db-sub-item">Medicine <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Equipment</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/database/equipment/" class="db-sub-viewall">View all Equipment</a></li>
+        <li><a href="/database/equipment/armor/" class="db-sub-item">Armor <span class="db-count">41</span></a></li>
+        <li><a href="/database/equipment/rings/" class="db-sub-item">Rings <span class="db-count">36</span></a></li>
+        <li><a href="/database/equipment/necklaces/" class="db-sub-item">Necklaces <span class="db-count">24</span></a></li>
+        <li><a href="/database/equipment/backpacks/" class="db-sub-item">Backpacks <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Misc</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/database/misc/" class="db-sub-viewall">View all Misc</a></li>
+        <li><a href="/database/misc/misc/" class="db-sub-item">Misc <span class="db-count">514</span></a></li>
+        <li><a href="/database/misc/default/" class="db-sub-item">Default <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Database</span> / Weapons / Melee</div>
+    <div class="db-header-meta">WINDROSE GUIDES • DATABASE</div>
+    <h1>Melee Weapons</h1>
+    <p class="db-desc">26 melee weapons.</p>
+    <div class="db-guide-link">📖 <a href="/weapons/melee/">View the full strategy guide for this category →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Search by name..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Showing 130 items
+            <label>Sort <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Name</option><option value="rarity">Rarity</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/eid-melee-weapon-saber-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-blank-base.webp" alt="Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Saber</h3>
+                <p class="db-card-type">Melee • A simple saber, well-suited to hacking d…</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-blank-base.webp" alt="Rapier" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Rapier</h3>
+                <p class="db-card-type">Melee • A balanced rapier without excess. Its gu…</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-blank-base.webp" alt="Club" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Club</h3>
+                <p class="db-card-type">Melee • Sturdy and very heavy. What else do you …</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/spear/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Spear" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Spear</h3>
+                <p class="db-card-type">Melee • Long reach; safe poking range…</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-blank-base.webp" alt="Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Halberd</h3>
+                <p class="db-card-type">Melee • Long enough to keep enemies at bay, and …</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-broken-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-broken-base.webp" alt="Broken Blade" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Broken Blade</h3>
+                <p class="db-card-type">Melee • At least it’s still sharp…
+
+Every good s…</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-parrying-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-parrying-advanced.webp" alt="Dueling Greatsword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Dueling Greatsword</h3>
+                <p class="db-card-type">Melee • A long, straight greatsword, more akin t…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-parrying-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-parrying-base.webp" alt="Dueling Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Dueling Saber</h3>
+                <p class="db-card-type">Melee • The blade of this saber has a bluish tin…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-executioner-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-executioner-base.webp" alt="Executioner" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Executioner</h3>
+                <p class="db-card-type">Melee • The blade of this halberd bears the memo…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-corrupted-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-corrupted-base.webp" alt="Plague Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plague Halberd</h3>
+                <p class="db-card-type">Melee • Wounds the body, destroys the soul. It s…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-flawless-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-flawless-advanced.webp" alt="Razor" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Razor</h3>
+                <p class="db-card-type">Melee • Nassau pirates prefer swift and brutal w…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-bleeding-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-bleeding-advanced.webp" alt="Rapier of a Thousand Cuts" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Rapier of a Thousand Cuts</h3>
+                <p class="db-card-type">Melee • The scarlet rose on the guard of this el…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-eviscerate-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-eviscerate-advanced.webp" alt="Rapier of Devastation" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Rapier of Devastation</h3>
+                <p class="db-card-type">Melee • Plague wood winds its thin shoots around…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-fish-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-fish-base.webp" alt="Smasher" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Smasher</h3>
+                <p class="db-card-type">Melee • A real swordfish — just not a well-known…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-souldrinker-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-souldrinker-base.webp" alt="Soul Eater" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Soul Eater</h3>
+                <p class="db-card-type">Melee • It is said this sword once belonged to t…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-reliable-base.webp" alt="Stalwart Greatsword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stalwart Greatsword</h3>
+                <p class="db-card-type">Melee • A two-handed sword that favors control o…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-reliable-base.webp" alt="Sturdy Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Sturdy Halberd</h3>
+                <p class="db-card-type">Melee • A sturdy weapon built to withstand head-…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-reliable-advanced.webp" alt="Sturdy Mace" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Sturdy Mace</h3>
+                <p class="db-card-type">Melee • A well-crafted flanged mace mounted on a…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-reliable-base.webp" alt="Sturdy Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Sturdy Saber</h3>
+                <p class="db-card-type">Melee • A simple, sturdy saber with no frills. I…</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-reliable-advanced.webp" alt="Sturdy Rapier" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Sturdy Rapier</h3>
+                <p class="db-card-type">Melee • A slender steel rapier, seemingly made f…</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-corrupted-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-corrupted-advanced.webp" alt="Swamp Creature’s Tooth" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Swamp Creature’s Tooth</h3>
+                <p class="db-card-type">Melee • This weapon can not only stun, but also …</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-blank-base.webp" alt="Two-Handed Sword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Two-Handed Sword</h3>
+                <p class="db-card-type">Melee • A greatsword well suited to combat again…</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/cutlass/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Cutlass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Cutlass</h3>
+                <p class="db-card-type">Melee • Tier S</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/boarding-axe/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Boarding Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Boarding Axe</h3>
+                <p class="db-card-type">Melee • Tier B</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/stone-axe/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Stone Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Stone Axe</h3>
+                <p class="db-card-type">Melee • Tier C</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/stone-pickaxe/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Stone Pickaxe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Stone Pickaxe</h3>
+                <p class="db-card-type">Melee • Tier C</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

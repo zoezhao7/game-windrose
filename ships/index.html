@@ -11,14 +11,14 @@
     <meta property="og:url" content="https://windrose-guides.com/ships">
     <meta property="og:title" content="Windrose Ships Guide: Sloop, Brigantine &amp; Frigate (2026)">
     <meta property="og:description" content="Complete Windrose ships guide comparing the Sloop, Brigantine, and Frigate. Learn ship stats, best configurations, and naval combat tips.">
-    <meta property="og:image" content="https://windrose-guides.com/imgs/og-ships.webp">
+    <meta property="og:image" content="https://windrose-guides.com/imgs/og_ships.png">
     <meta property="og:site_name" content="Windrose Guides">
     <meta property="article:published_time" content="2026-01-20">
     <meta property="article:modified_time" content="2026-05-12">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Windrose Ships Guide: Sloop, Brigantine &amp; Frigate (2026)">
     <meta name="twitter:description" content="Complete Windrose ships guide comparing the Sloop, Brigantine, and Frigate. Learn ship stats, best configurations, and naval combat tips.">
-    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og-ships.webp">
+    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og_ships.png">
     <link rel="stylesheet" href="../css/style.css">
     <script type="application/ld+json">
     {
@@ -58,14 +58,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="logo">⚓ Windrose Guides</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/resources">Resources</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships" class="active">Ships</a></li><li><a href="/weapons">Weapons</a></li><li><a href="/builds">Builds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/news">News</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav aria-label="Primary">
+            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships" class="active">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
+        </nav>
+    </div>
+</header>
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
         <div class="container">
@@ -77,50 +77,118 @@
     </nav>
 
     <main class="container">
-        <h1>Windrose Ships Guide: Sloop, Brigantine &amp; Frigate (2026)</h1>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+        <img src="/imgs/icon_ship.png" alt="Icon" style="width: 64px; height: 64px; border-radius: 8px; border: 1px solid var(--border);">
+        <h1 style="margin: 0;">Windrose Ships Guide: Ketch, Brigantine &amp; Frigate (2026)</h1>
+    </div>
 
-        <p>Your ship is your home, your weapon, and your lifeline in <strong>Windrose</strong>. Choosing the right vessel and configuring it properly can mean the difference between dominating the seas and sinking to the depths. This guide covers all three ship classes, their stats, roles, and optimal configurations.</p>
+        <p>Your ship is your home, your weapon, and your lifeline in <strong>Windrose</strong>. Ships are not built piece-by-piece &mdash; you unlock <strong>blueprints</strong> and construct the vessel as a whole at a <strong>Wharf</strong>. Every ship class comes in three distinct variants: <strong>Stock</strong> (balanced), <strong>Brethren</strong> (tanky/high cargo), and <strong>Blackbeard</strong> (fast/high firepower).</p>
 
         <section>
-            <h2>Ship Comparison Table</h2>
-
+            <h2>Ship Variant Comparison</h2>
             <div class="table-responsive">
                 <table>
-                    <caption>Windrose Ship Class Comparison — All Stats</caption>
+                    <caption>All Ship Classes &amp; Variants &mdash; HP, Speed, and Role</caption>
                     <thead>
                         <tr>
-                            <th>Ship</th>
-                            <th>Speed</th>
-                            <th>Firepower</th>
-                            <th>Armor</th>
-                            <th>Crew Capacity</th>
-                            <th>Primary Role</th>
+                            <th scope="col">Class</th>
+                            <th scope="col">Variant</th>
+                            <th scope="col">HP</th>
+                            <th scope="col">Speed (kn)</th>
+                            <th scope="col">Key Characteristics</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="/ships/sloop"><strong>Sloop</strong></a></td>
-                            <td><span class="badge badge-epic">High</span></td>
-                            <td><span class="badge badge-common">Low</span></td>
-                            <td><span class="badge badge-common">Low</span></td>
-                            <td>1-2</td>
-                            <td>Scout, Solo Play, Hit-and-Run</td>
+                            <td rowspan="3"><strong>Ketch</strong> (Tier 1)</td>
+                            <td>Stock</td>
+                            <td>50,000</td>
+                            <td>19</td>
+                            <td>Balanced starter ship; early exploration and basic combat</td>
                         </tr>
                         <tr>
-                            <td><a href="/ships/brigantine"><strong>Brigantine</strong></a></td>
-                            <td><span class="badge badge-rare">Medium</span></td>
-                            <td><span class="badge badge-rare">Medium</span></td>
-                            <td><span class="badge badge-rare">Medium</span></td>
-                            <td>2-4</td>
-                            <td>Versatile, Balanced, All-Purpose</td>
+                            <td>Brethren</td>
+                            <td>65,000</td>
+                            <td>17</td>
+                            <td>Highest health and cargo capacity in tier</td>
                         </tr>
                         <tr>
-                            <td><a href="/ships/frigate"><strong>Frigate</strong></a></td>
-                            <td><span class="badge badge-common">Low</span></td>
-                            <td><span class="badge badge-epic">High</span></td>
-                            <td><span class="badge badge-epic">High</span></td>
-                            <td>4-6</td>
-                            <td>Heavy Warship, Tank, Fleet Flagship</td>
+                            <td>Blackbeard</td>
+                            <td>35,000</td>
+                            <td>21</td>
+                            <td>Fastest; highest cannon capacity in tier</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>Brigantine</strong> (Tier 2)</td>
+                            <td>Stock</td>
+                            <td>70,000</td>
+                            <td>20</td>
+                            <td>Solid mid-game all-rounder</td>
+                        </tr>
+                        <tr>
+                            <td>Brethren</td>
+                            <td>90,000</td>
+                            <td>18</td>
+                            <td>Heavy armor and cargo space</td>
+                        </tr>
+                        <tr>
+                            <td>Blackbeard</td>
+                            <td>50,000</td>
+                            <td>22</td>
+                            <td>High speed and superior DPS potential</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>Frigate</strong> (Tier 3)</td>
+                            <td>Stock</td>
+                            <td>160,000</td>
+                            <td>18</td>
+                            <td>Late-game heavy hitter</td>
+                        </tr>
+                        <tr>
+                            <td>Brethren</td>
+                            <td>200,000</td>
+                            <td>16</td>
+                            <td>Apex tank; massive survivability</td>
+                        </tr>
+                        <tr>
+                            <td>Blackbeard</td>
+                            <td>110,000</td>
+                            <td>20</td>
+                            <td>Fastest frigate; supports heaviest cannons</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Unlock Ships</h2>
+            <p>Each ship requires a <strong>blueprint</strong> and construction at a <strong>Wharf</strong> (built near the shoreline):</p>
+            <div class="table-responsive">
+                <table>
+                    <caption>Ship Blueprint Unlock Requirements</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Ship</th>
+                            <th scope="col">How to Unlock</th>
+                            <th scope="col">Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ketch</strong></td>
+                            <td>Main quest &ldquo;I Need A Bigger Boat&rdquo; &mdash; repair stranded vessel</td>
+                            <td>Free (quest reward)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Brigantine</strong></td>
+                            <td>Reputation Level 2 with Brethren of the Coast</td>
+                            <td>1,000 Piastre (blueprint from Tortuga)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Frigate</strong></td>
+                            <td>Reputation Level 4 with Brethren of the Coast</td>
+                            <td>3,000 Piastre (blueprint from Tortuga)</td>
                         </tr>
                     </tbody>
                 </table>
@@ -129,67 +197,64 @@
 
         <section>
             <h2>Ship Overviews</h2>
-
             <div class="quick-nav-grid">
                 <a href="/ships/sloop" class="card quick-nav-card">
-                    <div class="nav-icon">&#9973;</div>
-                    <h3>Sloop</h3>
-                    <p>Fast and agile. Perfect for solo scouts and hit-and-run tactics. Low firepower but unmatched maneuverability.</p>
+                    <img src="/imgs/ship_ketch.png" alt="Ketch" style="width: 64px; height: 64px; border-radius: 8px; margin-bottom: 0.5rem;">
+                    <h3>Ketch (Tier 1)</h3>
+                    <p>Your first real ship. Fast and agile. Perfect for solo play and early exploration. Low firepower but great maneuverability.</p>
                 </a>
-
                 <a href="/ships/brigantine" class="card quick-nav-card">
-                    <div class="nav-icon">&#9873;</div>
-                    <h3>Brigantine</h3>
-                    <p>Balanced speed and firepower. The most versatile ship for general gameplay and the recommended choice for most boss encounters.</p>
+                    <img src="/imgs/ship_brigantine.png" alt="Brigantine" style="width: 64px; height: 64px; border-radius: 8px; margin-bottom: 0.5rem;">
+                    <h3>Brigantine (Tier 2)</h3>
+                    <p>The mid-game workhorse. Balanced speed and firepower. The recommended choice for most content and boss encounters.</p>
                 </a>
-
                 <a href="/ships/frigate" class="card quick-nav-card">
-                    <div class="nav-icon">&#9872;</div>
-                    <h3>Frigate</h3>
-                    <p>Heavy firepower and armor. A floating fortress with the largest crew capacity, ideal for fleet combat and endgame content.</p>
+                    <img src="/imgs/ship_frigate.png" alt="Frigate" style="width: 64px; height: 64px; border-radius: 8px; margin-bottom: 0.5rem;">
+                    <h3>Frigate (Tier 3)</h3>
+                    <p>Endgame warship. Heavy firepower and armor. A floating fortress with the largest crew capacity for fleet combat.</p>
                 </a>
             </div>
         </section>
 
         <section>
-            <h2>Naval Combat Overview</h2>
-
-            <p>Naval combat in Windrose is a two-layered system that blends ranged cannon warfare with close-quarters boarding combat. Understanding how these layers interact is essential for victory.</p>
-
-            <h3>Ranged Cannon Combat</h3>
-            <p>All ships are equipped with cannons that fire broadside. Positioning is critical — you want your side facing the enemy while minimizing your own exposure. Different cannon types (standard shot, chain shot for sails, heavy shot for armor) give you tactical options depending on your goal: disabling, boarding, or destroying.</p>
-
-            <h3>Boarding &amp; Melee Combat</h3>
-            <p>Once an enemy ship's armor is sufficiently depleted, you can grapple and board for melee combat. Boarding allows you to capture ships intact, loot more resources, and avoid sinking valuable targets. Your crew's melee stats and equipment determine boarding success.</p>
-
-            <h3>Seamless Land-Ship Switching</h3>
-            <p>Windrose features seamless transitions between land exploration and naval gameplay. You can dock at any coastline, disembark to explore islands on foot, and return to your ship without loading screens. This enables fluid gameplay where naval positioning sets up land encounters and vice versa.</p>
-
-            <h3>Crew Management</h3>
-            <p>Each ship has a crew capacity that determines how many crew members you can bring. Larger crews allow specialization — dedicated gunners, repair crews, and boarding parties. Smaller crews on ships like the Sloop require multi-role crew members who can switch between tasks quickly.</p>
+            <h2>Strategic Recommendations</h2>
+            <ul>
+                <li><strong>The Blackbeard Advantage:</strong> Many experienced players favor the <strong>Blackbeard variant</strong> across all tiers. While it has lower health, its superior speed allows you to outmaneuver enemies, and its ability to mount larger-caliber cannons significantly increases damage output.</li>
+                <li><strong>Progression path:</strong> Start by repairing the <strong>Ketch</strong> via the main quest. Save Piastre and materials to jump to the <strong>Brigantine</strong> for mid-game. Invest in the <strong>Frigate</strong> once you have endgame resources and high reputation.</li>
+                <li><strong>Ship gear slots:</strong> Ships have <strong>four gear slots</strong> for cannons and equipment, managed at the Wharf. Prioritize high-poundage cannons on Blackbeard ships for aggressive naval combat.</li>
+                <li><strong>Don't rush naval combat:</strong> Build a Wharf to manage your ship. Prioritize health over raw firepower early on, as you will likely be outnumbered.</li>
+            </ul>
         </section>
 
         <section>
             <h2>Ship Progression Path</h2>
-
-            <p>Most players will progress through ships in the following order:</p>
             <ol>
                 <li><strong>Starter Raft:</strong> The basic vessel you begin with. Limited in every way but sufficient for the tutorial area.</li>
-                <li><strong>Sloop:</strong> Your first real ship upgrade. Unlocks after completing the initial port quests. Ideal for early exploration and learning naval combat basics.</li>
-                <li><strong>Brigantine:</strong> The mid-game workhorse. Unlocked after defeating the second boss or accumulating enough resources. Recommended for the majority of the game's content.</li>
-                <li><strong>Frigate:</strong> The endgame warship. Requires significant resources, rare materials from boss drops, and a large crew. Best saved for late-game challenges and fleet-scale battles.</li>
+                <li><strong>Ketch:</strong> Your first real ship. Unlocked via the main quest &ldquo;I Need A Bigger Boat.&rdquo; Ideal for early exploration and learning naval combat.</li>
+                <li><strong>Brigantine:</strong> The mid-game workhorse. Requires Reputation Level 2 with the Brethren of the Coast and 1,000 Piastre for the blueprint. Recommended for most content.</li>
+                <li><strong>Frigate:</strong> The endgame warship. Requires Reputation Level 4 and 3,000 Piastre. Best saved for late-game challenges and fleet-scale battles.</li>
             </ol>
         </section>
 
         <section>
-            <h2>Ship Upgrades &amp; Customization</h2>
+            <h2>Naval Combat Overview</h2>
+            <h3>Ranged Cannon Combat</h3>
+            <p>All ships are equipped with broadside cannons. Positioning is critical &mdash; keep your side facing the enemy while minimizing your own exposure. Different cannon types (standard shot, chain shot for sails, heavy shot for armor) provide tactical options depending on your goal.</p>
 
-            <p>All ships can be upgraded and customized. Key upgrade categories include:</p>
+            <h3>Boarding &amp; Melee Combat</h3>
+            <p>Once an enemy ship's armor is sufficiently depleted, you can grapple and board for melee combat. Boarding lets you capture ships intact and loot more resources. Your crew's melee stats and equipment determine boarding success.</p>
+
+            <h3>Seamless Land-Ship Switching</h3>
+            <p>Windrose features seamless transitions between land exploration and naval gameplay. Dock at any coastline, disembark to explore islands on foot, and return without loading screens.</p>
+        </section>
+
+        <section>
+            <h2>Ship Upgrades &amp; Customization</h2>
+            <p>All ships can be upgraded and customized at the Wharf. Key upgrade categories:</p>
             <ul>
                 <li><strong>Cannon Upgrades:</strong> Increase firepower, reload speed, and unlock specialty ammunition types.</li>
                 <li><strong>Hull Reinforcements:</strong> Boost armor and structural integrity. Essential for surviving boss encounters.</li>
-                <li><strong>Sail Improvements:</strong> Enhance speed and turning radius. Critical for maneuverability-focused playstyles.</li>
-                <li><strong>Crew Quarters:</strong> Expand crew capacity (limited by ship class maximums) and improve crew morale.</li>
+                <li><strong>Sail Improvements:</strong> Enhance speed and turning radius for maneuverability-focused playstyles.</li>
                 <li><strong>Cosmetics:</strong> Figureheads, sail patterns, hull paints, and lantern colors for visual personalization.</li>
             </ul>
         </section>
@@ -200,6 +265,7 @@
                 <li><a href="/ships/sloop">Sloop Guide — Detailed Stats &amp; Solo Build</a></li>
                 <li><a href="/ships/brigantine">Brigantine Guide — Balanced Ship for All Content</a></li>
                 <li><a href="/ships/frigate">Frigate Guide — Heavy Warship &amp; Endgame Build</a></li>
+                <li><a href="/guides/ship-building-naval-combat/">Ship Building &amp; Naval Combat — Deep-Dive Strategy Guide</a></li>
                 <li><a href="/bosses">Windrose Boss Guide — Which Ship for Each Boss</a></li>
                 <li><a href="/crafting">Windrose Crafting Guide — Ship Upgrade Materials</a></li>
             </ul>
@@ -207,16 +273,53 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/terms">Terms</a>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
             </div>
-            <p>&copy; 2026 Windrose Guides. All rights reserved. Not affiliated with the game developer.</p>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+                    <li><a href="/builds">Build Guides</a></li>
+                    <li><a href="/server-guide">Server Guide</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/bosses">Bosses</a></li>
+                    <li><a href="/ships">Ships</a></li>
+                    <li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/sources">Sources</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+</footer>
 
     <script>document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));});</script>
 </body>

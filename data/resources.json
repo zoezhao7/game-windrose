@@ -1,0 +1,2359 @@
+{
+  "type": "resource_collection",
+  "generated_at": "2026-05-12",
+  "items": [
+    {
+      "id": "clay",
+      "slug": "resources/clay",
+      "name": "Clay",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "common",
+      "biomes": [
+        "Islands",
+        "shorelines",
+        "riverbanks",
+        "low-lying muddy terrain"
+      ],
+      "locations": [
+        "Reddish-brown clay patches",
+        "muddy ground deposits"
+      ],
+      "tool_required": "Any pickaxe; Stone Pickaxe works",
+      "refines_to": [],
+      "used_in": [
+        "Charcoal Kiln",
+        "Smelting Furnace",
+        "Clay Pot",
+        "Clay Bottle",
+        "Alchemy Table"
+      ],
+      "farming_tips": [
+        "Look for muddy patches in the open instead of caves",
+        "Deposits can respawn after several in-game days according to PC Gamer"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "Clay | Windrose Wiki",
+          "url": "https://windrosewiki.com/wiki/resources/clay",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        },
+        {
+          "title": "How to get clay in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-clay/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Windrose Wiki gives high confidence metadata for clay; PC Gamer adds practical harvesting notes."
+    },
+    {
+      "id": "gunpowder",
+      "slug": "resources/gunpowder",
+      "name": "Gunpowder",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "uncommon",
+      "biomes": [
+        "Coastal Jungle",
+        "Foothills"
+      ],
+      "locations": [
+        "Enemy camps with Black Mark pieces",
+        "Crafted at Millstone after sulfur discovery"
+      ],
+      "tool_required": "Millstone for crafting; no tool for looted gunpowder",
+      "refines_to": [],
+      "used_in": [
+        "Ranged weapons",
+        "Ammo usage"
+      ],
+      "farming_tips": [
+        "Crafting recipe is 10 Sulfur + 20 Ash at a Millstone",
+        "Cannot craft until after Revenge Is Best Served Cold and Foothills progression",
+        "Loot enemy camps if you need gunpowder before crafting is unlocked"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "How to make Gunpowder in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "PC Gamer describes gunpowder unlock sequence and crafting recipe."
+    },
+    {
+      "id": "sulfur",
+      "slug": "resources/sulfur",
+      "name": "Sulfur",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "uncommon",
+      "biomes": [
+        "Coastal Jungle",
+        "Foothills"
+      ],
+      "locations": [
+        "Yellow-marbled stone-like deposits",
+        "clumpy yellow sulfur deposits"
+      ],
+      "tool_required": "Iron Pickaxe",
+      "refines_to": [
+        {
+          "item": "Gunpowder",
+          "recipe": "10 Sulfur + 20 Ash at Millstone"
+        }
+      ],
+      "used_in": [
+        "Gunpowder"
+      ],
+      "farming_tips": [
+        "Can be visually subtle; inspect yellow marbling closely",
+        "Recipe unlocks when sulfur is discovered"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "How to make Gunpowder in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "PC Gamer says sulfur can be found in Coastal Jungle and Foothills but requires Iron Pickaxe to mine."
+    },
+    {
+      "id": "ash",
+      "slug": "resources/ash",
+      "name": "Ash",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "common",
+      "biomes": [
+        "Camp/base crafting"
+      ],
+      "locations": [
+        "Charcoal Kiln byproduct",
+        "Millstone conversion from charcoal"
+      ],
+      "tool_required": "Charcoal Kiln or Millstone",
+      "refines_to": [
+        {
+          "item": "Gunpowder",
+          "recipe": "10 Sulfur + 20 Ash at Millstone"
+        }
+      ],
+      "used_in": [
+        "Gunpowder"
+      ],
+      "farming_tips": [
+        "PC Gamer notes 2 Charcoal can be ground into 6 Ash at the Millstone, but charcoal is also needed for ingots"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "How to make Gunpowder in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": ""
+    },
+    {
+      "id": "copper-ore",
+      "slug": "resources/copper",
+      "name": "Copper Ore",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "common",
+      "biomes": [
+        "Coastal Jungle"
+      ],
+      "locations": [
+        "Copper mine / cave deposits"
+      ],
+      "tool_required": "Stone Pickaxe or better",
+      "refines_to": [
+        {
+          "item": "Copper Ingot",
+          "recipe": "6 Copper Ore + 1 Charcoal"
+        }
+      ],
+      "used_in": [
+        "Copper tools",
+        "Nails",
+        "Fast Travel Bell",
+        "Copper Bullet"
+      ],
+      "farming_tips": [
+        "Mine copper early, then return to smelt Copper Ingots for Workbench upgrades"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "Windrose How to Upgrade Your Workbench",
+          "url": "https://mobalytics.gg/news/guides/how-to-upgrade-workbench-windrose",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": "Mobalytics confirms copper mine progression leading into Copper Ingots and Workbench upgrade."
+    },
+    {
+      "id": "foothills-iron-ore",
+      "slug": "resources/foothills-iron",
+      "name": "Foothills Iron Ore",
+      "status": "published",
+      "confidence": "community",
+      "rarity": "uncommon",
+      "biomes": [
+        "Foothills"
+      ],
+      "locations": [
+        "Foothills iron deposits"
+      ],
+      "tool_required": "Copper Pickaxe or better; exact gate needs verification",
+      "refines_to": [
+        {
+          "item": "Foothills Iron Ingot",
+          "recipe": "Iron Ore + Charcoal; quantity needs verification"
+        }
+      ],
+      "used_in": [
+        "Iron tools",
+        "Anvil",
+        "Toolbox",
+        "Iron Bullet",
+        "Sailor Backpack"
+      ],
+      "farming_tips": [
+        "Foothills access is unlocked after Thomas Richards / Revenge Is Best Served Cold according to boss and gunpowder sources"
+      ],
+      "related_pages": [
+        "crafting/workbench",
+        "crafting/smelting"
+      ],
+      "sources": [
+        {
+          "title": "How to make Gunpowder in Windrose",
+          "url": "https://www.pcgamer.com/games/survival-crafting/windrose-gunpowder/",
+          "type": "guide",
+          "accessed": "2026-05-12"
+        },
+        {
+          "title": "Bosses | Windrose Wiki",
+          "url": "https://game.wiki/windrose/bosses",
+          "type": "wiki",
+          "accessed": "2026-05-12"
+        }
+      ],
+      "last_verified": "2026-05-12",
+      "notes": ""
+    },
+    {
+      "id": "did-resource-bromelia-seeds-t03",
+      "slug": "did-resource-bromelia-seeds-t03",
+      "name": "Bromeliad Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Bromeliads.",
+      "icon": "/imgs/database/items/did-resource-bromelia-seeds-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-pepper-t01",
+      "slug": "cid-food-raw-pepper-t01",
+      "name": "Cayenne Pepper",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Large, crisp peppers used to season many a dish. They make the flavor richer—and the bite hotter. Just don’t overdo it.",
+      "icon": "/imgs/database/items/cid-food-raw-pepper-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-pepper-seeds-t01",
+      "slug": "did-resource-pepper-seeds-t01",
+      "name": "Cayenne Pepper Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Cayenne Peppers.",
+      "icon": "/imgs/database/items/did-resource-pepper-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-bromeliaceae-t02",
+      "slug": "did-resource-bromeliaceae-t02",
+      "name": "Bromeliad",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Alchemical ingredient.",
+      "icon": "/imgs/database/items/did-resource-bromeliaceae-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-burrito-meat-t02",
+      "slug": "cid-food-dough-burrito-meat-t02",
+      "name": "Burrito",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A hearty wrap of tender corn tortilla, stuffed with chopped meat and spices.",
+      "icon": "/imgs/database/items/cid-food-dough-burrito-meat-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-alcohol-lucky",
+      "slug": "did-trade-craft-alcohol-lucky",
+      "name": "Brandy",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "A strong distillate imported from France and Spain. A versatile staple—currency in trade, alcohol for medicine, and a rare aid in shipboard and field work.",
+      "icon": "/imgs/database/items/did-trade-craft-alcohol-lucky.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-cane-sugar-t03",
+      "slug": "did-resource-cane-sugar-t03",
+      "name": "Cane Sugar",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Cooking ingredient.",
+      "icon": "/imgs/database/items/did-resource-cane-sugar-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-broadcloth-t04",
+      "slug": "did-resource-broadcloth-t04",
+      "name": "Broadcloth",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-broadcloth-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-chicha-morada-t04",
+      "slug": "cid-food-drink-chicha-morada-t04",
+      "name": "Chicha morada",
+      "category": "food",
+      "tier": "legendary",
+      "level": null,
+      "description": "Taken from ruthless locals, seasoned with grim legends, downed… very quickly.",
+      "icon": "/imgs/database/items/cid-food-drink-chicha-morada-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-coal-t01",
+      "slug": "did-resource-coal-t01",
+      "name": "Charcoal",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Charcoal. Fuel for ore smelting.",
+      "icon": "/imgs/database/items/did-resource-coal-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-soup-chowder-t02",
+      "slug": "cid-food-soup-chowder-t02",
+      "name": "Chowder",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A rich fish soup where you can toss in not just the fish, but whatever else came up with it.",
+      "icon": "/imgs/database/items/cid-food-soup-chowder-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-clay-bottle-t01",
+      "slug": "did-resource-clay-bottle-t01",
+      "name": "Clay Bottle",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A container for alchemical decoctions.",
+      "icon": "/imgs/database/items/did-resource-clay-bottle-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-clay-t01",
+      "slug": "did-resource-clay-t01",
+      "name": "Clay",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Needed for construction and pottery.",
+      "icon": "/imgs/database/items/did-resource-clay-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-coconut-t01",
+      "slug": "cid-food-raw-coconut-t01",
+      "name": "Coconut",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Found on the beach, and on palm trees along the shore in the Coastal Jungle.",
+      "icon": "/imgs/database/items/cid-food-raw-coconut-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-resource-clay-pot-t01",
+      "slug": "eid-resource-clay-pot-t01",
+      "name": "Clay Pot",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Not a helmet. Do not wear on head. Essential for alchemy and cooking.",
+      "icon": "/imgs/database/items/eid-resource-clay-pot-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-sweet-cake-peanut-t03",
+      "slug": "cid-food-sweet-cake-peanut-t03",
+      "name": "Cocoplum Pie",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A rare delight infused with the fresh sweetness of plum and the rich fullness of nuts.",
+      "icon": "/imgs/database/items/cid-food-sweet-cake-peanut-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-fabric-t01",
+      "slug": "did-resource-fabric-t01",
+      "name": "Coarse Fabric",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Not the best fabric, but handy for just about anything.",
+      "icon": "/imgs/database/items/did-resource-fabric-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-coffee-t03",
+      "slug": "cid-food-drink-coffee-t03",
+      "name": "Coffee",
+      "category": "food",
+      "tier": "epic",
+      "level": null,
+      "description": "All-purpose human fuel. Helps you last a few hours past sundown—and keeps you from putting a bullet in your head come morning.",
+      "icon": "/imgs/database/items/cid-food-drink-coffee-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-coconana-t01",
+      "slug": "cid-food-drink-coconana-t01",
+      "name": "Coconut Milk With Bananas",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A refreshing drink of coconut milk and ripe bananas. Quenches thirst and lends strength for long fights beneath a scorching sun.",
+      "icon": "/imgs/database/items/cid-food-drink-coconana-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-icaco-t03",
+      "slug": "cid-food-raw-icaco-t03",
+      "name": "Cocoplum",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Cocoplum. Grows in the Swamps.",
+      "icon": "/imgs/database/items/cid-food-raw-icaco-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-coconut-oil-t04",
+      "slug": "did-resource-coconut-oil-t04",
+      "name": "Coconut Oil",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-coconut-oil-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-soup-coconut-t01",
+      "slug": "cid-food-soup-coconut-t01",
+      "name": "Coconut Soup",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "This thick coconut-milk soup brings hot shores to mind—even in a storm.",
+      "icon": "/imgs/database/items/cid-food-soup-coconut-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-icaco-seeds-t03",
+      "slug": "did-resource-icaco-seeds-t03",
+      "name": "Cocoplum Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Cocoplums.",
+      "icon": "/imgs/database/items/did-resource-icaco-seeds-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-coffee-t03",
+      "slug": "did-resource-coffee-t03",
+      "name": "Coffee Beans",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Fragrant beans. Cooking ingredient.",
+      "icon": "/imgs/database/items/did-resource-coffee-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-copper-ore-t01",
+      "slug": "did-resource-copper-ore-t01",
+      "name": "Copper Ore",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to craft Copper Ingots.",
+      "icon": "/imgs/database/items/did-resource-copper-ore-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "eid-resource-copper-pot-t01",
+      "slug": "eid-resource-copper-pot-t01",
+      "name": "Copper Pot",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Not a helmet. Do not wear on head. Essential for alchemy and cooking.",
+      "icon": "/imgs/database/items/eid-resource-copper-pot-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-crab-shell-t01",
+      "slug": "did-resource-crab-shell-t01",
+      "name": "Crab Shell",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Can be hung on the wall as a trophy.",
+      "icon": "/imgs/database/items/did-resource-crab-shell-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-corn-seeds-t02",
+      "slug": "did-resource-corn-seeds-t02",
+      "name": "Corn Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Corn.",
+      "icon": "/imgs/database/items/did-resource-corn-seeds-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-soup-tomato-crab-t02",
+      "slug": "cid-food-soup-tomato-crab-t02",
+      "name": "Crab Soup with Diced Tomatoes",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "This thick soup, made from freshly caught crab and ripe tomatoes, is equally suited to a hungry sailor and a wealthy merchant alike.",
+      "icon": "/imgs/database/items/cid-food-soup-tomato-crab-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-meat-crab-t01",
+      "slug": "did-resource-meat-crab-t01",
+      "name": "Crab Meat",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Crabs scuttle all over the beaches.",
+      "icon": "/imgs/database/items/did-resource-meat-crab-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-corn-t02",
+      "slug": "cid-food-raw-corn-t02",
+      "name": "Corn",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Fresh corn. It can be ground, roasted, boiled, pickled, baked, added to other dishes—and that’s not even the full list.",
+      "icon": "/imgs/database/items/cid-food-raw-corn-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-metal-copper-ingot-t01",
+      "slug": "did-metal-copper-ingot-t01",
+      "name": "Copper Ingot",
+      "category": "metal",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Used for crafting tools and armor.",
+      "icon": "/imgs/database/items/did-metal-copper-ingot-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-crocodile-head-t03",
+      "slug": "did-resource-crocodile-head-t03",
+      "name": "Crocodile Head",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "The head of a dangerous predator.",
+      "icon": "/imgs/database/items/did-resource-crocodile-head-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-second-reptile-in-swamp-sauce-t03",
+      "slug": "cid-food-second-reptile-in-swamp-sauce-t03",
+      "name": "Crocodile in Swamp Sauce",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A true hunter’s dinner: kill a crocodile, then eat it, dousing the tough meat in lethally hot sauce.",
+      "icon": "/imgs/database/items/cid-food-second-reptile-in-swamp-sauce-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-cornmeal-t02",
+      "slug": "did-resource-cornmeal-t02",
+      "name": "Cornmeal",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Cooking ingredient. Obtained by grinding corn.",
+      "icon": "/imgs/database/items/did-resource-cornmeal-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-crocodile-tail-t03",
+      "slug": "did-resource-crocodile-tail-t03",
+      "name": "Crocodile Tail",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Meaty!",
+      "icon": "/imgs/database/items/did-resource-crocodile-tail-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-soup-bird-broth-t01",
+      "slug": "cid-food-soup-bird-broth-t01",
+      "name": "Dodo Broth",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A delicate, crystal-clear broth made from dodo meat. Served to the sick, the wounded… and sailors after a wild night at the tavern.",
+      "icon": "/imgs/database/items/cid-food-soup-bird-broth-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-dodo-egg-01",
+      "slug": "did-resource-dodo-egg-01",
+      "name": "Dodo Egg",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "An ordinary egg from an extraordinary bird. A tasty and useful find from dodo nests, though they defend their clutch fiercely.",
+      "icon": "/imgs/database/items/did-resource-dodo-egg-01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-dodo-head-t01",
+      "slug": "did-resource-dodo-head-t01",
+      "name": "Dodo Head",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A trophy. Not a bad start for a collection.",
+      "icon": "/imgs/database/items/did-resource-dodo-head-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-elastic-leather-t04",
+      "slug": "did-resource-elastic-leather-t04",
+      "name": "Elastic Leather",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-elastic-leather-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-global-damage",
+      "slug": "cid-alchemy-elixir-global-damage",
+      "name": "Elixir of Cruelty",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "A thick purple elixir with a sharp, spicy scent. It rouses cruelty, making every blow heavier and more merciless.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-global-damage.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-crit-damage",
+      "slug": "cid-alchemy-elixir-crit-damage",
+      "name": "Elixir of Concentration",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "A yellowish, glowing draught with a salty bite. One sip, and spots appear on everyone around you—apparently to make hitting them easier.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-crit-damage.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-damage-resist",
+      "slug": "cid-alchemy-elixir-damage-resist",
+      "name": "Elixir of Pain Relief",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "A cold, jelly-like draught that reeks of wild goat. One sniff and your toes go numb. Alchemists still argue whether it should be drunk at all.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-damage-resist.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-range-damage",
+      "slug": "cid-alchemy-elixir-range-damage",
+      "name": "Elixir of Precision",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "A stark green draught steeped in wolf fangs. They say that if, after a hard night, you place a dog’s fang under your tongue before sleep, your hands won’t shake come morning. The buccaneers of the archipelago took the idea further and brewed this elixir, hoping to save on bullets.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-range-damage.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-gem-agility-t01",
+      "slug": "did-resource-gem-agility-t01",
+      "name": "Emerald",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A stone green as a cat’s eye.",
+      "icon": "/imgs/database/items/did-resource-gem-agility-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-enchanted-ritual-knife-t03",
+      "slug": "did-resource-enchanted-ritual-knife-t03",
+      "name": "Enchanted Ritual Dagger",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "The sharp edges of the stone blade can easily cut flesh. The dagger chills the palm and seems to tremble in the hand with anticipation.",
+      "icon": "/imgs/database/items/did-resource-enchanted-ritual-knife-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-melee-damage",
+      "slug": "cid-alchemy-elixir-melee-damage",
+      "name": "Elixir of Firm Hand",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "An orange elixir with heavy sediment at the bottom, with almost no taste or smell. Drink it and your body swells with strength, your jaw clenches, and speech comes hard, but your saber arm will thank you.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-melee-damage.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-feather-t01",
+      "slug": "did-resource-feather-t01",
+      "name": "Feather",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A hat decoration and alchemical ingredient.",
+      "icon": "/imgs/database/items/did-resource-feather-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-soil-t02",
+      "slug": "did-resource-soil-t02",
+      "name": "Fertile Soil",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Found in abandoned farms in the Foothills.",
+      "icon": "/imgs/database/items/did-resource-soil-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-firefly-t03",
+      "slug": "did-resource-firefly-t03",
+      "name": "Firefly",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A firefly.",
+      "icon": "/imgs/database/items/did-resource-firefly-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-enchanted-fabric-t03",
+      "slug": "did-resource-enchanted-fabric-t03",
+      "name": "Fabric Arborum",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Enchanted cloth.",
+      "icon": "/imgs/database/items/did-resource-enchanted-fabric-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-umbra-essence-t03",
+      "slug": "did-resource-umbra-essence-t03",
+      "name": "Essence Arborum",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An embodied curse.",
+      "icon": "/imgs/database/items/did-resource-umbra-essence-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-second-fish-and-tostones-t02",
+      "slug": "cid-food-second-fish-and-tostones-t02",
+      "name": "Fish and Tostones",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "Fish with golden, twice-fried banana slices. A familiar dish in the Caribbean.",
+      "icon": "/imgs/database/items/cid-food-second-fish-and-tostones-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-ficus-seeds-t01",
+      "slug": "did-resource-ficus-seeds-t01",
+      "name": "Ficus Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow ficus.",
+      "icon": "/imgs/database/items/did-resource-ficus-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-fish-meat-t02",
+      "slug": "did-resource-fish-meat-t02",
+      "name": "Fish Fillet",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A nice-looking piece of fish—it just needs proper cooking!",
+      "icon": "/imgs/database/items/did-resource-fish-meat-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-glass-bottle-t04",
+      "slug": "did-resource-glass-bottle-t04",
+      "name": "Glass Bottle",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-glass-bottle-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-gold-ingot-t03",
+      "slug": "did-resource-gold-ingot-t03",
+      "name": "Gold Ingot",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A gold ingot used to upgrade jewelry.",
+      "icon": "/imgs/database/items/did-resource-gold-ingot-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-grapes-t04",
+      "slug": "cid-food-raw-grapes-t04",
+      "name": "Grape",
+      "category": "food",
+      "tier": "legendary",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/cid-food-raw-grapes-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-potion-great-healing-t01",
+      "slug": "cid-alchemy-potion-great-healing-t01",
+      "name": "Great Healing Potion",
+      "category": "medicine",
+      "tier": "epic",
+      "level": null,
+      "description": "Restores your strength and heals even the deepest wounds.",
+      "icon": "/imgs/database/items/cid-alchemy-potion-great-healing-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-healing-herbs-t01",
+      "slug": "did-resource-healing-herbs-t01",
+      "name": "Healing Herbs",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A bundle of aromatic herbs said to hold vital powers.",
+      "icon": "/imgs/database/items/did-resource-healing-herbs-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-hardwood-t02",
+      "slug": "did-resource-hardwood-t02",
+      "name": "Hardwood",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used for making weapons, ship materials and much more.",
+      "icon": "/imgs/database/items/did-resource-hardwood-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-elite-goat-head-t02",
+      "slug": "did-resource-elite-goat-head-t02",
+      "name": "Head of a Mountain Goat Leader",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A trophy. They say if you stare at it long enough, it will blink. And if you stare at it even longer, it can butt you.",
+      "icon": "/imgs/database/items/did-resource-elite-goat-head-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-potion-enhanced-healing-t01",
+      "slug": "cid-alchemy-potion-enhanced-healing-t01",
+      "name": "Healing Potion",
+      "category": "medicine",
+      "tier": "rare",
+      "level": null,
+      "description": "Heals serious wounds and dulls the pain. Not a miracle in a bottle, but it does the job.",
+      "icon": "/imgs/database/items/cid-alchemy-potion-enhanced-healing-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-soup-broth-with-potato-t02",
+      "slug": "cid-food-soup-broth-with-potato-t02",
+      "name": "Hearty Egg Broth",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A hearty stew cooked when the hold is full of supplies and the crew’s been at sea for less than a week.",
+      "icon": "/imgs/database/items/cid-food-soup-broth-with-potato-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-coin-guinea-t03",
+      "slug": "did-misc-coin-guinea-t03",
+      "name": "Guinea",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "An English gold coin. Essential for securing the finest black-market cargo available on Tortuga.",
+      "icon": "/imgs/database/items/did-misc-coin-guinea-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-enchanted-leather-t03",
+      "slug": "did-resource-enchanted-leather-t03",
+      "name": "Hide Arborum",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Enchanted hide.",
+      "icon": "/imgs/database/items/did-resource-enchanted-leather-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-hewn-stone-t02",
+      "slug": "did-resource-hewn-stone-t02",
+      "name": "Hewn Stone",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Building material.",
+      "icon": "/imgs/database/items/did-resource-hewn-stone-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-healing-herbs-seeds-t01",
+      "slug": "did-resource-healing-herbs-seeds-t01",
+      "name": "Healing Herb Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Healing Herbs.",
+      "icon": "/imgs/database/items/did-resource-healing-herbs-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-threads-needles-02",
+      "slug": "did-trade-craft-threads-needles-02",
+      "name": "Improved Sewing Tools",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "Required for crafting high quality clothing made of fabric",
+      "icon": "/imgs/database/items/did-trade-craft-threads-needles-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-blacksmith-flux-02",
+      "slug": "did-trade-craft-blacksmith-flux-02",
+      "name": "Improved Smithing Flux",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "Required for crafting high-quality metal weapons and armor.",
+      "icon": "/imgs/database/items/did-trade-craft-blacksmith-flux-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-ship-tools-02",
+      "slug": "did-trade-craft-ship-tools-02",
+      "name": "Improved Shipwright’s Tools",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "Required for crafting high-quality cannons and ship equipment",
+      "icon": "/imgs/database/items/did-trade-craft-ship-tools-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-fine-tools-02",
+      "slug": "did-trade-craft-fine-tools-02",
+      "name": "Improved Master’s Tools",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "Required for crafting high-quality firearms and leather armor.",
+      "icon": "/imgs/database/items/did-trade-craft-fine-tools-02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-melee-damage-extra-duration",
+      "slug": "cid-alchemy-elixir-melee-damage-extra-duration",
+      "name": "Infused Elixir of Firm Hand",
+      "category": "alchemy",
+      "tier": "epic",
+      "level": null,
+      "description": "An orange elixir with heavy sediment at the bottom, with almost no taste or smell. Drink it and your body swells with strength, your jaw clenches, and speech comes hard, but your saber arm will thank you.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-melee-damage-extra-duration.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-potion-recall-t01",
+      "slug": "cid-alchemy-potion-recall-t01",
+      "name": "Homeward Journey",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "A light drink with a slightly sweet taste. Too bad it isn’t easy to make—rare ingredients are required.",
+      "icon": "/imgs/database/items/cid-alchemy-potion-recall-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-range-damage-extra-duration",
+      "slug": "cid-alchemy-elixir-range-damage-extra-duration",
+      "name": "Infused Elixir of Precision",
+      "category": "alchemy",
+      "tier": "epic",
+      "level": null,
+      "description": "A stark green draught steeped in wolf fangs. They say that if, after a hard night, you place a dog’s fang under your tongue before sleep, your hands won’t shake come morning. The buccaneers of the archipelago took the idea further and brewed this elixir, hoping to save on bullets.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-range-damage-extra-duration.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-enchanted-ingot-t03",
+      "slug": "did-resource-enchanted-ingot-t03",
+      "name": "Ingot Arborum",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Ingot Arborum.",
+      "icon": "/imgs/database/items/did-resource-enchanted-ingot-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-global-damage-extra-duration",
+      "slug": "cid-alchemy-elixir-global-damage-extra-duration",
+      "name": "Infused Elixir of Cruelty",
+      "category": "alchemy",
+      "tier": "epic",
+      "level": null,
+      "description": "A thick purple elixir with a sharp, spicy scent. It rouses cruelty, making every blow heavier and more merciless.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-global-damage-extra-duration.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-elixir-crit-damage-extra-duration",
+      "slug": "cid-alchemy-elixir-crit-damage-extra-duration",
+      "name": "Infused Elixir of Concentration",
+      "category": "alchemy",
+      "tier": "epic",
+      "level": null,
+      "description": "A yellowish, glowing draught with a salty bite. One sip, and spots appear on everyone around you—apparently to make hitting them easier.",
+      "icon": "/imgs/database/items/cid-alchemy-elixir-crit-damage-extra-duration.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-iron-utensils-t02",
+      "slug": "did-resource-iron-utensils-t02",
+      "name": "Ironware",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Useful for cooking meals and crafting poisons.",
+      "icon": "/imgs/database/items/did-resource-iron-utensils-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-umbra-fruit-t03",
+      "slug": "cid-food-raw-umbra-fruit-t03",
+      "name": "Intoxicating Fruit",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Found in the Swamps.",
+      "icon": "/imgs/database/items/cid-food-raw-umbra-fruit-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-leek-seeds-t03",
+      "slug": "did-resource-leek-seeds-t03",
+      "name": "Leek Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Leek.",
+      "icon": "/imgs/database/items/did-resource-leek-seeds-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-lime-t02",
+      "slug": "cid-food-raw-lime-t02",
+      "name": "Lime",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Grows in the Foothills.",
+      "icon": "/imgs/database/items/cid-food-raw-lime-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-onion-t03",
+      "slug": "did-resource-onion-t03",
+      "name": "Leek",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Found in the Swamps.",
+      "icon": "/imgs/database/items/did-resource-onion-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-lobstershroom-t01",
+      "slug": "did-resource-lobstershroom-t01",
+      "name": "Lobster Mushroom",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Grows in the Swamps.",
+      "icon": "/imgs/database/items/did-resource-lobstershroom-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-linen-fabric-t02",
+      "slug": "did-resource-linen-fabric-t02",
+      "name": "Linen Fabric",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Used in tailoring.",
+      "icon": "/imgs/database/items/did-resource-linen-fabric-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-alcohol-officer",
+      "slug": "did-trade-craft-alcohol-officer",
+      "name": "Madeira",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "A fortified wine shipped from the island of Madeira under the Portuguese flag. It withstands heat and long voyages, making it highly prized by officers, merchants, and shipwrights.",
+      "icon": "/imgs/database/items/did-trade-craft-alcohol-officer.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-lime-tree-seeds-t02",
+      "slug": "did-resource-lime-tree-seeds-t02",
+      "name": "Lime Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Limes.",
+      "icon": "/imgs/database/items/did-resource-lime-tree-seeds-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-fine-tools-01",
+      "slug": "did-trade-craft-fine-tools-01",
+      "name": "Master’s Tools",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Required for crafting quality firearms and leather armor.",
+      "icon": "/imgs/database/items/did-trade-craft-fine-tools-01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-meat-t01",
+      "slug": "did-resource-meat-t01",
+      "name": "Meat",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A fatty cut of meat, fit to be turned into a juicy steak.",
+      "icon": "/imgs/database/items/did-resource-meat-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-second-meat-salad-t02",
+      "slug": "cid-food-second-meat-salad-t02",
+      "name": "Meat Salad",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A perfect dish when you have a bit of this, a bit of that, and whatever else you can find. The only trouble is chasing down the ingredients first.",
+      "icon": "/imgs/database/items/cid-food-second-meat-salad-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-wine-meat-t04",
+      "slug": "cid-food-dough-wine-meat-t04",
+      "name": "Meat in Tomato-Wine Sauce",
+      "category": "food",
+      "tier": "legendary",
+      "level": null,
+      "description": "Tender meat simmered in wine sauce with tomatoes, like booty taken from a Spanish galleon. Served only to those unafraid to lick the blade.",
+      "icon": "/imgs/database/items/cid-food-dough-wine-meat-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-meatshrooms-t03",
+      "slug": "cid-food-skewer-meatshrooms-t03",
+      "name": "Meat in Tangy Mushroom Sauce",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "Tender cuts of meat grilled over an open fire, full of deep flavour and a mouthwatering scent. Wild mushroom sauce gives the meat a savory kick.",
+      "icon": "/imgs/database/items/cid-food-skewer-meatshrooms-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-spicy-reptile-t03",
+      "slug": "cid-food-skewer-spicy-reptile-t03",
+      "name": "Meaty Croc Kebab",
+      "category": "food",
+      "tier": "epic",
+      "level": null,
+      "description": "Tender croc meat and delicate striploin, marinated with leek and rare spices. A hearty meal to celebrate making it back to camp without ending up in a croc’s belly.",
+      "icon": "/imgs/database/items/cid-food-skewer-spicy-reptile-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-alchemy-potion-healing-t01",
+      "slug": "cid-alchemy-potion-healing-t01",
+      "name": "Minor Healing Potion",
+      "category": "medicine",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Quickly mends small cuts and dulls the pain, giving you the strength to fight… or flee.",
+      "icon": "/imgs/database/items/cid-alchemy-potion-healing-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-millstone-parts-t02",
+      "slug": "did-resource-millstone-parts-t02",
+      "name": "Millstone Parts",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Required to craft a millstone.",
+      "icon": "/imgs/database/items/did-resource-millstone-parts-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-misty-orchid-t01",
+      "slug": "did-resource-misty-orchid-t01",
+      "name": "Misty Orchid",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Alchemical ingredient.",
+      "icon": "/imgs/database/items/did-resource-misty-orchid-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-metal-ingot-ancient-t03",
+      "slug": "did-metal-ingot-ancient-t03",
+      "name": "Mire Metal Ingot",
+      "category": "metal",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An ingot smelted from ancient iron of unknown composition.",
+      "icon": "/imgs/database/items/did-metal-ingot-ancient-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-goat-horn-t02",
+      "slug": "did-resource-goat-horn-t02",
+      "name": "Mountain Goat Horn",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Alchemical ingredient.",
+      "icon": "/imgs/database/items/did-resource-goat-horn-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-nails-t01",
+      "slug": "did-resource-nails-t01",
+      "name": "Nails",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Can be salvaged from ship and boat wrecks along the shore.",
+      "icon": "/imgs/database/items/did-resource-nails-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-senkamati-umbra-pepper-t03",
+      "slug": "did-resource-senkamati-umbra-pepper-t03",
+      "name": "Mysterious Spice",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Cooking ingredient.",
+      "icon": "/imgs/database/items/did-resource-senkamati-umbra-pepper-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-navigation-instruments-t04",
+      "slug": "did-resource-navigation-instruments-t04",
+      "name": "Navigational Instruments",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-navigation-instruments-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-palm-seeds-t01",
+      "slug": "did-resource-palm-seeds-t01",
+      "name": "Palm Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow a palm.",
+      "icon": "/imgs/database/items/did-resource-palm-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-pastechi-t02",
+      "slug": "cid-food-dough-pastechi-t02",
+      "name": "Pastechi",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Fried corn dough with a meat filling inside. A traditional appetizer on the islands of Aruba, Bonaire and Curaçao.",
+      "icon": "/imgs/database/items/cid-food-dough-pastechi-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-misc-coin-piastre-t02",
+      "slug": "did-misc-coin-piastre-t02",
+      "name": "Piastre",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A Spanish silver coin. Recognized by every merchant and scoundrel, it is most often claimed by boarding and sinking ships.",
+      "icon": "/imgs/database/items/did-misc-coin-piastre-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-enchanted-wood-t03",
+      "slug": "did-resource-enchanted-wood-t03",
+      "name": "Plague Wood",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Plague Wood",
+      "icon": "/imgs/database/items/did-resource-enchanted-wood-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-fiber-plant-t01",
+      "slug": "did-resource-fiber-plant-t01",
+      "name": "Plant Fiber",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used for making fabric.",
+      "icon": "/imgs/database/items/did-resource-fiber-plant-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-quagmire-powder-t03",
+      "slug": "did-resource-quagmire-powder-t03",
+      "name": "Quagmire Powder",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "This strange powder burns with an unexpectedly bright, fierce flame.",
+      "icon": "/imgs/database/items/did-resource-quagmire-powder-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-sour-tomato-t02",
+      "slug": "cid-food-drink-sour-tomato-t02",
+      "name": "Refreshing Tomato Juice",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Made from ripe tomatoes, this bold red drink is full of flavour.",
+      "icon": "/imgs/database/items/cid-food-drink-sour-tomato-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-rigging-t04",
+      "slug": "did-resource-rigging-t04",
+      "name": "Rigging",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-rigging-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-gem-strengh-t01",
+      "slug": "did-resource-gem-strengh-t01",
+      "name": "Ruby",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Looks like a piece of clotted blood, frozen in stone.",
+      "icon": "/imgs/database/items/did-resource-gem-strengh-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-rope-t01",
+      "slug": "did-resource-rope-t01",
+      "name": "Rope",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "An adventurer’s best friend.",
+      "icon": "/imgs/database/items/did-resource-rope-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-rum-bottle-t03",
+      "slug": "cid-food-rum-bottle-t03",
+      "name": "Rum Bottle",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "The finest seasoning for any pirate dish.",
+      "icon": "/imgs/database/items/cid-food-rum-bottle-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-salt-t03",
+      "slug": "did-resource-salt-t03",
+      "name": "Salt",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Cooking ingredient.",
+      "icon": "/imgs/database/items/did-resource-salt-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-gem-fortitude-t01",
+      "slug": "did-resource-gem-fortitude-t01",
+      "name": "Sapphire",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A sturdy stone the colour of the deep sea.",
+      "icon": "/imgs/database/items/did-resource-gem-fortitude-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-leather-t01",
+      "slug": "did-resource-leather-t01",
+      "name": "Rough Hide",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Future boots or a fine hat.",
+      "icon": "/imgs/database/items/did-resource-leather-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-seafood-harpoon-t02",
+      "slug": "cid-food-skewer-seafood-harpoon-t02",
+      "name": "Seafood Skewer",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Builds patience and willpower.",
+      "icon": "/imgs/database/items/cid-food-skewer-seafood-harpoon-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-second-seafood-platter-t03",
+      "slug": "cid-food-second-seafood-platter-t03",
+      "name": "Seafood Platter",
+      "category": "food",
+      "tier": "epic",
+      "level": null,
+      "description": "Fresh seafood, a sign of the ocean’s generosity. Keeps hunger away for a long time.",
+      "icon": "/imgs/database/items/cid-food-second-seafood-platter-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-threads-needles-01",
+      "slug": "did-trade-craft-threads-needles-01",
+      "name": "Sewing Tools",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Required for crafting quality clothing made of fabric",
+      "icon": "/imgs/database/items/did-trade-craft-threads-needles-01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-ship-tools-01",
+      "slug": "did-trade-craft-ship-tools-01",
+      "name": "Shipwright’s Tools",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Required for crafting quality cannons and ship equipment.",
+      "icon": "/imgs/database/items/did-trade-craft-ship-tools-01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-bush-mancinella-seeds-t01",
+      "slug": "did-resource-bush-mancinella-seeds-t01",
+      "name": "Shrub Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow shrubs.",
+      "icon": "/imgs/database/items/did-resource-bush-mancinella-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-silver-ingot-t02",
+      "slug": "did-resource-silver-ingot-t02",
+      "name": "Silver Ingot",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "A silver ingot, required for upgrading jewelry.",
+      "icon": "/imgs/database/items/did-resource-silver-ingot-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-reptile-t03",
+      "slug": "cid-food-skewer-reptile-t03",
+      "name": "Skewered Crocodile Meat",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Consume it to feel the raw strength of nature flow through you.",
+      "icon": "/imgs/database/items/cid-food-skewer-reptile-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-meat-t01",
+      "slug": "cid-food-skewer-meat-t01",
+      "name": "Skewered Meat",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Meat with a hint of smoke.",
+      "icon": "/imgs/database/items/cid-food-skewer-meat-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-bird-t01",
+      "slug": "cid-food-skewer-bird-t01",
+      "name": "Spicy Breaded Kebab",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "Tastes like chicken.",
+      "icon": "/imgs/database/items/cid-food-skewer-bird-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-blacksmith-flux-01",
+      "slug": "did-trade-craft-blacksmith-flux-01",
+      "name": "Smithing Flux",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Required for crafting quality metal weapons and armor.",
+      "icon": "/imgs/database/items/did-trade-craft-blacksmith-flux-01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-second-bird-on-potato-t01",
+      "slug": "cid-food-second-bird-on-potato-t01",
+      "name": "Spicy “Chicken” with Sweet Potato",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A hearty, spicy dish of meat, hot spices, and sweet potato. Warms you up and restores your strength.",
+      "icon": "/imgs/database/items/cid-food-second-bird-on-potato-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-contraband-goods-t02",
+      "slug": "did-resource-contraband-goods-t02",
+      "name": "Smuggled Goods",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Of great interest to merchants on Tortuga.",
+      "icon": "/imgs/database/items/did-resource-contraband-goods-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-skewer-spicy-crab-t01",
+      "slug": "cid-food-skewer-spicy-crab-t01",
+      "name": "Spicy Skewered Crab",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Crisp, spiced, and hearty enough to satisfy your hunger and lift your mood.",
+      "icon": "/imgs/database/items/cid-food-skewer-spicy-crab-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-icaco-coco-t03",
+      "slug": "cid-food-drink-icaco-coco-t03",
+      "name": "Spicy Swamp Juice",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A light drink with a spicy bite. Helps you outrun crocodiles in the swamps for longer.",
+      "icon": "/imgs/database/items/cid-food-drink-icaco-coco-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-nails-t02",
+      "slug": "did-resource-nails-t02",
+      "name": "Steel Nails",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "High-quality nails brought from the homeland. The most reliable way to get them is to seize them from other ships—or salvage them from wreckage.",
+      "icon": "/imgs/database/items/did-resource-nails-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-stone-t01",
+      "slug": "did-resource-stone-t01",
+      "name": "Stone",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A building material.",
+      "icon": "/imgs/database/items/did-resource-stone-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-sulfur-t01",
+      "slug": "did-resource-sulfur-t01",
+      "name": "Sulfur",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "You better cross yourself, just in case.",
+      "icon": "/imgs/database/items/did-resource-sulfur-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-coco-peanut-t02",
+      "slug": "cid-food-drink-coco-peanut-t02",
+      "name": "Sunmilk Tonic",
+      "category": "food",
+      "tier": "rare",
+      "level": null,
+      "description": "A healing drink of coconut milk, aloe pulp, and crunchy roasted nuts.",
+      "icon": "/imgs/database/items/cid-food-drink-coco-peanut-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-drink-sweet-lime-t02",
+      "slug": "cid-food-drink-sweet-lime-t02",
+      "name": "Sweet Lime Juice",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A sweet and sour drink made from freshly squeezed lime juice and cane sugar.",
+      "icon": "/imgs/database/items/cid-food-drink-sweet-lime-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-sweet-cake-icaco-t03",
+      "slug": "cid-food-sweet-cake-icaco-t03",
+      "name": "Swamp Pie",
+      "category": "food",
+      "tier": "epic",
+      "level": null,
+      "description": "A delicate, fragrant pie made from ingredients that cost half a galleon, plus a mortar on top of that.",
+      "icon": "/imgs/database/items/cid-food-sweet-cake-icaco-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-tamale-t03",
+      "slug": "cid-food-dough-tamale-t03",
+      "name": "Tamale",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Corn dough with filling, wrapped in corn husks and steamed. Crocodile meat makes it especially hearty.",
+      "icon": "/imgs/database/items/cid-food-dough-tamale-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tannin-t02",
+      "slug": "did-resource-tannin-t02",
+      "name": "Tannin",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Has tanning properties and a distinctive astringent taste. Used in the treatment of hides and furs.",
+      "icon": "/imgs/database/items/did-resource-tannin-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tan-leather-t02",
+      "slug": "did-resource-tan-leather-t02",
+      "name": "Tanned Leather",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Used in tailoring.",
+      "icon": "/imgs/database/items/did-resource-tan-leather-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-potato-seeds-t01",
+      "slug": "did-resource-potato-seeds-t01",
+      "name": "Sweet Potato Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Sweet Potato.",
+      "icon": "/imgs/database/items/did-resource-potato-seeds-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-potato-t01",
+      "slug": "did-resource-potato-t01",
+      "name": "Sweet Potato",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A tasty root crop.",
+      "icon": "/imgs/database/items/did-resource-potato-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-sweet-corn-roll-t02",
+      "slug": "cid-food-sweet-corn-roll-t02",
+      "name": "Tangy Nut Roll",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A rich pastry roll with a delicate nutty flavor.",
+      "icon": "/imgs/database/items/cid-food-sweet-corn-roll-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-burrito-beans-t03",
+      "slug": "cid-food-dough-burrito-beans-t03",
+      "name": "Taco",
+      "category": "food",
+      "tier": "epic",
+      "level": null,
+      "description": "Corn tortilla with beans in tomato sauce.",
+      "icon": "/imgs/database/items/cid-food-dough-burrito-beans-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-resin-t03",
+      "slug": "did-resource-resin-t03",
+      "name": "Tar",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Thick and sticky. Perfect for proper tarring.",
+      "icon": "/imgs/database/items/did-resource-resin-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-crocodile-tears-t03",
+      "slug": "did-resource-crocodile-tears-t03",
+      "name": "Tear of Sorrow",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "An incredibly clear liquid with no taste or smell.",
+      "icon": "/imgs/database/items/did-resource-crocodile-tears-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tainted-bile-t03",
+      "slug": "did-resource-tainted-bile-t03",
+      "name": "Tainted Bile",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Bile from the remains of a tainted crocodile.\nObtained from Plague Crocodile.",
+      "icon": "/imgs/database/items/did-resource-tainted-bile-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tarred-fabric-t03",
+      "slug": "did-resource-tarred-fabric-t03",
+      "name": "Tarred Fabric",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Excellent moisture resistance. Suitable for sails and sturdy clothing.",
+      "icon": "/imgs/database/items/did-resource-tarred-fabric-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tarred-planks-t03",
+      "slug": "did-resource-tarred-planks-t03",
+      "name": "Tarred Planks",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Resists moisture exceptionally well—essential for shipbuilding.",
+      "icon": "/imgs/database/items/did-resource-tarred-planks-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-raw-tomato-t02",
+      "slug": "cid-food-raw-tomato-t02",
+      "name": "Tomato",
+      "category": "food",
+      "tier": "common",
+      "level": null,
+      "description": "Lush red tomatoes. They’ve been cultivated by ancient civilizations for centuries.",
+      "icon": "/imgs/database/items/cid-food-raw-tomato-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-gem-precision-t01",
+      "slug": "did-resource-gem-precision-t01",
+      "name": "Topaz",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "Though its color resembles sand, this stone is far more valuable.",
+      "icon": "/imgs/database/items/did-resource-gem-precision-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-wooden-beam-t02",
+      "slug": "did-resource-wooden-beam-t02",
+      "name": "Timber",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Shipbuilding material.\nMade from hardwood found in the Foothills.",
+      "icon": "/imgs/database/items/did-resource-wooden-beam-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "cid-food-dough-corn-casabe-t02",
+      "slug": "cid-food-dough-corn-casabe-t02",
+      "name": "Tortilla",
+      "category": "food",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A thin corn tortilla. Not a feast, but enough to quiet a growling stomach.",
+      "icon": "/imgs/database/items/cid-food-dough-corn-casabe-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tomato-seeds-t02",
+      "slug": "did-resource-tomato-seeds-t02",
+      "name": "Tomato Seeds",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Used to grow Tomatoes.",
+      "icon": "/imgs/database/items/did-resource-tomato-seeds-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tumbago-ingot-t03",
+      "slug": "did-resource-tumbago-ingot-t03",
+      "name": "Tumbaga Ingot",
+      "category": "resource",
+      "tier": "rare",
+      "level": null,
+      "description": "An ancient alloy of copper and gold, discovered by the native peoples in ages past. Required to ascend equipment.",
+      "icon": "/imgs/database/items/did-resource-tumbago-ingot-t03.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-tritons-trumpet-t01",
+      "slug": "did-resource-tritons-trumpet-t01",
+      "name": "Triton's Horn",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A beautiful shell.",
+      "icon": "/imgs/database/items/did-resource-tritons-trumpet-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-bark-t02",
+      "slug": "did-resource-bark-t02",
+      "name": "Tree Bark",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Divi-divi tree bark, harvested only from large trees.",
+      "icon": "/imgs/database/items/did-resource-bark-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-undead-essence-t01",
+      "slug": "did-resource-undead-essence-t01",
+      "name": "Undead Essence",
+      "category": "alchemy",
+      "tier": "rare",
+      "level": null,
+      "description": "Rumored to be used not only in alchemy, but also in the creation of enchanted weapons. A strange substance, slightly cold to the touch.",
+      "icon": "/imgs/database/items/did-resource-undead-essence-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-undead-essence-t02",
+      "slug": "did-resource-undead-essence-t02",
+      "name": "Undead Heart",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Burns your fingers with cold.",
+      "icon": "/imgs/database/items/did-resource-undead-essence-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-vinegar-t04",
+      "slug": "did-resource-vinegar-t04",
+      "name": "Vinegar",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "This Windrose Wiki entry does not ship a long description in the current mirror. Scroll to Crafting for every station row we captured (ingredients, levels, timers) and check whether upgrade tiers are folded into that section when they duplicate the same recipe ladder.",
+      "icon": "/imgs/database/items/did-resource-vinegar-t04.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-wood-t01",
+      "slug": "did-resource-wood-t01",
+      "name": "Wood",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "A building material.",
+      "icon": "/imgs/database/items/did-resource-wood-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-wolf-fang-t02",
+      "slug": "did-resource-wolf-fang-t02",
+      "name": "Wolf Fang",
+      "category": "resource",
+      "tier": "common",
+      "level": null,
+      "description": "Alchemical ingredient. Also used as a material for jewelry.",
+      "icon": "/imgs/database/items/did-resource-wolf-fang-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-trade-craft-alcohol-sugarcane",
+      "slug": "did-trade-craft-alcohol-sugarcane",
+      "name": "Whiskey",
+      "category": "resource",
+      "tier": "epic",
+      "level": null,
+      "description": "A harsh grain spirit imported from Scotland and Ireland. Rare in the Caribbean, and therefore especially prized as a trade good and an ingredient in special recipes.",
+      "icon": "/imgs/database/items/did-trade-craft-alcohol-sugarcane.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-wolf-head-t02",
+      "slug": "did-resource-wolf-head-t02",
+      "name": "Wolf Head",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "A trophy. Ancient peoples served a roasted head as a ritual dish to their chiefs. The real trick was not breaking your teeth on the bones. Perhaps that’s why ancient chiefs rarely smiled…",
+      "icon": "/imgs/database/items/did-resource-wolf-head-t02.webp",
+      "status": "verified",
+      "confidence": "verified"
+    },
+    {
+      "id": "did-resource-planks-wood-t01",
+      "slug": "did-resource-planks-wood-t01",
+      "name": "Wooden Plank",
+      "category": "resource",
+      "tier": "uncommon",
+      "level": null,
+      "description": "Required for shipbuilding.",
+      "icon": "/imgs/database/items/did-resource-planks-wood-t01.webp",
+      "status": "verified",
+      "confidence": "verified"
+    }
+  ],
+  "resources": [
+    {
+      "id": "wood",
+      "name": "Wood",
+      "rarity": "common",
+      "biome": [
+        "all"
+      ],
+      "source": "Chop trees",
+      "tool_required": "Any Axe or bare hands",
+      "used_in": [
+        "bonfire",
+        "workbench",
+        "tent",
+        "charcoal-kiln",
+        "planks",
+        "nails"
+      ],
+      "tips": "Most common resource. Always gather when passing trees.",
+      "confidence": "verified"
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "rarity": "common",
+      "biome": [
+        "all"
+      ],
+      "source": "Pick up loose rocks, mine boulders",
+      "tool_required": "None (loose) / Stone Pickaxe (boulders)",
+      "used_in": [
+        "stone-pickaxe",
+        "stone-axe",
+        "cooking-fire",
+        "smelting-furnace"
+      ],
+      "tips": "Found everywhere on the ground.",
+      "confidence": "verified"
+    },
+    {
+      "id": "plant-fiber",
+      "name": "Plant Fiber",
+      "rarity": "common",
+      "biome": [
+        "all"
+      ],
+      "source": "Harvest bushes and tall grass",
+      "tool_required": "None",
+      "used_in": [
+        "coarse-fabric",
+        "rope",
+        "tent"
+      ],
+      "tips": "Gather constantly. Needed for fabric and rope.",
+      "confidence": "verified"
+    },
+    {
+      "id": "rough-hide",
+      "name": "Rough Hide",
+      "rarity": "uncommon",
+      "biome": [
+        "coastal-jungle"
+      ],
+      "source": "Kill Boars",
+      "tool_required": "Any weapon",
+      "used_in": [
+        "armor-workshop",
+        "survivors-boots",
+        "survivors-vest"
+      ],
+      "tips": "Hunt boars near beaches. First animal drop.",
+      "confidence": "verified"
+    },
+    {
+      "id": "tanned-leather",
+      "name": "Tanned Leather",
+      "rarity": "rare",
+      "biome": [
+        "foothills"
+      ],
+      "source": "Process hides at Tanning Rack",
+      "tool_required": "Tanning Rack",
+      "used_in": [
+        "bosun-backpack",
+        "advanced-armor"
+      ],
+      "tips": "Mid-game material. Requires Foothills progression.",
+      "confidence": "community"
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "rarity": "common",
+      "biome": [
+        "coastal"
+      ],
+      "source": "Harvest salt deposits on beaches",
+      "tool_required": "Stone Pickaxe",
+      "used_in": [
+        "cooking",
+        "preservation"
+      ],
+      "tips": "Found along coastlines.",
+      "confidence": "community"
+    },
+    {
+      "id": "rum",
+      "name": "Rum",
+      "rarity": "uncommon",
+      "biome": [
+        "pirate-camps"
+      ],
+      "source": "Loot from pirate camps and shipwrecks",
+      "tool_required": "None",
+      "used_in": [
+        "trading",
+        "crew-morale"
+      ],
+      "tips": "Also found in Smuggler's Treasure locations.",
+      "confidence": "community"
+    }
+  ],
+  "total": 7,
+  "lastUpdated": "2026-05-13"
+}

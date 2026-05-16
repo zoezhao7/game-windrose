@@ -1,0 +1,237 @@
+{
+  "$schema_note": "Template file only. It documents required JSON formats for Windrose Guides data files. Do not treat the example records as verified game data.",
+  "shared_fields": {
+    "id": "stable lowercase id, e.g. charons-obols",
+    "slug": "site URL slug without leading slash, e.g. bosses/charons-obols",
+    "name": "display name",
+    "status": "published | draft | tracker | needs_verification | retired",
+    "confidence": "official | verified | community | unconfirmed | outdated",
+    "last_verified": "YYYY-MM-DD",
+    "sources": [
+      {
+        "title": "source title",
+        "url": "https://example.com/source",
+        "type": "official | steam | wiki | guide | video | community | internal",
+        "accessed": "YYYY-MM-DD"
+      }
+    ],
+    "notes": "short internal note about uncertainty or version risk"
+  },
+  "boss": {
+    "id": "charons-obols",
+    "slug": "bosses/charons-obols",
+    "name": "Charon's Obols",
+    "status": "published",
+    "confidence": "community",
+    "order": 3,
+    "category": "story | optional | elite | world_event | unconfirmed",
+    "location": "Known location or Needs verification",
+    "biome": "Coastal Jungle | Foothills | Ashlands | Unknown",
+    "recommended_level": "text value, e.g. Verify after latest patch",
+    "recommended_ship": "sloop | brigantine | frigate | none | unknown",
+    "recommended_gear": ["Bandages", "Repair Kits", "Copper Bullets"],
+    "phases": [
+      {
+        "phase": 1,
+        "name": "phase name",
+        "mechanics": ["main attack or mechanic"],
+        "strategy": "how to handle this phase"
+      }
+    ],
+    "drops": [
+      {
+        "item": "drop name",
+        "quantity": "number or text",
+        "confidence": "official | verified | community | unconfirmed"
+      }
+    ],
+    "unlocks": ["new area, recipe, quest, or mechanic"],
+    "faq": [
+      {
+        "question": "FAQ question",
+        "answer": "FAQ answer"
+      }
+    ],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "recipe": {
+    "id": "stone-pickaxe",
+    "slug": "crafting/workbench#stone-pickaxe",
+    "name": "Stone Pickaxe",
+    "status": "published",
+    "confidence": "verified",
+    "category": "tool | weapon | armor | ammo | station | building | food | potion | material",
+    "station": "Workbench",
+    "station_level": 1,
+    "materials": [
+      {
+        "item": "Stone",
+        "quantity": 3
+      },
+      {
+        "item": "Wood",
+        "quantity": 3
+      }
+    ],
+    "result": {
+      "item": "Stone Pickaxe",
+      "quantity": 1
+    },
+    "unlock_condition": "Default | quest | biome | station upgrade | needs verification",
+    "uses": ["Mine copper ore", "Mine clay"],
+    "related_pages": ["resources/copper", "resources/clay"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "resource": {
+    "id": "copper-ore",
+    "slug": "resources/copper",
+    "name": "Copper Ore",
+    "status": "published",
+    "confidence": "verified",
+    "rarity": "common | uncommon | rare | epic | legendary | unknown",
+    "biomes": ["Coastal Jungle"],
+    "locations": ["Copper deposit caves", "map cave/pickaxe icons"],
+    "tool_required": "Stone Pickaxe or better",
+    "refines_to": [
+      {
+        "item": "Copper Ingot",
+        "recipe": "6 Copper Ore + 1 Charcoal"
+      }
+    ],
+    "used_in": ["Copper Pickaxe", "Copper Axe", "Fast Travel Bell"],
+    "farming_tips": ["Bring bandages before entering caves"],
+    "related_pages": ["crafting/smelting", "crafting/workbench"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "ship": {
+    "id": "brigantine",
+    "slug": "ships/brigantine",
+    "name": "Brigantine",
+    "status": "published",
+    "confidence": "community",
+    "role": "balanced exploration and combat",
+    "speed": "low | medium | high | unknown",
+    "firepower": "low | medium | high | unknown",
+    "durability": "low | medium | high | unknown",
+    "handling": "low | medium | high | unknown",
+    "crew_fit": "solo | small_coop | full_coop | unknown",
+    "recommended_for": ["boss preparation", "balanced co-op"],
+    "weaknesses": ["not as nimble as Sloop"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "weapon": {
+    "id": "rapier",
+    "slug": "weapons/melee#rapier",
+    "name": "Rapier",
+    "status": "published",
+    "confidence": "community",
+    "category": "melee | ranged | armor | ammo",
+    "tier": "S | A | B | C | unranked",
+    "level": 3,
+    "attack": 45,
+    "damage_type": "slash | pierce | blunt | ranged | unknown",
+    "materials": [],
+    "best_use": "single-target DPS",
+    "pros": ["fast attacks"],
+    "cons": ["lower stagger"],
+    "related_builds": ["builds/dps-builds"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "build": {
+    "id": "beginner-survival",
+    "slug": "builds/beginner-builds",
+    "name": "Beginner Survival Build",
+    "status": "published",
+    "confidence": "community",
+    "role": "beginner | dps | tank | solo | coop",
+    "recommended_weapons": ["Saber", "Musket"],
+    "recommended_armor": ["early armor set or needs verification"],
+    "recommended_ship": "Sloop",
+    "stats_priority": ["Health", "Stamina"],
+    "playstyle": "short description",
+    "progression_steps": ["craft bandages", "upgrade to copper tools"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "tool_page": {
+    "id": "recipe-finder",
+    "slug": "tools/recipe-finder",
+    "name": "Recipe Finder",
+    "status": "published",
+    "confidence": "internal",
+    "purpose": "what player task this page solves",
+    "inputs": ["recipe data"],
+    "outputs": ["table", "checklist", "filter"],
+    "related_data_files": ["data/recipes.json"],
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "news_item": {
+    "id": "steam-launch-2026-04-14",
+    "slug": "news/windrose-early-access-launch",
+    "title": "Windrose Early Access Launch",
+    "name": "Windrose Early Access Launch",
+    "status": "published",
+    "confidence": "official",
+    "date": "YYYY-MM-DD",
+    "category": "patch_notes | milestone | preview | community | media",
+    "author": "source author name",
+    "source_name": "Steam",
+    "source_url": "https://store.steampowered.com/app/3041230/Windrose/",
+    "summary": "short original summary for list page card (150-200 chars)",
+    "content": "full article body in HTML for detail page rendering",
+    "guide_impact": "which pages should be updated",
+    "tags": ["early-access", "launch"],
+    "related_pages": ["/beginner-guide", "/server-guide"],
+    "thumbnail": "/imgs/news/placeholder.webp",
+    "sources": [],
+    "last_verified": "YYYY-MM-DD",
+    "notes": ""
+  },
+  "page_snapshot": {
+    "id": "bosses",
+    "slug": "bosses",
+    "title": "page title",
+    "description": "meta description",
+    "h1": "main heading",
+    "headings": [
+      {
+        "level": 2,
+        "text": "section heading"
+      }
+    ],
+    "tables": [
+      {
+        "caption": "table caption",
+        "headers": ["Column"],
+        "rows": [["Value"]]
+      }
+    ],
+    "faq": [
+      {
+        "question": "question",
+        "answer": "answer"
+      }
+    ],
+    "links": [
+      {
+        "text": "anchor",
+        "href": "/target"
+      }
+    ],
+    "source_file": "bosses/index.html",
+    "extracted_at": "YYYY-MM-DD"
+  }
+}
