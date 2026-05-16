@@ -3,6 +3,62 @@
   "generated_at": "2026-05-16",
   "items": [
     {
+      "id": "steam-1832700592790876",
+      "slug": "news/windrose-hits-2-million-sales-milestone-proving-yet-again-that-the-world-really-",
+      "name": "Windrose hits 2 million sales milestone, proving yet again that the world really, really wanted a good pirate game",
+      "title": "Windrose hits 2 million sales milestone, proving yet again that the world really, really wanted a good pirate game",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "milestone",
+      "author": "Shaun Prescott",
+      "date": "2026-05-15",
+      "has_detail_page": true,
+      "summary": "Early access pirate sim Windrose has hit two million sales, pretty much exactly a month after its April 14 release date. That's a big number, and to contextualize it with another sales milestone announced this week, it took Silent Hill f more than six months to sell the same amount... Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/qaALDVcsnFmt7BJhz43fVf-1280-80.jpg\"/><br><br>\n                Early access pirate sim Windrose has hit two million sales, pretty much exactly a month after its April 14 release date. That's a big number, and to contextualize it with another sales milestone announced this week, it took Silent Hill f <a href=\"https://www.pcgamer.com/games/horror/konami-belatedly-realises-hey-we-might-have-something-here-as-the-first-properly-new-silent-hill-in-13-years-sells-over-2-million/\">more than six months</a> to sell the same amount...\n                <a href=\"https://www.pcgamer.com/games/action/windrose-hits-2-million-sales-milestone-proving-yet-again-that-the-world-really-really-wanted-a-good-pirate-game/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "milestone"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1832700592790876",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1832700592789857",
+      "slug": "news/2000000-copies-sold-huge-milestone-for-our-game-thanks-to-you",
+      "name": "2,000,000 copies sold — huge milestone for our game, thanks to you!",
+      "title": "2,000,000 copies sold — huge milestone for our game, thanks to you!",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "milestone",
+      "author": "Bambino",
+      "date": "2026-05-14",
+      "has_detail_page": true,
+      "summary": "Hey, captains!Another incredible milestone in our journey — 2,000,000 brave souls have plunged into the Archipelago to live the swashbuckling life alongside us![img src=\"{STEAM_CLAN_IMAGE}/45546879/2c3ce4dce9a3e238446f7cd083c1ffef18815744.png\"]When we first set sail, we could only hope that our game would find such a passionate and dedicated community. Seeing so many of you exploring the seas, sharing your stories, creating content, reporting issues, and supporting us every step of the way...",
+      "content": "<p>Hey, captains!Another incredible milestone in our journey — 2,000,000 brave souls have plunged into the Archipelago to live the swashbuckling life alongside us![img src=\"{STEAM_CLAN_IMAGE}/45546879/2c3ce4dce9a3e238446f7cd083c1ffef18815744.png\"]When we first set sail, we could only hope that our game would find such a passionate and dedicated community. Seeing so many of you exploring the seas, sharing your stories, creating content, reporting issues, and supporting us every step of the way means more than we can properly express.Every screenshot, every stream, every review, every bug report, and every kind word has helped shape this adventure into something truly special. The Archipelago feels alive because of you.In terms of development updates, we’re planning to release another patch soon to address several common issues reported by the community. After that, we begin full production on the next major update. We’re still discussing the scope of that update internally, so it will take some time before we can share more details. However, our goal remains the same: to continue expanding the experience in meaningful ways and make the wait worthwhile.Thank you again, captains. This milestone is a new beginning for us, for the game, and for the community we’re building together. We are deeply touched by your support and will continue working hard to make this adventure worthy of your time and passion.<em>Fair winds and following seas,<br>Kraken Express</em></p>",
+      "guide_impact": "",
+      "tags": [
+        "milestone"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592789857",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
       "id": "steam-top-sellers-2026-w20",
       "slug": "news/steam-top-sellers-2026-w20",
       "name": "Steam Global Top Sellers for week of 5 May — 12 May 2026",
@@ -17,8 +73,15 @@
       "summary": "Windrose remains on the Steam Global Top Sellers chart for Week 20 (May 5–12, 2026), continuing its strong momentum since Early Access launch.",
       "content": "<p><strong>Windrose</strong> continues its impressive chart run, holding a spot on the <strong>Steam Global Top Sellers</strong> list for the week of May 5–12, 2026. This marks the fourth consecutive week the survival RPG has appeared on the chart since its Early Access debut on April 14.</p><h3>What This Means for Players</h3><p>A strong sales presence signals an active and growing player base, which is great news for the game's longevity and future development. With more players joining daily, expect more community-driven discoveries, build strategies, and bug reports that accelerate development.</p><h3>Key Takeaways</h3><ul><li>Windrose has maintained Top Sellers status for <strong>4 consecutive weeks</strong></li><li>The growing player base means more community content and faster wiki data</li><li>Developer Kraken Express has additional resources to fund content updates</li></ul>",
       "guide_impact": "No direct guide changes needed. Indicates strong player interest and validates guide investment.",
-      "tags": ["sales", "steam-charts", "popularity"],
-      "related_pages": ["/download", "/beginner-guide"],
+      "tags": [
+        "sales",
+        "steam-charts",
+        "popularity"
+      ],
+      "related_pages": [
+        "/download",
+        "/beginner-guide"
+      ],
       "sources": [
         {
           "title": "Steam API",
@@ -27,6 +90,34 @@
         }
       ],
       "notes": ""
+    },
+    {
+      "id": "steam-1832065502823892",
+      "slug": "news/steam-global-top-sellers-for-week-of-5-may-12-may-2026",
+      "name": "Steam Global Top Sellers for week of 5 May — 12 May 2026",
+      "title": "Steam Global Top Sellers for week of 5 May — 12 May 2026",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "SteamDB",
+      "date": "2026-05-12",
+      "has_detail_page": true,
+      "summary": "Forza Horizon 6Subnautica 2Diablo® IVGamble With Your FriendsFar Far WestHeroes of Might and Magic: Olden EraDead as DiscoWindroseConan Exiles EnhancedBaldur's Gate 3* excluding free to play gamesView top 100 on SteamDB",
+      "content": "<p><a href=\"https://steamdb.info/topsellers/2026W20/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W20.png\"></a><ol><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/1962700/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica 2</a></li><li><a href=\"https://steamdb.info/app/2344520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Diablo® IV</a></li><li><a href=\"https://steamdb.info/app/3892270/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gamble With Your Friends</a></li><li><a href=\"https://steamdb.info/app/3124540/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Far Far West</a></li><li><a href=\"https://steamdb.info/app/3105440/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Heroes of Might and Magic: Olden Era</a></li><li><a href=\"https://steamdb.info/app/3404260/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead as Disco</a></li><li><a href=\"https://steamdb.info/app/3041230/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Windrose</a></li><li><a href=\"https://steamdb.info/app/440900/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Conan Exiles Enhanced</a></li><li><a href=\"https://steamdb.info/app/1086940/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Baldur's Gate 3</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W20/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1832065502823892",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: SteamDB)"
     },
     {
       "id": "steam-top-sellers-2026-w19",
@@ -43,8 +134,16 @@
       "summary": "Windrose ranks among Steam's Global Top Sellers for Week 19 (April 28 – May 5, 2026), showing strong sustained interest after the Early Access launch.",
       "content": "<p><strong>Windrose</strong> appears on the <strong>Steam Global Top Sellers</strong> chart for the week of April 28 – May 5, 2026. This marks the third week in a row the pirate survival RPG has topped the charts.</p><h3>Why It Matters</h3><p>Sustained chart presence two weeks after launch shows genuine player demand rather than just launch-day hype. The game crossed <strong>1.5 million copies sold</strong> during this period, a significant milestone for an indie Early Access title.</p><h3>Guide Impact</h3><p>With rapid player growth, expect increased demand for beginner guides, crafting recipes, and boss strategies. Our most-visited pages during this period were the <a href=\"/beginner-guide\">Beginner Guide</a> and <a href=\"/crafting\">Crafting Recipes</a>.</p>",
       "guide_impact": "High traffic expected on beginner and crafting guides.",
-      "tags": ["sales", "steam-charts", "popularity"],
-      "related_pages": ["/download", "/beginner-guide", "/crafting"],
+      "tags": [
+        "sales",
+        "steam-charts",
+        "popularity"
+      ],
+      "related_pages": [
+        "/download",
+        "/beginner-guide",
+        "/crafting"
+      ],
       "sources": [
         {
           "title": "Steam API",
@@ -53,6 +152,34 @@
         }
       ],
       "notes": ""
+    },
+    {
+      "id": "steam-1831432155580095",
+      "slug": "news/steam-global-top-sellers-for-week-of-28-apr-5-may-2026",
+      "name": "Steam Global Top Sellers for week of 28 Apr — 5 May 2026",
+      "title": "Steam Global Top Sellers for week of 28 Apr — 5 May 2026",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "SteamDB",
+      "date": "2026-05-05",
+      "has_detail_page": true,
+      "summary": "Steam ControllerHeroes of Might and Magic: Olden EraFar Far WestForza Horizon 6Diablo® IVWindrosePRAGMATADead by DaylightCrimson DesertHELLDIVERS™ 2* excluding free to play gamesView top 100 on SteamDB",
+      "content": "<p><a href=\"https://steamdb.info/topsellers/2026W19/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W19.png\"></a><ol><li><a href=\"https://steamdb.info/app/4165870/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Controller</a></li><li><a href=\"https://steamdb.info/app/3105440/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Heroes of Might and Magic: Olden Era</a></li><li><a href=\"https://steamdb.info/app/3124540/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Far Far West</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/2344520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Diablo® IV</a></li><li><a href=\"https://steamdb.info/app/3041230/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Windrose</a></li><li><a href=\"https://steamdb.info/app/3357650/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">PRAGMATA</a></li><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert</a></li><li><a href=\"https://steamdb.info/app/553850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">HELLDIVERS™ 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W19/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1831432155580095",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: SteamDB)"
     },
     {
       "id": "patch-v0-10-0-5-120",
@@ -69,8 +196,17 @@
       "summary": "Kraken Express rolls out Patch v0.10.0.5.120 targeting Steam Cloud Save corruption and overall game stability improvements.",
       "content": "<p>Developer Kraken Express has released <strong>Patch v0.10.0.5.120</strong> for Windrose, primarily addressing a critical issue with <strong>Steam Cloud Saves</strong> that was causing save corruption for some players.</p><h3>What Changed</h3><ul><li><strong>Steam Cloud Saves Fix</strong> — Resolved an issue where cloud saves could become corrupted during sync, potentially causing progress loss</li><li><strong>Stability Improvements</strong> — General crash fixes and performance optimizations</li><li><strong>Save System Hardening</strong> — Additional safeguards added to prevent future save-related issues</li></ul><h3>Guide Impact Analysis</h3><p>This patch primarily affects the technical side of the game rather than gameplay mechanics. However, players who lost progress due to save corruption may need to revisit early-game content.</p><ul><li><strong>Server Guide</strong>: Dedicated server operators should update to this version. Check our <a href=\"/server-guide\">Dedicated Server Guide</a> for update instructions.</li><li><strong>FAQ</strong>: We've updated our <a href=\"/faq\">FAQ page</a> with information about recovering from save corruption.</li><li><strong>No recipe or balance changes</strong> — All crafting, resource, and boss data remains current.</li></ul><h3>Developer Note</h3><p>Kraken Express stated they will be \"closely monitoring feedback\" after this update, suggesting further stability patches may follow quickly.</p>",
       "guide_impact": "Update /server-guide with new version info. Update /faq with save corruption recovery steps.",
-      "tags": ["patch-notes", "cloud-saves", "stability", "bug-fix"],
-      "related_pages": ["/server-guide", "/faq", "/download"],
+      "tags": [
+        "patch-notes",
+        "cloud-saves",
+        "stability",
+        "bug-fix"
+      ],
+      "related_pages": [
+        "/server-guide",
+        "/faq",
+        "/download"
+      ],
       "sources": [
         {
           "title": "Steam Community Announcements",
@@ -81,56 +217,32 @@
       "notes": ""
     },
     {
-      "id": "ashlands-building-update",
-      "slug": "news/ashlands-building-pieces-performance-update",
-      "name": "New Windrose update fixes your holey roofs with more building pieces, and its performance foundations are now much sturdier",
-      "title": "Ashlands Preview & Building Update — New Pieces, Better Performance",
+      "id": "steam-1831432155576836",
+      "slug": "news/patch-notes-version-01005120-073042fb",
+      "name": "Patch Notes, version: 0.10.0.5.120-073042fb",
+      "title": "Patch Notes, version: 0.10.0.5.120-073042fb",
       "status": "published",
       "confidence": "official",
-      "last_verified": "2026-05-12",
-      "category": "preview",
-      "author": "PCGamesN",
-      "date": "2026-04-30",
-      "has_detail_page": true,
-      "summary": "Kraken Express previews the upcoming Ashlands biome and delivers a building system update with new pieces and major performance improvements.",
-      "content": "<p><strong>Windrose</strong> has been out in open waters for just over two weeks, and developer Kraken Express has already charted a course towards its next major update. The upcoming <strong>Ashlands biome</strong> is the headline feature on the horizon, but in the meantime, players are getting immediate improvements to the building system and performance.</p><h3>New Building Pieces</h3><p>The update adds several new building components that address community feedback about roof construction gaps and limited architectural options:</p><ul><li>New roof corner pieces that eliminate the notorious \"holey roof\" problem</li><li>Additional wall variants for more creative base designs</li><li>Improved snapping system for smoother building placement</li></ul><h3>Performance Improvements</h3><p>The performance update focuses on the foundation systems that affect all aspects of gameplay:</p><ul><li>Reduced frame drops in areas with many structures</li><li>Improved network synchronization for co-op building</li><li>Better memory management for extended play sessions</li></ul><h3>Ashlands Biome Preview</h3><p>While the Ashlands biome is still at least <strong>6 months away</strong>, Kraken Express has teased new environmental hazards, unique resources, and boss encounters that will come with the expansion. Players should focus on mastering current content and preparing strong gear sets.</p><h3>Guide Impact Analysis</h3><ul><li><strong>Building Guide</strong>: Our <a href=\"/building\">Building Guide</a> needs updating with the new roof and wall pieces.</li><li><strong>Beginner Guide</strong>: The improved building system makes base construction more accessible for new players.</li><li><strong>Resource Planning</strong>: No new crafting materials added — existing resource guides remain accurate.</li></ul>",
-      "guide_impact": "Update /building with new building pieces. Note Ashlands timeline in relevant pages.",
-      "tags": ["update", "building", "performance", "ashlands", "preview"],
-      "related_pages": ["/building", "/beginner-guide", "/crafting/building"],
-      "sources": [
-        {
-          "title": "PCGamesN",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1831432155568143",
-          "type": "official"
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "id": "1-5-million-copies-sold",
-      "slug": "news/windrose-1-5-million-copies-sold",
-      "name": "New accolades trailer to celebrate over 1,500,000 copies sold!",
-      "title": "Windrose Celebrates 1.5 Million Copies Sold — Accolades Trailer Released",
-      "status": "published",
-      "confidence": "official",
-      "last_verified": "2026-05-12",
-      "category": "milestone",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
       "author": "Bambino",
-      "date": "2026-04-30",
+      "date": "2026-05-04",
       "has_detail_page": true,
-      "summary": "Kraken Express celebrates 1.5 million copies sold in just two weeks with a new accolades trailer, thanking the community and hinting at future content.",
-      "content": "<p>Ahoy, captains! <strong>Windrose</strong> has officially surpassed <strong>1,500,000 copies sold</strong> in just two weeks since its Early Access launch on April 14, 2026. Developer Kraken Express marked the occasion with a special accolades / thank-you trailer celebrating the milestone.</p><h3>By the Numbers</h3><ul><li><strong>1.5 million+</strong> copies sold in 16 days</li><li><strong>150,000+</strong> peak concurrent players</li><li>Steam Wishlist count exceeded <strong>1.5 million</strong> before launch</li><li>Demo was downloaded over <strong>850,000 times</strong></li></ul><h3>What the Developers Said</h3><p>In their announcement, Kraken Express expressed gratitude to the community: \"That's a token of our appreciation to each and every one of you who believed in Windrose and set sail with us.\" They also hinted at exciting plans for the future of Windrose during its Early Access journey.</p><h3>What This Means for the Game</h3><p>Strong early sales give Kraken Express the resources to deliver on their roadmap, which includes:</p><ul><li>The <strong>Ashlands biome</strong> — a major content expansion expected in 6+ months</li><li>Expansion from 4-player co-op to <strong>8-player co-op</strong></li><li>Approximately <strong>50% more content</strong> planned for the full release</li><li>Continued bug fixes and quality-of-life improvements</li></ul><h3>Guide Impact</h3><p>No direct gameplay changes, but the milestone confirms the game's longevity and validates investing time in comprehensive guides. Expect the player base to continue growing as positive word-of-mouth spreads.</p>",
-      "guide_impact": "No gameplay changes. Update homepage news section with milestone info.",
-      "tags": ["milestone", "sales", "accolades", "trailer"],
-      "related_pages": ["/", "/download", "/beginner-guide"],
+      "summary": "Hey, captains! We’re rolling out a new Steam Cloud Saves update intended to fix the issue with corrupted saves. We’ll be closely monitoring your feedback and will respond accordingly if any issues arise.Version: 0.10.0.5.120-073042fbSave files improvementsImplemented a new storage and backup system for save files[/*]The game now automatically backs up all data every 10 minutes of gameplay and upon exiting[/*]Updated the save file structure for cloud synchronization to minimize syncing...",
+      "content": "<p>Hey, captains! We’re rolling out a new Steam Cloud Saves update intended to fix the issue with corrupted saves. We’ll be closely monitoring your feedback and will respond accordingly if any issues arise.<strong>Version: 0.10.0.5.120-073042fb</strong><h3><strong>Save files improvements</strong></h3><ul><li>Implemented a new storage and backup system for save files[/*]</li><li>The game now automatically backs up all data every 10 minutes of gameplay and upon exiting[/*]</li><li>Updated the save file structure for cloud synchronization to minimize syncing issues[/*]</li><li>Broken save files no longer block the game from loading[/*]</li><li>Data Recovery UI: If the latest save file for a world or character is found to be broken at startup, a special UI window will appear. Players can either quit the game (e.g., to attempt a cloud resync) or recover data from a backup. The game will automatically offer the latest available one[/*]</li><li>Save Migration System: Implemented a system to migrate old save files (pre-version 0.10.0.5.120-073042fb) to the new format. In most cases, this process is seamless and invisible[/*]</li><li>Migration Conflict Handling: If the game detects old, corrupted save files that cannot be properly migrated, a notification window will appear with information about the affected files and a prompt to delete them<u><br></u>[/*]</ul><h3><strong>Other updates</strong></h3><ul></li><li>Fixed an issue where D-pad Left was incorrectly mapped to the \"Take All\" action in the crafting station UI[/*]</li><li>Updated the Wolf Head item icon[/*]</ul><h3><strong>Known Issue</strong></h3><ul></li><li>Characters created before version 0.10.0.4 cannot be deleted due to Steam Cloud synchronization. This is a known issue and will be fixed in a future update.[/*]</li><li>Your game settings will be reset after this patch. Please back them up manually if needed.[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
       "sources": [
         {
           "title": "Steam Community Announcements",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155567652",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155576836",
           "type": "official"
         }
       ],
-      "notes": ""
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
     },
     {
       "id": "cloud-save-dedicated-server-and-stability-related-notices-were-active-topics-after-launch",
@@ -155,6 +267,500 @@
       ],
       "last_verified": "2026-05-12",
       "notes": "Migrated from news page table. No detail page — content covered by patch-v0-10-0-5-120."
+    },
+    {
+      "id": "ashlands-building-update",
+      "slug": "news/ashlands-building-pieces-performance-update",
+      "name": "New Windrose update fixes your holey roofs with more building pieces, and its performance foundations are now much sturdier",
+      "title": "Ashlands Preview & Building Update — New Pieces, Better Performance",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-12",
+      "category": "preview",
+      "author": "PCGamesN",
+      "date": "2026-04-30",
+      "has_detail_page": true,
+      "summary": "Kraken Express previews the upcoming Ashlands biome and delivers a building system update with new pieces and major performance improvements.",
+      "content": "<p><strong>Windrose</strong> has been out in open waters for just over two weeks, and developer Kraken Express has already charted a course towards its next major update. The upcoming <strong>Ashlands biome</strong> is the headline feature on the horizon, but in the meantime, players are getting immediate improvements to the building system and performance.</p><h3>New Building Pieces</h3><p>The update adds several new building components that address community feedback about roof construction gaps and limited architectural options:</p><ul><li>New roof corner pieces that eliminate the notorious \"holey roof\" problem</li><li>Additional wall variants for more creative base designs</li><li>Improved snapping system for smoother building placement</li></ul><h3>Performance Improvements</h3><p>The performance update focuses on the foundation systems that affect all aspects of gameplay:</p><ul><li>Reduced frame drops in areas with many structures</li><li>Improved network synchronization for co-op building</li><li>Better memory management for extended play sessions</li></ul><h3>Ashlands Biome Preview</h3><p>While the Ashlands biome is still at least <strong>6 months away</strong>, Kraken Express has teased new environmental hazards, unique resources, and boss encounters that will come with the expansion. Players should focus on mastering current content and preparing strong gear sets.</p><h3>Guide Impact Analysis</h3><ul><li><strong>Building Guide</strong>: Our <a href=\"/building\">Building Guide</a> needs updating with the new roof and wall pieces.</li><li><strong>Beginner Guide</strong>: The improved building system makes base construction more accessible for new players.</li><li><strong>Resource Planning</strong>: No new crafting materials added — existing resource guides remain accurate.</li></ul>",
+      "guide_impact": "Update /building with new building pieces. Note Ashlands timeline in relevant pages.",
+      "tags": [
+        "update",
+        "building",
+        "performance",
+        "ashlands",
+        "preview"
+      ],
+      "related_pages": [
+        "/building",
+        "/beginner-guide",
+        "/crafting/building"
+      ],
+      "sources": [
+        {
+          "title": "PCGamesN",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1831432155568143",
+          "type": "official"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "1-5-million-copies-sold",
+      "slug": "news/windrose-1-5-million-copies-sold",
+      "name": "New accolades trailer to celebrate over 1,500,000 copies sold!",
+      "title": "Windrose Celebrates 1.5 Million Copies Sold — Accolades Trailer Released",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-12",
+      "category": "milestone",
+      "author": "Bambino",
+      "date": "2026-04-30",
+      "has_detail_page": true,
+      "summary": "Kraken Express celebrates 1.5 million copies sold in just two weeks with a new accolades trailer, thanking the community and hinting at future content.",
+      "content": "<p>Ahoy, captains! <strong>Windrose</strong> has officially surpassed <strong>1,500,000 copies sold</strong> in just two weeks since its Early Access launch on April 14, 2026. Developer Kraken Express marked the occasion with a special accolades / thank-you trailer celebrating the milestone.</p><h3>By the Numbers</h3><ul><li><strong>1.5 million+</strong> copies sold in 16 days</li><li><strong>150,000+</strong> peak concurrent players</li><li>Steam Wishlist count exceeded <strong>1.5 million</strong> before launch</li><li>Demo was downloaded over <strong>850,000 times</strong></li></ul><h3>What the Developers Said</h3><p>In their announcement, Kraken Express expressed gratitude to the community: \"That's a token of our appreciation to each and every one of you who believed in Windrose and set sail with us.\" They also hinted at exciting plans for the future of Windrose during its Early Access journey.</p><h3>What This Means for the Game</h3><p>Strong early sales give Kraken Express the resources to deliver on their roadmap, which includes:</p><ul><li>The <strong>Ashlands biome</strong> — a major content expansion expected in 6+ months</li><li>Expansion from 4-player co-op to <strong>8-player co-op</strong></li><li>Approximately <strong>50% more content</strong> planned for the full release</li><li>Continued bug fixes and quality-of-life improvements</li></ul><h3>Guide Impact</h3><p>No direct gameplay changes, but the milestone confirms the game's longevity and validates investing time in comprehensive guides. Expect the player base to continue growing as positive word-of-mouth spreads.</p>",
+      "guide_impact": "No gameplay changes. Update homepage news section with milestone info.",
+      "tags": [
+        "milestone",
+        "sales",
+        "accolades",
+        "trailer"
+      ],
+      "related_pages": [
+        "/",
+        "/download",
+        "/beginner-guide"
+      ],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155567652",
+          "type": "official"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "steam-1831432155568143",
+      "slug": "news/new-windrose-update-fixes-your-holey-roofs-with-more-building-pieces-and-its-per",
+      "name": "New Windrose update fixes your holey roofs with more building pieces, and its performance foundations are now much sturdier",
+      "title": "New Windrose update fixes your holey roofs with more building pieces, and its performance foundations are now much sturdier",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "editor@pcgamesn.com",
+      "date": "2026-04-30",
+      "has_detail_page": true,
+      "summary": "Windrose has been out in open waters for just over a couple of weeks now, and developer Kraken Express has already charted a course towards its next big update. With new biome Ashlands on the distant horizon, it's time for the studio to swab the decks, board up those leaks, and ensure the piratey survival game is shipshape and ready for the journey ahead. Today's patch does just that, with major networking and performance fixes, as well as the addition of new building pieces, being the main...",
+      "content": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/04/windrose-update-patch-notes-missing-building-pieces-900x506.jpg\"/><p><strong>Windrose</strong> has been out in open waters for just over a couple of weeks now, and developer Kraken Express has already charted a course towards its next big update. With new biome Ashlands on the distant horizon, it's time for the studio to swab the decks, board up those leaks, and ensure the piratey <a href=\"https://www.pcgamesn.com/best-survival-games\">survival game</a> is shipshape and ready for the journey ahead. Today's patch does just that, with major networking and performance fixes, as well as the addition of new building pieces, being the main highlights.</p>\n<p>Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/windrose/update-patch-notes-missing-building-pieces\">New Windrose update fixes your holey roofs with more building pieces, and its performance foundations are now much sturdier</a></p>\n<p>RELATED LINKS:<br />\n<a href=\"https://www.pcgamesn.com/windrose/steam-charts-player-count\">Pirate game Windrose dethrones Steam's survival champion as it sails up the charts</a><br />\n<a href=\"https://www.pcgamesn.com/windrose/fifteen-men-on-a-dead-mans-chest\">Windrose Fifteen Men on a Dead Man's Chest quest guide</a><br />\n<a href=\"https://www.pcgamesn.com/windrose/shovel\">How to get a shovel in Windrose</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "performance",
+        "patch-notes",
+        "bug-fix"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1831432155568143",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PCGamesN)"
+    },
+    {
+      "id": "steam-1831432155567652",
+      "slug": "news/new-accolades-trailer-to-celebrate-over-1500000-copies-sold",
+      "name": "New accolades trailer to celebrate over 1,500,000 copies sold!",
+      "title": "New accolades trailer to celebrate over 1,500,000 copies sold!",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "milestone",
+      "author": "Bambino",
+      "date": "2026-04-30",
+      "has_detail_page": true,
+      "summary": "Over 1,500,000 copies sold and the new trailerWatch on YouTube →Ahoy, captains! As Windrose is sailing into the third week, we’d like to present you this accolades / thank you trailer. That’s a token of our appreciation for your support, patience, and passion. Hopefully you will like it and chuckle at some of the funniest Steam reviews we’ve put in there. With this trailer we also celebrate another milestone – over 1,500,000 copies sold. The community keeps growing, the feedback keeps flowing,...",
+      "content": "<h3><strong>Over 1,500,000 copies sold and the new trailer</strong></h3><p><a href=\"https://www.youtube.com/watch?v=\"gTYd7E40vu4;full\"\" rel=\"nofollow\">Watch on YouTube →</a></p>Ahoy, captains!\n<p>As Windrose is sailing into the third week, we’d like to present you this accolades / thank you trailer. That’s a token of our appreciation for your support, patience, and passion. Hopefully you will like it and chuckle at some of the funniest Steam reviews we’ve put in there. With this trailer we also celebrate another milestone – over 1,500,000 copies sold. The community keeps growing, the feedback keeps flowing, and looking at this, we feel huge gratitude. Thank you for this opportunity, captains! <br>P.S. Don’t forget to check out a new update we’ve rolled out a couple of hours ago, too – hopefully it will make your experience in Windrose smoother!<br><em>Yours,<br>Kraken Express</em></p>",
+      "guide_impact": "",
+      "tags": [
+        "milestone"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155567652",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steam-1831432155567170",
+      "slug": "news/patch-notes-version-01004268-9d2ca277",
+      "name": "Patch Notes: Version 0.10.0.4.268-9d2ca277",
+      "title": "Patch Notes: Version 0.10.0.4.268-9d2ca277",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-04-30",
+      "has_detail_page": true,
+      "summary": "Ahoy, captains![p align=\"justify\"]Thank you for your patience and support throughout our journey. In this update, we’ve focused on addressing some of the most commonly reported issues so far.[p align=\"justify\"]Among the changes, you’ll notice improved connection stability, reduced disk and CPU usage, and a variety of quality-of-life adjustments designed to make your overall experience smoother.[p align=\"justify\"]As for Steam Cloud Save fixes, they’re still on the way. After additional internal...",
+      "content": "<p>Ahoy, captains![p align=\"justify\"]Thank you for your patience and support throughout our journey. In this update, we’ve focused on addressing some of the most commonly reported issues so far.[p align=\"justify\"]Among the changes, you’ll notice improved connection stability, reduced disk and CPU usage, and a variety of quality-of-life adjustments designed to make your overall experience smoother.[p align=\"justify\"]As for Steam Cloud Save fixes, they’re still on the way. After additional internal testing, we decided to give them more time to ensure everything works reliably before release.<h3><strong>Patch notes</strong></h3><strong>Version: 0.10.0.4.268-9d2ca277</strong><h4><strong>Important bits</strong></h4><ul><li>[p align=\"justify\"]Added a new setting: Force Relay Connection. Doesn't work with Direct IP connections. Sometimes players are unable to connect directly to their friends’ games because P2P traffic is blocked along the route. This can happen for many reasons, such as router settings, ISP restrictions, firewall restrictions, and more. This option forces the use of our relay servers instead of a direct P2P connection, which can improve stability at the cost of higher latency (ping)[/*]</li><li>[p align=\"justify\"]Fixed a bug that caused connection issues for players with non-English Windows usernames[/*]</li><li>[p align=\"justify\"]Fixed unnecessary CPU usage on idle servers and clients[/*]</li><li>[p align=\"justify\"]Disk usage during gameplay has been reduced[/*]</li><li>[p align=\"justify\"]Several improvements to ship performance when hosting a server[/*]</li><li>[p align=\"justify\"]Fixed a rare crash caused by invalid inventory slot IDs[/*]</li><li>[p align=\"justify\"]Fixed a crash that occurred when killing Drowned with ship cannon fire[/*]</li><li>[p align=\"justify\"]Reduced the crafting cost of a wide range of building pieces across all building sets (this applies to construction costs, not vendor prices)<br>[/*]</ul><h4><strong>New stuff</strong></h4><ul></li><li>[p align=\"justify\"]Added around 40 missing wall triangle pieces for various roof angles[/*]</li><li>[p align=\"justify\"]Added 3 missing floor triangle pieces to different building sets[/*]</li><li>[p align=\"justify\"]Added 4 new Seedbed variations[/*]</li><li>[p align=\"justify\"]Added new sound effects for when crops transition between growth stages[/*]</li><li>[p align=\"justify\"]Added new sounds for harvesting grown plants at your farm[/*]</li><li>[p align=\"justify\"]Added audio cues for Drowned ranged attacks; they now yell before hurling a projectile[/*]</li><li>[p align=\"justify\"]Added new visual effects for when crops transition between growth stages[/*]</li><li>[p align=\"justify\"]Added new visual effects for harvesting grown plants at your farm[/*]</li><li>[p align=\"justify\"]Bonfire ambient music track has been extended by 3 minutes[/*]</li><li>[p align=\"justify\"]Ship travel ambient track has been extended by 40 seconds<br>[/*]</ul><h4><strong>Interface</strong></h4><ul></li><li>[p align=\"justify\"]Fixed FrameGen stuttering that occurred when closing the inventory or map[/*]</li><li>[p align=\"justify\"]Fixed a video memory (VRAM) spike when opening certain UI windows[/*]</li><li>[p align=\"justify\"]The Disassembly station no longer displays equipped items in the list[/*]</li><li>[p align=\"justify\"]Fast travel markers will now appear on the top layer of the map when fast travel is available[/*]</li><li>[p align=\"justify\"]Fixed remapping issues for the O and L keys[/*]</li><li>[p align=\"justify\"]Arrow key inputs no longer rotate the character camera[/*]</li><li>[p align=\"justify\"]Mouse inversion now correctly affects ship and ship battery controls[/*]</li><li>[p align=\"justify\"]Sensitivity settings now correctly affect aiming with ranged weapons[/*]</li><li>[p align=\"justify\"]The \"\\\" tag will no longer appear in the journal if the shared progress setting is disabled[/*]</li><li>[p align=\"justify\"]Added remapping support for more actions: secondary interactions, inventory management, HUD toggle, etc[/*]</li><li>[p align=\"justify\"]Two-handed firearm controls can now be remapped as well[/*]</li><li>[p align=\"justify\"]The \"Hide UI\" toggle now only hides the HUD and no longer affects the inventory, journal, or other menus[/*]</li><li>[p align=\"justify\"]Added a dedicated setting to adjust safe zones for widescreen monitors[/*]</li><li>[p align=\"justify\"]Fixed a bug where settings could change value even if not directly hovered over by the gamepad cursor[/*]</li><li>[p align=\"justify\"]Fixed a mapping issue for accented letters[/*]</li><li>[p align=\"justify\"]Improved support for accented letters in player and ship names. We are working on expanding our custom font to natively support more languages soon<br>[/*]</ul><h4><strong>Building & Terraforming fixes and improvements</strong></h4><ul></li><li>[p align=\"justify\"]Decorative Canopies now count as roofs for crafting station requirements[/*]</li><li>[p align=\"justify\"]Fixed cases where digging under a tree could cause it to \"hang in the air\"[/*]</li><li>[p align=\"justify\"]Fixed a bug that allowed players to dig under Divi stumps or certain trees in swamps[/*]</li><li>[p align=\"justify\"]Fixed the shovel flatten tool, it now correctly uses the ground under the character's feet as a baseline[/*]</li><li>[p align=\"justify\"]Building integrity now correctly recalculates if a destructible object used as a support is destroyed[/*]</li><li>[p align=\"justify\"]Fixed a bug that caused Crocodile sculptures (Jolly Crocodile Sculpture, Wise Crocodile Sculpture)  to levitate slightly[/*]</li><li>[p align=\"justify\"]Fixed clipping issues with 26-degree Mahogany stairs[/*]</li><li>[p align=\"justify\"]Fixed snapping issues for 26-degree roof corners in the Jungle Survivor set[/*]</li><li>[p align=\"justify\"]Fixed collision issues for 26-degree and 45-degree railings, they can now be correctly placed on foundations and floors[/*]</li><li>[p align=\"justify\"]Fixed square pillar collisions (existing player-built structures should not be affected)[/*]</li><li>[p align=\"justify\"]Fixed the visual offset for pier pillars (existing player-built structures should not be affected)[/*]</li><li>[p align=\"justify\"]Signal Fire now has the correct collision preset (you can now walk over it)[/*]</li><li>[p align=\"justify\"]Saplings can now be planted with higher density (reduced spacing requirements)[/*]</li><li>[p align=\"justify\"]Signal Fire now shares the Comfort buff with other fire-related entities. Pier decorations now correctly provide their own Comfort bonus[/*]</li><li>[p align=\"justify\"]Fixed a bug that occasionally made certain building blocks indestructible<br>[/*]</ul><h4><strong>Other bug fixes and improvements</strong></h4><ul></li><li>[p align=\"justify\"]Improved the drop rate for Tainted Bile[/*]</li><li>[p align=\"justify\"]Hardwood drop rate increased by approximately 20%[/*]</li><li>[p align=\"justify\"]Ship disassembly now requires the player to have enough inventory space (or a nearby chest) to store all returned resources, preventing item loss[/*]</li><li>[p align=\"justify\"]Fixed the Boar's second strike combo animation: it now has a clearer telegraph but a longer reach. Be careful![/*]</li><li>[p align=\"justify\"]Fixed the Alpha Wolf's bleed effect, it now correctly applies only at the end of the grapple[/*]</li><li>[p align=\"justify\"]Bleed damage will no longer affect players while they are being grappled[/*]</li><li>[p align=\"justify\"]Fixed a visual bug with the Outnumbered effect while it is active[/*]</li><li>[p align=\"justify\"]Fixed a bug where the \"Special Attack\" damage bonus on jewelry did not work, it now correctly applies to all \\ attacks[/*]</li><li>[p align=\"justify\"]Fixed Rosalinda Mercer's perk: the 30% chance to proc on a purple elixir now correctly grants a purple elixir instead of a blue one[/*]</li><li>[p align=\"justify\"]Fixed a bug that could cause a teleport when jumping over a growing tree[/*]</li><li>[p align=\"justify\"]Fixed several ore respawn bugs, ores should now always respawn correctly[/*]</li><li>[p align=\"justify\"]Cycling through shanties will now always result in a different song[/*]</li><li>[p align=\"justify\"]Fixed several audio issues that occurred while using the F-camera on a ship[/*]</li><li>[p align=\"justify\"]Ship crew barks (voice lines) can now be heard even when using the F-camera[/*]</li><li>[p align=\"justify\"]Weapons are now correctly unequipped if the player removes a backpack containing them[/*]</li><li>[p align=\"justify\"]Fixed several ship interaction animations that caused sailors to clip into objects[/*]</li><li>[p align=\"justify\"]Fixed clothing clipping bugs when interacting with shrouds on a ship[/*]</li><li>[p align=\"justify\"]The quest to board the \"Unsinkable\" can now be completed even if the player stays on their own ship's deck during boarding[/*]</li><li>[p align=\"justify\"]Fixed an issue that caused Jim Godart to spawn extra copies of himself[/*]</li><li>[p align=\"justify\"]Fixed a rare error in sea quest battles that occurred if a player left the game mid-fight[/*]</li><li>[p align=\"justify\"]Fixed a bug in the \"Forgotten Relics\" quest caused by receiving all three mural messages from a single ruin (excess markers will now disappear)[/*]</li><li>[p align=\"justify\"]Fixed an incorrect tooltip for the Iron Caverns in Foothills; it will no longer display XP<br>[/*]</ul><h4><strong>Visual improvements</strong></h4><ul></li><li>[p align=\"justify\"]Fixed distorted visuals for several weapons on low graphics settings[/*]</li><li>[p align=\"justify\"]Grass will no longer be removed when planting trees or shrubs[/*]</li><li>[p align=\"justify\"]Grass will no longer be removed under piers and wharves[/*]</li><li>[p align=\"justify\"]Updated the Wolf Head Trophy model and textures[/*]</li><li>[p align=\"justify\"]Fixed fireplace visuals[/*]</li><li>[p align=\"justify\"]Fixed clay wall textures[/*]</li><li>[p align=\"justify\"]Slightly updated smelter visuals[/*]</li><li>[p align=\"justify\"]Fixed bean sapling visuals, vines should now correctly attach to the wooden supports[/*]</li><li>[p align=\"justify\"]Improved the visibility of decorative beams for the Old World and Lost Tribe sets[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155567170",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steam-1830797770246460",
+      "slug": "news/windrose-devs-ask-for-some-grace-as-they-prepare-to-set-sail-towards-a-six-month",
+      "name": "Windrose devs ask for some grace as they prepare to set sail towards a six month wait for the next big update",
+      "title": "Windrose devs ask for some grace as they prepare to set sail towards a six month wait for the next big update",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "Kraken Express",
+      "date": "2026-04-28",
+      "has_detail_page": true,
+      "summary": "Windrose has been out for a couple of weeks now and seems to be doing more than alright for itself. I guess the people like pirates? Good news for those You Be Soft guys, I suppose. But as much success as Windrose has found itself in, it is also an early access game, which means the aforementioned people crave a nebulous sense of More. Developer Kraken Express do plan on offering More, but it sounds like the people will have to wait for it a little while. Read more",
+      "content": "<img src=\"https://assetsio.gnwcdn.com/windrose_MaHZ855.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\n<a href=\"https://www.rockpapershotgun.com/games/windrose\">Windrose</a> has been out for a couple of weeks now and seems to be doing more than alright for itself. I guess the people like pirates? <a href=\"https://www.rockpapershotgun.com/land-ho-assassins-creed-black-flag-resynceds-system-requirements-have-washed-ashore\">Good news for those You Be Soft guys</a>, I suppose. But as much success as Windrose has found itself in, it is also an early access game, which means the aforementioned people crave a nebulous sense of More. Developer Kraken Express do plan on offering More, but it sounds like the people will have to wait for it a little while.\n</p> <p><a href=\"https://www.rockpapershotgun.com/windrose-devs-ask-for-some-grace-as-they-prepare-to-set-sail-towards-a-six-month-wait-for-the-next-big-update\">Read more</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1830797770246460",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Rock, Paper, Shotgun)"
+    },
+    {
+      "id": "steam-1830797770246321",
+      "slug": "news/windrose-devs-dont-have-any-progress-wipes-planned-for-early-access-but-of-cours",
+      "name": "Windrose devs don't have any progress wipes planned for early access, but 'of course s**t happens'",
+      "title": "Windrose devs don't have any progress wipes planned for early access, but 'of course s**t happens'",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "Christopher Livingston",
+      "date": "2026-04-28",
+      "has_detail_page": true,
+      "summary": "Early access survival games can be dangerous for players, and not just when it comes to murderous monsters. As games get patched and updated over years of early access development, the consequences for players can occasionally be dire: corrupted saves, lost items, overwritten bases, and sometimes flat-out world wipes that sets everyone back to square one... Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/qaALDVcsnFmt7BJhz43fVf-1280-80.jpg\"/><br><br>\n                Early access survival games can be dangerous for players, and not just when it comes to murderous monsters. As games get patched and updated over years of early access development, the consequences for players can occasionally be dire: corrupted saves, lost items, overwritten bases, and sometimes flat-out world wipes that sets everyone back to square one...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/windrose-devs-dont-have-any-progress-wipes-planned-for-early-access-but-of-course-s-t-happens/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830797770246321",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1830797770246274",
+      "slug": "news/please-have-faith-in-us-once-again-says-windrose-dev-revealing-its-first-big-con",
+      "name": "'Please have faith in us once again' says Windrose dev, revealing its first big content update won't arrive for 'at least 6 months'",
+      "title": "'Please have faith in us once again' says Windrose dev, revealing its first big content update won't arrive for 'at least 6 months'",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "Christopher Livingston",
+      "date": "2026-04-28",
+      "has_detail_page": true,
+      "summary": "Pirate survival game Windrose is a megahit, but after two weeks of sailing the early access seas, a lot of pirates have run out of new discoveries and have fully explored the game's initial three biomes. Many players are naturally asking: what's next? And, perhaps as importantly: when?.. Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/9G9evdY8PFjAtsPm7TXfcE-1280-80.jpg\"/><br><br>\n                Pirate survival game Windrose is a megahit, but after two weeks of sailing the early access seas, a lot of pirates have run out of new discoveries and have fully explored the game's initial three biomes. Many players are naturally asking: what's next? And, perhaps as importantly: when?..\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/please-have-faith-in-us-once-again-says-windrose-dev-revealing-its-first-big-content-update-wont-arrive-for-at-least-6-months/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830797770246274",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1830797770245530",
+      "slug": "news/community-update-new-feedback-website-and-other-news",
+      "name": "Community update: new feedback website and other news",
+      "title": "Community update: new feedback website and other news",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-04-28",
+      "has_detail_page": true,
+      "summary": "Ahoy, captains! We’re into the third week since release, and the high seas remain busy: while Windrose gathered a little less concurrent players over the last weekend compared to the first one, it’s still sailing steady (over 210,000 captains swashbucklin’ at the same time on Sunday!), and the number of daily players actually keeps growing! We’re thrilled to see such passion for our game, and thank you wholeheartedly for this. In fact, we’re preparing a little surprise for you to celebrate, but...",
+      "content": "<p>Ahoy, captains! We’re into the third week since release, and the high seas remain busy: while Windrose gathered a little less concurrent players over the last weekend compared to the first one, it’s still sailing steady (over 210,000 captains swashbucklin’ at the same time on Sunday!), and the number of daily players actually keeps growing! We’re thrilled to see such passion for our game, and thank you wholeheartedly for this. In fact, we’re preparing a little surprise for you to celebrate, but for now, let’s focus on some serious, yet important things you need to know.<h3><strong>Windrose.support: new platform for support, bug reports and feature suggestions</strong></h3>We are introducing a new tool for the community – <a href=\"\"https://windrose.support/\"\" rel=\"nofollow\">https://windrose.support/</a>Consider it a beta for now, but as we streamline it a bit, it will fulfill several duties:<ul><li>You can<strong> troubleshoot any issues</strong> you have with the game there. It contains a growing and systematically organized database of the most common issues and solutions, and will help you to navigate to the information you need. If your problem turns out to be new, you will be able to contact our team directly as well.[/*]</li><li>You can easily <strong>report the bugs</strong> you have found. The form on this website will allow you to do it quickly and place your report into the right category.[/*]</li><li>You can <strong>provide your ideas for Windrose </strong>there, and vote for other players’ ideas! This is the new, transparent way for the community to share their ideas and expectations, and upvote the most popular ones so we can review and consider them.[/*]</ul>As this tool is rather complex and new, please expect some bugs here and there, and for now it is localized in English only, however, as we put it to real use, it will be improved. Please note: we are going to gradually sunset the overlapping functions in our Discord, as this new platform makes the process much easier for players and devs alike.<h3><strong>Next update: a pack of fixes incoming</strong></h3>Right now we are internally testing the next game update focused on various important fixes and improvements. We will probably ask some of you to try it in advance as well before we roll it out for everyone. For now it is not 100% clear if we will manage to do it this week – but we will do our best! Here are some of the things that we’re planning to address with it:<ul></li><li>Connectivity issues;[/*]</li><li>CPU usage on idle clients and servers;[/*]</li><li>Disk usage during gameplay (to reduce the load on SSD specifically);[/*]</li><li>Performance and stability improvements;[/*]</li><li>Over 40 new building pieces to fill some gaps and inconsistencies;[/*]</li><li>Over 50 fixes and QoL changes;[/*]</ul>There is also a chance we will be able to address Steam Cloud Saves problems there, complementing the current saves backup system with a more robust solution. If we will, though, your game settings will be set to default after the update, so if these settings are important, please write them down or make a screenshot so you can dial them back later!<h3><strong>The most popular question: next big update</strong></h3>Some of you have already completed the game's current story, and some of you are simply (rightfully!) curious about where and how Windrose is heading. Well, here is the current status:<ul></li><li>After we’re done with the fixes described above, we plan to fully switch to the next big content update, which will introduce the next biome called Ashlands;[/*]</li><li>The roadmap of this update is very high level now, we’re populating it with our own plans and some popular requests, and then, as it’s always with the game development, we will sit down and cut out some of the stuff to make it actually deliverable. Somewhere at this point we will be ready to present it to you, captains, so expect more information to come in a month or two.[/*]</li><li>Our philosophy now is to enrich the current gameplay systems, instead of only adding new biomes with the respective content, so even before we have the full details, it’s safe to say the game will not just grow in size – it will also evolve.[/*]</li><li>The scope of what we want to do is rather ambitious, so our best bet right now this update will take at least 6 months to deliver. This might sound like a long time, but we believe it will allow us to roll out an exciting and meaningful expansion to the game of appropriate quality. In other words, we will work very hard so it’s worth the wait.[/*]</ul>This is it for today, captains, thank you, and stay tuned!<em>Kraken Express</em></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770245530",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steam-1830797770245409",
+      "slug": "news/steam-global-top-sellers-for-week-of-21-apr-28-april-2026",
+      "name": "Steam Global Top Sellers for week of 21 Apr — 28 April 2026",
+      "title": "Steam Global Top Sellers for week of 21 Apr — 28 April 2026",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "SteamDB",
+      "date": "2026-04-28",
+      "has_detail_page": true,
+      "summary": "WindrosePRAGMATAVampire Crawlers: The Turbo Wildcard from Vampire Survivors雀魂麻將(MahjongSoul)Cyberpunk 2077Crimson DesertForza Horizon 6Diablo® IVCrusader Kings IIIAssassin's Creed Black Flag Resynced* excluding free to play gamesView top 100 on SteamDB",
+      "content": "<p><a href=\"https://steamdb.info/topsellers/2026W18/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W18.png\"></a><ol><li><a href=\"https://steamdb.info/app/3041230/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Windrose</a></li><li><a href=\"https://steamdb.info/app/3357650/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">PRAGMATA</a></li><li><a href=\"https://steamdb.info/app/3265700/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</a></li><li><a href=\"https://steamdb.info/app/1329410/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">雀魂麻將(MahjongSoul)</a></li><li><a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/2344520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Diablo® IV</a></li><li><a href=\"https://steamdb.info/app/1158310/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crusader Kings III</a></li><li><a href=\"https://steamdb.info/app/3751950/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Assassin's Creed Black Flag Resynced</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W18/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1830797770245409",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: SteamDB)"
+    },
+    {
+      "id": "steam-1830797770232393",
+      "slug": "news/i-bought-every-ship-in-windrose-heres-what-you-should-spend-your-pirate-gold-on-",
+      "name": "I bought every ship in Windrose – here's what you should spend your pirate gold on first",
+      "title": "I bought every ship in Windrose – here's what you should spend your pirate gold on first",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "Andrea Shearon",
+      "date": "2026-04-23",
+      "has_detail_page": true,
+      "summary": "fter you build the Wharf and Ketch, it's time to start collecting materials to build your next Windrose ship and accompanying gear upgrades. It's not a hard process, but since ship plans are so pricey, I get the desire to feel out your options before making any commitments... Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/JGpvDQGENdnjfYdJd8MaNo-1280-80.jpg\"/><br><br>\n                fter you build the Wharf and Ketch, it's time to start collecting materials to build your next <a href=\"https://www.pcgamer.com/windrose/\">Windrose</a> ship and accompanying gear upgrades. It's not a hard process, but since ship plans are so pricey, I get the desire to feel out your options before making any commitments...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/windrose-ship-brig-and-frigate-materials/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830797770232393",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1830163047268589",
+      "slug": "news/steam-global-top-sellers-for-week-of-14-apr-21-april-2026",
+      "name": "Steam Global Top Sellers for week of 14 Apr — 21 April 2026",
+      "title": "Steam Global Top Sellers for week of 14 Apr — 21 April 2026",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "SteamDB",
+      "date": "2026-04-21",
+      "has_detail_page": true,
+      "summary": "WindrosePRAGMATAMOUSE: P.I. For HireCrimson DesertForza Horizon 6Slay the Spire 2EA SPORTS FC™ 26Ready or NotRustREPLACED* excluding free to play gamesView top 100 on SteamDB",
+      "content": "<p><a href=\"https://steamdb.info/topsellers/2026W17/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W17.png\"></a><ol><li><a href=\"https://steamdb.info/app/3041230/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Windrose</a></li><li><a href=\"https://steamdb.info/app/3357650/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">PRAGMATA</a></li><li><a href=\"https://steamdb.info/app/2416450/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">MOUSE: P.I. For Hire</a></li><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/2868840/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Slay the Spire 2</a></li><li><a href=\"https://steamdb.info/app/3405690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 26</a></li><li><a href=\"https://steamdb.info/app/1144200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Ready or Not</a></li><li><a href=\"https://steamdb.info/app/252490/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Rust</a></li><li><a href=\"https://steamdb.info/app/1663850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">REPLACED</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W17/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1830163047268589",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: SteamDB)"
+    },
+    {
+      "id": "steam-1830163047267491",
+      "slug": "news/windrose-factions-recommendations-for-improving-your-reputation-with-the-smuggle",
+      "name": "Windrose factions: Recommendations for improving your reputation with the Smugglers, Buccaneers, Brethren, and People of Tortuga",
+      "title": "Windrose factions: Recommendations for improving your reputation with the Smugglers, Buccaneers, Brethren, and People of Tortuga",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "Andrea Shearon",
+      "date": "2026-04-21",
+      "has_detail_page": true,
+      "summary": "There are four Windrose factions to build reputation with, but not all of them provide the same goods or accept the same smuggled wares in exchange for your friendship. With limited insignias to trade for their favor, choosing which pirate crew to woo can be a little overwhelming—but that's where I come in... Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/pCMEAyadnBZKuvfVR4MDmf-1280-80.jpg\"/><br><br>\n                There are four <a href=\"https://www.pcgamer.com/windrose/\">Windrose</a> factions to build reputation with, but not all of them provide the same goods or accept the same smuggled wares in exchange for your friendship. With limited insignias to trade for their favor, choosing which pirate crew to woo can be a little overwhelming—but that's where I come in...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/windrose-factions/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830163047267491",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1830163047264359",
+      "slug": "news/windrose-sails-past-1-million-copies-sold-in-six-days-as-it-hits-200000-concurre",
+      "name": "Windrose sails past 1 million copies sold in six days as it hits 200,000 concurrent players",
+      "title": "Windrose sails past 1 million copies sold in six days as it hits 200,000 concurrent players",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "milestone",
+      "author": "Justin Wagner",
+      "date": "2026-04-19",
+      "has_detail_page": true,
+      "summary": "Windrose, the latest survival-crafter to take Steam by storm, started selling like hot cakes the moment it launched—or, to be era-appropriate, like salt pork and bug-infested hardtack. It's continued to rake in the doubloons since launch, and in less than a week, has \"plundered\" the 1 million copies sold milestone... Read more.",
+      "content": "<img src=\"https://cdn.mos.cms.futurecdn.net/byxUBnxWzd6vfriRZhUmQg-1280-80.jpg\"/><br><br>\n                <a href=\"https://www.pcgamer.com/windrose/\">Windrose</a>, the latest survival-crafter to take Steam by storm, started <a href=\"https://www.pcgamer.com/games/survival-crafting/pirate-survival-windrose-sees-500-000-mateys-buy-the-game-as-steam-reviews-are-mostly-positive/\">selling like hot cakes</a> the moment it launched—or, to be era-appropriate, like salt pork and bug-infested hardtack. It's continued to rake in the doubloons since launch, and in less than a week, has \"plundered\" the 1 million copies sold milestone...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/windrose-sails-past-1-million-copies-sold-in-six-days-as-it-hits-200-000-concurrent-players/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "guide_impact": "",
+      "tags": [
+        "milestone"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830163047264359",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PC Gamer)"
+    },
+    {
+      "id": "steam-1830163047264252",
+      "slug": "news/1000000-copies-sold-in-6-days-and-over-200000-concurrent-players",
+      "name": "1,000,000 copies sold in 6 days and over 200,000 concurrent players!",
+      "title": "1,000,000 copies sold in 6 days and over 200,000 concurrent players!",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "Bambino",
+      "date": "2026-04-19",
+      "has_detail_page": true,
+      "summary": "1,000,000 copies sold in 6 days, and over 200,000 players online![img src=\"{STEAM_CLAN_IMAGE}/45546879/9e28500962fb725136f65d421ea531e999d5cff9.png\"]Ahoy, captains! We have just plundered another milestone – 1,000,000 copies, and “we” means “you” – a crew of fine brave captains sailing the seas of Windrose. Moreover, today Windrose has assembled over 200,000 concurrent players! Your support for the game is absolutely astonishing, and your patience while we are working on fixes is truly...",
+      "content": "<h3><strong>1,000,000 copies sold in 6 days, and over 200,000 players online!</strong></h3>[img src=\"{STEAM_CLAN_IMAGE}/45546879/9e28500962fb725136f65d421ea531e999d5cff9.png\"]Ahoy, captains! We have just plundered another milestone – <strong>1,000,000 copies</strong>, and “we” means “you” – a crew of fine brave captains sailing the seas of Windrose. Moreover, today Windrose has assembled over <strong>200,000 concurrent players</strong>! Your support for the game is absolutely astonishing, and your patience while we are working on fixes is truly heart-warming. While we keep working on the game, we read your reviews and comments, watch your videos and streams, and sometimes, honestly, shed a pirate-y tear of happiness, because now when the game is out you share our dream of swashbuckling adventure. And there are boars, too, we know, but whatever does not send you flying into the nearest tree, makes you stronger, right?Thank you for this, captains. You are our inspiration in this journey, and YARRRRR, that’s going to be an exciting one.\n<em>Kraken Express</em>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047264252",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steam-1830163047264066",
+      "slug": "news/pirate-game-windrose-dethrones-steams-survival-champion-as-it-sails-up-the-chart",
+      "name": "Pirate game Windrose dethrones Steam's survival champion as it sails up the charts",
+      "title": "Pirate game Windrose dethrones Steam's survival champion as it sails up the charts",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "media",
+      "author": "editor@pcgamesn.com",
+      "date": "2026-04-19",
+      "has_detail_page": true,
+      "summary": "Windrose is sailing with the wind at its back, and the new pirate survival game has proved such a hit that it's even managed to dethrone the longstanding champion of the genre. With the publishing might of Pocketpair behind it (the studio responsible for breakout success Palworld), developer Kraken Express has built a gorgeous PvE experience that's proving extremely popular, growing steadily over its first week. It's now surpassed even the heights of Rust, which has long sat as a staple of the...",
+      "content": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/04/windrose-steam-charts-player-count-success-dethrones-rust-pirate-survival-game-kraken-express-pocketpair-900x506.jpg\"/><p><strong>Windrose</strong> is sailing with the wind at its back, and the new pirate <a href=\"https://www.pcgamesn.com/best-survival-games\">survival game</a> has proved such a hit that it's even managed to dethrone the longstanding champion of the genre. With the publishing might of Pocketpair behind it (the studio responsible for breakout success Palworld), developer Kraken Express has built a gorgeous PvE experience that's proving extremely popular, growing steadily over its first week. It's now surpassed even the heights of Rust, which has long sat as a staple of the Steam charts. Who knows where the limit is?</p>\n<p><a href=\"https://www.pcgamesn.com/windrose/steam-charts-player-count\">Read the rest of the story...</a></p>\n<p>RELATED LINKS:<br />\n<a href=\"https://www.pcgamesn.com/windrose/fifteen-men-on-a-dead-mans-chest\">Windrose Fifteen Men on a Dead Man's Chest quest guide</a><br />\n<a href=\"https://www.pcgamesn.com/windrose/shovel\">How to get a shovel in Windrose</a><br />\n<a href=\"https://www.pcgamesn.com/windrose/gunpowder\">How to craft gunpowder in Windrose</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1830163047264066",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PCGamesN)"
+    },
+    {
+      "id": "steam-1830163047263736",
+      "slug": "news/connectivity-fixes-direct-ip-added-save-backup-system-update",
+      "name": "Connectivity Fixes, Direct IP Added & Save Backup System Update",
+      "title": "Connectivity Fixes, Direct IP Added & Save Backup System Update",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-16",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-04-19",
+      "has_detail_page": true,
+      "summary": "Dear captains,Over the past few days, some of you have encountered several issues. Our team has been working in emergency mode to resolve them as quickly as possible so that more players can enjoy the game without disruptions.Version: 0.10.0.3.104-256f9653CONNECTIVITY SERVER SELECTIONWe identified issues with certain ISPs blocking parts of our networking services. To address this, we’ve implemented the following changes:Connectivity Server Selection: You can now manually choose a specific...",
+      "content": "<p>Dear captains,Over the past few days, some of you have encountered several issues. Our team has been working in emergency mode to resolve them as quickly as possible so that more players can enjoy the game without disruptions.<br><strong>Version:</strong> 0.10.0.3.104-256f9653<h3><strong>CONNECTIVITY SERVER SELECTION</strong></h3>We identified issues with certain ISPs blocking parts of our networking services. To address this, we’ve implemented the following changes:<ul><li><strong>Connectivity Server Selection:</strong> You can now manually choose a specific connectivity server instead of relying on automatic selection. You can also see which servers are reachable. Dedicated server settings can be configured via <strong>ServerDescription.json</strong>.[/*]</li><li><strong>Known Issue:</strong> If your connection is unstable (high ping or packet loss), a connectivity server may appear as “available” even if it cannot actually be used.[/*]</ul>You can now manually select which connectivity server to use.If you were unable to connect with your friends before, try using different connectivity servers. All players must have access to at least one shared server.This setting can also be adjusted for dedicated servers. Please allow some time for hosting providers to adapt to these changes, especially since it’s currently the weekend.<h3><strong>DIRECT IP CONNECTION</strong></h3>We also identified issues related to connections within the same network, as well as certain self-hosted dedicated server configurations. To address this, we’ve added the option to connect via Direct IP:<ul></li><li><strong>Direct IP Connection:</strong> A new option is now available when hosting a server (both in-game and dedicated). This works as an alternative to our connectivity services. When using Direct IP, players can only join via your IP address, and invite codes will not work. Dedicated server settings can be configured via ServerDescription.json.[/*]</li><li><strong>Known Issue:</strong> When using Direct IP, if you enter an incorrect password or there is a version mismatch, the game will return you to the main menu without displaying an error message.[/*]</ul>If you are unable to connect via connectivity services and none of them work for you (we’ve seen cases where ISPs block everything related to Windrose), you can try connecting via Direct IP as a workaround.<strong>Advanced feature:</strong> May require manual router configuration (port forwarding / NAT setup). This option is intended for advanced users.<h3><strong>SAVE BACKUPS</strong></h3>We discovered an issue where, in rare cases, player save files may become corrupted. This happens more frequently when playing across multiple machines while using Steam Cloud synchronization.We are still investigating the root cause. In the meantime, to mitigate the risk, we’ve added an automatic save backup system. Each time you launch the game, a backup of your save will be created. The system stores up to 30 backups, after which older ones are overwritten.Instructions on how to restore your save in case of corruption are provided below.We still recommend avoiding the use of cloud saves if possible while we continue investigating the issue.<h4><strong>HOW IT WORKS</strong></h4><ul></li><li>An automatic save backup is created on game launch (both for client and dedicated server).[/*]</li><li>The maximum number of backup files is limited to 30.[/*]</li><li>Backups are stored in the folder:<br>C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\R5\\\\Saved\\\\SaveProfiles\\\\{steamid}_Backups[/*]</li><li>When the file limit is exceeded, older backups are deleted (the 31st backup replaces the oldest one).[/*]</ul><h4><strong>HOW TO RESTORE BACKUP</strong></h4><ul></li><li>Go to: <br>C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\R5\\\\Saved\\\\SaveProfiles\\\\%your_Steam_ID%_Backups[/*]</li><li>Select the latest backup (or any preferred one). Backups are named by date and time.[/*]</li><li>Copy all contents from this folder (it should contain one folder + AccountDescription.json).[/*]</li><li>Navigate to:<br>C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\R5\\\\Saved\\\\SaveProfiles\\\\{your_Steam_ID}\\\\RocksDB[/*]</li><li>Paste the copied files there (replace existing files if prompted).[/*]</ul>For a dedicated server, the process is the same as for a local game. The difference is that save files are located inside the server’s installation folder.<ul></li><li>Go to:<br>\\\\R5\\\\Saved\\\\SaveProfiles\\\\Default_Backups\\\\[/*]</li><li>Find the relevant backup folder. Backups are named by date and time.[/*]</li><li>Copy the required files (folder + AccountDescription.json) from the chosen backup folder.[/*]</li><li>Paste them into the corresponding RocksDB folder of the active save, replacing files if needed.[/*]</ul><h4><strong>OTHER FIXES</strong></h4><ul></li><li>Fixed an issue that prevented loading into the main menu if your Windows username contained non-Unicode characters[/*]</li><li>When launching a server (either in-game or via a .bat file), its process priority is now automatically set to “Above Normal”[/*]</li><li>HDR can now be correctly activated[/*]</li><li>Increased grass render distance[/*]</li><li>Fixed a feather simulation bug for Plague Witch[/*]</li><li>Minor fixes to trader models, outfits, and poses[/*]</li><li>Fixed several rigging issues that caused armor clipping across various sets[/*]</li><li>Fixed a rare issue where the game could crash due to item-related bugs[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes",
+        "bug-fix"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047263736",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
     },
     {
       "id": "windrose-entered-early-access-on-steam",
