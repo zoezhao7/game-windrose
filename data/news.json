@@ -1,7 +1,35 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-05-16",
+  "generated_at": "2026-05-19",
   "items": [
+    {
+      "id": "steam-1832700592797492",
+      "slug": "news/patch-notes-version-01006",
+      "name": "Patch Notes: Version 0.10.0.6",
+      "title": "Patch Notes: Version 0.10.0.6",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-05-19",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-05-18",
+      "has_detail_page": true,
+      "summary": "Hey, captains! We’re releasing another small update that fixes several issues. We’re closely monitoring your reports and will continue rolling out hotfixes and improvements.Patch NotesVersion: 0.10.0.6[*]Reduced disk space usage and optimized disk writes during gameplay.[/*][*]Slightly improved performance during boarding.[/*][*]Slightly improved performance when using ship artillery.[/*][*]Player and ship action panels now execute actions when a button is pressed instead of when it is...",
+      "content": "<p>Hey, captains! We’re releasing another small update that fixes several issues. We’re closely monitoring your reports and will continue rolling out hotfixes and improvements.[p align=\"justify\"]<h3><strong>Patch Notes</strong></h3>[p align=\"justify\"]<strong><u>Version: 0.10.0.6</u></strong><ul><li>[p align=\"justify\"]Reduced disk space usage and optimized disk writes during gameplay.[/*]</li><li>Slightly improved performance during boarding.[/*]</li><li>Slightly improved performance when using ship artillery.[/*]</li><li>Player and ship action panels now execute actions when a button is pressed instead of when it is released.[/*]</li><li>Slightly adjusted attack and block animation transitions after equipping weapons for smoother and more responsive gameplay.[/*]</li><li>Added SaveWorkflow.md to the Dedicated Server root folder.[/*]</li><li>All plants placed by the player should now correctly snap to soil patches.[/*]</li><li>Items dropped on player-built soil patches will no longer fall through the ground.[/*]</li><li>Slightly updated onion flower visuals.[/*]</li><li>If two players are fighting different bosses simultaneously, killing one boss will no longer grant the achievement to the other player.[/*]</li><li>Disabled running multiple server instances on the same PC.[/*]</li><li>[p align=\"justify\"]Fixed a known issue from the previous update where old worlds and characters could not be deleted correctly.[/*]</li><li>Fixed a rare bug where killing monsters in Stargazer Ruins could incorrectly count as a Jim Godart kill.[/*]</li><li>Fixed a bug that could occasionally cause ship artillery aiming to get stuck.[/*]</li><li>Fixed a bug where ship aiming could get stuck when interacting with a battery while blocking.[/*]</li><li>Fixed a bug that caused the \"Unstuck\" command to become unavailable while controlling a ship battery.[/*]</li><li>Fixed a crash that could occasionally occur when unequipping items from a ship.[/*]</li><li>Fixed an issue that prevented Dedicated Server users from changing settings in WorldDescription.json. For instructions, see DedicatedServer.md in the Dedicated Server root folder.[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592797492",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
     {
       "id": "steam-1832700592790876",
       "slug": "news/windrose-hits-2-million-sales-milestone-proving-yet-again-that-the-world-really-",
