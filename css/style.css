@@ -114,6 +114,11 @@ body {
   flex-wrap: nowrap;
 }
 
+/* 把主导航推到 header 右侧，logo 留在左侧 */
+.header nav[aria-label="Primary"] {
+  margin-left: auto;
+}
+
 .nav-links a {
   color: var(--nav-text);
   text-decoration: none;
@@ -1342,4 +1347,90 @@ strong { color: #f1f5f9; }
 }
 @media (max-width: 768px) {
   .ad-slot { min-height: 50px; }
+}
+
+/* --- 语言切换器 --- */
+.lang-switcher {
+  position: relative;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.lang-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--nav-text);
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: inherit;
+  transition: border-color var(--transition), color var(--transition);
+}
+.lang-btn:hover,
+.lang-btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  list-style: none;
+  padding: 0.35rem 0;
+  margin: 0;
+  min-width: 140px;
+  box-shadow: var(--card-shadow-hover);
+  z-index: 100;
+}
+/* 透明桥接：覆盖按钮和下拉框之间的 4px 间隙，防止鼠标穿过时下拉框消失 */
+.lang-dropdown::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+.lang-dropdown li a {
+  display: block;
+  padding: 0.4rem 1rem;
+  color: var(--nav-text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background var(--transition), color var(--transition);
+}
+.lang-dropdown li a:hover,
+.lang-dropdown li a:focus-visible {
+  background: rgba(212,168,83,0.1);
+  color: var(--accent);
+}
+.lang-dropdown li a.lang-active {
+  color: var(--accent);
+  font-weight: 600;
+}
+.lang-switcher:hover .lang-dropdown,
+.lang-switcher:focus-within .lang-dropdown,
+.lang-switcher.open .lang-dropdown {
+  display: block;
+}
+
+/* header 中语言切换器的布局 */
+.header .lang-switcher {
+  order: 3;
+}
+
+@media (max-width: 768px) {
+  .header .lang-switcher {
+    order: 0;
+    margin-left: auto;
+    margin-right: 0.5rem;
+  }
+  /* 移动端不再用 auto margin 推 nav (nav 此时是 hamburger 展开的下拉) */
+  .header nav[aria-label="Primary"] {
+    margin-left: 0;
+  }
 }

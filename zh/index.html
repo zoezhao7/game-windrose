@@ -19,6 +19,10 @@
     <div class="container">
         <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
         <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+          <button class="lang-btn" aria-label="Language" aria-expanded="false">中文 ▾</button>
+          <ul class="lang-dropdown"><li><a href="/">English</a></li><li><a href="/es">Español</a></li><li><a href="/pt">Português</a></li><li><a href="/de">Deutsch</a></li><li><a href="/fr">Français</a></li><li><a href="/zh" class="lang-active">中文</a></li></ul>
+        </div>
         <nav aria-label="Primary">
             <ul class="nav-links"><li><a href="/" class="active">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
         </nav>
@@ -71,5 +75,5 @@
 <span>&copy; 2026 Windrose Guides. 非官方粉丝资源。与 Kraken Express 无关。</span>
 <nav><a href="/">English</a><a href="/privacy">隐私政策</a><a href="/terms">服务条款</a></nav>
 </div></div></footer>
-<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(!b||!n)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});})();</script>
+<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script>
 </body></html>

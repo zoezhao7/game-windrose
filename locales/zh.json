@@ -1,0 +1,1074 @@
+{
+  "nav": {
+    "home": "首页",
+    "beginner_guide": "新手指南",
+    "database": "数据库",
+    "bosses": "Boss",
+    "ships": "船只",
+    "guides": "攻略",
+    "tools": "工具",
+    "news": "新闻动态",
+    "search": "搜索 🔍"
+  },
+  "header": {
+    "logo_alt": "Windrose 攻略站 Logo",
+    "aria_home": "Windrose 攻略站首页",
+    "aria_menu": "切换导航菜单",
+    "site_name": "Windrose 攻略站"
+  },
+  "footer": {
+    "brand_desc": "您的 Windrose 综合 Wiki、数据库与攻略中心。合成配方、资源地图、Boss 攻略、船只构建等——尽在一处。",
+    "col_guides": "攻略",
+    "col_database": "数据库",
+    "col_explore": "探索",
+    "link_beginner": "新手指南",
+    "link_builds": "Build 攻略",
+    "link_server": "服务器指南",
+    "link_download": "下载",
+    "link_faq": "常见问题",
+    "link_crafting": "合成制作",
+    "link_resources": "资源",
+    "link_bosses": "Boss",
+    "link_ships": "船只",
+    "link_weapons": "武器",
+    "link_tools": "工具",
+    "link_news": "新闻动态",
+    "link_sources": "资料来源",
+    "link_about": "关于我们",
+    "link_contact": "联系我们",
+    "link_all_pages": "全部页面",
+    "link_privacy": "隐私政策",
+    "link_terms": "服务条款",
+    "copyright": "© 2026 Windrose 攻略站。非官方粉丝资源。与 Kraken Express 或 Pocketpair Publishing 无任何关联。"
+  },
+  "common": {
+    "read_more": "阅读更多",
+    "back_to_all": "返回全部新闻",
+    "previous": "上一篇",
+    "next": "下一篇",
+    "tier": "等级",
+    "level": "Lv",
+    "coming_soon": "敬请期待",
+    "showing_items": "显示 {n} 个物品",
+    "sort": "排序",
+    "sort_name": "名称",
+    "sort_rarity": "稀有度",
+    "search_placeholder": "按名称搜索...",
+    "faq_heading": "常见问题",
+    "data_note": "数据说明：Windrose 正处于抢先体验阶段,合成配方、数值及 Boss 细节可能会发生变化。本指南优先采用官方验证的描述、Steam 新闻及可重复验证的游戏内进度步骤,而非未经证实的传闻。",
+    "by_author": "作者：{author}",
+    "read_full_analysis": "阅读完整分析 →",
+    "view_full_guide": "查看该分类的完整攻略指南 →"
+  },
+  "homepage": {
+    "badge": "抢先体验 — 已适配 0.4.2 版本",
+    "hero_title": "Windrose 攻略站 — 非官方 Wiki 与数据库",
+    "hero_subtitle": "您的终极 Windrose 伙伴 — 全部合成配方、资源位置与 Boss 攻略尽在一处",
+    "hero_desc": "Windrose 是一款融合类魂战斗、开放海域探索与深度合成系统的海盗生存 RPG,最多支持 10 人联机。无论您是独自闯荡未知海域的冒险家,还是与船员一同征战 Boss 的船长——我们都为您准备好了攻克每座岛屿所需的攻略、数据与工具。",
+    "highlight_items": "950+ 物品",
+    "highlight_bosses": "Boss 攻略",
+    "highlight_ships": "船只建造",
+    "highlight_coop": "联机技巧",
+    "cta_beginner": "新手指南",
+    "cta_database": "浏览数据库",
+    "cta_workbench": "工作台配方",
+    "quick_nav_title": "快速导航",
+    "quick_nav_desc": "直接跳转到您需要的攻略或数据库板块。所有内容按主题分类,并已同步至最新版本。",
+    "card_beginner_title": "新手指南",
+    "card_beginner_desc": "Windrose 的第一步——生存基础、首艘船只,以及新海盗的早期游戏优先事项。",
+    "card_workbench_title": "工作台配方",
+    "card_workbench_desc": "完整的 Lv1-3 工作台合成配方,包含材料消耗与解锁要求。",
+    "card_resources_title": "资源位置",
+    "card_resources_desc": "在 Windrose 群岛中寻找铜、铁、粘土、火药及一切资源的位置。",
+    "card_bosses_title": "Boss 攻略",
+    "card_bosses_desc": "每场 Boss 战的攻击模式、弱点,以及单人与联机攻略。",
+    "card_ships_title": "船只建造",
+    "card_ships_desc": "船体、船帆、火炮、升级——打造并定制您的海盗战船。",
+    "card_weapons_title": "武器与护甲",
+    "card_weapons_desc": "全部武器与护甲套装的数值对比、等级排名与合成路线。",
+    "card_tools_title": "工具与清单",
+    "card_tools_desc": "配方查询器、资源规划器、进度清单、船只选择器,以及服务器搭建快捷方式。",
+    "card_builds_title": "Build 攻略",
+    "card_builds_desc": "新手、DPS、坦克、单人与联机玩法的推荐配装。",
+    "card_guides_title": "策略攻略",
+    "card_guides_desc": "深度全攻略:采矿路线、Boss 攻略、最佳 Build、合成路径与海战战术。",
+    "card_faq_title": "常见问题",
+    "card_faq_desc": "解答最常见的 Windrose 问题——进度、合成与疑难排查。",
+    "card_news_title": "新闻与更新",
+    "card_news_desc": "最新的 Windrose 补丁说明、更新日志与社区资讯。",
+    "what_is_title": "什么是 Windrose?",
+    "what_is_p1": "Windrose(又名 Windrose: Pirate Survival RPG)是一款由 Kraken Express 开发、与 Pocketpair Publishing 联合发行的海盗主题生存冒险游戏。游戏于 2026 年 4 月 14 日进入抢先体验阶段,融合了经典生存合成与类魂轻量战斗——这是一种较为友好的类魂机制,奖励时机把握、走位与体力管理,而不会过于惩罚玩家。",
+    "what_is_p2": "游戏发生在程序化生成的开放海域群岛中,玩家可以探索岛屿、采集资源、建造基地、合成数百种物品,并乘坐自己建造的船只在各地之间航行。Windrose 支持单人游玩以及最多 10 人的联机合作,无论是独行冒险者还是有组织的船员队伍都能尽兴。",
+    "core_systems_title": "核心玩法系统",
+    "core_systems_desc": "Windrose 由五大相互关联的系统构成其玩法循环。每个系统都与其他系统相辅相成——资源支撑合成,合成装备角色,而更强的装备则解锁新的 Boss 与岛屿。",
+    "feature_crafting_title": "合成与建造",
+    "feature_crafting_desc": "横跨多级合成工作站的 950 余件物品。从工作台工具到武器匠武器——通过自由形式系统在任何地方建造您的基地。",
+    "feature_combat_title": "类魂轻量战斗",
+    "feature_combat_desc": "翻滚闪避、完美格挡与体力管理构成核心机制。Boss 战采用多阶段攻击模式,需要反复练习。",
+    "feature_sailing_title": "航海与船只建造",
+    "feature_sailing_desc": "从 Sloop 到 Frigate 等多种船型可建造与定制。掌握动态风系、管理货物,并参与海战。",
+    "feature_resource_title": "资源采集",
+    "feature_resource_desc": "从洞穴矿点和地表节点开采铜、铁、粘土与火药。每种资源都有其特定的岛屿生态可供刷取。",
+    "feature_progression_title": "成长与天赋",
+    "feature_progression_desc": "通过清理 POI 和完成任务升级。在 Toughguy(硬汉)、Swashbuckler(剑客)与 Mariner(水手)三大天赋树中自由分配天赋点,可免费洗点。",
+    "db_title": "探索数据库",
+    "db_desc": "浏览我们完整的 950+ 物品收录——武器、工具、资源、食物、护甲等。每件物品均包含合成配方、材料来源与等级信息,并已对当前版本完成核实。",
+    "db_weapons": "武器",
+    "db_weapons_cat": "刀剑、枪械等",
+    "db_equipment": "装备",
+    "db_equipment_cat": "护甲、戒指与饰品",
+    "db_ships": "船只",
+    "db_ships_cat": "船体、船帆与火炮",
+    "db_resources": "资源",
+    "db_resources_cat": "矿石、木材与材料",
+    "db_crafting": "合成制作",
+    "db_crafting_cat": "工作站与配方",
+    "db_consumables": "消耗品",
+    "db_consumables_cat": "食物、药剂与增益",
+    "db_cta_text": "我们的数据库经当前版本验证,并在重大更新发布后 48 小时内同步更新。借助配方查询器与资源规划器工具优化您的游戏体验。",
+    "db_cta_btn": "浏览完整数据库",
+    "game_info_title": "游戏资料",
+    "game_info_developer": "开发商",
+    "game_info_release": "发售日期",
+    "game_info_genre": "类型",
+    "game_info_combat": "战斗",
+    "game_info_coop": "联机",
+    "game_info_playtime": "游戏时长",
+    "links_title": "官方与实用链接",
+    "card_download_title": "下载与游戏资料",
+    "card_download_desc": "Steam 页面、抢先体验状态、开发商、发行商、平台及官方链接。",
+    "card_server_title": "专用服务器指南",
+    "card_server_desc": "搭建清单、防火墙提示、备份方案,以及官方服务器文档链接。",
+    "card_sources_title": "资料来源与更新政策",
+    "card_sources_desc": "抢先体验期间攻略数据的验证方式,以及页面应何时更新。",
+    "news_title": "最新新闻与更新",
+    "view_all_news": "查看全部新闻"
+  },
+  "tools": {
+    "hub_title": "Windrose 工具中心",
+    "hub_meta_title": "Windrose 工具:配方查询器、进度清单与服务器搭建 (2026)",
+    "hub_meta_desc": "Windrose 工具中心,提供配方、进度、资源、船只对比与专用服务器搭建。专为快速规划与 Google SEO 打造。",
+    "best_for": "最适合",
+    "fast_planning": "快速规划",
+    "tools_count": "5",
+    "js_none": "无需 JS",
+    "intro": "Windrose Tools 是一个精简的实用规划页面中心:配方、进度清单、服务器搭建、资源路线与船只选择。",
+    "card_recipe_title": "工作台配方查询器",
+    "card_recipe_desc": "直接跳转至 Lv1-Lv3 工具、背包、修理包、子弹与工作站解锁。",
+    "card_progression_title": "进度清单",
+    "card_progression_desc": "跟随从篝火到铜制工具、首艘船只、营救船员与 Foothills 的早期路线。",
+    "card_resource_title": "资源规划器",
+    "card_resource_desc": "查看哪些资源解锁各主要合成等级,以及采集所需的工具。",
+    "card_ship_title": "船只选择器",
+    "card_ship_desc": "按定位、操控、火力与单人/联机契合度对比 Sloop、Brigantine 与 Frigate。",
+    "card_server_title": "服务器搭建",
+    "card_server_desc": "联机团队的专用服务器端口、SteamCMD 启动流程与搭建清单。",
+    "launch_priority_title": "首发优先工具",
+    "launch_priority_desc": "首个可推广版本应将配方查询器、进度清单与服务器搭建页面作为主要实用目标。",
+    "recipe_meta_title": "Windrose 配方查询器:工作台材料与合成用途 (2026)",
+    "recipe_meta_desc": "快速查找 Windrose 配方:工作台等级、材料、进度用途、背包、子弹、修理包、工具,以及铜或铁的解锁。",
+    "recipe_heading": "Windrose 配方查询器",
+    "recipe_intro": "这个静态配方查询器为 Google 与玩家提供了最常被搜索的合成问题的清晰答案:哪种工作站可以制作某件物品、需要什么材料,以及它在进度推进中的重要性。",
+    "recipe_table_caption": "Windrose 高价值合成配方",
+    "recipe_table_item": "物品",
+    "recipe_table_station": "工作站",
+    "recipe_table_materials": "材料",
+    "recipe_table_use": "用途",
+    "recipe_how_title": "如何使用本查询器",
+    "recipe_progression_meta_title": "Windrose 进度清单:通往首艘船只的早期游戏路线 (2026)",
+    "recipe_progression_meta_desc": "从篝火与工作台到铜制工具、首艘船只、营救船员与 Foothills 的逐步 Windrose 进度清单。",
+    "recipe_progression_heading": "Windrose 进度清单",
+    "resource_meta_title": "Windrose 资源规划器:铜、铁、粘土、火药及用途 (2026)",
+    "resource_meta_desc": "按工具门槛、位置与合成用途规划 Windrose 资源采集。涵盖铜、铁、粘土、火药、硫磺、木材、石头与纤维。",
+    "resource_heading": "Windrose 资源规划器",
+    "ship_meta_title": "Windrose 船只选择器:Sloop、Brigantine 与 Frigate 对比 (2026)",
+    "ship_meta_desc": "按速度、操控、火力、耐久、单人游玩与联机定位对比 Windrose 船只。在 Sloop、Brigantine 或 Frigate 之间选择。",
+    "ship_heading": "Windrose 船只选择器"
+  },
+  "database": {
+    "breadcrumb": "数据库",
+    "header_meta": "WINDROSE 攻略站 • 数据库",
+    "sidebar_categories": "分类",
+    "sidebar_overview": "概览",
+    "sidebar_all_items": "全部物品",
+    "view_all": "查看全部 {name}",
+    "search_placeholder": "按名称搜索...",
+    "showing_items": "显示 {n} 个物品",
+    "sort": "排序",
+    "sort_name": "名称",
+    "sort_rarity": "稀有度",
+    "guide_link": "查看该分类的完整攻略指南 →",
+    "weapons": "武器",
+    "melee_weapons": "近战武器",
+    "ranged_weapons": "远程武器",
+    "ammo": "弹药",
+    "tools": "工具",
+    "ships_label": "船只",
+    "ship_weapons": "船载武器",
+    "hull_modules": "船体模块",
+    "combat_orders": "战斗指令",
+    "resources_label": "资源",
+    "metals": "金属",
+    "consumables_label": "消耗品",
+    "food": "食物",
+    "alchemy": "炼金",
+    "medicine": "药品",
+    "equipment_label": "装备",
+    "armor": "护甲",
+    "rings": "戒指",
+    "necklaces": "项链",
+    "backpacks": "背包",
+    "misc_label": "杂项",
+    "default_label": "默认",
+    "melee_weapon": "近战武器",
+    "ranged_weapon": "远程武器",
+    "armor_set": "护甲套装",
+    "item": "物品",
+    "general": "通用"
+  },
+  "news": {
+    "meta_title": "Windrose 新闻与更新:补丁说明、里程碑与攻略影响 (2026)",
+    "meta_desc": "最新 Windrose 新闻、补丁说明与更新解析。每个补丁均附攻略影响分析——了解改动内容及需要更新的策略。",
+    "heading": "Windrose 新闻与更新",
+    "intro": "及时了解 Windrose 的每个补丁、里程碑与开发更新。每条新闻均包含我们的攻略影响分析——详细解读改动内容以及您应重新查阅的攻略。Windrose 正处于抢先体验阶段(于 2026 年 4 月 14 日上线),因此更新频繁。",
+    "stat_total": "更新总数",
+    "stat_latest": "最新更新",
+    "stat_version": "游戏版本",
+    "stat_next": "下一重大更新",
+    "all_updates": "全部更新",
+    "how_we_cover_title": "我们如何报道更新",
+    "how_we_cover_p1": "当 Kraken Express 发布改动合成配方、敌人平衡、服务器配置或玩家进度的补丁时,我们不会只是简单地复制补丁说明。相反,我们会分析其对攻略的实际影响:",
+    "impact_recipes": "配方改动 — 我们会更新合成数据库并标记受影响的物品",
+    "impact_balance": "平衡性改动 — 我们的武器等级榜与 Build 攻略将重新评估",
+    "impact_bosses": "Boss 调整 — Boss 板块下的策略页面将更新新战术",
+    "impact_server": "服务器更新 — 专用服务器指南将刷新新的配置步骤",
+    "how_we_cover_p2": "这种方式为您提供可操作的信息,而非原始的补丁文本,节省您的时间并帮助您快速调整游戏方式。",
+    "official_sources_title": "官方资料来源",
+    "source_steam": "Steam 上的 Windrose — 官方商店页面与社区中心",
+    "source_server": "官方专用服务器指南 — 服务器搭建文档",
+    "source_news": "Steam 新闻中心 — 所有官方公告与补丁说明",
+    "category_patch_notes": "补丁说明",
+    "category_milestone": "里程碑",
+    "category_preview": "前瞻",
+    "category_community": "社区",
+    "category_media": "媒体",
+    "related_guides": "相关攻略",
+    "official_source": "官方来源",
+    "back_to_news": "返回全部新闻",
+    "nav_previous": "上一篇",
+    "nav_next": "下一篇"
+  },
+  "search": {
+    "meta_title": "搜索 Windrose 攻略站 (2026)",
+    "meta_desc": "在整个 Windrose 攻略站数据库中搜索配方、物品、Boss 与攻略。",
+    "heading": "搜索 Windrose 攻略站",
+    "intro": "使用下方搜索栏,在整个 Windrose 攻略站数据库中查找攻略、配方、资源与 Boss 攻略。",
+    "placeholder": "搜索物品、Boss、攻略...",
+    "no_results": "未找到结果。"
+  },
+  "download": {
+    "meta_title": "Windrose 下载:Steam 页面、抢先体验与游戏资料 (2026)",
+    "meta_desc": "在 Steam 上找到 Windrose,确认抢先体验状态、开发商、发行商、平台、联机玩法,以及使用攻略前需检查的事项。",
+    "heading": "Windrose 下载与游戏资料",
+    "best_for": "最适合",
+    "best_for_value": "快速规划",
+    "platform": "平台",
+    "platform_value": "PC / Steam",
+    "mode": "模式",
+    "mode_value": "单人 + 在线联机",
+    "status": "状态",
+    "status_value": "抢先体验",
+    "intro": "Windrose 现已在 Steam 平台以抢先体验形式上架 PC 端。设置此页面是因为下载与系统需求相关的搜索往往比宽泛的攻略搜索转化率更高,同时也能帮助玩家在使用 Wiki 前确认自己浏览的是正确的游戏。",
+    "table_where": "在哪里购买 Windrose",
+    "table_developer": "开发商",
+    "table_publisher": "发行商",
+    "table_release": "发售日期",
+    "table_genre": "类型",
+    "table_features": "特性",
+    "table_languages": "语言",
+    "table_progression": "进度重点",
+    "ea_title": "抢先体验包含的内容",
+    "ea_desc": "根据 Steam 页面介绍,抢先体验版本是一款可玩的生存冒险游戏,具备可选联机、三种生物群系、约三十座程序化生成岛屿、九十余个手工打造的兴趣点、三艘可玩船只、含登船战的海战、建造、合成、属性、天赋、护甲、武器、阵营、声望以及 NPC 工人。",
+    "before_buy_title": "购买前须知",
+    "before_buy_desc": "Windrose 在抢先体验阶段仍在持续变化,因此攻略应被视为动态参考。在认定某个配方、Boss 需求或服务器选项已定型之前,请查阅 Steam 公告中的补丁说明。"
+  },
+  "server_guide": {
+    "meta_title": "Windrose 专用服务器指南:搭建清单与设置技巧 (2026)",
+    "meta_desc": "面向联机团队的 Windrose 专用服务器搭建清单:安装流程、端口、防火墙、密码、存档、备份及官方指南链接。",
+    "heading": "Windrose 专用服务器指南",
+    "best_for": "最适合",
+    "best_for_value": "团队",
+    "source_type": "来源类型",
+    "source_type_value": "官方指南 + 清单",
+    "intent": "用途",
+    "intent_value": "联机搭建",
+    "intro": "Windrose 支持联机游玩,而专用服务器搭建是搜索热度最高的实用主题之一。本页面将官方的服务器搭建流程整理为一份简洁的发布前清单,适用于希望拥有持久世界的玩家。",
+    "table_area": "区域",
+    "table_checklist": "清单",
+    "steamcmd_title": "SteamCMD 安装命令",
+    "setup_title": "基本搭建流程",
+    "official_source_title": "官方来源"
+  },
+  "sources": {
+    "meta_title": "Windrose 攻略站资料来源与更新政策 (2026)",
+    "meta_desc": "Windrose 攻略站的资料来源政策:官方 Steam 数据、playwindrose.com 服务器文档、补丁说明、游戏内核实及抢先体验更新规则。",
+    "heading": "Windrose 攻略站资料来源与更新政策",
+    "purpose": "目的",
+    "purpose_value": "建立信任",
+    "living_log": "动态记录",
+    "use": "用途",
+    "use_value": "内容审核",
+    "intro": "本资料来源日志记录了网站关键内容应在何处进行核实。它帮助攻略保持可推广性,同时不会假装抢先体验的每个细节都是最终版本。"
+  },
+  "guides": {
+    "mining_meta_title": "最佳采矿路线:铜、铁与硫磺 (2026)",
+    "mining_meta_desc": "Windrose 中最高效的采矿路线。快速采集铜、铁与硫磺,升级您的船只与武器。",
+    "mining_heading": "最佳采矿路线与矿石刷取",
+    "boss_prog_meta_title": "Boss 进度与攻略指南 (2026)",
+    "boss_prog_meta_desc": "Windrose 完整的 Boss 进度攻略。学习如何击败 Thomas Richards、Israel Hands 与 High Priestess。",
+    "boss_prog_heading": "Boss 进度与攻略指南",
+    "builds_meta_title": "最佳早期游戏 Build 与天赋 (2026)",
+    "builds_meta_desc": "Windrose 中最佳的早期游戏 Build。在剑客(Swashbuckler)、铁甲(Ironclad)或枪手(Gunner)玩法中任选其一,主宰战斗。",
+    "builds_heading": "最佳早期游戏 Build 与天赋",
+    "ship_guide_meta_title": "船只建造与海战指南 (2026)",
+    "ship_guide_meta_desc": "Windrose 完整的船只建造与海战指南。学习如何升级船只、使用火炮、登船作战,并称霸海域。",
+    "ship_guide_heading": "船只建造与海战指南",
+    "sailing_meta_title": "航海与导航指南:风系、地图与快速旅行 (2026)",
+    "sailing_meta_desc": "精通 Windrose 的航海与导航。学习风系、地图标记、快速旅行铃铛,以及岛屿生态群系进度。",
+    "sailing_heading": "航海与导航指南",
+    "crafting_prog_meta_title": "合成进度:所有工作站与解锁顺序 (2026)",
+    "crafting_prog_meta_desc": "Windrose 完整的合成进度指南。学习工作站解锁顺序、材料需求,以及需要避免的常见错误。",
+    "crafting_prog_heading": "合成进度指南",
+    "coop_meta_title": "联机与多人指南:船员分工、服务器与技巧 (2026)",
+    "coop_meta_desc": "Windrose 完整的联机与多人指南。学习船员分工、共享进度、专用服务器搭建,以及团队游玩的最佳实践。",
+    "coop_heading": "联机与多人指南"
+  },
+  "body": {
+    "tools_hub": {
+      "intro_html": "<strong>Windrose Tools</strong> 是一个精简的实用规划工具中心：配方、进度清单、服务器搭建、资源采集路线规划与船只选择。Heartopia.gg 之所以在搜索流量上表现亮眼，正是因为它提供了工具而不仅仅是文章；本板块也为 Windrose Guides 打造同样高意向的工具落地区域。",
+      "faqs": [
+        {
+          "q": "Windrose Guides 提供交互式工具吗？",
+          "a": "目前的工具均为静态、可被搜索引擎抓取的规划页面。后续可以在不更改 URL 的前提下加入交互式筛选。"
+        },
+        {
+          "q": "为什么先做工具而不是更多文章？",
+          "a": "工具能吸引玩家反复访问并自然获得外链，因为它能比长文更快地解决玩家的实际任务。"
+        }
+      ]
+    },
+    "recipe_finder": {
+      "stat_coverage": "覆盖范围",
+      "stat_best_query": "最佳搜索词",
+      "stat_updated": "更新时间",
+      "stat_coverage_value": "Lv1-Lv3",
+      "stat_best_query_value": "Windrose 配方",
+      "table_rows": [
+        [
+          "Stone Axe",
+          "Lv1 Workbench",
+          "3 Stone + 3 Wood",
+          "首次升级砍树工具"
+        ],
+        [
+          "Stone Pickaxe",
+          "Lv1 Workbench",
+          "3 Stone + 3 Wood",
+          "解锁铜矿、黏土与洞穴进度的必备工具"
+        ],
+        [
+          "Bandage",
+          "Lv1 Workbench",
+          "1 Coarse Fabric",
+          "前期战斗的核心治疗物品"
+        ],
+        [
+          "Torn Sailcloth Bag",
+          "Lv1 Workbench",
+          "2 Coarse Fabric + 1 Rope",
+          "首次背包升级"
+        ],
+        [
+          "Copper Pickaxe",
+          "Lv1 Workbench",
+          "5 Copper Ingot + 5 Wood",
+          "解锁更高级矿石进度"
+        ],
+        [
+          "Fast Travel Bell",
+          "Lv1 Workbench",
+          "10 Copper Ingot + 3 Rope",
+          "解锁便利的快速返回点"
+        ],
+        [
+          "Sailor Backpack",
+          "Lv2 Workbench",
+          "Torn Sailcloth Bag + Rough Hide + Copper Ingot",
+          "中期存储升级"
+        ],
+        [
+          "Bosun Backpack",
+          "Lv3 Workbench",
+          "Sailor Backpack + Tanned Leather + Foothills Iron Ingot",
+          "后期存储升级"
+        ]
+      ],
+      "how_step_1": "从你想要制作的物品开始。",
+      "how_step_2": "确认所需工作站等级，并判断该配方属于前期铜矿进度还是 Foothills 铁矿进度。",
+      "how_step_3_html": "打开完整的 <a href=\"{workbench_url}\">Workbench Recipes</a> 页面查看完整表格。",
+      "faqs": [
+        {
+          "q": "最重要的前期配方是哪一个？",
+          "a": "Stone Pickaxe 是关键的前期配方，因为它开启了铜矿与黏土的进度链。"
+        },
+        {
+          "q": "哪个配方能增加背包容量？",
+          "a": "Torn Sailcloth Bag 是首个存储升级，之后依次是 Sailor Backpack 与 Bosun Backpack。"
+        },
+        {
+          "q": "完整配方在哪里查看？",
+          "a_html": "请使用 <a href=\"{workbench_url}\">Workbench Recipes</a>、<a href=\"{smelting_url}\">Smelting</a> 以及各制作子分类页面。"
+        }
+      ]
+    },
+    "progression": {
+      "stat_route": "路线",
+      "stat_focus": "重点",
+      "stat_format": "形式",
+      "stat_route_value": "新手岛到 Foothills",
+      "stat_focus_value": "解锁制作",
+      "stat_format_value": "清单",
+      "intro": "在 Windrose 中最快且最稳定的开局策略不是立刻建造庞大的基地。只建造能解锁工具、冶炼、治疗与第一艘船所需的设施，然后带上足够能从失误中恢复的物资,向下一片岛屿前进。",
+      "table_caption": "Windrose 前期进度清单",
+      "table_headers": [
+        "步骤",
+        "目标",
+        "所需材料或条件",
+        "为什么重要"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "Build Bonfire and Workbench",
+          "Wood, Stone, Plant Fiber",
+          "搭建基础制作循环"
+        ],
+        [
+          "2",
+          "Craft Stone Pickaxe",
+          "3 Stone + 3 Wood",
+          "用于开采铜矿与黏土"
+        ],
+        [
+          "3",
+          "Build Charcoal Kiln",
+          "25 Wood + 20 Clay",
+          "将木材烧成木炭以供冶炼"
+        ],
+        [
+          "4",
+          "Build Smelting Furnace",
+          "15 Clay + 30 Stone",
+          "将铜矿石熔炼成锭"
+        ],
+        [
+          "5",
+          "Craft Copper Tools",
+          "Copper Ingots + Wood",
+          "加快采集速度并解锁更高阶材料"
+        ],
+        [
+          "6",
+          "Prepare Combat Kit",
+          "Bandages, repair kit, food",
+          "在洞穴与海盗营地中生存"
+        ],
+        [
+          "7",
+          "Claim First Ship",
+          "Main quest progress",
+          "开启岛屿之间的探索"
+        ],
+        [
+          "8",
+          "Push Foothills",
+          "Copper gear, ship supplies",
+          "解锁铁、硫磺以及后续进度"
+        ]
+      ],
+      "short_answer_title": "可推广用的简短答案",
+      "short_answer_html": "<strong>想在 Windrose 中快速推进进度,请先制作 Stone Pickaxe,开采铜与黏土,建造 Charcoal Kiln 与 Smelting Furnace,熔炼 Copper Ingots,再制作铜制工具,然后冲击你的第一艘船与 Foothills。</strong>",
+      "faqs": [
+        {
+          "q": "前期应该立刻建造永久基地吗？",
+          "a": "不建议。在你了解岛屿地形并解锁更好的工具之前,在资源旁搭建一个小型营地效率更高。"
+        },
+        {
+          "q": "离开第一座岛前需要携带什么？",
+          "a": "带上绷带、食物、修理材料、铜制工具,以及足够重新搭建基础工作站的木材或石头。"
+        }
+      ]
+    },
+    "resource": {
+      "stat_resources": "资源",
+      "stat_best_use": "最佳用途",
+      "stat_related": "相关内容",
+      "stat_resources_value": "8 种核心",
+      "stat_best_use_value": "路线规划",
+      "stat_related_value": "制作 + 流派构筑",
+      "intro": "在制作工作站或离开某座岛屿之前,先用这份规划表决定要采集什么。玩家最常犯的错误是漫无目的地收集各种材料,却不知道自己想打开哪个工具门槛。",
+      "table_caption": "Windrose 资源规划表",
+      "table_headers": [
+        "资源",
+        "获取地点",
+        "所需工具或门槛",
+        "主要用途"
+      ],
+      "table_rows": [
+        [
+          "Wood",
+          "Trees, driftwood, wreckage",
+          "Axe",
+          "Bonfire、Workbench、维修、烧炭"
+        ],
+        [
+          "Stone",
+          "Ground rocks and deposits",
+          "Pickaxe",
+          "石制工具、熔炉、子弹"
+        ],
+        [
+          "Plant Fiber",
+          "Plants and shoreline gathering",
+          "Hands or tool",
+          "Rope、Coarse Fabric、背包、绷带"
+        ],
+        [
+          "Clay",
+          "Riverbanks and wet ground patches",
+          "Stone Pickaxe",
+          "窑、熔炉、瓶罐"
+        ],
+        [
+          "Copper Ore",
+          "Copper cave icons and deposits",
+          "Stone Pickaxe",
+          "Copper Ingots、工具、传送钟、子弹"
+        ],
+        [
+          "Iron Ore",
+          "Foothills deposits",
+          "Copper Pickaxe",
+          "铁制工具、Lv2 配方、高阶背包"
+        ],
+        [
+          "Gunpowder",
+          "Smuggler stashes, pirate camps, later crafting",
+          "Combat or Millstone",
+          "弹药与远程流派"
+        ],
+        [
+          "Sulfur",
+          "Foothills yellow deposits",
+          "Iron Pickaxe",
+          "后期 Gunpowder 制作"
+        ]
+      ],
+      "farming_order_title": "最佳采集顺序",
+      "farming_order_p": "首先是木材、石头与植物纤维。黏土与铜矿用于解锁冶炼。铜制工具承接铁矿。铁与硫磺则推动后期资源链,以制作更强的工具、背包与弹药。",
+      "faqs": [
+        {
+          "q": "我应该先采集哪种资源？",
+          "a": "木头与石头是基础,而铜矿与黏土才是真正进入进度链的第一批资源。"
+        },
+        {
+          "q": "前期应该去哪里收集 Gunpowder？",
+          "a": "在你还无法用硫磺和灰烬制作 Gunpowder 之前,优先利用走私者藏宝点与海盗营地。"
+        }
+      ]
+    },
+    "ship_selector": {
+      "stat_ships": "船只",
+      "stat_best_overall": "综合最佳",
+      "stat_solo_pick": "单人推荐",
+      "intro": "选择你的 Windrose 船只时,看用途而不是看体积。Sloop 操控最灵活,Brigantine 是最安全的全能型选择,Frigate 则代表火力与团队协作的全面投入。",
+      "table_caption": "Windrose 船只选择器",
+      "table_headers": [
+        "船只",
+        "最佳用途",
+        "操控性",
+        "火力",
+        "耐久",
+        "推荐人群"
+      ],
+      "table_rows": [
+        [
+          "Sloop",
+          "单人侦察、岛屿间快速移动",
+          "高",
+          "低",
+          "低",
+          "新手单人玩家"
+        ],
+        [
+          "Brigantine",
+          "均衡的探索与多人战斗",
+          "中",
+          "中",
+          "中",
+          "大多数团队"
+        ],
+        [
+          "Frigate",
+          "重型海战与后期战斗",
+          "低",
+          "高",
+          "高",
+          "准备充分的团队"
+        ]
+      ],
+      "quick_rec_title": "快速推荐",
+      "quick_rec_html": "对于大多数玩家来说,建议以 <a href=\"{brigantine_url}\">Brigantine</a> 为目标进行升级。它在探索时有足够的操控性,在战斗中也有足够的实力,而不必承受 <a href=\"{frigate_url}\">Frigate</a> 那种迟缓的操控感。",
+      "faqs": [
+        {
+          "q": "最适合单人玩家的船是哪一艘？",
+          "a": "Sloop 是单人玩家最容易上手的船,因为在没有完整船员时,速度和转向比火力更重要。"
+        },
+        {
+          "q": "最通用的船是哪一艘？",
+          "a": "Brigantine 是最推荐的默认选择,因为它在速度、火力与生存能力之间取得了平衡。"
+        }
+      ]
+    },
+    "server_guide": {
+      "stat_intent": "用途",
+      "stat_source_type": "资料类型",
+      "stat_best_for": "适用对象",
+      "stat_intent_value": "搭建联机服务器",
+      "stat_source_type_value": "官方指南 + 清单",
+      "stat_best_for_value": "团队玩家",
+      "intro": "Windrose 支持多人合作,而专用服务器搭建是搜索流量上极为重要的实用主题之一。本页将官方服务器搭建流程整理成简单的预启动清单,方便希望建立持久世界的玩家。",
+      "table_caption": "Windrose 专用服务器搭建清单",
+      "table_headers": [
+        "项目",
+        "清单内容"
+      ],
+      "table_rows": [
+        [
+          "Server package",
+          "通过 Steam 工具或 SteamCMD 安装 Windrose 专用服务器"
+        ],
+        [
+          "SteamCMD app id",
+          "<code>4129620</code>"
+        ],
+        [
+          "OS status",
+          "官方指南目前将专用服务器描述为仅支持 Windows"
+        ],
+        [
+          "Ports",
+          "端口通过 NAT 穿透动态分配；请确保 UPnP 可用,并在测试期间禁用代理/VPN"
+        ],
+        [
+          "World settings",
+          "在启动前设置区域、密码、玩家人数、服务器名称以及存档行为"
+        ],
+        [
+          "Firewall",
+          "在 Windows Defender Firewall 或主机防火墙中放行 <code>WindroseServer.exe</code>"
+        ],
+        [
+          "Backups",
+          "在打补丁前以及更改服务器设置前备份世界存档"
+        ]
+      ],
+      "steamcmd_title": "SteamCMD 安装命令",
+      "steamcmd_after_html": "后续更新时,重新运行 <code>app_update 4129620 validate</code> 即可。每次补丁后请确保专用服务器版本与当前游戏客户端版本保持一致。",
+      "basic_setup_title": "基础搭建流程",
+      "basic_setup_steps": [
+        "通过 SteamCMD 或 Steam 工具安装专用服务器包。",
+        "在服务器关闭状态下配置服务器名称、密码、区域、玩家人数与存档行为。",
+        "确保 UPnP 可用以支持 NAT 穿透,并在首次连接测试期间禁用代理或 VPN。",
+        "为 <code>WindroseServer.exe</code> 添加防火墙与杀毒软件白名单。",
+        "启动服务器,从另一台客户端测试连接,并在重大补丁前备份存档。"
+      ],
+      "official_source_title": "官方资料来源",
+      "official_source_html": "如需获取确切的启动参数、配置字段与故障排查方法,请参阅官方 <a href=\"https://playwindrose.com/dedicated-server-guide/\" rel=\"nofollow\">Windrose Dedicated Server Guide</a>。本页是面向玩家的实用清单,每当官方指南更新时也应同步更新。",
+      "faqs": [
+        {
+          "q": "我可以自己搭建 Windrose 专用服务器吗？",
+          "a": "可以。官方指南支持通过 SteamCMD 使用 app id 4129620 安装,并提供了当前的配置流程。"
+        },
+        {
+          "q": "专用服务器能在 Linux 上运行吗？",
+          "a": "官方指南目前将其描述为仅支持 Windows,因此除非官方文档变更,否则请将 Linux 或无头部署视为不受支持。"
+        },
+        {
+          "q": "需要备份服务器存档吗？",
+          "a": "需要。请在打补丁前、更改难度或世界设置前、以及迁移主机前进行备份。"
+        }
+      ]
+    },
+    "download": {
+      "stat_platform": "平台",
+      "stat_mode": "模式",
+      "stat_status": "状态",
+      "stat_platform_value": "PC / Steam",
+      "stat_mode_value": "单人 + 联机合作",
+      "stat_status_value": "Early Access",
+      "intro_html": "<strong>Windrose 已在 Steam 平台以 Early Access 形式上线 PC 版。</strong>设立本页是因为下载与配置需求相关的搜索往往比宽泛的攻略搜索更容易转化,并能帮助玩家在浏览维基前确认自己找的是同一款游戏。",
+      "table_caption": "Windrose 下载与游戏信息",
+      "table_headers": [
+        "项目",
+        "答案"
+      ],
+      "table_rows": [
+        [
+          "Where to get Windrose",
+          "<a href=\"https://store.steampowered.com/app/3041230/Windrose/\" rel=\"nofollow\">Steam store page</a>"
+        ],
+        [
+          "Developer",
+          "Kraken Express"
+        ],
+        [
+          "Publisher",
+          "Kraken Express / Pocketpair Publishing"
+        ],
+        [
+          "Release date",
+          "14 Apr, 2026"
+        ],
+        [
+          "Genre",
+          "动作、冒险、RPG、Early Access"
+        ],
+        [
+          "Features",
+          "单人、联机合作、Steam Cloud、家庭共享"
+        ],
+        [
+          "Languages",
+          "英文以及多种支持的界面/字幕语言"
+        ],
+        [
+          "Progression focus",
+          "制作工作站、资源、船员、船只、Boss、岛屿探索与专用服务器"
+        ]
+      ],
+      "ea_title": "Early Access 包含的内容",
+      "ea_p": "根据 Steam 页面信息,Early Access 版本是一款可玩的生存冒险游戏,支持可选的联机合作,包含三种生物群系、约三十座程序生成的岛屿、九十多个手工制作的兴趣点、三艘可驾驶的船只、含登船作战的海战,以及建造、制作、属性、天赋、护甲、武器、阵营、声望与 NPC 工人等系统。",
+      "before_title": "购买前须知",
+      "before_p": "Windrose 仍处于 Early Access 阶段,内容会持续变化,因此攻略应被视为持续更新的活资料。请在依据某个配方、Boss 需求或服务器选项做出最终判断前,先查阅 Steam 公告中的补丁说明。",
+      "faqs": [
+        {
+          "q": "Windrose 在 Steam 上吗？",
+          "a_html": "是的。官方 PC 版页面位于 <a href=\"https://store.steampowered.com/app/3041230/Windrose/\" rel=\"nofollow\">Steam</a>。"
+        },
+        {
+          "q": "Windrose 已经做完了吗？",
+          "a": "还没有。它仍是一款 Early Access 游戏,内容与平衡都可能变化。"
+        }
+      ]
+    },
+    "sources": {
+      "stat_purpose": "目的",
+      "stat_status": "状态",
+      "stat_use": "用途",
+      "stat_purpose_value": "信任来源",
+      "stat_status_value": "持续更新日志",
+      "stat_use_value": "内容质量审核",
+      "intro": "这份来源日志记录了站内关键信息应当在哪里被核实。它帮助站点保持可推广性,同时不会假装每一个 Early Access 细节都是定稿。",
+      "table_caption": "Windrose Guides 资料来源政策",
+      "table_headers": [
+        "主题",
+        "首选来源",
+        "更新规则"
+      ],
+      "table_rows": [
+        [
+          "游戏元数据",
+          "Steam 商店页面与官方网站",
+          "Steam 或官方页面变更时同步更新"
+        ],
+        [
+          "专用服务器",
+          "playwindrose.com 官方服务器指南",
+          "官方指南变更后立即更新"
+        ],
+        [
+          "补丁说明",
+          "Steam 新闻与官方公告",
+          "总结影响,不完整复制原文"
+        ],
+        [
+          "配方与资源",
+          "游戏内验证 + 可靠的社区攻略",
+          "对不确定的数值做明显标注,并在公开页面中移除未完成的草稿表述"
+        ],
+        [
+          "Boss 攻略",
+          "游戏内实测、视频证据与对应补丁的说明",
+          "将已确认的机制与建议性内容分开呈现"
+        ]
+      ]
+    },
+    "search": {
+      "intro": "使用下方搜索框,在 Windrose Guides 全站数据库中查找攻略、配方、资源与 Boss 战术。",
+      "placeholder": "搜索物品、Boss、攻略...",
+      "no_results": "未找到相关结果。"
+    },
+    "guides": {
+      "mining": {
+        "stat_difficulty": "难度",
+        "stat_required_tool": "所需工具",
+        "stat_best_yield": "最佳产出区域",
+        "stat_difficulty_value": "中等",
+        "stat_best_yield_value": "Foothills",
+        "intro": "采矿是中期进度的核心。本指南介绍 Copper、Iron 与 Sulfur 的最高效采集路线,帮助你减少跑图时间并最大化产出。",
+        "s1_title": "1. 早期 Copper 路线（新手岛）",
+        "s1_html": "在离开新手岛之前,先定位地图上的两个洞穴图标。带上 Stone Pickaxe 与至少 3 支火把。把洞穴彻底清空,通常能获得约 60-80 单位的劣质 Copper Ore。立即冶炼这些矿石,以便制作 Copper Pickaxe 与 Weaponsmith。",
+        "s2_title": "2. Foothills 铁矿循环路线",
+        "s2_html": "到达 Foothills 后,Iron Ore 会成为你的瓶颈。最佳路线从南海岸的 Fast Travel Bell 出发,沿崖底向北行进,你会遇到 4-5 处铁矿矿脉。<strong>请一定带上 Brigantine 或更大的船</strong>来存放沉重的矿石,因为背包负重会很快让你跑不动。",
+        "s3_title": "3. Sulfur 与 Gunpowder 采集",
+        "s3_html": "Sulfur 生成于 Foothills 与 Cursed Swamps 的火山喷口附近。在 Alchemy Table 上将 Sulfur 与 Ash（焚烧木材获得）合成 Gunpowder。单次穿越东部沼泽的火山喷口区域,可制作约 100 发子弹的量。",
+        "faqs": [
+          {
+            "q": "哪把镐最好用？",
+            "a": "Iron Pickaxe 对中期所有矿石都是最高效的选择。"
+          },
+          {
+            "q": "矿石会刷新吗？",
+            "a": "会。矿点通常会在游戏内 2 天后重新刷新。"
+          }
+        ]
+      },
+      "boss_progression": {
+        "stat_total": "Boss 总数",
+        "stat_preparation": "准备度需求",
+        "stat_required_gear": "所需装备",
+        "stat_total_value": "3 名已确认",
+        "stat_preparation_value": "高",
+        "stat_required_gear_value": "Iron 级",
+        "intro": "Windrose 中的 Boss 是重要的进度门槛。在击败它们之前,你无法进入某些岛屿或制作高级船只部件。下面是每个 Boss 的最佳进度顺序与战术。",
+        "s1_title": "1. Thomas Richards（Coastal Jungle）",
+        "s1_html": "<strong>等级 5-6。</strong>第一个大门槛。Richards 使用缓慢而沉重的 Saber 挥砍。<strong>战术：</strong>等他的 3 连击打完后,再使用重攻击。不要贪刀。一把简单的 Rapier 在这里非常有效,因为攻速很快。",
+        "s2_title": "2. Israel Hands（Foothills）",
+        "s2_html": "<strong>等级 8-10。</strong>Hands 使用火器并会召唤援军。<strong>战术：</strong>利用竞技场内的石柱挡住他的 Musket 射击。先把他的船员清掉,再慢慢削减他的血量。至少携带 10 瓶 Healing Potion。",
+        "s3_title": "3. The High Priestess（Cursed Swamps）",
+        "s3_html": "<strong>等级 12-15。</strong>使用魔法的 Boss,拥有大范围 AoE 攻击。<strong>战术：</strong>机动性是关键。死亡后用 Sloop 快速回到她的岛屿。装备高元素抗性的护甲。她的攻击会施加中毒效果,所以请携带 Alchemy Table 制作的 Antidote。",
+        "faqs": [
+          {
+            "q": "Boss 可以跳过吗？",
+            "a": "不可以。剧情 Boss 会掉落用于制作 Brigantine 与 Frigate 的关键物品。"
+          },
+          {
+            "q": "联机时 Boss 会变强吗？",
+            "a": "会。服务器中每多一名玩家,Boss 的血量与伤害都会相应提升。"
+          }
+        ]
+      },
+      "builds": {
+        "stat_playstyles": "流派",
+        "stat_respec": "洗点",
+        "stat_meta": "当前主流",
+        "stat_playstyles_value": "近战、远程、混合",
+        "stat_respec_value": "免费",
+        "stat_meta_value": "敏捷/暴击",
+        "intro": "你的流派构筑决定了战斗效率。由于洗点是免费的,你可以放心尝试,不过下面这三套前期构筑能稳稳带你冲到后期。",
+        "s1_title": "1. The Swashbuckler（敏捷/暴击）",
+        "s1_html": "<strong>武器：</strong>Rapier 或 Saber + Pistol<br><strong>天赋：</strong>专注于 'Duelist' 天赋树。最大化闪避无敌帧与暴击率。<br><strong>玩法：</strong>快节奏的打了就跑。先用 Pistol 击僵敌人,再冲上去打出关键近战暴击。非常适合单人玩家。",
+        "s2_title": "2. The Ironclad（力量/体力）",
+        "s2_html": "<strong>武器：</strong>Heavy Club 或 Boarding Axe + Blunderbuss<br><strong>天赋：</strong>专注于 'Toughguy' 天赋树。最大化 HP、体力与完美格挡窗口。<br><strong>玩法：</strong>站桩硬扛。完美格挡敌人的攻击让其僵直,然后打出巨大重击。最适合在联机中担任前排。",
+        "s3_title": "3. The Gunner（感知/资源利用）",
+        "s3_html": "<strong>武器：</strong>Musket + 双持 Pistol<br><strong>天赋：</strong>专注于 'Sharpshooter' 天赋树。最大化远程伤害与弹药制作效率。<br><strong>玩法：</strong>保持距离。这套构筑对 Gunpowder 与铅的需求很大,但能在敌人接近前安全地清除目标。",
+        "faqs": [
+          {
+            "q": "天赋可以洗点吗？",
+            "a": "可以,在角色菜单中随时可以完全免费洗点。"
+          },
+          {
+            "q": "最适合单人玩家的流派是哪个？",
+            "a": "The Swashbuckler（敏捷/暴击）提供了独自面对多个敌人所需的机动性。"
+          }
+        ]
+      },
+      "ship_building": {
+        "stat_ships": "船只",
+        "stat_cannons": "火炮",
+        "stat_boarding": "登船作战",
+        "stat_ships_value": "Sloop / Brigantine / Frigate",
+        "stat_cannons_value": "3 种类型",
+        "stat_boarding_value": "支持",
+        "intro": "海战是 Windrose 最具特色的系统之一。本指南涵盖从升级新手 Sloop 到在后期海战中指挥 Frigate 舰队的全部内容。",
+        "s1_title": "1. 你的第一艘船：Sloop",
+        "s1_html": "完成新手岛任务链后,你会免费获得一艘 Sloop。它速度快、操控灵活,但十分脆弱——只有 <strong>2 个火炮位</strong>且船体血量很低。建议主要将其用于<strong>岛屿侦察</strong>与<strong>避战</strong>。一旦敌人开战,优先逃跑而不是对射。",
+        "s2_title": "2. 升级到 Brigantine",
+        "s2_html": "解锁 Brigantine 的蓝图需要击败第一个 Boss（Thomas Richards）。所需材料：<strong>80 Wood + 40 Copper Nails + 20 Iron Ingots + 10 Rope + Sail Fabric</strong>。Brigantine 有 4 个火炮位、显著更高的 HP,可以舒适地搭载 4 名玩家组成的完整船员。海战从这里开始变得真正可行。",
+        "s3_title": "3. 海战机制",
+        "s3_html": "<ul><li><strong>风向</strong>——你的船速取决于风向角度。顺风航行可获得最大速度;逆风则会让你慢得像爬。请使用罗盘上的风向指示。</li><li><strong>炮弹类型</strong>——实心弹用于船体伤害,葡萄弹用于杀伤船员,链弹用于打断桅杆。三种都建议常备。</li><li><strong>登船作战</strong>——当敌船被瘫痪（桅杆被打断）时,靠到敌船旁边按 F 即可登船。登船是掠夺海盗船最快的方式。</li><li><strong>修理工具包</strong>——出海作战前一定要制作 Ship Repair Kit。水线下的一个破口会让你的船慢慢沉没。</li></ul>",
+        "s4_title": "4. Frigate（后期）",
+        "s4_html": "Frigate 是一座漂浮的堡垒,拥有 <strong>8 个火炮位</strong>、巨大的 HP 与货舱。它需要击败 Israel Hands 并收集 Foothills 级别的材料。只有当你拥有 3 人及以上的联机船员时再考虑建造 Frigate——单人玩家无法有效操作所有火炮。",
+        "faqs": [
+          {
+            "q": "应该先造哪艘船？",
+            "a": "永远先升级到 Brigantine。它在火力与机动性之间取得了最佳平衡。"
+          },
+          {
+            "q": "我的船会被永久摧毁吗？",
+            "a": "不会。如果你的船沉没,它会在最近的码头重新生成,但船上储存的所有货物都会损失。"
+          }
+        ]
+      },
+      "sailing": {
+        "stat_map_size": "地图大小",
+        "stat_fast_travel": "快速旅行",
+        "stat_navigation": "导航方式",
+        "stat_map_size_value": "30+ 座岛屿",
+        "stat_fast_travel_value": "传送钟系统",
+        "stat_navigation_value": "罗盘 + 风向",
+        "intro": "Windrose 的世界非常广阔——三种生物群系下有 30 多座程序生成的岛屿。掌握高效航行的方法,能为你节省数小时的游戏时间。",
+        "s1_title": "1. 理解风向系统",
+        "s1_html": "风向每个游戏日都会变化。<strong>罗盘 HUD</strong> 上会用一个小箭头显示当前风向。顺风（向风航行）能达到最大速度。横风 90°（侧风航行）约为 70% 速度。直接逆风则会让速度降到 30%。<strong>请根据风向规划你的航线</strong>,避免痛苦的缓慢穿越。",
+        "s2_title": "2. 地图标记与探索",
+        "s2_html": "在地图上<strong>右键</strong>可以放置自定义标记。请始终勾选 \"Show on minimap\",这样标记就会显示在你的 HUD 上。这些位置应该立即标记：<strong>主基地、资源点、洞穴入口、Boss 战竞技场、危险区域</strong>。标记数量没有上限。",
+        "s3_title": "3. 快速旅行网络",
+        "s3_html": "制作 <strong>Fast Travel Bell</strong>（10 Copper Ingot + 3 Rope）并战略性地放置它们。推荐位置：主基地、Foothills 登陆点、Cursed Swamps 入口,以及各 Boss 竞技场附近。任何两个钟之间都可以瞬间传送,但<strong>你的船不会随你一起传送</strong>——请合理规划。",
+        "s4_title": "4. 岛屿生物群系",
+        "s4_html": "<ul><li><strong>Coastal Jungle</strong>——新手生物群系。低级敌人,木材与铜矿丰富。适合新手玩家。</li><li><strong>Foothills</strong>——中期生物群系。Iron Ore、Sulfur 与更强的敌人。最低需要铜级装备。</li><li><strong>Cursed Swamps</strong>——后期生物群系。剧毒敌人、稀有材料、High Priestess Boss。请携带解毒剂与铁级装备。</li></ul>",
+        "faqs": [
+          {
+            "q": "快速旅行会带上我的船吗？",
+            "a": "不会。你的船会留在原地。你必须手动驾船前往目的地。"
+          },
+          {
+            "q": "如何发现新岛屿？",
+            "a": "向地图上未探索的区域航行。当你足够接近时,迷雾散开,新岛屿就会出现。"
+          }
+        ]
+      },
+      "crafting_progression": {
+        "stat_stations": "工作站",
+        "stat_tiers": "层级",
+        "stat_key_gate": "关键门槛",
+        "stat_stations_value": "7 个主要",
+        "stat_tiers_value": "Stone → Copper → Iron",
+        "stat_key_gate_value": "Workbench 等级",
+        "intro": "Windrose 的制作遵循严格的层级系统。理解每种工作站能解锁哪些配方——以及顺序——可以避免浪费资源与反复折返。",
+        "s1_title": "1. 制作层级阶梯",
+        "s1_html": "进度按以下顺序展开：<strong>Hand Crafting → Workbench Lv1 → Charcoal Kiln + Smelting Furnace → Workbench Lv2 → Weaponsmith → Armor Workshop → Workbench Lv3</strong>。每个层级解锁的配方都会成为下一层级的输入,形成清晰的升级路径。",
+        "s2_title": "2. 工作站需求",
+        "table_caption": "Windrose 制作工作站进度",
+        "table_headers": [
+          "工作站",
+          "材料",
+          "前置条件",
+          "关键配方"
+        ],
+        "table_rows": [
+          [
+            "Workbench Lv1",
+            "5 Wood",
+            "无",
+            "石制工具、背包、绷带、Rope"
+          ],
+          [
+            "Charcoal Kiln",
+            "25 Wood + 20 Clay",
+            "Stone Pickaxe",
+            "Charcoal（冶炼用燃料）"
+          ],
+          [
+            "Smelting Furnace",
+            "15 Clay + 30 Stone",
+            "Stone Pickaxe",
+            "Copper Ingots、Iron Ingots"
+          ],
+          [
+            "Weaponsmith",
+            "10 Wood + 5 Copper Ingot",
+            "Copper、需有屋顶",
+            "Saber、Rapier、Club、火器"
+          ],
+          [
+            "Armor Workshop",
+            "Rough Hide (from Boars)",
+            "需有屋顶",
+            "全部护甲套装"
+          ],
+          [
+            "Workbench Lv2",
+            "Sawhorse addon",
+            "20 Wood + 10 Copper Ingot",
+            "中阶工具、Sailor Backpack"
+          ],
+          [
+            "Workbench Lv3",
+            "Toolbox addon",
+            "10 Wood + 20 Nails + 5 Iron",
+            "后期工具、Bosun Backpack"
+          ]
+        ],
+        "s3_title": "3. 常见错误",
+        "s3_html": "<ul><li><strong>不要跳过 Charcoal Kiln。</strong>很多玩家试图在没有木炭的情况下冶炼矿石。木炭窑是必备的。</li><li><strong>工作站必须建在屋顶下。</strong>Weaponsmith 与 Armor Workshop 需要屋顶才能放置。</li><li><strong>配方受材料触发。</strong>有些配方只有当你第一次拾取特定材料后才会出现。</li></ul>",
+        "faqs": [
+          {
+            "q": "为什么我看不到某个配方？",
+            "a": "大多数配方在你收集到对应主要材料之前是隐藏的。捡起新资源即可自动解锁配方。"
+          },
+          {
+            "q": "最重要的制作工作站是哪个？",
+            "a": "Smelting Furnace 是中期最关键的工作站,因为它能把原矿熔炼成可用的锭。"
+          }
+        ]
+      },
+      "coop": {
+        "stat_max_players": "最大玩家数",
+        "stat_recommended": "推荐人数",
+        "stat_server_types": "服务器类型",
+        "stat_max_players_value": "最多 10 人",
+        "stat_recommended_value": "2-4 人",
+        "stat_server_types_value": "P2P + 专用服务器",
+        "intro": "Windrose 在多人合作模式下表现尤为出色。本指南介绍如何搭建多人游戏,不同人数下的体验差异,以及高效协作的策略。",
+        "s1_title": "1. 如何进行联机合作",
+        "s1_html": "从主菜单中选择 <strong>\"Host Game\"</strong> 创建一个游戏会话,或选择 <strong>\"Join Game\"</strong> 浏览公开会话。你也可以通过 Steam 直接加入好友。私人服务器需要主机设定的密码。",
+        "s2_title": "2. 船员分工",
+        "s2_html": "<p>理想的 4 人船员分工：</p><ul><li><strong>Captain（1 人）</strong>——掌舵、负责导航,在海战中指定目标。</li><li><strong>Gunner（1-2 人）</strong>——在海战中操作火炮,根据需要切换炮弹类型。</li><li><strong>Scout/Gatherer（1 人）</strong>——先行探索、采集资源,在地图上标记危险。</li><li><strong>Boarder（1 人）</strong>——专精近战,负责登船作战与地下城清理。</li></ul>",
+        "s3_title": "3. 共享进度",
+        "s3_html": "进度绑定于<strong>世界存档</strong>,而非个人角色。所有玩家共享相同的世界状态、任务进度与基地。<strong>但角色等级与天赋是按角色计算的。</strong>这意味着加入后期世界的新玩家等级会偏低——他们应该刷 POI 与任务以追赶进度。",
+        "s4_title": "4. 专用服务器",
+        "s4_html": "如需 24/7 全天候运行的持久世界,请通过 SteamCMD（App ID: 4129620）搭建<strong>专用服务器</strong>。详情请参阅我们的 <a href=\"{server_guide_url}\">Dedicated Server Guide</a>,其中提供分步搭建说明。专用服务器可以避免主机断线时丢失进度。",
+        "faqs": [
+          {
+            "q": "Windrose 可以单人玩吗？",
+            "a": "可以。游戏完全可以单人体验,只是某些 Boss 与海战在有船员的情况下会容易得多。"
+          },
+          {
+            "q": "物品可以在不同世界之间转移吗？",
+            "a": "不可以。角色保留等级与天赋,但库存与装备绑定于每个世界存档。"
+          }
+        ]
+      }
+    }
+  },
+  "stub": {
+    "localized_db_intro": "在下方浏览本地化的{section}数据库，或阅读完整的英文攻略。",
+    "view_db_btn": "查看{section}数据库",
+    "view_english_btn": "阅读英文攻略",
+    "english_only_intro": "完整的{section}攻略目前仅提供英文版本。我们正在翻译中——目前请参考英文版。",
+    "guides_hub_intro": "已翻译为中文的策略攻略。每篇攻略深入讲解一个特定主题。",
+    "guides_hub_heading": "策略攻略",
+    "view_all_guides_btn": "浏览全部攻略",
+    "back_home": "← 返回首页",
+    "section_bosses": "Boss",
+    "section_ships": "船只",
+    "section_weapons": "武器",
+    "section_crafting": "制作",
+    "section_resources": "资源",
+    "section_beginner_guide": "新手指南",
+    "section_builds": "Build 攻略",
+    "section_faq": "常见问题",
+    "section_guides": "策略攻略"
+  }
+}

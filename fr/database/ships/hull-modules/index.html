@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Hull Modules | Windrose Guides</title>
+<meta name="description" content="All ship hull bracing modules.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/fr" class="logo" aria-label="Accueil Windrose Guides"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Afficher/masquer le menu de navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Français ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/ships/hull-modules">English</a></li><li><a href="/es/database/ships/hull-modules">Español</a></li><li><a href="/pt/database/ships/hull-modules">Português</a></li><li><a href="/de/database/ships/hull-modules">Deutsch</a></li><li><a href="/fr/database/ships/hull-modules" class="lang-active">Français</a></li><li><a href="/zh/database/ships/hull-modules">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a href="/fr/database" class="active" aria-current="page">Base de données</a></li><li><a href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search">Rechercher 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Catégories</div>
+  <ul class="db-nav">
+    <li><a href="/fr/database/" class="db-nav-top">Vue d&#x27;ensemble</a></li>
+    <li><a href="/fr/database/" class="db-nav-top">Tous les objets <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Armes</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/fr/database/weapons/" class="db-sub-viewall">Voir tous les Weapons</a></li>
+        <li><a href="/fr/database/weapons/melee/" class="db-sub-item">Armes de mêlée <span class="db-count">43</span></a></li>
+        <li><a href="/fr/database/weapons/ranged/" class="db-sub-item">Armes à distance <span class="db-count">19</span></a></li>
+        <li><a href="/fr/database/weapons/tools/" class="db-sub-item">Outils <span class="db-count">8</span></a></li>
+        <li><a href="/fr/database/weapons/ammo/" class="db-sub-item">Munitions <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Navires</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub" id="sub-ships">
+        <li><a href="/fr/database/ships/" class="db-sub-viewall">Voir tous les Ships</a></li>
+        <li><a href="/fr/database/ships/ship-weapons/" class="db-sub-item">Armes navales <span class="db-count">29</span></a></li>
+        <li><a href="/fr/database/ships/hull-modules/" class="db-sub-item">Modules de coque <span class="db-count">10</span></a></li>
+        <li><a href="/fr/database/ships/combat-orders/" class="db-sub-item">Ordres de combat <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressources</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/fr/database/resources/" class="db-sub-viewall">Voir tous les Resources</a></li>
+        <li><a href="/fr/database/resources/resources/" class="db-sub-item">Ressources <span class="db-count">135</span></a></li>
+        <li><a href="/fr/database/resources/metals/" class="db-sub-item">Métaux <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consommables</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/fr/database/consumables/" class="db-sub-viewall">Voir tous les Consumables</a></li>
+        <li><a href="/fr/database/consumables/food/" class="db-sub-item">Nourriture <span class="db-count">50</span></a></li>
+        <li><a href="/fr/database/consumables/alchemy/" class="db-sub-item">Alchimie <span class="db-count">11</span></a></li>
+        <li><a href="/fr/database/consumables/medicine/" class="db-sub-item">Médecine <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Équipement</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/fr/database/equipment/" class="db-sub-viewall">Voir tous les Equipment</a></li>
+        <li><a href="/fr/database/equipment/armor/" class="db-sub-item">Armure <span class="db-count">41</span></a></li>
+        <li><a href="/fr/database/equipment/rings/" class="db-sub-item">Anneaux <span class="db-count">36</span></a></li>
+        <li><a href="/fr/database/equipment/necklaces/" class="db-sub-item">Colliers <span class="db-count">24</span></a></li>
+        <li><a href="/fr/database/equipment/backpacks/" class="db-sub-item">Sacs à dos <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Divers</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/fr/database/misc/" class="db-sub-viewall">Voir tous les Misc</a></li>
+        <li><a href="/fr/database/misc/misc/" class="db-sub-item">Divers <span class="db-count">514</span></a></li>
+        <li><a href="/fr/database/misc/default/" class="db-sub-item">Défaut <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Base de données</span> / Ships / Hull Modules</div>
+    <div class="db-header-meta">WINDROSE GUIDES • BASE DE DONNÉES</div>
+    <h1>Hull Modules</h1>
+    <p class="db-desc">10 modules.</p>
+    
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Rechercher par nom..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Affichage de 50 objets
+            <label>Trier <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Nom</option><option value="rarity">Rareté</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/eid-ship-hull-active-defence-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-active-defence-base.webp" alt="Hull bracing: Keelhold" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Keelhold</h3>
+                <p class="db-card-type">Bracing intended to steady the ship during repairs</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-active-defence-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-active-defence-advanced.webp" alt="Hull bracing: Keelhold" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Keelhold</h3>
+                <p class="db-card-type">Bracing intended to steady the ship during repairs</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-improvised-defenses-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-improvised-defenses-base.webp" alt="Hull bracing: Standfast" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Standfast</h3>
+                <p class="db-card-type">Wedges, shores, and lashings kept ready to be driv</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-fortified-hull-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-fortified-hull-base.webp" alt="Hull bracing: Iron resolve" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Iron resolve</h3>
+                <p class="db-card-type">Reinforced where strain is greatest, this bracing </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-blank-base.webp" alt="Hull bracing" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing</h3>
+                <p class="db-card-type">Standard timber bracing added to steady the hull u</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-improvised-defenses-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-improvised-defenses-advanced.webp" alt="Hull bracing: Standfast" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Standfast</h3>
+                <p class="db-card-type">Wedges, shores, and lashings kept ready to be driv</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ship-hull-fortified-hull-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ship-hull-fortified-hull-advanced.webp" alt="Hull bracing: Iron resolve" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hull bracing: Iron resolve</h3>
+                <p class="db-card-type">Reinforced where strain is greatest, this bracing </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-fortified-hull-base.webp" alt="Plans: Iron resolve hull bracing" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Plans: Iron resolve hull bracing</h3>
+                <p class="db-card-type">Reinforced where strain is greatest, this bracing </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-ship-hull-active-defence-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-active-defence-base.webp" alt="Plans: Keelhold hull bracing" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Plans: Keelhold hull bracing</h3>
+                <p class="db-card-type">Bracing intended to steady the ship during repairs</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-ship-hull-improvised-defences-base.webp" alt="Plans: Standfast hull bracing" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Plans: Standfast hull bracing</h3>
+                <p class="db-card-type">Wedges, shores, and lashings kept ready to be driv</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/fr" class="footer-logo"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="28" height="28"> Windrose Guides</a>
+                <p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Base de données</h4>
+                <ul>
+                    <li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+            <nav>
+                <a href="/fr/pages">Toutes les pages</a>
+                <a href="/fr/privacy">Politique de confidentialité</a>
+                <a href="/fr/terms">Conditions d&#x27;utilisation</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

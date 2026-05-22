@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windrose Leitfaden für dedizierte Server: Hosting-Checkliste &amp; Einrichtungstipps (2026)</title>
+  <meta name="description" content="Windrose-Einrichtungs-Checkliste für dedizierte Server für Koop-Gruppen: Installationsablauf, Ports, Firewall, Passwörter, Speicherstände, Backups und Link zum offiziellen Leitfaden.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://windrose-guides.com/de/server-guide">
+  <link rel="alternate" hreflang="en" href="https://windrose-guides.com/server-guide">
+  <link rel="alternate" hreflang="es" href="https://windrose-guides.com/es/server-guide">
+  <link rel="alternate" hreflang="pt-BR" href="https://windrose-guides.com/pt/server-guide">
+  <link rel="alternate" hreflang="de" href="https://windrose-guides.com/de/server-guide">
+  <link rel="alternate" hreflang="fr" href="https://windrose-guides.com/fr/server-guide">
+  <link rel="alternate" hreflang="zh-CN" href="https://windrose-guides.com/zh/server-guide">
+  <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/server-guide">
+  <link rel="stylesheet" href="../../css/style.css">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://windrose-guides.com/de/server-guide">
+  <meta property="og:title" content="Windrose Leitfaden für dedizierte Server: Hosting-Checkliste &amp; Einrichtungstipps (2026)">
+  <meta property="og:description" content="Windrose-Einrichtungs-Checkliste für dedizierte Server für Koop-Gruppen: Installationsablauf, Ports, Firewall, Passwörter, Speicherstände, Backups und Link zum offiziellen Leitfaden.">
+  <meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+  <meta property="og:site_name" content="Windrose Guides">
+  <meta property="article:published_time" content="2026-05-12">
+  <meta property="article:modified_time" content="2026-05-12">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Windrose Leitfaden für dedizierte Server: Hosting-Checkliste &amp; Einrichtungstipps (2026)">
+  <meta name="twitter:description" content="Windrose-Einrichtungs-Checkliste für dedizierte Server für Koop-Gruppen: Installationsablauf, Ports, Firewall, Passwörter, Speicherstände, Backups und Link zum offiziellen Leitfaden.">
+  <meta name="twitter:image" content="https://windrose-guides.com/imgs/og.webp">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://windrose-guides.com/#website","url":"https://windrose-guides.com/","name":"Windrose Guides","publisher":{"@id":"https://windrose-guides.com/#org"},"inLanguage":"de"},{"@type":"Organization","@id":"https://windrose-guides.com/#org","name":"Windrose Guides","url":"https://windrose-guides.com/"},{"@type":"WebPage","@id":"https://windrose-guides.com/de/server-guide#webpage","url":"https://windrose-guides.com/de/server-guide","name":"Windrose Leitfaden für dedizierte Server","description":"Windrose-Einrichtungs-Checkliste für dedizierte Server für Koop-Gruppen: Installationsablauf, Ports, Firewall, Passwörter, Speicherstände, Backups und Link zum offiziellen Leitfaden.","dateModified":"2026-05-12","isPartOf":{"@id":"https://windrose-guides.com/#website"},"breadcrumb":{"@id":"https://windrose-guides.com/de/server-guide#breadcrumb"},"inLanguage":"de"},{"@type":"BreadcrumbList","@id":"https://windrose-guides.com/de/server-guide#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite","item":"https://windrose-guides.com/"},{"@type":"ListItem","position":2,"name":"Windrose Leitfaden für dedizierte Server"}]},{"@type":"Article","headline":"Windrose Leitfaden für dedizierte Server","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Organization","name":"Windrose Guides"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kann ich einen Windrose Dedicated Server hosten?","acceptedAnswer":{"@type":"Answer","text":"Ja. Der offizielle Leitfaden unterstützt die SteamCMD-Installation mit App-ID 4129620 und gibt den aktuellen Konfigurations-Workflow vor."}},{"@type":"Question","name":"Läuft der dedizierte Server auf Linux?","acceptedAnswer":{"@type":"Answer","text":"Der offizielle Leitfaden beschreibt ihn derzeit als Windows-only, daher behandle Linux- oder Headless-Setups als nicht unterstützt, sofern sich die offizielle Dokumentation nicht ändert."}},{"@type":"Question","name":"Sollte ich mein Server-Save sichern?","acceptedAnswer":{"@type":"Answer","text":"Ja. Sichere vor Patches, vor Änderungen der Schwierigkeit oder der Welt-Einstellungen und vor dem Wechsel des Hosts."}}]}]}
+  </script>
+</head>
+<body>
+  <header class="header"><div class="container"><a href="/de" class="logo" aria-label="Windrose Guides Startseite"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Navigationsmenü umschalten" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Deutsch ▾</button>
+  <ul class="lang-dropdown"><li><a href="/server-guide">English</a></li><li><a href="/es/server-guide">Español</a></li><li><a href="/pt/server-guide">Português</a></li><li><a href="/de/server-guide" class="lang-active">Deutsch</a></li><li><a href="/fr/server-guide">Français</a></li><li><a href="/zh/server-guide">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/de/">Startseite</a></li><li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li><li><a href="/de/database">Datenbank</a></li><li><a href="/de/bosses">Bosse</a></li><li><a href="/de/ships">Schiffe</a></li><li><a href="/de/guides">Leitfäden</a></li><li><a href="/de/tools">Werkzeuge</a></li><li><a href="/de/news">Neuigkeiten</a></li><li><a href="/de/search">Suchen 🔍</a></li></ul></nav></div></header>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/de">Startseite</a></li>
+<li><span aria-current="page">Windrose Leitfaden für dedizierte Server</span></li></ol></div></nav>
+  <main class="container">
+    <h1>Windrose Leitfaden für dedizierte Server</h1>
+    
+<div class="quick-stats"><div class="stat"><div class="stat-label">Absicht</div><div class="stat-value">Koop hosten</div></div><div class="stat"><div class="stat-label">Quellentyp</div><div class="stat-value">Offizieller Leitfaden + Checkliste</div></div><div class="stat"><div class="stat-label">Am besten für</div><div class="stat-value">Gruppen</div></div></div>
+<p>Windrose unterstützt Koop-Spiel, und dediziertes Hosting ist eines der stärksten Utility-Themen für die Suche. Diese Seite verwandelt den offiziellen Server-Einrichtungsablauf in eine einfache Pre-Launch-Checkliste für Spieler, die eine persistente Welt wünschen.</p>
+
+<div class="table-responsive">
+  <table>
+    <caption>Windrose Einrichtungs-Checkliste für dedizierte Server</caption>
+    <thead><tr><th scope="col">Bereich</th><th scope="col">Checkliste</th></tr></thead>
+    <tbody>
+      <tr><td>Server package</td><td>Installiere den Windrose Dedicated Server über Steam-Tools oder SteamCMD</td></tr><tr><td>SteamCMD app id</td><td><code>4129620</code></td></tr><tr><td>OS status</td><td>Der offizielle Leitfaden beschreibt den dedizierten Server derzeit als Windows-only</td></tr><tr><td>Ports</td><td>Ports werden dynamisch über NAT-Punch-Through zugewiesen; stelle sicher, dass UPnP funktioniert, und deaktiviere Proxy/VPN beim Testen</td></tr><tr><td>World settings</td><td>Lege Region, Passwort, Spielerzahl, Servernamen und Speicherverhalten vor dem Start fest</td></tr><tr><td>Firewall</td><td>Erlaube <code>WindroseServer.exe</code> durch die Windows Defender Firewall oder Host-Firewall</td></tr><tr><td>Backups</td><td>Sichere Welt-Speicherstände vor Patches und vor Änderungen der Servereinstellungen</td></tr>
+    </tbody>
+  </table>
+</div>
+<section><h2>SteamCMD-Installationsbefehle</h2><pre><code>force_install_dir "C:\Game_Servers\Windrose_Server"
+login anonymous
+app_update 4129620 validate
+quit</code></pre><p>Zum späteren Aktualisieren führe <code>app_update 4129620 validate</code> erneut aus. Halte die Version des dedizierten Servers nach Patches mit dem aktuellen Spiel-Client abgestimmt.</p></section>
+<section><h2>Grundlegender Einrichtungsablauf</h2><ol><li>Installiere das dedizierte Server-Paket über SteamCMD oder Steam-Tools.</li><li>Konfiguriere Servername, Passwort, Region, Spielerzahl und Speicherverhalten, während der Server heruntergefahren ist.</li><li>Stelle sicher, dass UPnP für NAT-Punch-Through verfügbar ist, und deaktiviere dann Proxy oder VPN während der ersten Verbindungstests.</li><li>Füge Firewall- und Antivirus-Ausnahmen für <code>WindroseServer.exe</code> hinzu.</li><li>Starte den Server, teste die Verbindung von einem separaten Client und sichere Speicherstände vor größeren Patches.</li></ol></section>
+<section><h2>Offizielle Quelle</h2><p>Für exakte Startargumente, Konfigurationsfelder und Fehlerbehebung verwende den offiziellen <a href="https://playwindrose.com/dedicated-server-guide/" rel="nofollow">Windrose Dedicated Server Guide</a>. Diese Seite ist eine spielerfreundliche Checkliste und sollte aktualisiert werden, sobald sich der offizielle Leitfaden ändert.</p></section>
+<section id="faq"><h2>Häufig gestellte Fragen</h2>
+<details><summary>Kann ich einen Windrose Dedicated Server hosten?</summary><div class="faq-answer"><p>Ja. Der offizielle Leitfaden unterstützt die SteamCMD-Installation mit App-ID 4129620 und gibt den aktuellen Konfigurations-Workflow vor.</p></div></details>
+<details><summary>Läuft der dedizierte Server auf Linux?</summary><div class="faq-answer"><p>Der offizielle Leitfaden beschreibt ihn derzeit als Windows-only, daher behandle Linux- oder Headless-Setups als nicht unterstützt, sofern sich die offizielle Dokumentation nicht ändert.</p></div></details>
+<details><summary>Sollte ich mein Server-Save sichern?</summary><div class="faq-answer"><p>Ja. Sichere vor Patches, vor Änderungen der Schwierigkeit oder der Welt-Einstellungen und vor dem Wechsel des Hosts.</p></div></details>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/de" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Dein vollständiges Windrose-Wiki, Datenbank- und Leitfaden-Zentrum. Handwerksrezepte, Ressourcenkarten, Boss-Strategien, Schiffsbauten und mehr — alles an einem Ort.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Leitfäden</h4>
+                <ul>
+                    <li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li>
+<li><a href="/de/builds">Build-Leitfäden</a></li>
+<li><a href="/de/server-guide">Server-Leitfaden</a></li>
+<li><a href="/de/download">Download</a></li>
+<li><a href="/de/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Datenbank</h4>
+                <ul>
+                    <li><a href="/de/crafting">Handwerk</a></li>
+<li><a href="/de/resources">Ressourcen</a></li>
+<li><a href="/de/bosses">Bosse</a></li>
+<li><a href="/de/ships">Schiffe</a></li>
+<li><a href="/de/weapons">Waffen</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Entdecken</h4>
+                <ul>
+                    <li><a href="/de/tools">Werkzeuge</a></li>
+<li><a href="/de/news">Neuigkeiten</a></li>
+<li><a href="/de/sources">Quellen</a></li>
+<li><a href="/de/about">Über uns</a></li>
+<li><a href="/de/contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Inoffizielle Fan-Ressource. Nicht mit Kraken Express oder Pocketpair Publishing verbunden.</span>
+            <nav>
+                <a href="/de/pages">Alle Seiten</a>
+                <a href="/de/privacy">Datenschutzerklärung</a>
+                <a href="/de/terms">Nutzungsbedingungen</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+  <script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script>
+</body>
+</html>

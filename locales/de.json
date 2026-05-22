@@ -1,0 +1,1074 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "beginner_guide": "Anfänger-Leitfaden",
+    "database": "Datenbank",
+    "bosses": "Bosse",
+    "ships": "Schiffe",
+    "guides": "Leitfäden",
+    "tools": "Werkzeuge",
+    "news": "Neuigkeiten",
+    "search": "Suchen 🔍"
+  },
+  "header": {
+    "logo_alt": "Windrose Guides Logo",
+    "aria_home": "Windrose Guides Startseite",
+    "aria_menu": "Navigationsmenü umschalten",
+    "site_name": "Windrose Guides"
+  },
+  "footer": {
+    "brand_desc": "Dein vollständiges Windrose-Wiki, Datenbank- und Leitfaden-Zentrum. Handwerksrezepte, Ressourcenkarten, Boss-Strategien, Schiffsbauten und mehr — alles an einem Ort.",
+    "col_guides": "Leitfäden",
+    "col_database": "Datenbank",
+    "col_explore": "Entdecken",
+    "link_beginner": "Anfänger-Leitfaden",
+    "link_builds": "Build-Leitfäden",
+    "link_server": "Server-Leitfaden",
+    "link_download": "Download",
+    "link_faq": "FAQ",
+    "link_crafting": "Handwerk",
+    "link_resources": "Ressourcen",
+    "link_bosses": "Bosse",
+    "link_ships": "Schiffe",
+    "link_weapons": "Waffen",
+    "link_tools": "Werkzeuge",
+    "link_news": "Neuigkeiten",
+    "link_sources": "Quellen",
+    "link_about": "Über uns",
+    "link_contact": "Kontakt",
+    "link_all_pages": "Alle Seiten",
+    "link_privacy": "Datenschutzerklärung",
+    "link_terms": "Nutzungsbedingungen",
+    "copyright": "© 2026 Windrose Guides. Inoffizielle Fan-Ressource. Nicht mit Kraken Express oder Pocketpair Publishing verbunden."
+  },
+  "common": {
+    "read_more": "Weiterlesen",
+    "back_to_all": "Zurück zu allen Neuigkeiten",
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "tier": "Stufe",
+    "level": "Lv",
+    "coming_soon": "Demnächst verfügbar",
+    "showing_items": "{n} Artikel angezeigt",
+    "sort": "Sortieren",
+    "sort_name": "Name",
+    "sort_rarity": "Seltenheit",
+    "search_placeholder": "Nach Namen suchen...",
+    "faq_heading": "Häufig gestellte Fragen",
+    "data_note": "Datenhinweis: Windrose befindet sich im Early Access, daher können sich Rezepte, Werte und Boss-Details ändern. Dieser Leitfaden bevorzugt verifizierte offizielle Beschreibungen, Steam-Neuigkeiten und reproduzierbare Spielfortschritte gegenüber unbestätigten Gerüchten.",
+    "by_author": "Von {author}",
+    "read_full_analysis": "Vollständige Analyse lesen →",
+    "view_full_guide": "Vollständigen Strategie-Leitfaden für diese Kategorie ansehen →"
+  },
+  "homepage": {
+    "badge": "Early Access — Aktualisiert für Patch 0.4.2",
+    "hero_title": "Windrose Guides — Inoffizielles Wiki & Datenbank",
+    "hero_subtitle": "Dein ultimativer Windrose-Begleiter — Alle Handwerksrezepte, Ressourcenstandorte & Boss-Strategien an einem Ort",
+    "hero_desc": "Windrose ist ein Piraten-Survival-RPG mit Soulslite-Kampfsystem, offener Meereserkundung und tiefgehenden Handwerkssystemen für bis zu 10 Spieler. Egal, ob du als Einzelgänger unbekannte Gewässer erkundest oder mit einer Crew gemeinsam Bosse besiegst — wir bieten dir die Leitfäden, Daten und Werkzeuge, um jede Insel zu erobern.",
+    "highlight_items": "950+ Gegenstände",
+    "highlight_bosses": "Boss-Leitfäden",
+    "highlight_ships": "Schiffsbau",
+    "highlight_coop": "Koop-Tipps",
+    "cta_beginner": "Anfänger-Leitfaden",
+    "cta_database": "Datenbank durchsuchen",
+    "cta_workbench": "Werkbank-Rezepte",
+    "quick_nav_title": "Schnellnavigation",
+    "quick_nav_desc": "Springe direkt zum benötigten Leitfaden oder Datenbankabschnitt. Alle Inhalte sind nach Thema organisiert und für den neuesten Patch aktualisiert.",
+    "card_beginner_title": "Anfänger-Leitfaden",
+    "card_beginner_desc": "Erste Schritte in Windrose — Überlebensgrundlagen, erstes Schiff und frühe Spielprioritäten für neue Piraten.",
+    "card_workbench_title": "Werkbank-Rezepte",
+    "card_workbench_desc": "Vollständige Werkbank-Rezepte Lv1–3 mit Materialkosten und Freischaltvoraussetzungen.",
+    "card_resources_title": "Ressourcenstandorte",
+    "card_resources_desc": "Wo du Kupfer, Eisen, Ton, Schießpulver und jede Ressource im Windrose-Archipel findest.",
+    "card_bosses_title": "Boss-Strategien",
+    "card_bosses_desc": "Angriffsmuster, Schwächen und Solo-/Koop-Strategien für jede Boss-Begegnung.",
+    "card_ships_title": "Schiffsbau",
+    "card_ships_desc": "Schiffsrümpfe, Segel, Kanonen, Upgrades — baue und passe dein Piratenschiff an.",
+    "card_weapons_title": "Waffen & Rüstungen",
+    "card_weapons_desc": "Wertvergleiche, Stufenrankings und Handwerkspfade für jede Waffe und Rüstung.",
+    "card_tools_title": "Werkzeuge & Checklisten",
+    "card_tools_desc": "Rezeptfinder, Ressourcenplaner, Fortschritts-Checkliste, Schiffsauswahl und Server-Einrichtungs-Shortcuts.",
+    "card_builds_title": "Build-Leitfäden",
+    "card_builds_desc": "Empfohlene Builds für Anfänger, DPS, Tank, Solo- und Koop-Spielstile.",
+    "card_guides_title": "Strategie-Leitfäden",
+    "card_guides_desc": "Detaillierte Komplettlösungen: Abbau-Routen, Boss-Strategien, beste Builds, Handwerkspfade und Seekampf-Taktiken.",
+    "card_faq_title": "FAQ",
+    "card_faq_desc": "Antworten auf die häufigsten Fragen zu Windrose — Fortschritt, Handwerk und Problemlösung.",
+    "card_news_title": "Neuigkeiten & Updates",
+    "card_news_desc": "Aktuelle Windrose-Patchnotes, Update-Changelogs und Community-Neuigkeiten.",
+    "what_is_title": "Was ist Windrose?",
+    "what_is_p1": "Windrose (auch bekannt als Windrose: Pirate Survival RPG) ist ein Piraten-Survival-Abenteuer, entwickelt von Kraken Express und mitveröffentlicht von Pocketpair Publishing. Am 14. April 2026 in Early Access veröffentlicht, verbindet das Spiel klassisches Survival-Handwerk mit Soulslite-Kampf — eine leichtere Variante der Soulslike-Mechaniken, die Timing, Positionierung und Ausdauer-Management belohnt, ohne übermäßig fordernd zu sein.",
+    "what_is_p2": "Das Spiel findet in einem prozedural generierten, offenen Meeresarchipel statt, in dem Spieler Inseln erkunden, Ressourcen sammeln, Basen bauen, hunderte Gegenstände herstellen und zwischen Orten auf selbst gebauten Schiffen segeln können. Windrose unterstützt Solo-Spiel und Koop-Mehrspielermodus für bis zu 10 Spieler und ist damit ideal für Einzelabenteurer wie auch organisierte Crews.",
+    "core_systems_title": "Kern-Gameplay-Systeme",
+    "core_systems_desc": "Windrose kombiniert fünf miteinander verbundene Systeme, die seinen Spielablauf prägen. Jedes System speist die anderen — Ressourcen versorgen das Handwerk, das Handwerk rüstet deinen Charakter aus, und bessere Ausrüstung öffnet neue Bosse und Inseln.",
+    "feature_crafting_title": "Handwerk & Bauen",
+    "feature_crafting_desc": "Über 950 Gegenstände auf mehreren Stufen von Handwerksstationen. Von Werkbank-Werkzeugen bis zu Waffenschmied-Waffen — baue deine Basis überall mit einem freien System.",
+    "feature_combat_title": "Soulslite-Kampf",
+    "feature_combat_desc": "Ausweichrolle, perfektes Blocken und Ausdauer-Management bilden den Kern. Boss-Begegnungen bieten mehrphasige Angriffsmuster, die Übung erfordern.",
+    "feature_sailing_title": "Segeln & Schiffsbau",
+    "feature_sailing_desc": "Baue und passe Schiffe von der Sloop- bis zur Frigate-Klasse an. Navigiere durch dynamische Windsysteme, verwalte Fracht und nimm an Seekämpfen teil.",
+    "feature_resource_title": "Ressourcensammeln",
+    "feature_resource_desc": "Baue Kupfer, Eisen, Ton und Schießpulver aus Höhlenvorkommen und Oberflächenknoten ab. Jede Ressource hat bestimmte Inselbiome, in denen sie vorkommt.",
+    "feature_progression_title": "Fortschritt & Talente",
+    "feature_progression_desc": "Steige durch das Erkunden von POIs und Abschließen von Quests im Level auf. Verteile Talentpunkte in den Bäumen Toughguy, Swashbuckler und Mariner mit kostenlosem Respec.",
+    "db_title": "Erkunde die Datenbank",
+    "db_desc": "Durchstöbere unsere vollständige Sammlung von 950+ Gegenständen — Waffen, Werkzeuge, Ressourcen, Nahrung, Rüstungen und mehr. Jeder Gegenstand enthält Handwerksrezepte, Materialquellen und Stufeninformationen, die für den aktuellen Patch verifiziert sind.",
+    "db_weapons": "Waffen",
+    "db_weapons_cat": "Schwerter, Schusswaffen & mehr",
+    "db_equipment": "Ausrüstung",
+    "db_equipment_cat": "Rüstung, Ringe & Accessoires",
+    "db_ships": "Schiffe",
+    "db_ships_cat": "Rümpfe, Segel & Kanonen",
+    "db_resources": "Ressourcen",
+    "db_resources_cat": "Erze, Holz & Materialien",
+    "db_crafting": "Handwerk",
+    "db_crafting_cat": "Stationen & Rezepte",
+    "db_consumables": "Verbrauchsgüter",
+    "db_consumables_cat": "Nahrung, Tränke & Buffs",
+    "db_cta_text": "Unsere Datenbank ist gegen den aktuellen Patch verifiziert und wird innerhalb von 48 Stunden nach größeren Veröffentlichungen aktualisiert. Verwende den Rezeptfinder und den Ressourcenplaner, um dein Spielerlebnis zu optimieren.",
+    "db_cta_btn": "Vollständige Datenbank durchsuchen",
+    "game_info_title": "Spielinformationen",
+    "game_info_developer": "Entwickler",
+    "game_info_release": "Veröffentlichungsdatum",
+    "game_info_genre": "Genre",
+    "game_info_combat": "Kampf",
+    "game_info_coop": "Koop",
+    "game_info_playtime": "Spielzeit",
+    "links_title": "Offizielle & nützliche Links",
+    "card_download_title": "Download & Spielinfos",
+    "card_download_desc": "Steam-Seite, Early-Access-Status, Entwickler, Publisher, Plattform und offizielle Links.",
+    "card_server_title": "Leitfaden für dedizierte Server",
+    "card_server_desc": "Hosting-Checkliste, Firewall-Hinweise, Backups und Link zur offiziellen Server-Dokumentation.",
+    "card_sources_title": "Quellen & Aktualisierungsrichtlinie",
+    "card_sources_desc": "Wie Leitfaden-Daten während Early Access verifiziert werden und wann Seiten aktualisiert werden sollten.",
+    "news_title": "Neueste Neuigkeiten & Updates",
+    "view_all_news": "Alle Neuigkeiten ansehen"
+  },
+  "tools": {
+    "hub_title": "Windrose Werkzeug-Zentrum",
+    "hub_meta_title": "Windrose Werkzeuge: Rezeptfinder, Fortschritts-Checkliste & Server-Einrichtung (2026)",
+    "hub_meta_desc": "Windrose-Werkzeug-Zentrum für Rezepte, Fortschritt, Ressourcen, Schiffsvergleich und dedizierte Server-Einrichtung. Entwickelt für schnelle Planung und Google-SEO.",
+    "best_for": "Am besten für",
+    "fast_planning": "Schnelle Planung",
+    "tools_count": "5",
+    "js_none": "Nicht erforderlich",
+    "intro": "Windrose Werkzeuge ist ein kompaktes Zentrum für praktische Planungsseiten: Rezepte, Fortschritts-Checklisten, Server-Einrichtung, Ressourcenrouting und Schiffsauswahl.",
+    "card_recipe_title": "Werkbank-Rezeptfinder",
+    "card_recipe_desc": "Springe direkt zu Lv1–Lv3-Werkzeugen, Taschen, Reparatursets, Munition und Station-Freischaltungen.",
+    "card_progression_title": "Fortschritts-Checkliste",
+    "card_progression_desc": "Folge dem Pfad des frühen Spiels vom Lagerfeuer zu Kupferwerkzeugen, erstem Schiff, Crew-Rettung und Foothills.",
+    "card_resource_title": "Ressourcenplaner",
+    "card_resource_desc": "Sieh, welche Ressourcen jede wichtige Handwerksstufe freischalten und welches Werkzeug du zum Sammeln brauchst.",
+    "card_ship_title": "Schiffsauswahl",
+    "card_ship_desc": "Vergleiche Sloop, Brigantine und Frigate nach Rolle, Handhabung, Feuerkraft und Solo-/Koop-Tauglichkeit.",
+    "card_server_title": "Server-Einrichtung",
+    "card_server_desc": "Ports für dedizierte Server, SteamCMD-Startablauf und Hosting-Checkliste für Koop-Gruppen.",
+    "launch_priority_title": "Prioritäre Werkzeuge für den Start",
+    "launch_priority_desc": "Die erste promotionsreife Version sollte den Rezeptfinder, die Fortschritts-Checkliste und die Server-Einrichtungsseite zu den wichtigsten Nutzungszielen machen.",
+    "recipe_meta_title": "Windrose Rezeptfinder: Werkbank-Materialien & Handwerksnutzung (2026)",
+    "recipe_meta_desc": "Finde Windrose-Rezepte schnell: Werkbank-Stufe, Materialien, Fortschrittsnutzung, Taschen, Munition, Reparatursets, Werkzeuge und Kupfer- oder Eisenfreischaltungen.",
+    "recipe_heading": "Windrose Rezeptfinder",
+    "recipe_intro": "Dieser statische Rezeptfinder gibt Google und Spielern eine klare Antwort auf die meistgesuchten Handwerksfragen: welche Station einen Gegenstand herstellt, welche Materialien er kostet und warum er für den Fortschritt wichtig ist.",
+    "recipe_table_caption": "Hochwertige Windrose-Handwerksrezepte",
+    "recipe_table_item": "Gegenstand",
+    "recipe_table_station": "Station",
+    "recipe_table_materials": "Materialien",
+    "recipe_table_use": "Verwendung",
+    "recipe_how_title": "So benutzt du diesen Finder",
+    "recipe_progression_meta_title": "Windrose Fortschritts-Checkliste: Route im frühen Spiel zum ersten Schiff (2026)",
+    "recipe_progression_meta_desc": "Schritt-für-Schritt-Windrose-Fortschritts-Checkliste vom Lagerfeuer und der Werkbank zu Kupferwerkzeugen, erstem Schiff, Crew-Rettung und Foothills.",
+    "recipe_progression_heading": "Windrose Fortschritts-Checkliste",
+    "resource_meta_title": "Windrose Ressourcenplaner: Kupfer, Eisen, Ton, Schießpulver & Verwendung (2026)",
+    "resource_meta_desc": "Plane das Windrose-Ressourcen-Farming nach Werkzeug-Voraussetzung, Standort und Handwerksnutzung. Umfasst Kupfer, Eisen, Ton, Schießpulver, Schwefel, Holz, Stein und Faser.",
+    "resource_heading": "Windrose Ressourcenplaner",
+    "ship_meta_title": "Windrose Schiffsauswahl: Sloop vs Brigantine vs Frigate (2026)",
+    "ship_meta_desc": "Vergleiche Windrose-Schiffe nach Geschwindigkeit, Handhabung, Feuerkraft, Haltbarkeit, Solo-Spiel und Koop-Rollen. Wähle Sloop, Brigantine oder Frigate.",
+    "ship_heading": "Windrose Schiffsauswahl"
+  },
+  "database": {
+    "breadcrumb": "Datenbank",
+    "header_meta": "WINDROSE GUIDES • DATENBANK",
+    "sidebar_categories": "Kategorien",
+    "sidebar_overview": "Übersicht",
+    "sidebar_all_items": "Alle Gegenstände",
+    "view_all": "Alle {name} anzeigen",
+    "search_placeholder": "Nach Namen suchen...",
+    "showing_items": "{n} Artikel angezeigt",
+    "sort": "Sortieren",
+    "sort_name": "Name",
+    "sort_rarity": "Seltenheit",
+    "guide_link": "Vollständigen Strategie-Leitfaden für diese Kategorie ansehen →",
+    "weapons": "Waffen",
+    "melee_weapons": "Nahkampfwaffen",
+    "ranged_weapons": "Fernkampfwaffen",
+    "ammo": "Munition",
+    "tools": "Werkzeuge",
+    "ships_label": "Schiffe",
+    "ship_weapons": "Schiffswaffen",
+    "hull_modules": "Rumpfmodule",
+    "combat_orders": "Kampfbefehle",
+    "resources_label": "Ressourcen",
+    "metals": "Metalle",
+    "consumables_label": "Verbrauchsgüter",
+    "food": "Nahrung",
+    "alchemy": "Alchemie",
+    "medicine": "Medizin",
+    "equipment_label": "Ausrüstung",
+    "armor": "Rüstung",
+    "rings": "Ringe",
+    "necklaces": "Halsketten",
+    "backpacks": "Rucksäcke",
+    "misc_label": "Sonstiges",
+    "default_label": "Standard",
+    "melee_weapon": "Nahkampfwaffe",
+    "ranged_weapon": "Fernkampfwaffe",
+    "armor_set": "Rüstungsset",
+    "item": "Gegenstand",
+    "general": "Allgemein"
+  },
+  "news": {
+    "meta_title": "Windrose Neuigkeiten & Updates: Patchnotes, Meilensteine & Leitfaden-Auswirkungen (2026)",
+    "meta_desc": "Aktuelle Windrose-Neuigkeiten, Patchnotes und Update-Analysen. Jeder Patch zusammengefasst mit Leitfaden-Auswirkungen — erfahre, was sich geändert hat und welche Strategien aktualisiert werden müssen.",
+    "heading": "Windrose Neuigkeiten & Updates",
+    "intro": "Bleibe mit jedem Windrose-Patch, Meilenstein und Entwicklungsupdate auf dem Laufenden. Jeder Nachrichtenbeitrag enthält unsere Leitfaden-Auswirkungsanalyse — eine Übersicht darüber, was sich geändert hat und welche Leitfäden du erneut prüfen solltest. Windrose befindet sich im Early Access (gestartet am 14. April 2026), daher kommen Updates häufig.",
+    "stat_total": "Updates insgesamt",
+    "stat_latest": "Letztes Update",
+    "stat_version": "Spielversion",
+    "stat_next": "Nächstes großes Update",
+    "all_updates": "Alle Updates",
+    "how_we_cover_title": "Wie wir Updates abdecken",
+    "how_we_cover_p1": "Wenn Kraken Express einen Patch veröffentlicht, der Handwerksrezepte, Feind-Balance, Server-Konfigurationen oder den Spielerfortschritt ändert, kopieren wir nicht einfach die Patchnotes. Stattdessen analysieren wir die praktischen Auswirkungen auf unsere Leitfäden:",
+    "impact_recipes": "Rezeptänderungen — Wir aktualisieren die Handwerksdatenbank und markieren betroffene Gegenstände",
+    "impact_balance": "Balance-Änderungen — Unsere Waffen-Tier-Listen und Build-Leitfäden werden neu bewertet",
+    "impact_bosses": "Boss-Anpassungen — Strategieseiten unter Bosse werden mit neuen Taktiken überarbeitet",
+    "impact_server": "Server-Updates — Der Leitfaden für dedizierte Server wird mit neuen Konfigurationsschritten aktualisiert",
+    "how_we_cover_p2": "Dieser Ansatz liefert dir umsetzbare Informationen statt rohem Patchtext, spart dir Zeit und hilft dir, dein Gameplay schnell anzupassen.",
+    "official_sources_title": "Offizielle Quellen",
+    "source_steam": "Windrose auf Steam — Offizielle Shop-Seite und Community-Hub",
+    "source_server": "Offizieller Leitfaden für dedizierte Server — Dokumentation zur Server-Einrichtung",
+    "source_news": "Steam News Hub — Alle offiziellen Ankündigungen und Patchnotes",
+    "category_patch_notes": "Patchnotes",
+    "category_milestone": "Meilenstein",
+    "category_preview": "Vorschau",
+    "category_community": "Community",
+    "category_media": "Medien",
+    "related_guides": "Verwandte Leitfäden",
+    "official_source": "Offizielle Quelle",
+    "back_to_news": "Zurück zu allen Neuigkeiten",
+    "nav_previous": "Vorherige",
+    "nav_next": "Nächste"
+  },
+  "search": {
+    "meta_title": "Windrose Guides durchsuchen (2026)",
+    "meta_desc": "Durchsuche die gesamte Windrose Guides-Datenbank nach Rezepten, Gegenständen, Bossen und Leitfäden.",
+    "heading": "Windrose Guides durchsuchen",
+    "intro": "Verwende die Suchleiste unten, um Leitfäden, Rezepte, Ressourcen und Boss-Strategien in der gesamten Windrose Guides-Datenbank zu finden.",
+    "placeholder": "Suche nach Gegenständen, Bossen, Leitfäden...",
+    "no_results": "Keine Ergebnisse gefunden."
+  },
+  "download": {
+    "meta_title": "Windrose Download: Steam-Seite, Early Access & Spielinfos (2026)",
+    "meta_desc": "Finde Windrose auf Steam, bestätige den Early-Access-Status, Entwickler, Publisher, Plattform, Koop-Fokus und was du vor der Nutzung der Leitfäden überprüfen solltest.",
+    "heading": "Windrose Download & Spielinfos",
+    "best_for": "Am besten für",
+    "best_for_value": "Schnelle Planung",
+    "platform": "Plattform",
+    "platform_value": "PC / Steam",
+    "mode": "Modus",
+    "mode_value": "Einzelspieler + Online-Koop",
+    "status": "Status",
+    "status_value": "Early Access",
+    "intro": "Windrose ist auf Steam für PC im Early Access verfügbar. Diese Seite existiert, weil Suchen nach Download und Systemanforderungen oft besser konvertieren als allgemeine Leitfaden-Suchen, und sie helfen Spielern zu bestätigen, dass sie das richtige Spiel ansehen, bevor sie das Wiki verwenden.",
+    "table_where": "Wo du Windrose bekommst",
+    "table_developer": "Entwickler",
+    "table_publisher": "Publisher",
+    "table_release": "Veröffentlichungsdatum",
+    "table_genre": "Genre",
+    "table_features": "Funktionen",
+    "table_languages": "Sprachen",
+    "table_progression": "Fortschrittsfokus",
+    "ea_title": "Was Early Access beinhaltet",
+    "ea_desc": "Laut Steam-Seite ist die Early-Access-Version ein spielbares Survival-Abenteuer mit optionalem Koop, drei Biomen, etwa dreißig prozedural generierten Inseln, mehr als neunzig handgefertigten Points of Interest, drei spielbaren Schiffen, Seekampf mit Entern, Bauen, Handwerk, Werten, Talenten, Rüstung, Waffen, Fraktionen, Reputation und NPC-Arbeitern.",
+    "before_buy_title": "Bevor du kaufst",
+    "before_buy_desc": "Windrose verändert sich noch während des Early Access, daher sollten Leitfäden als lebendige Referenzen behandelt werden. Prüfe Steam-Ankündigungen auf Patchnotes, bevor du davon ausgehst, dass ein Rezept, eine Boss-Anforderung oder eine Serveroption endgültig ist."
+  },
+  "server_guide": {
+    "meta_title": "Windrose Leitfaden für dedizierte Server: Hosting-Checkliste & Einrichtungstipps (2026)",
+    "meta_desc": "Windrose-Einrichtungs-Checkliste für dedizierte Server für Koop-Gruppen: Installationsablauf, Ports, Firewall, Passwörter, Speicherstände, Backups und Link zum offiziellen Leitfaden.",
+    "heading": "Windrose Leitfaden für dedizierte Server",
+    "best_for": "Am besten für",
+    "best_for_value": "Gruppen",
+    "source_type": "Quellentyp",
+    "source_type_value": "Offizieller Leitfaden + Checkliste",
+    "intent": "Absicht",
+    "intent_value": "Koop hosten",
+    "intro": "Windrose unterstützt Koop-Spiel, und dediziertes Hosting ist eines der stärksten Nutzungs-Themen für die Suche. Diese Seite verwandelt den offiziellen Server-Einrichtungsablauf in eine einfache Pre-Launch-Checkliste für Spieler, die eine persistente Welt wünschen.",
+    "table_area": "Bereich",
+    "table_checklist": "Checkliste",
+    "steamcmd_title": "SteamCMD-Installationsbefehle",
+    "setup_title": "Grundlegender Einrichtungsablauf",
+    "official_source_title": "Offizielle Quelle"
+  },
+  "sources": {
+    "meta_title": "Windrose Guides Quellen & Aktualisierungsrichtlinie (2026)",
+    "meta_desc": "Quellenrichtlinie für Windrose Guides: offizielle Steam-Daten, playwindrose.com Server-Dokumentation, Patchnotes, In-Game-Verifizierung und Early-Access-Update-Regeln.",
+    "heading": "Windrose Guides Quellen & Aktualisierungsrichtlinie",
+    "purpose": "Zweck",
+    "purpose_value": "Vertrauen",
+    "living_log": "Lebendiges Protokoll",
+    "use": "Verwendung",
+    "use_value": "Inhalts-QA",
+    "intro": "Dieses Quellenprotokoll verfolgt, wo wichtige Aussagen der Seite verifiziert werden sollten. Es hilft, den Leitfaden bewerbbar zu halten, ohne so zu tun, als wäre jedes Early-Access-Detail endgültig."
+  },
+  "guides": {
+    "mining_meta_title": "Beste Abbau-Routen: Kupfer, Eisen & Schwefel (2026)",
+    "mining_meta_desc": "Die effizientesten Abbau-Routen in Windrose. Farme Kupfer, Eisen und Schwefel schnell, um dein Schiff und deine Waffen aufzurüsten.",
+    "mining_heading": "Beste Abbau-Routen & Erz-Farming",
+    "boss_prog_meta_title": "Boss-Fortschritts- & Strategie-Leitfaden (2026)",
+    "boss_prog_meta_desc": "Vollständiger Boss-Fortschritts-Leitfaden für Windrose. Lerne, wie du Thomas Richards, Israel Hands und die High Priestess besiegst.",
+    "boss_prog_heading": "Boss-Fortschritts- & Strategie-Leitfaden",
+    "builds_meta_title": "Beste Builds & Talente für das frühe Spiel (2026)",
+    "builds_meta_desc": "Die besten Builds für das frühe Spiel in Windrose. Wähle zwischen den Spielstilen Swashbuckler, Ironclad oder Gunner, um den Kampf zu dominieren.",
+    "builds_heading": "Beste Builds & Talente für das frühe Spiel",
+    "ship_guide_meta_title": "Schiffsbau- & Seekampf-Leitfaden (2026)",
+    "ship_guide_meta_desc": "Vollständiger Windrose-Leitfaden für Schiffsbau und Seekampf. Lerne, wie du Schiffe aufrüstest, Kanonen einsetzt, Feinde enterst und die Meere beherrschst.",
+    "ship_guide_heading": "Schiffsbau- & Seekampf-Leitfaden",
+    "sailing_meta_title": "Segel- & Navigations-Leitfaden: Wind, Karten & Schnellreise (2026)",
+    "sailing_meta_desc": "Meistere das Segeln und Navigieren in Windrose. Lerne das Windsystem, Kartenmarkierungen, Schnellreise-Glocken und den Fortschritt durch Insel-Biome.",
+    "sailing_heading": "Segel- & Navigations-Leitfaden",
+    "crafting_prog_meta_title": "Handwerksfortschritt: Alle Stationen & Freischaltreihenfolge (2026)",
+    "crafting_prog_meta_desc": "Vollständiger Windrose-Handwerksfortschritts-Leitfaden. Lerne die Station-Freischaltreihenfolge, Materialanforderungen und häufige Fehler, die du vermeiden solltest.",
+    "crafting_prog_heading": "Handwerksfortschritts-Leitfaden",
+    "coop_meta_title": "Koop- & Mehrspieler-Leitfaden: Crew-Rollen, Server & Tipps (2026)",
+    "coop_meta_desc": "Vollständiger Windrose-Koop- und Mehrspieler-Leitfaden. Lerne Crew-Rollen, geteilten Fortschritt, dedizierte Server-Einrichtung und bewährte Methoden für das Gruppenspiel.",
+    "coop_heading": "Koop- & Mehrspieler-Leitfaden"
+  },
+  "body": {
+    "tools_hub": {
+      "intro_html": "<strong>Windrose Tools</strong> ist ein kompaktes Zentrum für praktische Planungsseiten: Rezepte, Fortschritts-Checklisten, Server-Einrichtung, Ressourcen-Routing und Schiffsauswahl. Heartopia.gg gewinnt viele Suchanfragen, indem es Spielern Werkzeuge und nicht nur Artikel bietet; dieser Bereich gibt Windrose Guides die gleiche Art von hochgradig zielgerichteter Landing-Area.",
+      "faqs": [
+        {
+          "q": "Hat Windrose Guides interaktive Werkzeuge?",
+          "a": "Die aktuellen Werkzeuge sind statische, crawlbare Planungsseiten. Interaktive Filter können später ohne Änderung der URLs ergänzt werden."
+        },
+        {
+          "q": "Warum Werkzeuge vor weiteren Artikeln hinzufügen?",
+          "a": "Werkzeuge ziehen wiederholte Besuche an und verdienen Verlinkungen, weil sie eine Spieleraufgabe schneller lösen als ein langer Artikel."
+        }
+      ]
+    },
+    "recipe_finder": {
+      "stat_coverage": "Abdeckung",
+      "stat_best_query": "Beste Suchanfrage",
+      "stat_updated": "Aktualisiert",
+      "stat_coverage_value": "Lv1-Lv3",
+      "stat_best_query_value": "Windrose-Rezepte",
+      "table_rows": [
+        [
+          "Stone Axe",
+          "Lv1 Workbench",
+          "3 Stone + 3 Wood",
+          "Erstes Upgrade zum Bäumefällen"
+        ],
+        [
+          "Stone Pickaxe",
+          "Lv1 Workbench",
+          "3 Stone + 3 Wood",
+          "Erforderlich für Kupfer, Ton und Höhlen-Fortschritt"
+        ],
+        [
+          "Bandage",
+          "Lv1 Workbench",
+          "1 Coarse Fabric",
+          "Kern-Heilgegenstand für frühe Kämpfe"
+        ],
+        [
+          "Torn Sailcloth Bag",
+          "Lv1 Workbench",
+          "2 Coarse Fabric + 1 Rope",
+          "Erstes Inventar-Upgrade"
+        ],
+        [
+          "Copper Pickaxe",
+          "Lv1 Workbench",
+          "5 Copper Ingot + 5 Wood",
+          "Öffnet stärkeren Erz-Fortschritt"
+        ],
+        [
+          "Fast Travel Bell",
+          "Lv1 Workbench",
+          "10 Copper Ingot + 3 Rope",
+          "Schaltet bequeme Rückkehrpunkte frei"
+        ],
+        [
+          "Sailor Backpack",
+          "Lv2 Workbench",
+          "Torn Sailcloth Bag + Rough Hide + Copper Ingot",
+          "Mid-Game-Lager-Upgrade"
+        ],
+        [
+          "Bosun Backpack",
+          "Lv3 Workbench",
+          "Sailor Backpack + Tanned Leather + Foothills Iron Ingot",
+          "Spätes Lager-Upgrade"
+        ]
+      ],
+      "how_step_1": "Beginne mit dem Gegenstand, den du herstellen möchtest.",
+      "how_step_2": "Prüfe die Stationsstufe und ob das Rezept zum frühen Kupfer- oder Foothills-Eisen-Fortschritt gehört.",
+      "how_step_3_html": "Öffne die vollständige <a href=\"{workbench_url}\">Workbench-Rezepte</a>-Seite für die komplette Tabelle.",
+      "faqs": [
+        {
+          "q": "Was ist das wichtigste frühe Rezept?",
+          "a": "Stone Pickaxe ist das wichtigste frühe Rezept, weil es den Kupfer- und Ton-Fortschritt startet."
+        },
+        {
+          "q": "Welches Rezept erhöht den Inventarplatz?",
+          "a": "Torn Sailcloth Bag ist das erste Lager-Upgrade, gefolgt von Sailor Backpack und Bosun Backpack."
+        },
+        {
+          "q": "Wo sind die vollständigen Rezepte?",
+          "a_html": "Verwende die Seiten <a href=\"{workbench_url}\">Workbench-Rezepte</a>, <a href=\"{smelting_url}\">Schmelzen</a> und die Handwerks-Unterkategorien."
+        }
+      ]
+    },
+    "progression": {
+      "stat_route": "Route",
+      "stat_focus": "Fokus",
+      "stat_format": "Format",
+      "stat_route_value": "Starter-Insel bis Foothills",
+      "stat_focus_value": "Handwerks-Freischaltungen",
+      "stat_format_value": "Checkliste",
+      "intro": "Der schnellste und zuverlässigste Windrose-Start besteht nicht darin, sofort eine riesige Basis zu bauen. Baue nur das, was Werkzeuge, Schmelzen, Heilung und dein erstes Schiff freischaltet, und ziehe dann mit genügend Vorräten zur nächsten Inselkette weiter, um Fehler auszugleichen.",
+      "table_caption": "Windrose Checkliste für frühen Fortschritt",
+      "table_headers": [
+        "Schritt",
+        "Ziel",
+        "Materialien oder Voraussetzung",
+        "Warum es wichtig ist"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "Build Bonfire and Workbench",
+          "Wood, Stone, Plant Fiber",
+          "Schafft die grundlegende Handwerks-Schleife"
+        ],
+        [
+          "2",
+          "Craft Stone Pickaxe",
+          "3 Stone + 3 Wood",
+          "Baue Kupfererz und Ton ab"
+        ],
+        [
+          "3",
+          "Build Charcoal Kiln",
+          "25 Wood + 20 Clay",
+          "Verwandle Holz in Holzkohle zum Schmelzen"
+        ],
+        [
+          "4",
+          "Build Smelting Furnace",
+          "15 Clay + 30 Stone",
+          "Wandle Kupfererz in Barren um"
+        ],
+        [
+          "5",
+          "Craft Copper Tools",
+          "Copper Ingots + Wood",
+          "Beschleunigt das Sammeln und schaltet stärkere Materialien frei"
+        ],
+        [
+          "6",
+          "Prepare Combat Kit",
+          "Bandages, repair kit, food",
+          "Überlebe Höhlen und Piratenlager"
+        ],
+        [
+          "7",
+          "Claim First Ship",
+          "Main quest progress",
+          "Beginne die Erkundung von Insel zu Insel"
+        ],
+        [
+          "8",
+          "Push Foothills",
+          "Copper gear, ship supplies",
+          "Schalte Eisen, Schwefel und späteren Fortschritt frei"
+        ]
+      ],
+      "short_answer_title": "Werbetaugliche Kurzantwort",
+      "short_answer_html": "<strong>Um in Windrose schnell voranzukommen, baue eine Stone Pickaxe, baue Kupfer und Ton ab, baue einen Charcoal Kiln und eine Smelting Furnace, schmelze Copper Ingots und stelle dann Kupferwerkzeuge her, bevor du dein erstes Schiff und Foothills in Angriff nimmst.</strong>",
+      "faqs": [
+        {
+          "q": "Sollte ich früh eine permanente Basis bauen?",
+          "a": "Nein. Ein kleines Lager in der Nähe von Ressourcen ist effizienter, bis du das Insel-Layout verstehst und bessere Werkzeuge freischaltest."
+        },
+        {
+          "q": "Was sollte ich mitnehmen, bevor ich die erste Insel verlasse?",
+          "a": "Bringe Bandagen, Nahrung, Reparaturmaterialien, Kupferwerkzeuge und genug Holz oder Stein mit, um grundlegende Stationen wieder aufzubauen."
+        }
+      ]
+    },
+    "resource": {
+      "stat_resources": "Ressourcen",
+      "stat_best_use": "Beste Verwendung",
+      "stat_related": "Verwandt",
+      "stat_resources_value": "8 Kern",
+      "stat_best_use_value": "Routenplanung",
+      "stat_related_value": "Handwerk + Builds",
+      "intro": "Verwende diesen Planer, um zu entscheiden, was du farmen sollst, bevor du eine Station baust oder eine Insel verlässt. Der häufigste Spielerfehler ist, zufällige Materialien zu sammeln, ohne zu wissen, welches Werkzeug-Gate sie öffnen wollen.",
+      "table_caption": "Windrose Ressourcenplaner",
+      "table_headers": [
+        "Ressource",
+        "Wo zu finden",
+        "Werkzeug oder Gate",
+        "Hauptverwendungen"
+      ],
+      "table_rows": [
+        [
+          "Wood",
+          "Bäume, Treibholz, Wrackteile",
+          "Axe",
+          "Bonfire, Workbench, Reparaturen, Holzkohle"
+        ],
+        [
+          "Stone",
+          "Bodensteine und Vorkommen",
+          "Pickaxe",
+          "Steinwerkzeuge, Ofen, Kugeln"
+        ],
+        [
+          "Plant Fiber",
+          "Pflanzen und Sammeln am Ufer",
+          "Hände oder Werkzeug",
+          "Rope, Coarse Fabric, Taschen, Bandagen"
+        ],
+        [
+          "Clay",
+          "Flussufer und feuchte Bodenflecken",
+          "Stone Pickaxe",
+          "Kiln, Ofen, Flaschen, Töpfe"
+        ],
+        [
+          "Copper Ore",
+          "Kupferhöhlen-Symbole und Vorkommen",
+          "Stone Pickaxe",
+          "Copper Ingots, Werkzeuge, Glocke, Kugeln"
+        ],
+        [
+          "Iron Ore",
+          "Foothills-Vorkommen",
+          "Copper Pickaxe",
+          "Eisenwerkzeuge, Lv2-Rezepte, fortschrittliche Taschen"
+        ],
+        [
+          "Gunpowder",
+          "Schmuggler-Verstecke, Piratenlager, späteres Handwerk",
+          "Kampf oder Millstone",
+          "Munition und Fernkampf-Builds"
+        ],
+        [
+          "Sulfur",
+          "Foothills gelbe Vorkommen",
+          "Iron Pickaxe",
+          "Spätes Schießpulver-Handwerk"
+        ]
+      ],
+      "farming_order_title": "Beste Farm-Reihenfolge",
+      "farming_order_p": "Holz, Stein und Pflanzenfasern kommen zuerst. Ton und Kupfer schalten das Schmelzen frei. Kupferwerkzeuge führen zu Eisen. Eisen und Schwefel treiben die späte Ressourcenkette für stärkere Werkzeuge, Rucksäcke und Munition voran.",
+      "faqs": [
+        {
+          "q": "Welche Ressource sollte ich zuerst farmen?",
+          "a": "Holz und Stein zuerst, aber Kupfer und Ton sind die ersten echten Fortschritts-Ressourcen."
+        },
+        {
+          "q": "Wo sollte ich früh Schießpulver farmen?",
+          "a": "Verwende Schmuggler-Verstecke und Piratenlager, bevor du Schießpulver aus Schwefel und Asche herstellen kannst."
+        }
+      ]
+    },
+    "ship_selector": {
+      "stat_ships": "Schiffe",
+      "stat_best_overall": "Beste insgesamt",
+      "stat_solo_pick": "Solo-Wahl",
+      "intro": "Wähle dein Windrose-Schiff nach Aufgabe, nicht nach Größe. Die Sloop ist am einfachsten zu manövrieren, die Brigantine ist der sicherste Allrounder, und die Frigate ist eine Verpflichtung zu Feuerkraft und Crew-Koordination.",
+      "table_caption": "Windrose Schiffsauswahl",
+      "table_headers": [
+        "Schiff",
+        "Beste Verwendung",
+        "Handhabung",
+        "Feuerkraft",
+        "Haltbarkeit",
+        "Empfohlen für"
+      ],
+      "table_rows": [
+        [
+          "Sloop",
+          "Solo-Erkundung, schnelle Reise zwischen Inseln",
+          "Schnell",
+          "Niedrig",
+          "Niedrig",
+          "Neue Solo-Spieler"
+        ],
+        [
+          "Brigantine",
+          "Ausgewogene Erkundung und Koop-Kampf",
+          "Mittel",
+          "Mittel",
+          "Mittel",
+          "Die meisten Crews"
+        ],
+        [
+          "Frigate",
+          "Schwere Seeschlachten und späte Kämpfe",
+          "Langsam",
+          "Hoch",
+          "Hoch",
+          "Vorbereitete Gruppen"
+        ]
+      ],
+      "quick_rec_title": "Schnellempfehlung",
+      "quick_rec_html": "Für die meisten Spieler arbeite auf die <a href=\"{brigantine_url}\">Brigantine</a> hin. Sie hat genug Kontrolle für die Erkundung und genug Stärke für Kämpfe, ohne die langsame Handhabung einer <a href=\"{frigate_url}\">Frigate</a> zu erzwingen.",
+      "faqs": [
+        {
+          "q": "Was ist das beste Solo-Schiff?",
+          "a": "Die Sloop ist das einfachste Solo-Schiff, weil Geschwindigkeit und Wendigkeit wichtiger sind, wenn du keine volle Crew hast."
+        },
+        {
+          "q": "Was ist das beste allgemeine Schiff?",
+          "a": "Die Brigantine ist die beste Standardempfehlung, weil sie Geschwindigkeit, Feuerkraft und Überleben ausbalanciert."
+        }
+      ]
+    },
+    "server_guide": {
+      "stat_intent": "Absicht",
+      "stat_source_type": "Quellentyp",
+      "stat_best_for": "Am besten für",
+      "stat_intent_value": "Koop hosten",
+      "stat_source_type_value": "Offizieller Leitfaden + Checkliste",
+      "stat_best_for_value": "Gruppen",
+      "intro": "Windrose unterstützt Koop-Spiel, und dediziertes Hosting ist eines der stärksten Utility-Themen für die Suche. Diese Seite verwandelt den offiziellen Server-Einrichtungsablauf in eine einfache Pre-Launch-Checkliste für Spieler, die eine persistente Welt wünschen.",
+      "table_caption": "Windrose Einrichtungs-Checkliste für dedizierte Server",
+      "table_headers": [
+        "Bereich",
+        "Checkliste"
+      ],
+      "table_rows": [
+        [
+          "Server package",
+          "Installiere den Windrose Dedicated Server über Steam-Tools oder SteamCMD"
+        ],
+        [
+          "SteamCMD app id",
+          "<code>4129620</code>"
+        ],
+        [
+          "OS status",
+          "Der offizielle Leitfaden beschreibt den dedizierten Server derzeit als Windows-only"
+        ],
+        [
+          "Ports",
+          "Ports werden dynamisch über NAT-Punch-Through zugewiesen; stelle sicher, dass UPnP funktioniert, und deaktiviere Proxy/VPN beim Testen"
+        ],
+        [
+          "World settings",
+          "Lege Region, Passwort, Spielerzahl, Servernamen und Speicherverhalten vor dem Start fest"
+        ],
+        [
+          "Firewall",
+          "Erlaube <code>WindroseServer.exe</code> durch die Windows Defender Firewall oder Host-Firewall"
+        ],
+        [
+          "Backups",
+          "Sichere Welt-Speicherstände vor Patches und vor Änderungen der Servereinstellungen"
+        ]
+      ],
+      "steamcmd_title": "SteamCMD-Installationsbefehle",
+      "steamcmd_after_html": "Zum späteren Aktualisieren führe <code>app_update 4129620 validate</code> erneut aus. Halte die Version des dedizierten Servers nach Patches mit dem aktuellen Spiel-Client abgestimmt.",
+      "basic_setup_title": "Grundlegender Einrichtungsablauf",
+      "basic_setup_steps": [
+        "Installiere das dedizierte Server-Paket über SteamCMD oder Steam-Tools.",
+        "Konfiguriere Servername, Passwort, Region, Spielerzahl und Speicherverhalten, während der Server heruntergefahren ist.",
+        "Stelle sicher, dass UPnP für NAT-Punch-Through verfügbar ist, und deaktiviere dann Proxy oder VPN während der ersten Verbindungstests.",
+        "Füge Firewall- und Antivirus-Ausnahmen für <code>WindroseServer.exe</code> hinzu.",
+        "Starte den Server, teste die Verbindung von einem separaten Client und sichere Speicherstände vor größeren Patches."
+      ],
+      "official_source_title": "Offizielle Quelle",
+      "official_source_html": "Für exakte Startargumente, Konfigurationsfelder und Fehlerbehebung verwende den offiziellen <a href=\"https://playwindrose.com/dedicated-server-guide/\" rel=\"nofollow\">Windrose Dedicated Server Guide</a>. Diese Seite ist eine spielerfreundliche Checkliste und sollte aktualisiert werden, sobald sich der offizielle Leitfaden ändert.",
+      "faqs": [
+        {
+          "q": "Kann ich einen Windrose Dedicated Server hosten?",
+          "a": "Ja. Der offizielle Leitfaden unterstützt die SteamCMD-Installation mit App-ID 4129620 und gibt den aktuellen Konfigurations-Workflow vor."
+        },
+        {
+          "q": "Läuft der dedizierte Server auf Linux?",
+          "a": "Der offizielle Leitfaden beschreibt ihn derzeit als Windows-only, daher behandle Linux- oder Headless-Setups als nicht unterstützt, sofern sich die offizielle Dokumentation nicht ändert."
+        },
+        {
+          "q": "Sollte ich mein Server-Save sichern?",
+          "a": "Ja. Sichere vor Patches, vor Änderungen der Schwierigkeit oder der Welt-Einstellungen und vor dem Wechsel des Hosts."
+        }
+      ]
+    },
+    "download": {
+      "stat_platform": "Plattform",
+      "stat_mode": "Modus",
+      "stat_status": "Status",
+      "stat_platform_value": "PC / Steam",
+      "stat_mode_value": "Einzelspieler + Online-Koop",
+      "stat_status_value": "Early Access",
+      "intro_html": "<strong>Windrose ist auf Steam für PC im Early Access verfügbar.</strong> Diese Seite existiert, weil Suchen nach Download und Systemanforderungen oft besser konvertieren als allgemeine Leitfaden-Suchen, und sie helfen Spielern zu bestätigen, dass sie das richtige Spiel ansehen, bevor sie das Wiki verwenden.",
+      "table_caption": "Windrose Download- und Spielinfos",
+      "table_headers": [
+        "Thema",
+        "Antwort"
+      ],
+      "table_rows": [
+        [
+          "Where to get Windrose",
+          "<a href=\"https://store.steampowered.com/app/3041230/Windrose/\" rel=\"nofollow\">Steam-Shop-Seite</a>"
+        ],
+        [
+          "Developer",
+          "Kraken Express"
+        ],
+        [
+          "Publisher",
+          "Kraken Express / Pocketpair Publishing"
+        ],
+        [
+          "Release date",
+          "14. April 2026"
+        ],
+        [
+          "Genre",
+          "Action, Adventure, RPG, Early Access"
+        ],
+        [
+          "Features",
+          "Einzelspieler, Online-Koop, Steam Cloud, Family Sharing"
+        ],
+        [
+          "Languages",
+          "Englisch plus mehrere unterstützte Oberflächen-/Untertitel-Sprachen"
+        ],
+        [
+          "Progression focus",
+          "Handwerksstationen, Ressourcen, Crew, Schiffe, Bosse, Inselerkundung und dedizierte Server"
+        ]
+      ],
+      "ea_title": "Was Early Access beinhaltet",
+      "ea_p": "Laut Steam-Seite ist die Early-Access-Version ein spielbares Survival-Abenteuer mit optionalem Koop, drei Biomen, etwa dreißig prozedural generierten Inseln, mehr als neunzig handgefertigten Points of Interest, drei spielbaren Schiffen, Seekampf mit Entern, Bauen, Handwerk, Werten, Talenten, Rüstung, Waffen, Fraktionen, Reputation und NPC-Arbeitern.",
+      "before_title": "Bevor du kaufst",
+      "before_p": "Windrose verändert sich noch während des Early Access, daher sollten Leitfäden als lebendige Referenzen behandelt werden. Prüfe Steam-Ankündigungen auf Patchnotes, bevor du davon ausgehst, dass ein Rezept, eine Boss-Anforderung oder eine Serveroption endgültig ist.",
+      "faqs": [
+        {
+          "q": "Ist Windrose auf Steam?",
+          "a_html": "Ja. Die offizielle PC-Listung ist auf <a href=\"https://store.steampowered.com/app/3041230/Windrose/\" rel=\"nofollow\">Steam</a>."
+        },
+        {
+          "q": "Ist Windrose fertig?",
+          "a": "Nein. Es ist ein Early-Access-Spiel, daher können sich Inhalte und Balance ändern."
+        }
+      ]
+    },
+    "sources": {
+      "stat_purpose": "Zweck",
+      "stat_status": "Status",
+      "stat_use": "Verwendung",
+      "stat_purpose_value": "Vertrauen",
+      "stat_status_value": "Lebendiges Protokoll",
+      "stat_use_value": "Inhalts-QA",
+      "intro": "Dieses Quellenprotokoll verfolgt, wo wichtige Aussagen der Seite verifiziert werden sollten. Es hilft, den Leitfaden bewerbbar zu halten, ohne so zu tun, als wäre jedes Early-Access-Detail endgültig.",
+      "table_caption": "Windrose Guides Quellenrichtlinie",
+      "table_headers": [
+        "Thema",
+        "Bevorzugte Quelle",
+        "Aktualisierungsregel"
+      ],
+      "table_rows": [
+        [
+          "Game metadata",
+          "Steam-Shop-Seite und offizielle Webseite",
+          "Aktualisieren, wenn sich Steam oder die offizielle Seite ändert"
+        ],
+        [
+          "Dedicated servers",
+          "Offizieller playwindrose.com Server-Leitfaden",
+          "Sofort aktualisieren, nachdem sich der offizielle Leitfaden ändert"
+        ],
+        [
+          "Patch notes",
+          "Steam-News und offizielle Ankündigungen",
+          "Auswirkungen zusammenfassen, nicht die vollständigen Notes duplizieren"
+        ],
+        [
+          "Recipes and resources",
+          "In-Game-Verifizierung plus seriöse Community-Leitfäden",
+          "Unsichere Werte klar kennzeichnen und unfertige Entwurfssprache von sichtbaren Seiten entfernen"
+        ],
+        [
+          "Boss strategy",
+          "In-Game-Tests, Video-Belege und patchspezifische Notizen",
+          "Bestätigte Mechaniken von Empfehlungen trennen"
+        ]
+      ]
+    },
+    "search": {
+      "intro": "Verwende die Suchleiste unten, um Leitfäden, Rezepte, Ressourcen und Boss-Strategien in der gesamten Windrose Guides-Datenbank zu finden.",
+      "placeholder": "Suche nach Gegenständen, Bossen, Leitfäden...",
+      "no_results": "Keine Ergebnisse gefunden."
+    },
+    "guides": {
+      "mining": {
+        "stat_difficulty": "Schwierigkeit",
+        "stat_required_tool": "Benötigtes Werkzeug",
+        "stat_best_yield": "Bester Ertrag",
+        "stat_difficulty_value": "Mittel",
+        "stat_best_yield_value": "Foothills",
+        "intro": "Der Bergbau ist der Kern des Mid-Game-Fortschritts. Dieser Leitfaden behandelt die effizientesten Routen für Kupfer, Eisen und Schwefel, um die Reisezeit zu minimieren und den Ertrag zu maximieren.",
+        "s1_title": "1. Frühe Kupfer-Route (Starter-Insel)",
+        "s1_html": "Bevor du die Starter-Insel verlässt, finde die beiden Höhlensymbole. Bringe eine Stone Pickaxe und mindestens 3 Fackeln mit. Räume die Höhlen vollständig aus, was etwa 60-80 Poor Copper Ore ergeben sollte. Schmelze diese sofort, um deine Copper Pickaxe und den Weaponsmith herzustellen.",
+        "s2_title": "2. Die Foothills-Eisen-Schleife",
+        "s2_html": "Sobald du die Foothills erreichst, wird Iron Ore zu deinem Engpass. Die beste Route beginnt an der Schnellreise-Glocke an der Südküste und führt entlang des Klippenfußes nach Norden. Du wirst auf 4-5 Eisenvorkommen treffen. <strong>Bringe immer eine Brigantine oder ein größeres Schiff mit</strong>, um das schwere Erz zu lagern, da dich das Inventargewicht schnell einschränkt.",
+        "s3_title": "3. Schwefel- & Schießpulver-Farming",
+        "s3_html": "Sulfur spawnt in der Nähe von Vulkanöffnungen in den Foothills und Cursed Swamps. Kombiniere Sulfur mit Ash (vom Verbrennen von Holz) am Alchemy Table, um Gunpowder herzustellen. Ein einziger Lauf durch die östlichen Sumpföffnungen ergibt genug für ~100 Kugeln.",
+        "faqs": [
+          {
+            "q": "Was ist die beste Spitzhacke?",
+            "a": "Die Iron Pickaxe ist die effizienteste für alle Mid-Game-Erze."
+          },
+          {
+            "q": "Spawnen Erze nach?",
+            "a": "Ja, Erz-Knoten respawnen typischerweise nach 2 Spieltagen."
+          }
+        ]
+      },
+      "boss_progression": {
+        "stat_total": "Bosse insgesamt",
+        "stat_preparation": "Vorbereitung",
+        "stat_required_gear": "Benötigte Ausrüstung",
+        "stat_total_value": "3 bestätigt",
+        "stat_preparation_value": "Hoch",
+        "stat_required_gear_value": "Eisen-Stufe",
+        "intro": "Bosse in Windrose sind wichtige Fortschritts-Gates. Du kannst bestimmte Inseln nicht erreichen oder fortgeschrittene Schiffsteile nicht herstellen, ohne sie zu besiegen. Hier ist der optimale Fortschrittspfad und die Strategie für jeden.",
+        "s1_title": "1. Thomas Richards (Coastal Jungle)",
+        "s1_html": "<strong>Level 5-6.</strong> Die erste große Hürde. Richards verwendet langsame, schwere Säbelhiebe. <strong>Strategie:</strong> Warte, bis sein 3-Treffer-Combo endet, und dann führe einen schweren Angriff aus. Werde nicht gierig. Eine einfache Rapier ist hier wegen ihrer schnellen Angriffsgeschwindigkeit hochgradig effektiv.",
+        "s2_title": "2. Israel Hands (Foothills)",
+        "s2_html": "<strong>Level 8-10.</strong> Hands verwendet Feuerwaffen und ruft Verstärkung. <strong>Strategie:</strong> Nutze die Säulen in der Arena, um seine Musketenschüsse zu blockieren. Konzentriere dich darauf, zuerst seine Crew auszuschalten, und dezimiere dann seine Gesundheit. Bringe mindestens 10 Healing Potions mit.",
+        "s3_title": "3. The High Priestess (Cursed Swamps)",
+        "s3_html": "<strong>Level 12-15.</strong> Ein magiebasierter Boss mit massiven AoE-Angriffen. <strong>Strategie:</strong> Mobilität ist der Schlüssel. Verwende eine Sloop, um ihre Insel schnell zu erreichen, falls du stirbst. Rüste Rüstung mit hoher elementarer Resistenz aus. Ihre Angriffe verursachen Gift, also bringe Antidotes mit, die am Alchemy Table hergestellt werden.",
+        "faqs": [
+          {
+            "q": "Kann ich Bosse überspringen?",
+            "a": "Nein, Story-Bosse lassen Schlüsselgegenstände fallen, die für das Herstellen der Brigantine und Frigate benötigt werden."
+          },
+          {
+            "q": "Skalieren Bosse im Koop?",
+            "a": "Ja, Bosse erhalten erhöhte Gesundheit und Schaden für jeden zusätzlichen Spieler auf dem Server."
+          }
+        ]
+      },
+      "builds": {
+        "stat_playstyles": "Spielstile",
+        "stat_respec": "Respec",
+        "stat_meta": "Meta",
+        "stat_playstyles_value": "Nahkampf, Fernkampf, Hybrid",
+        "stat_respec_value": "Kostenlos",
+        "stat_meta_value": "Beweglichkeit/Krit",
+        "intro": "Dein Build bestimmt deine Kampfeffektivität. Da Respecs kostenlos sind, kannst du experimentieren, aber diese drei Early-Game-Builds bringen dich sicher in das Late Game.",
+        "s1_title": "1. Der Swashbuckler (Beweglichkeit/Krit)",
+        "s1_html": "<strong>Waffen:</strong> Rapier oder Saber + Pistol<br><strong>Talente:</strong> Konzentriere dich auf den 'Duelist'-Baum. Maximiere Ausweich-i-Frames und kritische Trefferchance.<br><strong>Spielstil:</strong> Schnelles Hit-and-Run. Verwende die Pistol, um Feinde zu betäuben, und stürze dich dann für kritische Nahkampfschläge auf sie. Hervorragend für Solo-Spieler.",
+        "s2_title": "2. Der Ironclad (Stärke/Vitalität)",
+        "s2_html": "<strong>Waffen:</strong> Heavy Club oder Boarding Axe + Blunderbuss<br><strong>Talente:</strong> Konzentriere dich auf den 'Toughguy'-Baum. Maximiere HP, Ausdauer und Perfect-Block-Fenster.<br><strong>Spielstil:</strong> Halte deine Stellung. Blocke feindliche Angriffe perfekt, um sie zu betäuben, und führe dann massive schwere Angriffe aus. Am besten für Koop-Frontline.",
+        "s3_title": "3. Der Gunner (Wahrnehmung/Einfallsreichtum)",
+        "s3_html": "<strong>Waffen:</strong> Musket + Dual Pistols<br><strong>Talente:</strong> Konzentriere dich auf den 'Sharpshooter'-Baum. Maximiere Fernkampfschaden und Munitionsherstellungs-Effizienz.<br><strong>Spielstil:</strong> Halte Abstand. Dieser Build erfordert viel Farming für Gunpowder und Blei, schaltet Feinde aber sicher aus, bevor sie dich erreichen.",
+        "faqs": [
+          {
+            "q": "Kann ich meine Talente respeccen?",
+            "a": "Ja, Respecs sind jederzeit im Charaktermenü völlig kostenlos."
+          },
+          {
+            "q": "Was ist der beste Solo-Build?",
+            "a": "Der Swashbuckler (Beweglichkeit/Krit) bietet die Mobilität, die nötig ist, um mehrere Feinde alleine zu überleben."
+          }
+        ]
+      },
+      "ship_building": {
+        "stat_ships": "Schiffe",
+        "stat_cannons": "Kanonen",
+        "stat_boarding": "Entern",
+        "stat_ships_value": "Sloop / Brigantine / Frigate",
+        "stat_cannons_value": "3 Typen",
+        "stat_boarding_value": "Ja",
+        "intro": "Der Seekampf ist eines der einzigartigsten Systeme von Windrose. Dieser Leitfaden behandelt alles vom Upgrade deiner Starter-Sloop bis zum Befehligen einer Frigate-Flotte in späten Seeschlachten.",
+        "s1_title": "1. Dein erstes Schiff: Die Sloop",
+        "s1_html": "Du erhältst eine kostenlose Sloop, nachdem du die Questreihe der Starter-Insel abgeschlossen hast. Die Sloop ist schnell und wendig, aber zerbrechlich — sie hat nur <strong>2 Kanonenplätze</strong> und niedrige Rumpf-HP. Verwende sie hauptsächlich zum <strong>Auskundschaften von Inseln</strong> und <strong>Vermeiden von Kämpfen</strong>. Wenn Feinde dich angreifen, fliehe, anstatt Schüsse auszutauschen.",
+        "s2_title": "2. Upgrade auf die Brigantine",
+        "s2_html": "Die Brigantine erfordert das Besiegen des ersten Bosses (Thomas Richards), um ihren Bauplan freizuschalten. Materialien: <strong>80 Wood + 40 Copper Nails + 20 Iron Ingots + 10 Rope + Sail Fabric</strong>. Die Brigantine hat 4 Kanonenplätze, deutlich mehr HP und kann bequem eine volle Crew von 4 Spielern tragen. Hier wird der Seekampf praktikabel.",
+        "s3_title": "3. Seekampf-Mechaniken",
+        "s3_html": "<ul><li><strong>Windrichtung</strong> — Deine Schiffsgeschwindigkeit hängt vom Windwinkel ab. Segeln mit dem Wind ergibt maximale Geschwindigkeit; gegen ihn segeln verlangsamt dich auf ein Schneckentempo. Verwende den Wind-Indikator auf deinem Kompass.</li><li><strong>Kanonentypen</strong> — Round Shot für Rumpfschaden, Grape Shot für Crew-Schaden, Chain Shot für Mastschaden. Trage immer alle drei mit dir.</li><li><strong>Entern</strong> — Wenn ein feindliches Schiff außer Gefecht ist (Mast zerstört), fahre längsseits und drücke F zum Entern. Entern ist der schnellste Weg, Piratenschiffe zu plündern.</li><li><strong>Reparatursets</strong> — Stelle Ship Repair Kits vor jedem Seekampf her. Ein einziges Loch unter der Wasserlinie wird dein Schiff langsam versenken.</li></ul>",
+        "s4_title": "4. Die Frigate (Late Game)",
+        "s4_html": "Die Frigate ist eine schwimmende Festung mit <strong>8 Kanonenplätzen</strong>, massiver HP und Frachtraum. Sie erfordert das Besiegen von Israel Hands und das Sammeln von Materialien der Foothills-Stufe. Baue eine Frigate nur, wenn du eine Koop-Crew von 3+ hast — Solo-Spieler können nicht alle Kanonen effektiv bedienen.",
+        "faqs": [
+          {
+            "q": "Welches Schiff sollte ich zuerst bauen?",
+            "a": "Rüste immer zuerst auf die Brigantine auf. Es ist die beste Balance aus Feuerkraft und Manövrierfähigkeit."
+          },
+          {
+            "q": "Kann mein Schiff dauerhaft zerstört werden?",
+            "a": "Nein. Wenn dein Schiff sinkt, respawnt es am nächsten Dock, aber du verlierst die gesamte an Bord gelagerte Fracht."
+          }
+        ]
+      },
+      "sailing": {
+        "stat_map_size": "Kartengröße",
+        "stat_fast_travel": "Schnellreise",
+        "stat_navigation": "Navigation",
+        "stat_map_size_value": "30+ Inseln",
+        "stat_fast_travel_value": "Glocken-System",
+        "stat_navigation_value": "Kompass + Wind",
+        "intro": "Die Welt von Windrose ist riesig — über 30 prozedural generierte Inseln in drei Biomen. Effizient zu navigieren spart Stunden an Spielzeit.",
+        "s1_title": "1. Das Windsystem verstehen",
+        "s1_html": "Die Windrichtung ändert sich an jedem Spieltag. Das <strong>Kompass-HUD</strong> zeigt die aktuelle Windrichtung mit einem kleinen Pfeil. Segeln mit dem Wind (Vorwind) ergibt maximale Geschwindigkeit. Segeln im 90°-Winkel zum Wind (halber Wind) ergibt etwa 70% Geschwindigkeit. Direkt gegen den Wind segeln (am Wind) reduziert dich auf 30% Geschwindigkeit. <strong>Plane deine Routen</strong> nach der Windrichtung, um schmerzhaft langsame Überfahrten zu vermeiden.",
+        "s2_title": "2. Kartenmarkierungen & Erkundung",
+        "s2_html": "<strong>Rechtsklick</strong> auf die Karte, um benutzerdefinierte Markierungen zu platzieren. Aktiviere immer \"Auf Minimap anzeigen\", damit Markierungen auf deinem HUD erscheinen. Markiere diese sofort: <strong>Heimatbasen, Ressourcen-Knoten, Höhleneingänge, Boss-Arenen und gefährliche Gebiete</strong>. Es gibt keine Begrenzung für die Anzahl der Markierungen.",
+        "s3_title": "3. Schnellreise-Netzwerk",
+        "s3_html": "Stelle <strong>Fast Travel Bells</strong> her (10 Copper Ingot + 3 Rope) und platziere sie strategisch. Empfohlene Standorte: deine Hauptbasis, Foothills-Landung, Cursed Swamps-Eingang und in der Nähe jeder Boss-Arena. Du kannst zwischen zwei beliebigen Glocken sofort teleportieren, aber <strong>dein Schiff teleportiert nicht mit dir</strong> — plane entsprechend.",
+        "s4_title": "4. Insel-Biome",
+        "s4_html": "<ul><li><strong>Coastal Jungle</strong> — Starter-Biom. Schwache Feinde, reichlich Holz und Kupfer. Sicher für neue Spieler.</li><li><strong>Foothills</strong> — Mid-Game. Eisenerz, Schwefel, stärkere Feinde. Erfordert mindestens Kupfer-Stufe-Ausrüstung.</li><li><strong>Cursed Swamps</strong> — Late Game. Giftige Feinde, seltene Materialien, der High Priestess-Boss. Bringe Gegengifte und Eisen-Stufe-Ausrüstung mit.</li></ul>",
+        "faqs": [
+          {
+            "q": "Teleportiert mein Schiff mit der Schnellreise?",
+            "a": "Nein. Dein Schiff bleibt dort, wo du es zurückgelassen hast. Du musst es manuell zu deinem Ziel segeln."
+          },
+          {
+            "q": "Wie finde ich neue Inseln?",
+            "a": "Segle in Richtung unerforschter Gebiete auf deiner Karte. Neue Inseln erscheinen, wenn sich der Nebel lichtet, sobald du nahe genug bist."
+          }
+        ]
+      },
+      "crafting_progression": {
+        "stat_stations": "Stationen",
+        "stat_tiers": "Stufen",
+        "stat_key_gate": "Schlüssel-Gate",
+        "stat_stations_value": "7 Hauptstationen",
+        "stat_tiers_value": "Stein → Kupfer → Eisen",
+        "stat_key_gate_value": "Workbench-Stufe",
+        "intro": "Das Handwerk in Windrose folgt einem strengen Stufen-System. Zu verstehen, welche Stationen welche Rezepte freischalten — und in welcher Reihenfolge — verhindert verschwendete Ressourcen und Rückschritte.",
+        "s1_title": "1. Die Handwerks-Stufenleiter",
+        "s1_html": "Der Fortschritt folgt dieser Reihenfolge: <strong>Handarbeit → Workbench Lv1 → Charcoal Kiln + Smelting Furnace → Workbench Lv2 → Weaponsmith → Armor Workshop → Workbench Lv3</strong>. Jede Stufe schaltet Rezepte frei, die in die nächste übergehen, und schafft einen klaren Upgrade-Pfad.",
+        "s2_title": "2. Stationsvoraussetzungen",
+        "table_caption": "Windrose Handwerksstation-Fortschritt",
+        "table_headers": [
+          "Station",
+          "Materialien",
+          "Voraussetzung",
+          "Schlüsselrezepte"
+        ],
+        "table_rows": [
+          [
+            "Workbench Lv1",
+            "5 Wood",
+            "Keine",
+            "Steinwerkzeuge, Taschen, Bandagen, Seil"
+          ],
+          [
+            "Charcoal Kiln",
+            "25 Wood + 20 Clay",
+            "Stone Pickaxe",
+            "Holzkohle (Brennstoff zum Schmelzen)"
+          ],
+          [
+            "Smelting Furnace",
+            "15 Clay + 30 Stone",
+            "Stone Pickaxe",
+            "Copper Ingots, Iron Ingots"
+          ],
+          [
+            "Weaponsmith",
+            "10 Wood + 5 Copper Ingot",
+            "Kupfer, Dach erforderlich",
+            "Saber, Rapier, Club, Feuerwaffen"
+          ],
+          [
+            "Armor Workshop",
+            "Rough Hide (von Ebern)",
+            "Dach erforderlich",
+            "Alle Rüstungssets"
+          ],
+          [
+            "Workbench Lv2",
+            "Sawhorse-Erweiterung",
+            "20 Wood + 10 Copper Ingot",
+            "Mid-Tier-Werkzeuge, Sailor Backpack"
+          ],
+          [
+            "Workbench Lv3",
+            "Toolbox-Erweiterung",
+            "10 Wood + 20 Nägel + 5 Eisen",
+            "Späte Werkzeuge, Bosun Backpack"
+          ]
+        ],
+        "s3_title": "3. Häufige Fehler",
+        "s3_html": "<ul><li><strong>Überspringe den Charcoal Kiln nicht.</strong> Viele Spieler versuchen, Erz ohne Holzkohle zu schmelzen. Der Kiln ist obligatorisch.</li><li><strong>Baue Stationen unter Dächern.</strong> Der Weaponsmith und der Armor Workshop benötigen ein Dach, um platziert werden zu können.</li><li><strong>Rezepte sind material-gegatet.</strong> Einige Rezepte erscheinen erst, nachdem du ein bestimmtes Material zum ersten Mal aufgenommen hast.</li></ul>",
+        "faqs": [
+          {
+            "q": "Warum kann ich ein Rezept nicht sehen?",
+            "a": "Die meisten Rezepte sind versteckt, bis du das Hauptmaterial sammelst. Nimm neue Ressourcen auf, um Rezepte automatisch freizuschalten."
+          },
+          {
+            "q": "Was ist die wichtigste Handwerksstation?",
+            "a": "Die Smelting Furnace ist die wichtigste Mid-Game-Station, weil sie Roherz in nutzbare Barren umwandelt."
+          }
+        ]
+      },
+      "coop": {
+        "stat_max_players": "Maximale Spieler",
+        "stat_recommended": "Empfohlen",
+        "stat_server_types": "Server-Typen",
+        "stat_max_players_value": "Bis zu 10",
+        "stat_recommended_value": "2-4",
+        "stat_server_types_value": "P2P + Dediziert",
+        "intro": "Windrose glänzt im Koop. Dieser Leitfaden behandelt, wie du Mehrspieler einrichtest, was du bei verschiedenen Gruppengrößen erwarten kannst und Strategien für effizientes Crew-Spiel.",
+        "s1_title": "1. Wie man Koop spielt",
+        "s1_html": "Wähle im Hauptmenü <strong>\"Spiel hosten\"</strong>, um eine Session zu erstellen, oder <strong>\"Spiel beitreten\"</strong>, um öffentliche Sessions zu durchsuchen. Du kannst auch Freunden direkt über Steam beitreten. Private Server erfordern ein vom Host festgelegtes Passwort.",
+        "s2_title": "2. Crew-Rollen",
+        "s2_html": "<p>In einer idealen Crew von 4:</p><ul><li><strong>Kapitän (1)</strong> — Steuert das Schiff, verwaltet die Navigation, ruft Ziele während des Seekampfs aus.</li><li><strong>Gunner (1-2)</strong> — Bedient Kanonen während Seeschlachten. Wechselt nach Bedarf zwischen Munitionstypen.</li><li><strong>Späher/Sammler (1)</strong> — Erkundet voraus, sammelt Ressourcen, markiert Gefahren auf der Karte.</li><li><strong>Enterer (1)</strong> — Spezialisiert auf Nahkampf zum Entern von Schiffen und Ausräumen von Dungeons.</li></ul>",
+        "s3_title": "3. Geteilter Fortschritt",
+        "s3_html": "Der Fortschritt ist an das <strong>Welt-Save</strong> gebunden, nicht an einzelne Charaktere. Alle Spieler teilen denselben Weltstatus, Quest-Fortschritt und dieselbe Basis. <strong>Charakter-Level und Talente sind jedoch pro Charakter.</strong> Das bedeutet, dass ein neuer Spieler, der einer Late-Game-Welt beitritt, unterleveled ist — er sollte POIs und Quests bestreiten, um aufzuholen.",
+        "s4_title": "4. Dedizierte Server",
+        "s4_html": "Für persistente Welten, die 24/7 laufen, richte einen <strong>dedizierten Server</strong> mit SteamCMD ein (App-ID: 4129620). Siehe unseren <a href=\"{server_guide_url}\">Leitfaden für dedizierte Server</a> für die Schritt-für-Schritt-Einrichtung. Dedizierte Server verhindern Fortschrittsverlust, wenn der Host die Verbindung trennt.",
+        "faqs": [
+          {
+            "q": "Kann ich Windrose solo spielen?",
+            "a": "Ja. Das Spiel ist solo voll spielbar, obwohl einige Bosse und der Seekampf mit einer Crew deutlich einfacher sind."
+          },
+          {
+            "q": "Werden Gegenstände zwischen Welten übertragen?",
+            "a": "Nein. Charaktere behalten ihr Level und ihre Talente, aber Inventar und Ausrüstung sind an jedes Welt-Save gebunden."
+          }
+        ]
+      }
+    }
+  },
+  "stub": {
+    "localized_db_intro": "Durchsuche unten die lokalisierte {section}-Datenbank, oder lies den vollständigen Strategie-Leitfaden auf Englisch.",
+    "view_db_btn": "{section}-Datenbank ansehen",
+    "view_english_btn": "Englischen Leitfaden lesen",
+    "english_only_intro": "Der vollständige {section}-Leitfaden ist derzeit nur auf Englisch verfügbar. Wir arbeiten an Übersetzungen — vorerst schau bitte in die englische Version.",
+    "guides_hub_intro": "Strategie-Leitfäden in deine Sprache übersetzt. Jeder Leitfaden behandelt ein bestimmtes Thema im Detail.",
+    "guides_hub_heading": "Strategie-Leitfäden",
+    "view_all_guides_btn": "Alle Leitfäden ansehen",
+    "back_home": "← Zurück zur Startseite",
+    "section_bosses": "Bosse",
+    "section_ships": "Schiffe",
+    "section_weapons": "Waffen",
+    "section_crafting": "Handwerk",
+    "section_resources": "Ressourcen",
+    "section_beginner_guide": "Anfänger-Leitfaden",
+    "section_builds": "Build-Leitfäden",
+    "section_faq": "Häufige Fragen",
+    "section_guides": "Strategie-Leitfäden"
+  }
+}

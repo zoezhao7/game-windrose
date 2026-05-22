@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windrose Guía de Builds: DPS, Tanque y Configuraciones para Principiantes (2026) | Windrose Guías</title>
+<meta content="Guía completa de builds de Windrose con configuraciones de DPS, tanque y principiantes creadas por la comunidad. Armas, armaduras, asignación de estadísticas y consejos de estilo de juego recomendados para cada arquetipo de build." name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<link href="https://windrose-guides.com/es/builds" rel="canonical"/><link href="https://windrose-guides.com/builds" hreflang="en" rel="alternate"/><link href="https://windrose-guides.com/es/builds" hreflang="es" rel="alternate"/><link href="https://windrose-guides.com/pt/builds" hreflang="pt-BR" rel="alternate"/><link href="https://windrose-guides.com/de/builds" hreflang="de" rel="alternate"/><link href="https://windrose-guides.com/fr/builds" hreflang="fr" rel="alternate"/><link href="https://windrose-guides.com/zh/builds" hreflang="zh-CN" rel="alternate"/><link href="https://windrose-guides.com/builds" hreflang="x-default" rel="alternate"/><meta content="es_ES" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="https://windrose-guides.com/es/builds" property="og:url"/>
+<meta content="Windrose Guía de Builds: DPS, Tanque y Configuraciones para Principiantes (2026)" property="og:title"/>
+<meta content="Guía completa de builds de Windrose con configuraciones de DPS, tanque y principiantes creadas por la comunidad. Armas, armaduras y asignación de estadísticas recomendadas para cada estilo de juego." property="og:description"/>
+<meta content="https://windrose-guides.com/imgs/og_home.png" property="og:image"/>
+<meta content="Windrose Guías" property="og:site_name"/>
+<meta content="2026-05-12" property="article:published_time"/>
+<meta content="2026-05-12" property="article:modified_time"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Windrose Guía de Builds: DPS, Tanque y Configuraciones para Principiantes (2026)" name="twitter:title"/>
+<meta content="Guía completa de builds de Windrose con configuraciones de DPS, tanque y principiantes creadas por la comunidad. Armas, armaduras y asignación de estadísticas recomendadas para cada estilo de juego." name="twitter:description"/>
+<meta content="https://windrose-guides.com/imgs/og_home.png" name="twitter:image"/>
+<link href="../../css/style.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://windrose-guides.com/#website",
+      "url": "https://windrose-guides.com/es/",
+      "name": "Windrose Guías",
+      "publisher": {
+        "@id": "https://windrose-guides.com/#org"
+      },
+      "inLanguage": "es"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://windrose-guides.com/#org",
+      "name": "Windrose Guías",
+      "url": "https://windrose-guides.com/es/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://windrose-guides.com/es/builds/#webpage",
+      "url": "https://windrose-guides.com/es/builds",
+      "name": "Windrose Guía de Builds",
+      "dateModified": "2026-05-12",
+      "isPartOf": {
+        "@id": "https://windrose-guides.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://windrose-guides.com/es/builds/#breadcrumb"
+      },
+      "inLanguage": "es"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://windrose-guides.com/es/builds/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://windrose-guides.com/es/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Builds",
+          "item": "https://windrose-guides.com/es/builds"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la mejor build en Windrose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No existe una única \"mejor\" build en Windrose. La build DPS de Saber + Musket ofrece el mayor techo de daño, pero la build de tanque Club + Armadura Pesada proporciona mucha más supervivencia para los nuevos jugadores. Tu build ideal depende de tu estilo de juego y de los enemigos a los que te enfrentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Son estas builds definitivas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Todas las builds en esta página son creadas teóricamente a partir de investigaciones de la comunidad y pueden cambiar con parches de equilibrio durante Early Access. El meta de Windrose todavía está evolucionando. Vuelve a consultar después de actualizaciones importantes para obtener recomendaciones revisadas."
+          }
+        }
+      ],
+      "inLanguage": "es"
+    }
+  ],
+  "inLanguage": "es"
+}</script>
+</head>
+<body>
+<header class="header"><div class="container"><a aria-label="Inicio de Windrose Guides" class="logo" href="/es"><img alt="Logo de Windrose Guides" height="32" src="/imgs/logo.png" width="32"/> Windrose Guides</a><button aria-expanded="false" aria-label="Alternar menú de navegación" class="hamburger"><span></span><span></span><span></span></button>
+<div class="lang-switcher">
+<button aria-expanded="false" aria-label="Language" class="lang-btn">Español ▾</button>
+<ul class="lang-dropdown"><li><a href="/builds">English</a></li><li><a class="lang-active" href="/es/builds">Español</a></li><li><a href="/pt/builds">Português</a></li><li><a href="/de/builds">Deutsch</a></li><li><a href="/fr/builds">Français</a></li><li><a href="/zh/builds">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/es/">Inicio</a></li><li><a href="/es/beginner-guide">Guía para Principiantes</a></li><li><a href="/es/database">Base de Datos</a></li><li><a href="/es/bosses">Jefes</a></li><li><a href="/es/ships">Barcos</a></li><li><a aria-current="page" class="active" href="/es/guides">Guías</a></li><li><a href="/es/tools">Herramientas</a></li><li><a href="/es/news">Noticias</a></li><li><a href="/es/search">Buscar 🔍</a></li></ul></nav></div></header>
+<nav aria-label="Miga de pan" class="breadcrumb">
+<div class="container">
+<ol>
+<li><a href="/es/">Inicio</a></li>
+<li>Builds</li>
+</ol>
+</div>
+</nav>
+<main>
+<div class="container">
+<h1>Windrose Guía de Builds: Configuraciones de DPS, Tanque y Principiante (2026)</h1>
+<p>Una build bien planificada en Windrose combina el arma, la armadura y la asignación de estadísticas adecuadas para adaptarse a tu estilo de juego. Ya sea que quieras derrotar jefes con críticos rápidos, absorber daño como una fortaleza o simplemente sobrevivir tus primeros días, esta guía te cubre.</p>
+<div class="quick-stats">
+<div class="stat">
+<div class="stat-label">Arquetipos de Builds</div>
+<div class="stat-value">3</div>
+</div>
+<div class="stat">
+<div class="stat-label">Estado</div>
+<div class="stat-value">Teoría de la comunidad</div>
+</div>
+<div class="stat">
+<div class="stat-label">Parche</div>
+<div class="stat-value">v0.10.0.5</div>
+</div>
+</div>
+<div class="card" style="margin-bottom: 1.5rem; background: #fff8e1; border-color: #f0c040;">
+<p style="margin: 0; font-size: 0.9rem;"><strong>⚠️ Importante:</strong> Estas builds se basan en investigación y teoría de la comunidad. Windrose está en Early Access y los parches de equilibrio pueden cambiar el meta. Todas las recomendaciones están sujetas a cambios. Prueba y adapta las builds a tu propio estilo de juego.</p>
+</div>
+<section>
+<h2>Categorías de Builds</h2>
+<div class="quick-nav-grid">
+<a class="card quick-nav-card" href="/es/builds/beginner-builds/">
+<span class="nav-icon">🌱</span>
+<h3>Builds para Principiantes</h3>
+<p>Configuraciones centradas en la supervivencia para jugadores nuevos. Armas indulgentes, alta defensa, ejecución simple.</p>
+</a>
+<a class="card quick-nav-card" href="/es/builds/dps-builds/">
+<span class="nav-icon">🔥</span>
+<h3>Construcciones de DPS</h3>
+<p>Máximo daño infligido. Armas centradas en crítico y estadísticas de agilidad para jugadores experimentados.</p>
+</a>
+<a class="card quick-nav-card" href="/es/builds/tank-builds/">
+<span class="nav-icon">💪</span>
+<h3>Construcciones de Tanque</h3>
+<p>Alta supervivencia y control de aturdimiento. Armadura pesada, armas contundentes y control de masas.</p>
+</a>
+</div>
+</section>
+<section>
+<h2>Comparación de Construcciones de un Vistazo</h2>
+<div class="table-responsive">
+<table>
+<caption>Comparación de Arquetipos de Construcciones</caption>
+<thead>
+<tr>
+<th scope="col">Construcción</th>
+<th scope="col">Estadística Principal</th>
+<th scope="col">Armas</th>
+<th scope="col">Armadura</th>
+<th scope="col">Dificultad</th>
+<th scope="col">Mejor Para</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Golpeador Principiante</strong></td>
+<td>Vitalidad + Resistencia</td>
+<td>Cutlass + Blunderbuss</td>
+<td>Pikeman 2 piezas + Conquistador 2 piezas</td>
+<td>★☆☆☆☆</td>
+<td>En solitario, primera partida, indulgente</td>
+</tr>
+<tr>
+<td><strong>DPS de Sangrado</strong></td>
+<td>Precisión</td>
+<td>Rapier de 1000 Cortes + Musket Confiable</td>
+<td>Regalia de Corsario / Equipo de Tirador</td>
+<td>★★★☆☆</td>
+<td>Peleas contra jefes, farmeo rápido</td>
+</tr>
+<tr>
+<td><strong>Tanque / Superviviente en Solitario</strong></td>
+<td>Vitalidad + Fuerza</td>
+<td>Alabarda Robusta + Blunderbuss</td>
+<td>Piquero 2pc + Conquistador 2pc</td>
+<td>★★☆☆☆</td>
+<td>Supervivencia en solitario, tanque co-op, exploración</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Beginner Build -->
+<section id="beginner-build">
+<h2>Build 1: Golpeador Principiante (Recomendado para nuevos jugadores)</h2>
+<div class="quick-stats">
+<div class="stat">
+<div class="stat-label">Estadísticas principales</div>
+<div class="stat-value">Vitalidad + Aguante</div>
+</div>
+<div class="stat">
+<div class="stat-label">Dificultad</div>
+<div class="stat-value">★☆☆☆☆</div>
+</div>
+</div>
+<p>La build más segura para aprender el sistema de combate de Windrose. Prioriza<strong>supervivencia</strong> para que puedas cometer errores mientras aprendes los patrones de los jefes y los tiempos de los enemigos.</p>
+<h3>Prioridad de estadísticas</h3>
+<ol>
+<li><strong>Vitalidad</strong> — Aumenta el HP máximo. Tu prioridad #1 para mantenerte con vida.</li>
+<li><strong>Aguante</strong> — Aumenta la resistencia máxima. Te permite esquivar y bloquear más antes de quedarte sin.</li>
+<li><strong>Fuerza</strong> — Puntos suficientes para mantener un daño viable con tu arma elegida.</li>
+</ol>
+<h3>Equipo recomendado</h3>
+<ul>
+<li><strong>Cuerpo a cuerpo:</strong> Sable o Espadón Firme — daño equilibrado, buen alcance, velocidad de ataque indulgente.</li>
+<li><strong>A distancia:</strong> Blunderbuss — alto daño explosivo a corta distancia, excelente para romper la postura.</li>
+<li><strong>Armadura:</strong> 2x Piquero (aumenta el HP máximo) + 2x Conquistador (15% de resistencia al daño).</li>
+</ul>
+<h3>Talentos clave (Árbol de Toughguy)</h3>
+<ul>
+<li><strong>Corredor de Maratón:</strong> Más resistencia para esquivar y bloquear.</li>
+<li><strong>Complexión Robusta:</strong> Gran bonificación plana al HP máximo.</li>
+<li><strong>Solo un Rasguño:</strong> Mayor resistencia al daño cuerpo a cuerpo.</li>
+<li><strong>Responderás por Esto:</strong> Aumenta la ganancia de salud temporal al golpear.</li>
+</ul>
+</section>
+<!-- DPS Build -->
+<section id="dps-build">
+<h2>Construcción 2: DPS de Sangrado (Asesino de Jefes)</h2>
+<div class="quick-stats">
+<div class="stat">
+<div class="stat-label">Estadística Principal</div>
+<div class="stat-value">Precisión</div>
+</div>
+<div class="stat">
+<div class="stat-label">Dificultad</div>
+<div class="stat-value">★★★☆☆</div>
+</div>
+</div>
+<p>Una construcción de alto riesgo y alta recompensa que aprovecha el<strong>Rapier de Mil Cortes</strong> DoT de sangrado para tácticas devastadoras de golpe y fuga. Ideal para jugadores experimentados que dominan el tiempo de esquiva.</p>
+<h3>Prioridad de Estadísticas</h3>
+<ol>
+<li><strong>Precisión</strong> — Estadística principal de escalado de daño para Rapiers, Pistols y Muskets. Comprométete completamente.</li>
+<li><strong>Resistencia</strong> — Prioridad secundaria para un estilo de juego que consume mucha resistencia y se basa en esquivar.</li>
+<li><strong>Vitalidad</strong> — Suficiente para sobrevivir a 2–3 golpes de enemigos del bioma actual.</li>
+</ol>
+<h3>Equipo Recomendado</h3>
+<ul>
+<li><strong>Cuerpo a cuerpo:</strong> Rapier de Mil Cortes — DoT de sangrado de rango S; acumula 2–3 sangrados y luego esquiva.</li>
+<li><strong>A distancia:</strong> Musket confiable — apertura de largo alcance de nivel S; daño masivo en el primer golpe.</li>
+<li><strong>Armadura:</strong> Privateer's Regalia (probabilidad/daño crítico) o 2x Marksman (menor resistencia en esquiva) + 2x Flibustier (reducción de resistencia de ataque).</li>
+</ul>
+<h3>Flujo de Combate</h3>
+<ol>
+<li>Abre con un disparo a la cabeza con Musket desde la distancia máxima.</li>
+<li>Cambia a Rapier; aplica 2–3 golpes rápidos para acumular sangrado.</li>
+<li>Esquiva y deja que el DoT haga efecto mientras gestionas tu resistencia.</li>
+<li>Vuelve a atacar cuando el sangrado termine. Repite hasta que muera.</li>
+</ol>
+</section>
+<!-- Tank Build -->
+<section id="tank-build">
+<h2>Construcción 3: Tanque / Superviviente en solitario</h2>
+<div class="quick-stats">
+<div class="stat">
+<div class="stat-label">Estadísticas Principales</div>
+<div class="stat-value">Vitalidad + Fuerza</div>
+</div>
+<div class="stat">
+<div class="stat-label">Dificultad</div>
+<div class="stat-value">★★☆☆☆</div>
+</div>
+</div>
+<p>Se enfoca en<strong>sostenerse en peleas prolongadas</strong> mediante alta salud y resistencia al daño. Excelente para juego en solitario y tanqueo con co-op.</p>
+<h3>Prioridad de Estadísticas</h3>
+<ol>
+<li><strong>Vitalidad</strong> — HP máximo para supervivencia pura.</li>
+<li><strong>Fuerza</strong> — Escalado de daño para Alabardas, Clubs y Mazas.</li>
+<li><strong>Aguante</strong> — Resistencia suficiente para Bloqueos Perfectos y combos sostenidos.</li>
+</ol>
+<h3>Equipo Recomendado</h3>
+<ul>
+<li><strong>Cuerpo a cuerpo:</strong> Alabarda Robusta o Espadón Firme — excelente alcance; golpea a múltiples enemigos.</li>
+<li><strong> A distancia:</strong> Blunderbuss — ráfaga de corto alcance; rompe la postura para abrir oportunidades de tambaleo.</li>
+<li><strong> Armadura:</strong> 2x Piquero (aumenta el HP máximo) + 2x Conquistador (15% de resistencia al daño). Este es el conjunto defensivo de referencia.</li>
+</ul>
+<h3> Talentos clave (Árbol Toughguy)</h3>
+<ul>
+<li><strong> Corredor de Maratón:</strong> Aumento esencial de resistencia.</li>
+<li><strong> Complexión Robusta:</strong> Aumento plano de HP.</li>
+<li><strong> Retribución:</strong> Mejora la conversión de salud temporal a permanente.</li>
+<li><strong> Solo un Rasguño:</strong> Resistencia al daño cuerpo a cuerpo.</li>
+</ul>
+<h3> Consejos</h3>
+<ul>
+<li><strong> El bloqueo perfecto es tu habilidad principal.</strong> Anula todo el daño y protege tu equilibrio/resistencia. Practica el tiempo en enemigos más débiles.</li>
+<li> Nunca agotes por completo tu resistencia — siempre mantén suficiente para esquivar si fallas un bloqueo.</li>
+<li> Combínalo con dos mejoras de comida: una para HP/Vitalidad, otra para Fuerza o Resistencia.</li>
+</ul>
+</section>
+<section>
+<h2> Consejos generales de construcción</h2>
+<ul>
+<li><strong> Las reasignaciones son gratuitas.</strong> No dudes en experimentar con diferentes distribuciones de estadísticas y talentos.</li>
+<li><strong> Asciende las armas antes que la armadura.</strong> Concéntrate en ascender armas Raras a Épicas primero para desbloquear poderosas habilidades pasivas. Los Lingotes de Tumbaga son escasos.</li>
+<li><strong> Siempre dos mejoras de comida.</strong>Una para defensa/HP, una para tu estadística ofensiva principal. Esto proporciona estadísticas más efectivas que varias subidas de nivel.</li>
+<li><strong>El nivel del equipo importa.</strong>Pelear contra enemigos con equipo de nivel superior al tuyo causa una penalización significativa de reducción de daño. Siempre mejora tu equipo antes de adentrarte en nuevos biomas.</li>
+</ul>
+</section>
+<section id="faq">
+<h2>Preguntas Frecuentes</h2>
+<details>
+<summary>¿Cuál es la mejor build en Windrose?</summary>
+<div class="faq-answer">
+<p>No hay una única build "mejor". La<strong>Build de DPS por Sangrado</strong> (Rapier de 1000 Cortes + Musket Fiable) ofrece el mayor techo de daño pero requiere un timing de esquivar hábil. La<strong>Peleador Principiante</strong> (Cutlass + armadura de Pikeman/Conquistador) es la más segura para nuevos jugadores. Elige según tu comodidad con el sistema de combate.</p>
+</div>
+</details>
+<details>
+<summary>¿Puedo cambiar de build a mitad del juego?</summary>
+<div class="faq-answer">
+<p>Sí.<strong>Los respecs son completamente gratuitos</strong> en Windrose. Puedes reasignar estadísticas y talentos en cualquier momento sin costo. Fabrica diferentes armas y conjuntos de armadura y cambia entre builds según sea necesario.</p>
+</div>
+</details>
+<details>
+<summary>¿Cuál build es mejor para co-op?</summary>
+<div class="faq-answer">
+<p>En co-op, el dúo ideal es un<strong>Tanque</strong> (Alabarda + Pikeman/Conquistador) para atraer aggro y un<strong>DPS por Sangrado</strong> (Rapier + Musket) para infligir daño sostenido. La build de Principiante funciona como un punto intermedio flexible en cualquier grupo.</p>
+</div>
+</details>
+<details>
+<summary>¿Son estas builds definitivas?</summary>
+<div class="faq-answer">
+<p>No. Todas las builds están basadas en teoría de la comunidad durante Early Access. Los parches de equilibrio pueden cambiar el meta. Vuelve a consultar después de actualizaciones importantes para recomendaciones revisadas.</p>
+</div>
+</details>
+</section>
+<aside class="related-guides">
+<h2>Guías Relacionadas</h2>
+<ul>
+<li><a href="/es/weapons/">Lista de Niveles de Armas — Todas las clasificaciones de armas</a></li>
+<li><a href="/es/weapons/melee/">Armas Cuerpo a Cuerpo — Estadísticas y consejos completos</a></li>
+<li><a href="/es/weapons/ranged/">Armas a Distancia — Musket y Blunderbuss</a></li>
+<li><a href="/es/weapons/armor/">Conjuntos de Armadura — Guía de Defensa</a></li>
+<li><a href="/es/beginner-guide/">Guía para Principiantes — Día 1 al Día 10</a></li>
+</ul>
+</aside>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="/es"><img alt="Logo de Windrose Guides" height="28" src="/imgs/logo.png" width="28"/> Windrose Guides</a>
+<p>Tu wiki, base de datos y centro de guías completo de Windrose. Recetas de fabricación, mapas de recursos, estrategias contra jefes, configuraciones de barcos y mucho más — todo en un solo lugar.</p>
+</div>
+<div class="footer-col">
+<h4>Guías</h4>
+<ul>
+<li><a href="/es/beginner-guide">Guía para Principiantes</a></li>
+<li><a href="/es/builds">Guías de Builds</a></li>
+<li><a href="/es/server-guide">Guía de Servidor</a></li>
+<li><a href="/es/download">Descargar</a></li>
+<li><a href="/es/faq">Preguntas Frecuentes</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Base de Datos</h4>
+<ul>
+<li><a href="/es/crafting">Fabricación</a></li>
+<li><a href="/es/resources">Recursos</a></li>
+<li><a href="/es/bosses">Jefes</a></li>
+<li><a href="/es/ships">Barcos</a></li>
+<li><a href="/es/weapons">Armas</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Explorar</h4>
+<ul>
+<li><a href="/es/tools">Herramientas</a></li>
+<li><a href="/es/news">Noticias</a></li>
+<li><a href="/es/sources">Fuentes</a></li>
+<li><a href="/es/about">Acerca de</a></li>
+<li><a href="/es/contact">Contacto</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Windrose Guides. Recurso no oficial de fans. No afiliado con Kraken Express ni con Pocketpair Publishing.</span>
+<nav>
+<a href="/es/pages">Todas las Páginas</a>
+<a href="/es/privacy">Política de Privacidad</a>
+<a href="/es/terms">Términos del Servicio</a>
+</nav>
+</div>
+</div>
+</footer>
+
+<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script></body>
+</html>

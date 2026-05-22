@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Weapons Database | Windrose Guides</title>
+<meta name="description" content="Browse all weapons in Windrose.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/de" class="logo" aria-label="Windrose Guides Startseite"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Navigationsmenü umschalten" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Deutsch ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/weapons">English</a></li><li><a href="/es/database/weapons">Español</a></li><li><a href="/pt/database/weapons">Português</a></li><li><a href="/de/database/weapons" class="lang-active">Deutsch</a></li><li><a href="/fr/database/weapons">Français</a></li><li><a href="/zh/database/weapons">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/de/">Startseite</a></li><li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li><li><a href="/de/database" class="active" aria-current="page">Datenbank</a></li><li><a href="/de/bosses">Bosse</a></li><li><a href="/de/ships">Schiffe</a></li><li><a href="/de/guides">Leitfäden</a></li><li><a href="/de/tools">Werkzeuge</a></li><li><a href="/de/news">Neuigkeiten</a></li><li><a href="/de/search">Suchen 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Kategorien</div>
+  <ul class="db-nav">
+    <li><a href="/de/database/" class="db-nav-top">Übersicht</a></li>
+    <li><a href="/de/database/" class="db-nav-top">Alle Gegenstände <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Waffen</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub" id="sub-weapons">
+        <li><a href="/de/database/weapons/" class="db-sub-viewall">Alle Weapons anzeigen</a></li>
+        <li><a href="/de/database/weapons/melee/" class="db-sub-item">Nahkampfwaffen <span class="db-count">43</span></a></li>
+        <li><a href="/de/database/weapons/ranged/" class="db-sub-item">Fernkampfwaffen <span class="db-count">19</span></a></li>
+        <li><a href="/de/database/weapons/tools/" class="db-sub-item">Werkzeuge <span class="db-count">8</span></a></li>
+        <li><a href="/de/database/weapons/ammo/" class="db-sub-item">Munition <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Schiffe</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/de/database/ships/" class="db-sub-viewall">Alle Ships anzeigen</a></li>
+        <li><a href="/de/database/ships/ship-weapons/" class="db-sub-item">Schiffswaffen <span class="db-count">29</span></a></li>
+        <li><a href="/de/database/ships/hull-modules/" class="db-sub-item">Rumpfmodule <span class="db-count">10</span></a></li>
+        <li><a href="/de/database/ships/combat-orders/" class="db-sub-item">Kampfbefehle <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressourcen</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/de/database/resources/" class="db-sub-viewall">Alle Resources anzeigen</a></li>
+        <li><a href="/de/database/resources/resources/" class="db-sub-item">Ressourcen <span class="db-count">135</span></a></li>
+        <li><a href="/de/database/resources/metals/" class="db-sub-item">Metalle <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Verbrauchsgüter</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/de/database/consumables/" class="db-sub-viewall">Alle Consumables anzeigen</a></li>
+        <li><a href="/de/database/consumables/food/" class="db-sub-item">Nahrung <span class="db-count">50</span></a></li>
+        <li><a href="/de/database/consumables/alchemy/" class="db-sub-item">Alchemie <span class="db-count">11</span></a></li>
+        <li><a href="/de/database/consumables/medicine/" class="db-sub-item">Medizin <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ausrüstung</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/de/database/equipment/" class="db-sub-viewall">Alle Equipment anzeigen</a></li>
+        <li><a href="/de/database/equipment/armor/" class="db-sub-item">Rüstung <span class="db-count">41</span></a></li>
+        <li><a href="/de/database/equipment/rings/" class="db-sub-item">Ringe <span class="db-count">36</span></a></li>
+        <li><a href="/de/database/equipment/necklaces/" class="db-sub-item">Halsketten <span class="db-count">24</span></a></li>
+        <li><a href="/de/database/equipment/backpacks/" class="db-sub-item">Rucksäcke <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Sonstiges</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/de/database/misc/" class="db-sub-viewall">Alle Misc anzeigen</a></li>
+        <li><a href="/de/database/misc/misc/" class="db-sub-item">Sonstiges <span class="db-count">514</span></a></li>
+        <li><a href="/de/database/misc/default/" class="db-sub-item">Standard <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Datenbank</span> / Weapons</div>
+    <div class="db-header-meta">WINDROSE GUIDES • DATENBANK</div>
+    <h1>Weapons</h1>
+    <p class="db-desc">90 weapons.</p>
+    <div class="db-guide-link">📖 <a href="/weapons/">Vollständigen Strategie-Leitfaden für diese Kategorie ansehen →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Nach Namen suchen..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">450 Artikel angezeigt
+            <label>Sortieren <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Name</option><option value="rarity">Seltenheit</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/eid-melee-weapon-saber-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-blank-base.webp" alt="Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Saber</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-blank-base.webp" alt="Rapier" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Rapier</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-blank-base.webp" alt="Club" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Club</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/spear/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Spear" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Spear</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-blank-base.webp" alt="Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Halberd</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-broken-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-broken-base.webp" alt="Broken Blade" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Broken Blade</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-parrying-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-parrying-advanced.webp" alt="Dueling Greatsword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Dueling Greatsword</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-parrying-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-parrying-base.webp" alt="Dueling Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Dueling Saber</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-executioner-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-executioner-base.webp" alt="Executioner" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Executioner</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-corrupted-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-corrupted-base.webp" alt="Plague Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plague Halberd</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-flawless-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-flawless-advanced.webp" alt="Razor" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Razor</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-bleeding-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-bleeding-advanced.webp" alt="Rapier of a Thousand Cuts" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Rapier of a Thousand Cuts</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-eviscerate-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-eviscerate-advanced.webp" alt="Rapier of Devastation" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Rapier of Devastation</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-fish-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-fish-base.webp" alt="Smasher" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Smasher</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-souldrinker-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-souldrinker-base.webp" alt="Soul Eater" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Soul Eater</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-reliable-base.webp" alt="Stalwart Greatsword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stalwart Greatsword</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-halberd-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-halberd-reliable-base.webp" alt="Sturdy Halberd" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Sturdy Halberd</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-reliable-advanced.webp" alt="Sturdy Mace" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Sturdy Mace</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-saber-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-saber-reliable-base.webp" alt="Sturdy Saber" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Sturdy Saber</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-rapier-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-rapier-reliable-advanced.webp" alt="Sturdy Rapier" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Sturdy Rapier</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-club-corrupted-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-club-corrupted-advanced.webp" alt="Swamp Creature’s Tooth" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Swamp Creature’s Tooth</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-melee-weapon-greatsword-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-melee-weapon-greatsword-blank-base.webp" alt="Two-Handed Sword" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Two-Handed Sword</h3>
+                <p class="db-card-type">Melee Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-musket-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-musket-blank-base.webp" alt="Musket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Musket</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-blunderbuss-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-blunderbuss-blank-base.webp" alt="Blunderbuss" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Blunderbuss</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-musket-sniper-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-musket-sniper-advanced.webp" alt="Buccaneer’s Friend" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Buccaneer’s Friend</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-blunderbuss-dragonbreath-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-blunderbuss-dragonbreath-advanced.webp" alt="Dragon’s Breath" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Dragon’s Breath</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-pistol-drakes-doom-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-pistol-drakes-doom-base.webp" alt="Drake’s Double-Barreled Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Drake’s Double-Barreled Pistol</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-musket-infantry-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-musket-infantry-base.webp" alt="Infantry Musket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Infantry Musket</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-pistol-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-pistol-blank-base.webp" alt="Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Pistol</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-pistol-corrupted-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-pistol-corrupted-advanced.webp" alt="Plague Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Plague Pistol</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-blunderbuss-reliable-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-blunderbuss-reliable-base.webp" alt="Reliable Blunderbuss" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Reliable Blunderbuss</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-musket-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-musket-reliable-advanced.webp" alt="Reliable Musket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Reliable Musket</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-pistol-reliable-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-pistol-reliable-advanced.webp" alt="Reliable Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Reliable Pistol</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-range-weapon-pistol-rusty-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-range-weapon-pistol-rusty-base.webp" alt="Worn-Out Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Worn-Out Pistol</h3>
+                <p class="db-card-type">Ranged Weapon</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-firearm-projectile-stone-bullet-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-firearm-projectile-stone-bullet-t01.webp" alt="Stone Bullet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Bullet</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-firearm-projectile-rough-metal-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-firearm-projectile-rough-metal-t02.webp" alt="Copper Bullet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Bullet</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-firearm-projectile-fine-metal-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-firearm-projectile-fine-metal-t02.webp" alt="Iron Bullet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Iron Bullet</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-firearm-projectile-ancient-metal-t03/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-firearm-projectile-ancient-metal-t03.webp" alt="Bullet Arborum" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Bullet Arborum</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-gunpowder-homemade-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-gunpowder-homemade-t02.webp" alt="Homemade Gunpowder" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Homemade Gunpowder</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/aid-ammo-scallop-pearl-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/aid-ammo-scallop-pearl-t01.webp" alt="Pearl" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Pearl</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-axe-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-axe-t01.webp" alt="Copper Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Axe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-pickaxe-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-pickaxe-t01.webp" alt="Copper Pickaxe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Pickaxe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-axe-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-axe-t02.webp" alt="Iron Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Iron Axe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-pickaxe-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-pickaxe-t02.webp" alt="Iron Pickaxe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Iron Pickaxe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-shovel-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-shovel-t01.webp" alt="Shovel" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Shovel</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-fishing-rod-t02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-fishing-rod-t02.webp" alt="Simple Fishing Rod" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Simple Fishing Rod</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-pickaxe-t00/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-pickaxe-t00.webp" alt="Stone Pickaxe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Pickaxe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-tool-axe-t00/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-tool-axe-t00.webp" alt="Stone Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Axe</h3>
+                <p class="db-card-type">Tool</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/survivor-s-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Survivor&#x27;s Set</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-armor-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Copper Armor Set</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-armor-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Iron Armor Set</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-torso.webp" alt="Conquistador’s Cuirass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Cuirass</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-feet.webp" alt="Conquistador’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-legs.webp" alt="Conquistador’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-head.webp" alt="Conquistador’s Helmet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Helmet</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-hands.webp" alt="Conquistador’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-head.webp" alt="Headband" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Headband</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-torso.webp" alt="Marksman’s Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman’s Doublet</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-legs.webp" alt="Marksman&#x27;s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-feet.webp" alt="Marksman&#x27;s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-head.webp" alt="Marksman&#x27;s Tricorne" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Tricorne</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-hands.webp" alt="Marksman&#x27;s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-torso.webp" alt="Pikeman’s Cuirass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Cuirass</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-head.webp" alt="Pikeman’s Helmet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Helmet</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-legs.webp" alt="Pikeman’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-feet.webp" alt="Pikeman’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-hands.webp" alt="Pikeman’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet.webp" alt="Plans: Privateer’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Privateer’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-feet.webp" alt="Privateer’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-head.webp" alt="Privateer’s Tricorne" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Tricorne</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-legs.webp" alt="Privateer’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-torso.webp" alt="Privateer’s Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Doublet</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-hands.webp" alt="Privateer’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-hands.webp" alt="Survivor’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-torso.webp" alt="Survivor’s Jacket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Jacket</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-head.webp" alt="Survivor’s Bandana" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Bandana</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-feet.webp" alt="Survivor’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-legs.webp" alt="Survivor’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-legs.webp" alt="Torn Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-feet.webp" alt="Tracker’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-hands.webp" alt="Torn Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-feet.webp" alt="Torn Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Boots</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-hands.webp" alt="Tracker’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Gloves</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-legs.webp" alt="Tracker&#x27;s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker&#x27;s Pants</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-torso.webp" alt="Tracker’s Jacket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Jacket</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-head.webp" alt="Tracker’s Hat" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Hat</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-torso.webp" alt="Torn Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Doublet</h3>
+                <p class="db-card-type">Armor Set</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/cutlass/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Cutlass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Cutlass</h3>
+                <p class="db-card-type">Melee • Tier S</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/flintlock-pistol/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/weapon_musket.png" alt="Flintlock Pistol" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Flintlock Pistol</h3>
+                <p class="db-card-type">Ranged • Tier A</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/boarding-axe/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/icon_weapon.png" alt="Boarding Axe" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Boarding Axe</h3>
+                <p class="db-card-type">Melee • Tier B</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/de" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Dein vollständiges Windrose-Wiki, Datenbank- und Leitfaden-Zentrum. Handwerksrezepte, Ressourcenkarten, Boss-Strategien, Schiffsbauten und mehr — alles an einem Ort.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Leitfäden</h4>
+                <ul>
+                    <li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li>
+<li><a href="/de/builds">Build-Leitfäden</a></li>
+<li><a href="/de/server-guide">Server-Leitfaden</a></li>
+<li><a href="/de/download">Download</a></li>
+<li><a href="/de/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Datenbank</h4>
+                <ul>
+                    <li><a href="/de/crafting">Handwerk</a></li>
+<li><a href="/de/resources">Ressourcen</a></li>
+<li><a href="/de/bosses">Bosse</a></li>
+<li><a href="/de/ships">Schiffe</a></li>
+<li><a href="/de/weapons">Waffen</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Entdecken</h4>
+                <ul>
+                    <li><a href="/de/tools">Werkzeuge</a></li>
+<li><a href="/de/news">Neuigkeiten</a></li>
+<li><a href="/de/sources">Quellen</a></li>
+<li><a href="/de/about">Über uns</a></li>
+<li><a href="/de/contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Inoffizielle Fan-Ressource. Nicht mit Kraken Express oder Pocketpair Publishing verbunden.</span>
+            <nav>
+                <a href="/de/pages">Alle Seiten</a>
+                <a href="/de/privacy">Datenschutzerklärung</a>
+                <a href="/de/terms">Nutzungsbedingungen</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

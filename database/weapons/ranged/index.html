@@ -4,19 +4,15 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ranged Weapons | Windrose Guides</title>
 <meta name="description" content="All ranged weapons.">
-<link rel="stylesheet" href="../../../css/style.css">
-<link rel="stylesheet" href="../../db-style.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
-        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
-        <nav aria-label="Primary">
-            <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database" class="active">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
-        </nav>
-    </div>
-</header>
+<header class="header"><div class="container"><a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">English ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/weapons/ranged" class="lang-active">English</a></li><li><a href="/es/database/weapons/ranged">Español</a></li><li><a href="/pt/database/weapons/ranged">Português</a></li><li><a href="/de/database/weapons/ranged">Deutsch</a></li><li><a href="/fr/database/weapons/ranged">Français</a></li><li><a href="/zh/database/weapons/ranged">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/beginner-guide">Beginner Guide</a></li><li><a href="/database" class="active" aria-current="page">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul></nav></div></header>
 
 <div class="db-layout">
 <aside class="db-sidebar">
@@ -224,6 +220,54 @@
     </div>
 </main>
 </div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more — all in one place.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/beginner-guide">Beginner Guide</a></li>
+<li><a href="/builds">Build Guides</a></li>
+<li><a href="/server-guide">Server Guide</a></li>
+<li><a href="/download">Download</a></li>
+<li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Database</h4>
+                <ul>
+                    <li><a href="/crafting">Crafting</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/bosses">Bosses</a></li>
+<li><a href="/ships">Ships</a></li>
+<li><a href="/weapons">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/tools">Tools</a></li>
+<li><a href="/news">News</a></li>
+<li><a href="/sources">Sources</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
+            <nav>
+                <a href="/pages">All Pages</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
 <script>
 document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
 function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}

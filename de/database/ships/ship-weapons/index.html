@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Ship Weapons | Windrose Guides</title>
+<meta name="description" content="All ship-mounted weapons.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/de" class="logo" aria-label="Windrose Guides Startseite"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Navigationsmenü umschalten" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Deutsch ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/ships/ship-weapons">English</a></li><li><a href="/es/database/ships/ship-weapons">Español</a></li><li><a href="/pt/database/ships/ship-weapons">Português</a></li><li><a href="/de/database/ships/ship-weapons" class="lang-active">Deutsch</a></li><li><a href="/fr/database/ships/ship-weapons">Français</a></li><li><a href="/zh/database/ships/ship-weapons">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/de/">Startseite</a></li><li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li><li><a href="/de/database" class="active" aria-current="page">Datenbank</a></li><li><a href="/de/bosses">Bosse</a></li><li><a href="/de/ships">Schiffe</a></li><li><a href="/de/guides">Leitfäden</a></li><li><a href="/de/tools">Werkzeuge</a></li><li><a href="/de/news">Neuigkeiten</a></li><li><a href="/de/search">Suchen 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Kategorien</div>
+  <ul class="db-nav">
+    <li><a href="/de/database/" class="db-nav-top">Übersicht</a></li>
+    <li><a href="/de/database/" class="db-nav-top">Alle Gegenstände <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Waffen</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/de/database/weapons/" class="db-sub-viewall">Alle Weapons anzeigen</a></li>
+        <li><a href="/de/database/weapons/melee/" class="db-sub-item">Nahkampfwaffen <span class="db-count">43</span></a></li>
+        <li><a href="/de/database/weapons/ranged/" class="db-sub-item">Fernkampfwaffen <span class="db-count">19</span></a></li>
+        <li><a href="/de/database/weapons/tools/" class="db-sub-item">Werkzeuge <span class="db-count">8</span></a></li>
+        <li><a href="/de/database/weapons/ammo/" class="db-sub-item">Munition <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Schiffe</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub" id="sub-ships">
+        <li><a href="/de/database/ships/" class="db-sub-viewall">Alle Ships anzeigen</a></li>
+        <li><a href="/de/database/ships/ship-weapons/" class="db-sub-item">Schiffswaffen <span class="db-count">29</span></a></li>
+        <li><a href="/de/database/ships/hull-modules/" class="db-sub-item">Rumpfmodule <span class="db-count">10</span></a></li>
+        <li><a href="/de/database/ships/combat-orders/" class="db-sub-item">Kampfbefehle <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressourcen</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/de/database/resources/" class="db-sub-viewall">Alle Resources anzeigen</a></li>
+        <li><a href="/de/database/resources/resources/" class="db-sub-item">Ressourcen <span class="db-count">135</span></a></li>
+        <li><a href="/de/database/resources/metals/" class="db-sub-item">Metalle <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Verbrauchsgüter</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/de/database/consumables/" class="db-sub-viewall">Alle Consumables anzeigen</a></li>
+        <li><a href="/de/database/consumables/food/" class="db-sub-item">Nahrung <span class="db-count">50</span></a></li>
+        <li><a href="/de/database/consumables/alchemy/" class="db-sub-item">Alchemie <span class="db-count">11</span></a></li>
+        <li><a href="/de/database/consumables/medicine/" class="db-sub-item">Medizin <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ausrüstung</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/de/database/equipment/" class="db-sub-viewall">Alle Equipment anzeigen</a></li>
+        <li><a href="/de/database/equipment/armor/" class="db-sub-item">Rüstung <span class="db-count">41</span></a></li>
+        <li><a href="/de/database/equipment/rings/" class="db-sub-item">Ringe <span class="db-count">36</span></a></li>
+        <li><a href="/de/database/equipment/necklaces/" class="db-sub-item">Halsketten <span class="db-count">24</span></a></li>
+        <li><a href="/de/database/equipment/backpacks/" class="db-sub-item">Rucksäcke <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Sonstiges</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/de/database/misc/" class="db-sub-viewall">Alle Misc anzeigen</a></li>
+        <li><a href="/de/database/misc/misc/" class="db-sub-item">Sonstiges <span class="db-count">514</span></a></li>
+        <li><a href="/de/database/misc/default/" class="db-sub-item">Standard <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Datenbank</span> / Ships / Ship Weapons</div>
+    <div class="db-header-meta">WINDROSE GUIDES • DATENBANK</div>
+    <h1>Ship Weapons</h1>
+    <p class="db-desc">23 weapons.</p>
+    
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Nach Namen suchen..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">115 Artikel angezeigt
+            <label>Sortieren <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Name</option><option value="rarity">Seltenheit</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/eid-cannon-36-vulnerability-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-36-vulnerability-advanced.webp" alt="36-Pounders: Devastating" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">36-Pounders: Devastating</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-cold-barrels-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-cold-barrels-base.webp" alt="12-Pounders: Tempered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounders: Tempered</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-blank-base.webp" alt="12-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">12-Pounders</h3>
+                <p class="db-card-type">Reliable cannons suited to a wide range of naval e</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-36-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-36-blank-base.webp" alt="36-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">36-Pounders</h3>
+                <p class="db-card-type">Massive cannons built to deliver crushing blows. R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-24-perfect-timing-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-24-perfect-timing-advanced.webp" alt="24-Pounders: Perfectly Ordered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">24-Pounders: Perfectly Ordered</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-vulnerability-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-vulnerability-base.webp" alt="12-Pounders: Devastating" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounders: Devastating</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-perfect-timing-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-perfect-timing-base.webp" alt="12-Pounders: Perfectly Ordered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounders: Perfectly Ordered</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-36-perfect-timing-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-36-perfect-timing-advanced.webp" alt="36-Pounders: Perfectly Ordered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">36-Pounders: Perfectly Ordered</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-36-vulnerability-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-36-vulnerability-base.webp" alt="36-Pounders: Devastating" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">36-Pounders: Devastating</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-cold-barrels-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-cold-barrels-advanced.webp" alt="12-Pounder: Tempered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounder: Tempered</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-vulnerability-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-vulnerability-advanced.webp" alt="12-Pounders: Devastating" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounders: Devastating</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-12-perfect-timing-advanced/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-12-perfect-timing-advanced.webp" alt="12-Pounders: Perfectly Ordered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">12-Pounders: Perfectly Ordered</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-24-cold-barrels-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-24-cold-barrels-base.webp" alt="24-Pounders: Tempered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">24-Pounders: Tempered</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-24-blank-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-24-blank-base.webp" alt="24-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">24-Pounders</h3>
+                <p class="db-card-type">Powerful, well-balanced cannon forming the backbon</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-cannon-24-perfect-timing-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-cannon-24-perfect-timing-base.webp" alt="24-Pounders: Perfectly Ordered" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">24-Pounders: Perfectly Ordered</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-36-vulnerability-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-vulnerability-base.webp" alt="Plans: Devastating 36-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Devastating 36-Pounders</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-24-vulnerability-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-vulnerability-base.webp" alt="Plans: Devastating 24-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Devastating 24-Pounders</h3>
+                <p class="db-card-type">Guns favored for raking fire that punish alignment</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-perfect-timing-base.webp" alt="Plans: Perfectly Ordered 36-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Perfectly Ordered 36-Pounders</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base.webp" alt="Plans: Perfectly Ordered 12-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Perfectly Ordered 12-Pounders</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-perfect-timing-base.webp" alt="Plans: Perfectly Ordered 24-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Perfectly Ordered 24-Pounders</h3>
+                <p class="db-card-type">Set out and kept in proper order, these guns cycle</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-24-cold-barrels-base.webp" alt="Plans: Tempered 24-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Tempered 24-Pounders</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-36-cold-barrels-base.webp" alt="Plans: Tempered 36-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Tempered 36-Pounders</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-cannon-12-cold-barrels-base.webp" alt="Plans: Tempered 12-Pounders" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Tempered 12-Pounders</h3>
+                <p class="db-card-type">Forged and handled with restraint, these guns are </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/de" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Dein vollständiges Windrose-Wiki, Datenbank- und Leitfaden-Zentrum. Handwerksrezepte, Ressourcenkarten, Boss-Strategien, Schiffsbauten und mehr — alles an einem Ort.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Leitfäden</h4>
+                <ul>
+                    <li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li>
+<li><a href="/de/builds">Build-Leitfäden</a></li>
+<li><a href="/de/server-guide">Server-Leitfaden</a></li>
+<li><a href="/de/download">Download</a></li>
+<li><a href="/de/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Datenbank</h4>
+                <ul>
+                    <li><a href="/de/crafting">Handwerk</a></li>
+<li><a href="/de/resources">Ressourcen</a></li>
+<li><a href="/de/bosses">Bosse</a></li>
+<li><a href="/de/ships">Schiffe</a></li>
+<li><a href="/de/weapons">Waffen</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Entdecken</h4>
+                <ul>
+                    <li><a href="/de/tools">Werkzeuge</a></li>
+<li><a href="/de/news">Neuigkeiten</a></li>
+<li><a href="/de/sources">Quellen</a></li>
+<li><a href="/de/about">Über uns</a></li>
+<li><a href="/de/contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Inoffizielle Fan-Ressource. Nicht mit Kraken Express oder Pocketpair Publishing verbunden.</span>
+            <nav>
+                <a href="/de/pages">Alle Seiten</a>
+                <a href="/de/privacy">Datenschutzerklärung</a>
+                <a href="/de/terms">Nutzungsbedingungen</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

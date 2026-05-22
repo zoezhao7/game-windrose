@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Ships | Windrose Guides</title>
+<meta name="description" content="All ships.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/zh" class="logo" aria-label="Windrose 攻略站首页"><img src="/imgs/logo.png" alt="Windrose 攻略站 Logo" width="32" height="32"> Windrose 攻略站</a><button class="hamburger" aria-label="切换导航菜单" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">中文 ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/ships">English</a></li><li><a href="/es/database/ships">Español</a></li><li><a href="/pt/database/ships">Português</a></li><li><a href="/de/database/ships">Deutsch</a></li><li><a href="/fr/database/ships">Français</a></li><li><a href="/zh/database/ships" class="lang-active">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/zh/">首页</a></li><li><a href="/zh/beginner-guide">新手指南</a></li><li><a href="/zh/database" class="active" aria-current="page">数据库</a></li><li><a href="/zh/bosses">Boss</a></li><li><a href="/zh/ships">船只</a></li><li><a href="/zh/guides">攻略</a></li><li><a href="/zh/tools">工具</a></li><li><a href="/zh/news">新闻动态</a></li><li><a href="/zh/search">搜索 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">分类</div>
+  <ul class="db-nav">
+    <li><a href="/zh/database/" class="db-nav-top">概览</a></li>
+    <li><a href="/zh/database/" class="db-nav-top">全部物品 <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">武器</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/zh/database/weapons/" class="db-sub-viewall">查看全部 Weapons</a></li>
+        <li><a href="/zh/database/weapons/melee/" class="db-sub-item">近战武器 <span class="db-count">43</span></a></li>
+        <li><a href="/zh/database/weapons/ranged/" class="db-sub-item">远程武器 <span class="db-count">19</span></a></li>
+        <li><a href="/zh/database/weapons/tools/" class="db-sub-item">工具 <span class="db-count">8</span></a></li>
+        <li><a href="/zh/database/weapons/ammo/" class="db-sub-item">弹药 <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">船只</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub" id="sub-ships">
+        <li><a href="/zh/database/ships/" class="db-sub-viewall">查看全部 Ships</a></li>
+        <li><a href="/zh/database/ships/ship-weapons/" class="db-sub-item">船载武器 <span class="db-count">29</span></a></li>
+        <li><a href="/zh/database/ships/hull-modules/" class="db-sub-item">船体模块 <span class="db-count">10</span></a></li>
+        <li><a href="/zh/database/ships/combat-orders/" class="db-sub-item">战斗指令 <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">资源</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/zh/database/resources/" class="db-sub-viewall">查看全部 Resources</a></li>
+        <li><a href="/zh/database/resources/resources/" class="db-sub-item">资源 <span class="db-count">135</span></a></li>
+        <li><a href="/zh/database/resources/metals/" class="db-sub-item">金属 <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">消耗品</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/zh/database/consumables/" class="db-sub-viewall">查看全部 Consumables</a></li>
+        <li><a href="/zh/database/consumables/food/" class="db-sub-item">食物 <span class="db-count">50</span></a></li>
+        <li><a href="/zh/database/consumables/alchemy/" class="db-sub-item">炼金 <span class="db-count">11</span></a></li>
+        <li><a href="/zh/database/consumables/medicine/" class="db-sub-item">药品 <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">装备</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/zh/database/equipment/" class="db-sub-viewall">查看全部 Equipment</a></li>
+        <li><a href="/zh/database/equipment/armor/" class="db-sub-item">护甲 <span class="db-count">41</span></a></li>
+        <li><a href="/zh/database/equipment/rings/" class="db-sub-item">戒指 <span class="db-count">36</span></a></li>
+        <li><a href="/zh/database/equipment/necklaces/" class="db-sub-item">项链 <span class="db-count">24</span></a></li>
+        <li><a href="/zh/database/equipment/backpacks/" class="db-sub-item">背包 <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">杂项</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/zh/database/misc/" class="db-sub-viewall">查看全部 Misc</a></li>
+        <li><a href="/zh/database/misc/misc/" class="db-sub-item">杂项 <span class="db-count">514</span></a></li>
+        <li><a href="/zh/database/misc/default/" class="db-sub-item">默认 <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>数据库</span> / Ships</div>
+    <div class="db-header-meta">WINDROSE 攻略站 • 数据库</div>
+    <h1>Ships & Variants</h1>
+    <p class="db-desc">12 ships.</p>
+    <div class="db-guide-link">📖 <a href="/ships/">查看该分类的完整攻略指南 →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="按名称搜索..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">显示 60 个物品
+            <label>排序 <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">名称</option><option value="rarity">稀有度</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Ketch</h3>
+                <p class="db-card-type">Tier 1 • 1-2 crew • 4 cannons</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Stock Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Ketch</h3>
+                <p class="db-card-type">Default variant • 4 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Brethren Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Ketch</h3>
+                <p class="db-card-type">More firepower • 6 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Blackbeard Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Ketch</h3>
+                <p class="db-card-type">More cargo space • 4 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brigantine</h3>
+                <p class="db-card-type">Tier 2 • 2-4 crew • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Stock Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Brigantine</h3>
+                <p class="db-card-type">Balanced • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Brethren Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Brigantine</h3>
+                <p class="db-card-type">Combat focus • 12 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Blackbeard Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Brigantine</h3>
+                <p class="db-card-type">Trading focus • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Frigate</h3>
+                <p class="db-card-type">Tier 3 • 4-10 crew • 16 cannons</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Stock Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Frigate</h3>
+                <p class="db-card-type">War machine • 16 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Brethren Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Frigate</h3>
+                <p class="db-card-type">Maximum firepower • 20 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Blackbeard Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Frigate</h3>
+                <p class="db-card-type">Fleet cargo hauler • 16 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/zh" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose 攻略站 Logo" width="28" height="28"> Windrose 攻略站</a>
+                <p>您的 Windrose 综合 Wiki、数据库与攻略中心。合成配方、资源地图、Boss 攻略、船只构建等——尽在一处。</p>
+            </div>
+            <div class="footer-col">
+                <h4>攻略</h4>
+                <ul>
+                    <li><a href="/zh/beginner-guide">新手指南</a></li>
+<li><a href="/zh/builds">Build 攻略</a></li>
+<li><a href="/zh/server-guide">服务器指南</a></li>
+<li><a href="/zh/download">下载</a></li>
+<li><a href="/zh/faq">常见问题</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>数据库</h4>
+                <ul>
+                    <li><a href="/zh/crafting">合成制作</a></li>
+<li><a href="/zh/resources">资源</a></li>
+<li><a href="/zh/bosses">Boss</a></li>
+<li><a href="/zh/ships">船只</a></li>
+<li><a href="/zh/weapons">武器</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>探索</h4>
+                <ul>
+                    <li><a href="/zh/tools">工具</a></li>
+<li><a href="/zh/news">新闻动态</a></li>
+<li><a href="/zh/sources">资料来源</a></li>
+<li><a href="/zh/about">关于我们</a></li>
+<li><a href="/zh/contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose 攻略站。非官方粉丝资源。与 Kraken Express 或 Pocketpair Publishing 无任何关联。</span>
+            <nav>
+                <a href="/zh/pages">全部页面</a>
+                <a href="/zh/privacy">隐私政策</a>
+                <a href="/zh/terms">服务条款</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

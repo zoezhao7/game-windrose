@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Equipment | Windrose Guides</title>
+<meta name="description" content="All equipment: armor, rings, necklaces, backpacks.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/fr" class="logo" aria-label="Accueil Windrose Guides"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Afficher/masquer le menu de navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Français ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/equipment">English</a></li><li><a href="/es/database/equipment">Español</a></li><li><a href="/pt/database/equipment">Português</a></li><li><a href="/de/database/equipment">Deutsch</a></li><li><a href="/fr/database/equipment" class="lang-active">Français</a></li><li><a href="/zh/database/equipment">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a href="/fr/database" class="active" aria-current="page">Base de données</a></li><li><a href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search">Rechercher 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Catégories</div>
+  <ul class="db-nav">
+    <li><a href="/fr/database/" class="db-nav-top">Vue d&#x27;ensemble</a></li>
+    <li><a href="/fr/database/" class="db-nav-top">Tous les objets <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Armes</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/fr/database/weapons/" class="db-sub-viewall">Voir tous les Weapons</a></li>
+        <li><a href="/fr/database/weapons/melee/" class="db-sub-item">Armes de mêlée <span class="db-count">43</span></a></li>
+        <li><a href="/fr/database/weapons/ranged/" class="db-sub-item">Armes à distance <span class="db-count">19</span></a></li>
+        <li><a href="/fr/database/weapons/tools/" class="db-sub-item">Outils <span class="db-count">8</span></a></li>
+        <li><a href="/fr/database/weapons/ammo/" class="db-sub-item">Munitions <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Navires</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/fr/database/ships/" class="db-sub-viewall">Voir tous les Ships</a></li>
+        <li><a href="/fr/database/ships/ship-weapons/" class="db-sub-item">Armes navales <span class="db-count">29</span></a></li>
+        <li><a href="/fr/database/ships/hull-modules/" class="db-sub-item">Modules de coque <span class="db-count">10</span></a></li>
+        <li><a href="/fr/database/ships/combat-orders/" class="db-sub-item">Ordres de combat <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressources</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/fr/database/resources/" class="db-sub-viewall">Voir tous les Resources</a></li>
+        <li><a href="/fr/database/resources/resources/" class="db-sub-item">Ressources <span class="db-count">135</span></a></li>
+        <li><a href="/fr/database/resources/metals/" class="db-sub-item">Métaux <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consommables</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/fr/database/consumables/" class="db-sub-viewall">Voir tous les Consumables</a></li>
+        <li><a href="/fr/database/consumables/food/" class="db-sub-item">Nourriture <span class="db-count">50</span></a></li>
+        <li><a href="/fr/database/consumables/alchemy/" class="db-sub-item">Alchimie <span class="db-count">11</span></a></li>
+        <li><a href="/fr/database/consumables/medicine/" class="db-sub-item">Médecine <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Équipement</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub" id="sub-equipment">
+        <li><a href="/fr/database/equipment/" class="db-sub-viewall">Voir tous les Equipment</a></li>
+        <li><a href="/fr/database/equipment/armor/" class="db-sub-item">Armure <span class="db-count">41</span></a></li>
+        <li><a href="/fr/database/equipment/rings/" class="db-sub-item">Anneaux <span class="db-count">36</span></a></li>
+        <li><a href="/fr/database/equipment/necklaces/" class="db-sub-item">Colliers <span class="db-count">24</span></a></li>
+        <li><a href="/fr/database/equipment/backpacks/" class="db-sub-item">Sacs à dos <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Divers</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/fr/database/misc/" class="db-sub-viewall">Voir tous les Misc</a></li>
+        <li><a href="/fr/database/misc/misc/" class="db-sub-item">Divers <span class="db-count">514</span></a></li>
+        <li><a href="/fr/database/misc/default/" class="db-sub-item">Défaut <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Base de données</span> / Equipment</div>
+    <div class="db-header-meta">WINDROSE GUIDES • BASE DE DONNÉES</div>
+    <h1>Equipment</h1>
+    <p class="db-desc">101 items.</p>
+    
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Rechercher par nom..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Affichage de 505 objets
+            <label>Trier <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Nom</option><option value="rarity">Rareté</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/survivor-s-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Survivor&#x27;s Set</h3>
+                <p class="db-card-type">Armor • Starter</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-armor-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Copper Armor Set</h3>
+                <p class="db-card-type">Armor • Mid-Game</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-armor-set/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Iron Armor Set</h3>
+                <p class="db-card-type">Armor • Late-Game</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-torso.webp" alt="Conquistador’s Cuirass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Cuirass</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-feet.webp" alt="Conquistador’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-legs.webp" alt="Conquistador’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-head.webp" alt="Conquistador’s Helmet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Helmet</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-conquistador-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-conquistador-base-hands.webp" alt="Conquistador’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Conquistador’s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-head.webp" alt="Headband" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Headband</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-torso.webp" alt="Marksman’s Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman’s Doublet</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-legs.webp" alt="Marksman&#x27;s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-feet.webp" alt="Marksman&#x27;s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-head.webp" alt="Marksman&#x27;s Tricorne" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Tricorne</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-mercenary-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-mercenary-base-hands.webp" alt="Marksman&#x27;s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-torso.webp" alt="Pikeman’s Cuirass" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Cuirass</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-head.webp" alt="Pikeman’s Helmet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Helmet</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-legs.webp" alt="Pikeman’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-feet.webp" alt="Pikeman’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-pikeman-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-pikeman-base-hands.webp" alt="Pikeman’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Pikeman’s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet.webp" alt="Plans: Privateer’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Plans: Privateer’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-feet.webp" alt="Privateer’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-head.webp" alt="Privateer’s Tricorne" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Tricorne</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-legs.webp" alt="Privateer’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-torso.webp" alt="Privateer’s Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Doublet</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-vanilla-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-vanilla-base-hands.webp" alt="Privateer’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Privateer’s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-hands.webp" alt="Survivor’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-torso.webp" alt="Survivor’s Jacket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Jacket</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-head.webp" alt="Survivor’s Bandana" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Bandana</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-feet.webp" alt="Survivor’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-adventurer-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-adventurer-base-legs.webp" alt="Survivor’s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Survivor’s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-legs.webp" alt="Torn Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-feet.webp" alt="Tracker’s Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-hands.webp" alt="Torn Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-feet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-feet.webp" alt="Torn Boots" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Boots</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-hands/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-hands.webp" alt="Tracker’s Gloves" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Gloves</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-legs/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-legs.webp" alt="Tracker&#x27;s Pants" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker&#x27;s Pants</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-torso.webp" alt="Tracker’s Jacket" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Jacket</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-bandit-base-head/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-bandit-base-head.webp" alt="Tracker’s Hat" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Tracker’s Hat</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-armor-starter-base-torso/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-armor-starter-base-torso.webp" alt="Torn Doublet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Torn Doublet</h3>
+                <p class="db-card-type">Armor • General</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crude-dmg-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crude-dmg-regular.webp" alt="Capricorn Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Capricorn Ring</h3>
+                <p class="db-card-type">This ring radiates brute strength. It’s so heavy i</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-slash-dmg-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-slash-dmg-regular.webp" alt="Corsair Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Corsair Ring</h3>
+                <p class="db-card-type">A similar ring once belonged to notorious Captain </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-posture-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-posture-regular.webp" alt="Knight&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Knight&#x27;s Ring</h3>
+                <p class="db-card-type">It’s said Isabella of Castile herself presented a </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crude-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crude-dmg-major.webp" alt="Major Capricorn Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Capricorn Ring</h3>
+                <p class="db-card-type">This ring radiates brute strength. It’s so heavy i</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-wpn-stmn-cons-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-wpn-stmn-cons-major.webp" alt="Major Champion Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Champion Ring</h3>
+                <p class="db-card-type">When laurel wreaths fell out of fashion, winners o</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crit-damage-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crit-damage-major.webp" alt="Major Cutthroat Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Cutthroat Ring</h3>
+                <p class="db-card-type">They say Francis Drake cast a ring like this after</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-slash-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-slash-dmg-major.webp" alt="Major Corsair Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Corsair Ring</h3>
+                <p class="db-card-type">A similar ring once belonged to notorious Captain </p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-fisherman-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-fisherman-major.webp" alt="Major Fisherman Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Fisherman Ring</h3>
+                <p class="db-card-type">If all else fails, you can use the ring itself as </p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-range-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-range-dmg-major.webp" alt="Major Marksman&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Marksman&#x27;s Ring</h3>
+                <p class="db-card-type">Musketeers swore a ring like this brought luck—sai</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crit-chance-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crit-chance-major.webp" alt="Major Jaguar Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Jaguar Ring</h3>
+                <p class="db-card-type">Such rings were given to ancient warriors who prov</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crit-chance-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crit-chance-regular.webp" alt="Jaguar Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Jaguar Ring</h3>
+                <p class="db-card-type">Such rings were given to ancient warriors who prov</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-melee-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-melee-dmg-major.webp" alt="Major Ring of Bravery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Ring of Bravery</h3>
+                <p class="db-card-type">A Spanish ring for toreros brave enough to step in</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-res-stmn-cons-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-res-stmn-cons-major.webp" alt="Major Prospector Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Prospector Ring</h3>
+                <p class="db-card-type">Reminds its wearer of riches buried below. Funny h</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crpt-tick-resist-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crpt-tick-resist-major.webp" alt="Major Sun Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Sun Ring</h3>
+                <p class="db-card-type">Warmth emanates from the ring. Perhaps long ago, s</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-lightfoot-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-lightfoot-major.webp" alt="Major Ring of Lightfoot" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Ring of Lightfoot</h3>
+                <p class="db-card-type">not used</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-pierce-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-pierce-dmg-major.webp" alt="Major Spear-Thrower&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Spear-Thrower&#x27;s Ring</h3>
+                <p class="db-card-type">The black stone set in the ring resembles obsidian</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-feint-dmg-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-feint-dmg-major.webp" alt="Major Warrior Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Warrior Ring</h3>
+                <p class="db-card-type">Such rings were awarded to veteran warriors of anc</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-dmg-resist-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-dmg-resist-major.webp" alt="Major Ring of Divine Protection" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Ring of Divine Protection</h3>
+                <p class="db-card-type">In ancient times, the coiled spiral motif symboliz</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-range-dmg-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-range-dmg-regular.webp" alt="Marksman&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Marksman&#x27;s Ring</h3>
+                <p class="db-card-type">Musketeers swore a ring like this brought luck—sai</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crude-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crude-dmg-minor.webp" alt="Minor Capricorn Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Capricorn Ring</h3>
+                <p class="db-card-type">This ring radiates brute strength. It’s so heavy i</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-fisherman-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-fisherman-minor.webp" alt="Minor Fisherman Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Fisherman Ring</h3>
+                <p class="db-card-type">If all else fails, you can use the ring itself as </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-range-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-range-dmg-minor.webp" alt="Minor Marksman&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Marksman&#x27;s Ring</h3>
+                <p class="db-card-type">Musketeers swore a ring like this brought luck—sai</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-slash-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-slash-dmg-minor.webp" alt="Minor Corsair Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Corsair Ring</h3>
+                <p class="db-card-type">A similar ring once belonged to notorious Captain </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-wpn-stmn-cons-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-wpn-stmn-cons-minor.webp" alt="Minor Champion Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Champion Ring</h3>
+                <p class="db-card-type">When laurel wreaths fell out of fashion, winners o</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crit-chance-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crit-chance-minor.webp" alt="Minor Jaguar Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Jaguar Ring</h3>
+                <p class="db-card-type">Such rings were given to ancient warriors who prov</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crit-damage-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crit-damage-minor.webp" alt="Minor Cutthroat Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Cutthroat Ring</h3>
+                <p class="db-card-type">They say Francis Drake cast a ring like this after</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-res-stmn-cons-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-res-stmn-cons-minor.webp" alt="Minor Prospector Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Prospector Ring</h3>
+                <p class="db-card-type">Reminds its wearer of riches buried below. Funny h</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-dmg-resist-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-dmg-resist-minor.webp" alt="Minor Ring of Divine Protection" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Ring of Divine Protection</h3>
+                <p class="db-card-type">In ancient times, the coiled spiral motif symboliz</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-melee-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-melee-dmg-minor.webp" alt="Minor Ring of Bravery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Ring of Bravery</h3>
+                <p class="db-card-type">A Spanish ring for toreros brave enough to step in</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-crpt-tick-resist-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-crpt-tick-resist-minor.webp" alt="Minor Sun Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Sun Ring</h3>
+                <p class="db-card-type">Warmth emanates from the ring. Perhaps long ago, s</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-pierce-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-pierce-dmg-minor.webp" alt="Minor Spear-Thrower&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Spear-Thrower&#x27;s Ring</h3>
+                <p class="db-card-type">The black stone set in the ring resembles obsidian</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-feint-dmg-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-feint-dmg-minor.webp" alt="Minor Warrior Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Warrior Ring</h3>
+                <p class="db-card-type">Such rings were awarded to veteran warriors of anc</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-dmg-resist-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-dmg-resist-regular.webp" alt="Regular Ring of Divine Protection" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Regular Ring of Divine Protection</h3>
+                <p class="db-card-type">In ancient times, the coiled spiral motif symboliz</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-melee-dmg-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-melee-dmg-regular.webp" alt="Ring of Bravery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Ring of Bravery</h3>
+                <p class="db-card-type">A Spanish ring for toreros brave enough to step in</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-ring-pierce-dmg-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-ring-pierce-dmg-regular.webp" alt="Spear-Thrower&#x27;s Ring" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Spear-Thrower&#x27;s Ring</h3>
+                <p class="db-card-type">The black stone set in the ring resembles obsidian</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-endurance-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-endurance-major.webp" alt="Major Necklace of Endurance" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Endurance</h3>
+                <p class="db-card-type">Once, a brave warrior who had a similar amulet cha</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-mastery-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-mastery-major.webp" alt="Major Necklace of Mastery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Mastery</h3>
+                <p class="db-card-type">Seasoned hunters believed this amulet helped them </p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-agility-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-agility-major.webp" alt="Major Necklace of Agility" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Agility</h3>
+                <p class="db-card-type">The owner of an amulet like this becomes agile, li</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-vitality-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-vitality-major.webp" alt="Major Necklace of Vitality" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Vitality</h3>
+                <p class="db-card-type">Priests of ancient peoples once wore necklaces lik</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-precision-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-precision-major.webp" alt="Major Necklace of Precision" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Precision</h3>
+                <p class="db-card-type">The gold-coated pendant glitters in the sun like t</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-strength-major/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-strength-major.webp" alt="Major Necklace of Strength" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Major Necklace of Strength</h3>
+                <p class="db-card-type">If the legends are to be believed, a warrior who s</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-agility-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-agility-minor-02.webp" alt="Minor Necklace of Agility" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Agility</h3>
+                <p class="db-card-type">The owner of an amulet like this becomes agile, li</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-precision-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-precision-minor-02.webp" alt="Minor Necklace of Precision" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Precision</h3>
+                <p class="db-card-type">The gold-coated pendant glitters in the sun like t</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-strength-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-strength-minor-02.webp" alt="Minor Necklace of Strength" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Strength</h3>
+                <p class="db-card-type">If the legends are to be believed, a warrior who s</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-endurance-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-endurance-minor-02.webp" alt="Minor Necklace of Endurance" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Endurance</h3>
+                <p class="db-card-type">Once, a brave warrior who had a similar amulet cha</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-mastery-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-mastery-minor-02.webp" alt="Minor Necklace of Mastery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Mastery</h3>
+                <p class="db-card-type">Seasoned hunters believed this amulet helped them </p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-vitality-minor-02/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-vitality-minor-02.webp" alt="Minor Necklace of Vitality" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Minor Necklace of Vitality</h3>
+                <p class="db-card-type">Priests of ancient peoples once wore necklaces lik</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-endurance-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-endurance-regular.webp" alt="Necklace of Endurance" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Necklace of Endurance</h3>
+                <p class="db-card-type">Once, a brave warrior who had a similar amulet cha</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-mastery-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-mastery-regular.webp" alt="Necklace of Mastery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Necklace of Mastery</h3>
+                <p class="db-card-type">Seasoned hunters believed this amulet helped them </p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-agility-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-agility-regular.webp" alt="Necklace of Agility" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Necklace of Agility</h3>
+                <p class="db-card-type">The owner of an amulet like this becomes agile, li</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-strength-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-strength-regular.webp" alt="Necklace of Strength" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Necklace of Strength</h3>
+                <p class="db-card-type">If the legends are to be believed, a warrior who s</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-vitality-regular/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-vitality-regular.webp" alt="Necklace of Vitality" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Necklace of Vitality</h3>
+                <p class="db-card-type">Priests of ancient peoples once wore necklaces lik</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-agility-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-agility-minor.webp" alt="Tiny Necklace of Agility" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Agility</h3>
+                <p class="db-card-type">The owner of an amulet like this becomes agile, li</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-endurance-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-endurance-minor.webp" alt="Tiny Necklace of Endurance" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Endurance</h3>
+                <p class="db-card-type">Once, a brave warrior who had a similar amulet cha</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-mastery-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-mastery-minor.webp" alt="Tiny Necklace of Mastery" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Mastery</h3>
+                <p class="db-card-type">Seasoned hunters believed this amulet helped them </p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-vitality-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-vitality-minor.webp" alt="Tiny Necklace of Vitality" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Vitality</h3>
+                <p class="db-card-type">Priests of ancient peoples once wore necklaces lik</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-strength-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-strength-minor.webp" alt="Tiny Necklace of Strength" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Strength</h3>
+                <p class="db-card-type">If the legends are to be believed, a warrior who s</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-necklace-precision-minor/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-necklace-precision-minor.webp" alt="Tiny Necklace of Precision" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title ">Tiny Necklace of Precision</h3>
+                <p class="db-card-type">The gold-coated pendant glitters in the sun like t</p>
+                <span class="db-badge rarity-common">Common</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-backpack-l03-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-backpack-l03-t01.webp" alt="Quartermaster Backpack" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Quartermaster Backpack</h3>
+                <p class="db-card-type">As bottomless as the sea’s depths!</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-backpack-l01-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-backpack-l01-t01.webp" alt="Sailor Backpack" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Sailor Backpack</h3>
+                <p class="db-card-type">Capable of holding a week&#x27;s worth of provisions an</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-backpack-l00-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-backpack-l00-t01.webp" alt="Torn Sailcloth Bag" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Torn Sailcloth Bag</h3>
+                <p class="db-card-type">Full of holes, but quite spacious.</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/eid-backpack-l04-t01/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/eid-backpack-l04-t01.webp" alt="traveler Backpack" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">traveler Backpack</h3>
+                <p class="db-card-type">With it, even the longest journey feels less daunt</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/fr" class="footer-logo"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="28" height="28"> Windrose Guides</a>
+                <p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Base de données</h4>
+                <ul>
+                    <li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+            <nav>
+                <a href="/fr/pages">Toutes les pages</a>
+                <a href="/fr/privacy">Politique de confidentialité</a>
+                <a href="/fr/terms">Conditions d&#x27;utilisation</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

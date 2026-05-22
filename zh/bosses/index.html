@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windrose Bosses：所有Boss指南、策略与掉落物 (2026) | Windrose 指南</title>
+<meta content="完整的Windrose Boss指南，涵盖所有剧情竞技场Boss和可选遭遇战。包含针对Thomas Richards、Israel Hands、High Priestess和Ghost Captain的策略、推荐装备、掉落物及阶段解析。" name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<link href="https://windrose-guides.com/zh/bosses" rel="canonical"/><link href="https://windrose-guides.com/bosses" hreflang="en" rel="alternate"/><link href="https://windrose-guides.com/es/bosses" hreflang="es" rel="alternate"/><link href="https://windrose-guides.com/pt/bosses" hreflang="pt-BR" rel="alternate"/><link href="https://windrose-guides.com/de/bosses" hreflang="de" rel="alternate"/><link href="https://windrose-guides.com/fr/bosses" hreflang="fr" rel="alternate"/><link href="https://windrose-guides.com/zh/bosses" hreflang="zh-CN" rel="alternate"/><link href="https://windrose-guides.com/bosses" hreflang="x-default" rel="alternate"/><meta content="zh_CN" property="og:locale"/>
+<link href="../../css/style.css" rel="stylesheet"/>
+<meta content="article" property="og:type"/>
+<meta content="https://windrose-guides.com/zh/bosses" property="og:url"/>
+<meta content="Windrose Bosses：所有Boss指南、策略与掉落物 (2026)" property="og:title"/>
+<meta content="完整的Windrose Boss指南，涵盖所有剧情竞技场Boss和可选遭遇战。包含策略、推荐装备、掉落物及阶段解析。" property="og:description"/>
+<meta content="https://windrose-guides.com/imgs/og_bosses.png" property="og:image"/>
+<meta content="Windrose 指南" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Windrose Bosses：所有Boss指南 (2026)" name="twitter:title"/>
+<meta content="完整的Windrose Boss指南，涵盖所有剧情竞技场Boss和可选遭遇战。" name="twitter:description"/>
+<meta content="https://windrose-guides.com/imgs/og_bosses.png" name="twitter:image"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://windrose-guides.com/#website",
+      "url": "https://windrose-guides.com/zh/",
+      "name": "Windrose 指南",
+      "publisher": {
+        "@id": "https://windrose-guides.com/#org"
+      },
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://windrose-guides.com/#org",
+      "name": "Windrose 指南",
+      "url": "https://windrose-guides.com/zh/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://windrose-guides.com/zh/bosses#webpage",
+      "url": "https://windrose-guides.com/zh/bosses",
+      "name": "Windrose Bosses：所有Boss指南、策略与掉落物 (2026)",
+      "description": "完整的Windrose Boss指南，涵盖所有剧情竞技场Boss和可选遭遇战。",
+      "dateModified": "2026-05-16",
+      "isPartOf": {
+        "@id": "https://windrose-guides.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://windrose-guides.com/zh/bosses#breadcrumb"
+      },
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://windrose-guides.com/zh/bosses#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://windrose-guides.com/zh/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bosses"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Windrose Bosses：所有Boss指南 (2026)",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-16",
+      "author": {
+        "@type": "Organization",
+        "name": "Windrose 指南"
+      },
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Windrose 中有多少个Boss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "当前 Early Access 内容包含3个已确认的故事竞技场Boss（Thomas Richards、Israel Hands、High Priestess）和1个可选的副本遭遇战（Ghost Captain）。随着开发持续，预计会有更多Boss加入。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Windrose 中Boss的挑战顺序是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "推进顺序是：Thomas Richards（Coastal Jungle，Lv 5-6）→ Israel Hands（Foothills，Lv 8-10）→ High Priestess（Cursed Swamps，Lv 12-15）。Ghost Captain 是可选的，可以在Lv 10-12左右挑战。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我能在 co-op 中挑战Boss吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "当然！Windrose 支持1-8名玩家进行co-op。Boss会根据玩家人数调整难度，但有队友分担仇恨会让战斗轻松很多。"
+          }
+        }
+      ],
+      "inLanguage": "zh-CN"
+    }
+  ],
+  "inLanguage": "zh-CN"
+}</script>
+<style>
+        /* Boss 卡片网格布局 - 为 bosses 页面提供丰富的视觉展示 */
+        .boss-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .boss-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .boss-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent, #d4a853);
+            box-shadow: 0 12px 40px rgba(212, 168, 83, 0.2), 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .boss-card-img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-bottom: 2px solid var(--border, rgba(212, 168, 83, 0.15));
+            transition: transform 0.4s ease;
+        }
+        .boss-card:hover .boss-card-img {
+            transform: scale(1.05);
+        }
+        .boss-card-img-wrapper {
+            overflow: hidden;
+            position: relative;
+        }
+        .boss-card-badge {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            z-index: 2;
+        }
+        .badge-story {
+            background: rgba(212, 168, 83, 0.9);
+            color: #1a1207;
+        }
+        .badge-optional {
+            background: rgba(100, 116, 139, 0.9);
+            color: #f1f5f9;
+        }
+        .badge-unconfirmed {
+            background: rgba(239, 68, 68, 0.8);
+            color: #fff;
+        }
+        .boss-card-body {
+            padding: 1.25rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .boss-card-body h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+            color: #f1f5f9;
+        }
+        .boss-card-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .boss-card-meta span {
+            font-size: 0.8rem;
+            color: var(--text-muted, #94a3b8);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card-meta .meta-icon {
+            font-size: 0.9rem;
+        }
+        .boss-card-body p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--text-muted, #94a3b8);
+            line-height: 1.5;
+            flex: 1;
+        }
+        .boss-card-cta {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent, #d4a853);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card:hover .boss-card-cta {
+            gap: 0.6rem;
+        }
+        .boss-progression {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .boss-progression-step {
+            text-align: center;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            min-width: 140px;
+        }
+        .boss-progression-step strong {
+            display: block;
+            color: #f1f5f9;
+            font-size: 0.9rem;
+        }
+        .boss-progression-step span {
+            font-size: 0.75rem;
+            color: var(--text-muted, #94a3b8);
+        }
+        .boss-progression-arrow {
+            font-size: 1.5rem;
+            color: var(--accent, #d4a853);
+            padding: 0 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .boss-grid {
+                grid-template-columns: 1fr;
+            }
+            .boss-progression {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .boss-progression-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<header class="header"><div class="container"><a aria-label="Windrose 攻略站首页" class="logo" href="/zh"><img alt="Windrose 攻略站 Logo" height="32" src="/imgs/logo.png" width="32"/> Windrose 攻略站</a><button aria-expanded="false" aria-label="切换导航菜单" class="hamburger"><span></span><span></span><span></span></button>
+<div class="lang-switcher">
+<button aria-expanded="false" aria-label="Language" class="lang-btn">中文 ▾</button>
+<ul class="lang-dropdown"><li><a href="/bosses">English</a></li><li><a href="/es/bosses">Español</a></li><li><a href="/pt/bosses">Português</a></li><li><a href="/de/bosses">Deutsch</a></li><li><a href="/fr/bosses">Français</a></li><li><a class="lang-active" href="/zh/bosses">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/zh/">首页</a></li><li><a href="/zh/beginner-guide">新手指南</a></li><li><a href="/zh/database">数据库</a></li><li><a aria-current="page" class="active" href="/zh/bosses">Boss</a></li><li><a href="/zh/ships">船只</a></li><li><a href="/zh/guides">攻略</a></li><li><a href="/zh/tools">工具</a></li><li><a href="/zh/news">新闻动态</a></li><li><a href="/zh/search">搜索 🔍</a></li></ul></nav></div></header>
+<nav aria-label="面包屑导航" class="breadcrumb">
+<div class="container">
+<ol>
+<li><a href="/zh/">首页</a></li>
+<li aria-current="page">首领</li>
+</ol>
+</div>
+</nav>
+<main>
+<section class="page-hero">
+<h1>Windrose 首领指南：所有首领、策略与掉落</h1>
+<p class="hero-subtitle">掌握 Windrose 中的每个首领战斗——从 Coastal Jungle 到 Cursed Swamps。策略、推荐装备、阶段分解以及已验证的掉落表。</p>
+</section>
+<section class="content-section">
+<div class="container">
+<div class="quick-stats">
+<div class="stat"><div class="stat-label">剧情首领</div><div class="stat-value">3个已确认</div></div>
+<div class="stat"><div class="stat-label">可选遭遇</div><div class="stat-value">1+ 已知</div></div>
+<div class="stat"><div class="stat-label">数据状态</div><div class="stat-value">Early Access 追踪器</div></div>
+</div>
+<h2>首领进度顺序</h2>
+<p>Windrose 具有与生物群系推进相关的线性首领进度。击败每个剧情首领以解锁下一个生物群系和制作等级。</p>
+<div class="boss-progression">
+<div class="boss-progression-step">
+<strong>Thomas Richards</strong>
+<span>Coastal Jungle · Lv 5-6</span>
+</div>
+<span class="boss-progression-arrow">→</span>
+<div class="boss-progression-step">
+<strong>Israel Hands</strong>
+<span>Foothills · Lv 8-10</span>
+</div>
+<span class="boss-progression-arrow">→</span>
+<div class="boss-progression-step">
+<strong>High Priestess</strong>
+<span>Cursed Swamps · Lv 12-15</span>
+</div>
+</div>
+<h2>所有Boss战</h2>
+<div class="boss-grid">
+<!-- Thomas Richards -->
+<a class="boss-card" href="/zh/bosses/thomas-richards/" id="boss-thomas-richards">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">剧情Boss #1</span>
+<img alt="Thomas Richards - Windrose Boss" class="boss-card-img" height="400" loading="lazy" src="/imgs/thomas_richards.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Thomas Richards</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Coastal Jungle</span>
+<span><span class="meta-icon">⚔️</span> Lv 5-6</span>
+</div>
+<p>第一个剧情竞技场Boss。一个凶残的近战战士，配有爆炸手榴弹和无法格挡的抓取攻击。击败他来解锁Foothills区域。</p>
+<span class="boss-card-cta">查看完整攻略 →</span>
+</div>
+</a>
+<!-- Israel Hands -->
+<a class="boss-card" href="/zh/bosses/israel-hands/" id="boss-israel-hands">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">剧情Boss #2</span>
+<img alt="Israel Hands - Windrose Boss" class="boss-card-img" height="400" loading="lazy" src="/imgs/israel_hands.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Israel Hands</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Foothills</span>
+<span><span class="meta-icon">⚔️</span> Lv 8-10</span>
+</div>
+<p>第二个竞技场Boss，通过“大海捞针”任务线遇到。掉落传奇Soul Eater巨剑和Charon的Obol。</p>
+<span class="boss-card-cta">查看完整攻略 →</span>
+</div>
+</a>
+<!-- High Priestess -->
+<a class="boss-card" href="/zh/bosses/high-priestess/" id="boss-high-priestess">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">剧情Boss #3</span>
+<img alt="High Priestess - Windrose Boss" class="boss-card-img" height="400" loading="lazy" src="/imgs/high_priestess.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>High Priestess</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Cursed Swamps</span>
+<span><span class="meta-icon">⚔️</span> Lv 12-15</span>
+</div>
+<p>当前Early Access内容中的最终剧情Boss。在Cursed Swamps区域中一个具有挑战性的后期遭遇战。掉落Charon的Obol。</p>
+<span class="boss-card-cta">查看完整攻略 →</span>
+</div>
+</a>
+<!-- Ghost Captain -->
+<a class="boss-card" href="/zh/bosses/ghost-captain/" id="boss-ghost-captain">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-optional">可选</span>
+<img alt="Ghost Captain - Windrose Boss" class="boss-card-img" height="400" loading="lazy" src="/imgs/ghost_captain.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Ghost Captain</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> 神庙地下城</span>
+<span><span class="meta-icon">⚔️</span> Lv 10-12</span>
+</div>
+<p>位于神庙路线的一个可选主要地下城遭遇。奖励寻求额外战利品的玩家Soul Eater大剑。</p>
+<span class="boss-card-cta">查看完整攻略→</span>
+</div>
+</a>
+<!-- Charon's Obols -->
+<div class="boss-card" id="boss-charons-obols" style="opacity: 0.7; cursor: default;">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-unconfirmed">需要验证</span>
+<img alt="Charon's Obols - 未验证" class="boss-card-img" height="400" loading="lazy" src="/imgs/icon_boss.png" style="filter: grayscale(60%);" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Charon's Obols</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> 未知</span>
+<span><span class="meta-icon">❓</span> 未确认</span>
+</div>
+<p>来自旧数据的遗留页面。交叉核对维基来源表明Charon的Obol是奖励物品，而非Boss。保留用于追踪，直到在游戏中验证。</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>通用Boss准备</h2>
+<p>Windrose中的每个Boss都有备无患。以下是进入任何Boss竞技场前的通用清单：</p>
+<table>
+<caption>Boss准备清单</caption>
+<thead>
+<tr>
+<th scope="col">类别</th>
+<th scope="col">推荐</th>
+<th scope="col">为何重要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>食物Buff</strong></td>
+<td>Bacon and Eggs、Coconut Milk或当前最佳餐食</td>
+<td>战斗中提升最大HP和耐力回复</td>
+</tr>
+<tr>
+<td><strong>治疗</strong></td>
+<td>至少10-15个Bandages，有药水则带药水</td>
+<td>Boss战持续时间长；治疗用尽意味着团灭</td>
+</tr>
+<tr>
+<td><strong>休息Buff</strong></td>
+<td>在前往Boss之前在你的Bonfire处睡觉</td>
+<td>提供与被食物叠加的被动属性加成</td>
+</tr>
+<tr>
+<td><strong>装备等级</strong></td>
+<td>达到或超过boss的推荐等级</td>
+<td>装备等级不足会导致伤害低，受到的伤害高</td>
+</tr>
+<tr>
+<td><strong>远程选项</strong></td>
+<td>带上一个20发以上子弹的Blunderbuss或Musket</td>
+<td>远程压制是安全伤害，尤其适合放风筝</td>
+</tr>
+<tr>
+<td><strong>Repair Kits</strong></td>
+<td>2-3个Repair Kits或Combat Repair Kits</td>
+<td>武器和护甲在长时间战斗中会损耗</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>Boss掉落速查</h2>
+<table>
+<caption>已知Boss掉落（社区提供）</caption>
+<thead>
+<tr>
+<th scope="col">Boss</th>
+<th scope="col">重要掉落</th>
+<th scope="col">解锁</th>
+<th scope="col">数据可信度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/zh/bosses/thomas-richards/">Thomas Richards</a></td>
+<td>50 XP, Thomas Richards的日志, Seafood Platter, Silver Ingot</td>
+<td>Foothills生物群系，铁级进度</td>
+<td>社区</td>
+</tr>
+<tr>
+<td><a href="/zh/bosses/israel-hands/">Israel Hands</a></td>
+<td>Soul Eater巨剑, 30 Undead Essence, Charon的Obol</td>
+<td>Cursed Swamps，下一个剧情门</td>
+<td>社区</td>
+</tr>
+<tr>
+<td><a href="/zh/bosses/high-priestess/">High Priestess</a></td>
+<td>Charon的Obol</td>
+<td>当前主线剧情结束（第1章）</td>
+<td>社区</td>
+</tr>
+<tr>
+<td><a href="/zh/bosses/ghost-captain/">Ghost Captain</a></td>
+<td>Soul Eater 巨剑</td>
+<td>可选战利品路线</td>
+<td>社区</td>
+</tr>
+</tbody>
+</table>
+<p class="update-note"><strong>数据说明：</strong> Windrose 位于 Early Access（版本v0.10.0.5.120）。Boss掉落和机制可能随补丁变化。本页所有数据均来自社区，将在官方信息公布后更新。</p>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>常见问题</h2>
+<details>
+<summary>Windrose 中有多少个Boss？</summary>
+<div class="faq-answer"><p>当前 Early Access 内容包含3个已确认的故事竞技场Boss（Thomas Richards、Israel Hands、High Priestess）和1个可选地牢遭遇战（Ghost Captain）。随着开发持续，预计会有更多Boss。</p></div>
+</details>
+<details>
+<summary>Windrose 中的Boss顺序是什么？</summary>
+<div class="faq-answer"><p>推进顺序为：Thomas Richards（Coastal Jungle，Lv 5-6）→ Israel Hands（Foothills，Lv 8-10）→ High Priestess（Cursed Swamps，Lv 12-15）。Ghost Captain 为可选，可在Lv 10-12左右挑战。</p></div>
+</details>
+<details>
+<summary>我可以在 co-op 中打Boss吗？</summary>
+<div class="faq-answer"><p>是的！Windrose 支持1-8名玩家 co-op。Boss会随玩家人数调整，但拥有队友分摊仇恨会大幅降低战斗难度。</p></div>
+</details>
+<details>
+<summary>所有Boss掉落物都已确认吗？</summary>
+<div class="faq-answer"><p>不。Early Access 数据可能变化，因此确切掉落物应在补丁后重新检查并标注来源可信度。我们将所有未验证数据标记为“社区”来源。</p></div>
+</details>
+<details>
+<summary>打Boss用什么武器最好？</summary>
+<div class="faq-answer"><p>通常最有效的组合是近战用 Saber（快速连击）配合远程风筝用 Blunderbuss。击败 Israel Hands 或 Ghost Captain 后可以获得 Soul Eater 巨剑。</p></div>
+</details>
+</div>
+</section>
+<aside class="related-guides">
+<div class="container">
+<h2>相关指南</h2>
+<ul>
+<li><a href="/zh/guides/boss-progression/">Boss推进与策略指南</a></li>
+<li><a href="/zh/beginner-guide/">新手指南 — 第1-10天</a></li>
+<li><a href="/zh/crafting/workbench/">Workbench 配方 Lv1-3</a></li>
+<li><a href="/zh/guides/best-early-builds/">最佳前期配置</a></li>
+<li><a href="/zh/database/bosses/">数据库：Boss列表</a></li>
+</ul>
+</div>
+</aside>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="/zh"><img alt="Windrose 攻略站 Logo" height="28" src="/imgs/logo.png" width="28"/> Windrose 攻略站</a>
+<p>您的 Windrose 综合 Wiki、数据库与攻略中心。合成配方、资源地图、Boss 攻略、船只构建等——尽在一处。</p>
+</div>
+<div class="footer-col">
+<h4>攻略</h4>
+<ul>
+<li><a href="/zh/beginner-guide">新手指南</a></li>
+<li><a href="/zh/builds">Build 攻略</a></li>
+<li><a href="/zh/server-guide">服务器指南</a></li>
+<li><a href="/zh/download">下载</a></li>
+<li><a href="/zh/faq">常见问题</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>数据库</h4>
+<ul>
+<li><a href="/zh/crafting">合成制作</a></li>
+<li><a href="/zh/resources">资源</a></li>
+<li><a href="/zh/bosses">Boss</a></li>
+<li><a href="/zh/ships">船只</a></li>
+<li><a href="/zh/weapons">武器</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>探索</h4>
+<ul>
+<li><a href="/zh/tools">工具</a></li>
+<li><a href="/zh/news">新闻动态</a></li>
+<li><a href="/zh/sources">资料来源</a></li>
+<li><a href="/zh/about">关于我们</a></li>
+<li><a href="/zh/contact">联系我们</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Windrose 攻略站。非官方粉丝资源。与 Kraken Express 或 Pocketpair Publishing 无任何关联。</span>
+<nav>
+<a href="/zh/pages">全部页面</a>
+<a href="/zh/privacy">隐私政策</a>
+<a href="/zh/terms">服务条款</a>
+</nav>
+</div>
+</div>
+</footer>
+
+<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script></body>
+</html>

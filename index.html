@@ -157,6 +157,10 @@
     <div class="container">
         <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
         <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+          <button class="lang-btn" aria-label="Language" aria-expanded="false">English ▾</button>
+          <ul class="lang-dropdown"><li><a href="/" class="lang-active">English</a></li><li><a href="/es">Español</a></li><li><a href="/pt">Português</a></li><li><a href="/de">Deutsch</a></li><li><a href="/fr">Français</a></li><li><a href="/zh">中文</a></li></ul>
+        </div>
         <nav aria-label="Primary">
             <ul class="nav-links"><li><a href="/" class="active">Home</a></li><li><a href="/beginner-guide">Beginner</a></li><li><a href="/database">Database</a></li><li><a href="/bosses">Bosses</a></li><li><a href="/ships">Ships</a></li><li><a href="/crafting">Crafting</a></li><li><a href="/guides">Guides</a></li><li><a href="/tools">Tools</a></li><li><a href="/news">News</a></li><li><a href="/search">Search 🔍</a></li></ul>
         </nav>
@@ -520,21 +524,37 @@
     var hamburger = document.querySelector('.hamburger');
     var navLinks = document.querySelector('.nav-links');
 
-    if (!hamburger || !navLinks) return;
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', function () {
+            var isOpen = navLinks.classList.toggle('open');
+            hamburger.classList.toggle('open');
+            hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
 
-    hamburger.addEventListener('click', function () {
-        var isOpen = navLinks.classList.toggle('open');
-        hamburger.classList.toggle('open');
-        hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
+        document.addEventListener('click', function (e) {
+            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 
-    document.addEventListener('click', function (e) {
-        if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
-            navLinks.classList.remove('open');
-            hamburger.classList.remove('open');
-            hamburger.setAttribute('aria-expanded', 'false');
-        }
-    });
+    var langBtn = document.querySelector('.lang-btn');
+    var langSwitcher = document.querySelector('.lang-switcher');
+    if (langBtn && langSwitcher) {
+        langBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var open = langSwitcher.classList.toggle('open');
+            langBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        document.addEventListener('click', function (e) {
+            if (!langSwitcher.contains(e.target)) {
+                langSwitcher.classList.remove('open');
+                langBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 })();
 </script>
 

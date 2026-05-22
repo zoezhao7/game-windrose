@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workbench Recipes | Windrose Guides</title>
+<meta name="description" content="All Workbench recipes.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/de" class="logo" aria-label="Windrose Guides Startseite"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Navigationsmenü umschalten" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Deutsch ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database">English</a></li><li><a href="/es/database">Español</a></li><li><a href="/pt/database">Português</a></li><li><a href="/de/database" class="lang-active">Deutsch</a></li><li><a href="/fr/database">Français</a></li><li><a href="/zh/database">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/de/">Startseite</a></li><li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li><li><a href="/de/database" class="active" aria-current="page">Datenbank</a></li><li><a href="/de/bosses">Bosse</a></li><li><a href="/de/ships">Schiffe</a></li><li><a href="/de/guides">Leitfäden</a></li><li><a href="/de/tools">Werkzeuge</a></li><li><a href="/de/news">Neuigkeiten</a></li><li><a href="/de/search">Suchen 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Kategorien</div>
+  <ul class="db-nav">
+    <li><a href="/de/database/" class="db-nav-top">Übersicht</a></li>
+    <li><a href="/de/database/" class="db-nav-top active">Alle Gegenstände <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Waffen</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/de/database/weapons/" class="db-sub-viewall">Alle Weapons anzeigen</a></li>
+        <li><a href="/de/database/weapons/melee/" class="db-sub-item">Nahkampfwaffen <span class="db-count">43</span></a></li>
+        <li><a href="/de/database/weapons/ranged/" class="db-sub-item">Fernkampfwaffen <span class="db-count">19</span></a></li>
+        <li><a href="/de/database/weapons/tools/" class="db-sub-item">Werkzeuge <span class="db-count">8</span></a></li>
+        <li><a href="/de/database/weapons/ammo/" class="db-sub-item">Munition <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Schiffe</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/de/database/ships/" class="db-sub-viewall">Alle Ships anzeigen</a></li>
+        <li><a href="/de/database/ships/ship-weapons/" class="db-sub-item">Schiffswaffen <span class="db-count">29</span></a></li>
+        <li><a href="/de/database/ships/hull-modules/" class="db-sub-item">Rumpfmodule <span class="db-count">10</span></a></li>
+        <li><a href="/de/database/ships/combat-orders/" class="db-sub-item">Kampfbefehle <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressourcen</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/de/database/resources/" class="db-sub-viewall">Alle Resources anzeigen</a></li>
+        <li><a href="/de/database/resources/resources/" class="db-sub-item">Ressourcen <span class="db-count">135</span></a></li>
+        <li><a href="/de/database/resources/metals/" class="db-sub-item">Metalle <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Verbrauchsgüter</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/de/database/consumables/" class="db-sub-viewall">Alle Consumables anzeigen</a></li>
+        <li><a href="/de/database/consumables/food/" class="db-sub-item">Nahrung <span class="db-count">50</span></a></li>
+        <li><a href="/de/database/consumables/alchemy/" class="db-sub-item">Alchemie <span class="db-count">11</span></a></li>
+        <li><a href="/de/database/consumables/medicine/" class="db-sub-item">Medizin <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ausrüstung</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/de/database/equipment/" class="db-sub-viewall">Alle Equipment anzeigen</a></li>
+        <li><a href="/de/database/equipment/armor/" class="db-sub-item">Rüstung <span class="db-count">41</span></a></li>
+        <li><a href="/de/database/equipment/rings/" class="db-sub-item">Ringe <span class="db-count">36</span></a></li>
+        <li><a href="/de/database/equipment/necklaces/" class="db-sub-item">Halsketten <span class="db-count">24</span></a></li>
+        <li><a href="/de/database/equipment/backpacks/" class="db-sub-item">Rucksäcke <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Sonstiges</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/de/database/misc/" class="db-sub-viewall">Alle Misc anzeigen</a></li>
+        <li><a href="/de/database/misc/misc/" class="db-sub-item">Sonstiges <span class="db-count">514</span></a></li>
+        <li><a href="/de/database/misc/default/" class="db-sub-item">Standard <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Datenbank</span> / Crafting / Workbench</div>
+    <div class="db-header-meta">WINDROSE GUIDES • DATENBANK</div>
+    <h1>Workbench Recipes</h1>
+    <p class="db-desc">35 recipes.</p>
+    <div class="db-guide-link">📖 <a href="/crafting/workbench/">Vollständigen Strategie-Leitfaden für diese Kategorie ansehen →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Nach Namen suchen..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">175 Artikel angezeigt
+            <label>Sortieren <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Name</option><option value="rarity">Seltenheit</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/stone-axe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Axe</h3>
+                <p class="db-card-type">3x Stone, 3x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/stone-pickaxe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Pickaxe</h3>
+                <p class="db-card-type">3x Stone, 3x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/stone-bullet/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/database/items/stone-bullet.webp" alt="Stone Bullet" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Stone Bullet</h3>
+                <p class="db-card-type">Ammo</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/bandage/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Bandage</h3>
+                <p class="db-card-type">1x Coarse Fabric</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/coarse-fabric/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Coarse Fabric</h3>
+                <p class="db-card-type">3x Plant Fiber</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/rope/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Rope</h3>
+                <p class="db-card-type">3x Plant Fiber</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/torn-sailcloth-bag/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Torn Sailcloth Bag</h3>
+                <p class="db-card-type">2x Coarse Fabric, 1x Rope</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/clay-pot/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Clay Pot</h3>
+                <p class="db-card-type">6x Clay</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-axe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Axe</h3>
+                <p class="db-card-type">5x Copper Ingot, 5x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-pickaxe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Pickaxe</h3>
+                <p class="db-card-type">5x Copper Ingot, 5x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-bullet/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Bullet</h3>
+                <p class="db-card-type">1x Copper Ingot</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/nails/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Nails</h3>
+                <p class="db-card-type">1x Copper Ingot</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/copper-pot/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Copper Pot</h3>
+                <p class="db-card-type">5x Copper Ingot</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/lamp/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Lamp</h3>
+                <p class="db-card-type">4x Copper Ingot, 1x Rope</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/fast-travel-bell/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Fast Travel Bell</h3>
+                <p class="db-card-type">10x Copper Ingot, 3x Rope</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/shovel/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Shovel</h3>
+                <p class="db-card-type">3x Copper Ingot, 10x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/combat-repair-kit/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Combat Repair Kit</h3>
+                <p class="db-card-type">5x Wooden Plank, 1x Rum Bottle, 1x Steel Nails</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/repair-kit/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Repair Kit</h3>
+                <p class="db-card-type">10x Wood</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/anvil/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Anvil</h3>
+                <p class="db-card-type">30x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/wooden-plank/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Wooden Plank</h3>
+                <p class="db-card-type">2x Wood</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-axe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Iron Axe</h3>
+                <p class="db-card-type">5x Foothills Iron Ingot, 5x Wood</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-pickaxe/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Iron Pickaxe</h3>
+                <p class="db-card-type">5x Foothills Iron Ingot, 5x Wood</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-bullet/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Iron Bullet</h3>
+                <p class="db-card-type">1x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/ironware/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Ironware</h3>
+                <p class="db-card-type">5x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/iron-nails/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Nails</h3>
+                <p class="db-card-type">1x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/millstone-parts/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Millstone Parts</h3>
+                <p class="db-card-type">15x Stone</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/master-combat-repair-kit/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Master Combat Repair Kit</h3>
+                <p class="db-card-type">2x Timber, 5x Rum Bottle, 3x Steel Nails</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/sailor-backpack/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Sailor Backpack</h3>
+                <p class="db-card-type">1x Torn Sailcloth Bag, 5x Rough Hide, 2x Copper Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/simple-fishing-rod/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Simple Fishing Rod</h3>
+                <p class="db-card-type">5x Hardwood, 3x Rope, 2x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/bosun-backpack/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Bosun Backpack</h3>
+                <p class="db-card-type">1x Sailor Backpack, 5x Tanned Leather, 2x Foothills Iron Ingot</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/quartermaster-backpack/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Quartermaster Backpack</h3>
+                <p class="db-card-type">1x Bosun Backpack, 5x Crocodile Hide Piece</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/timber/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Timber</h3>
+                <p class="db-card-type">3x Hardwood</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/hewn-stone/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Hewn Stone</h3>
+                <p class="db-card-type">3x Stone</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/tarred-planks/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Tarred Planks</h3>
+                <p class="db-card-type">1x Wooden Plank, 1x Tar</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/bullet-arborum/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Bullet Arborum</h3>
+                <p class="db-card-type">1x Ingot Arborum</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/de" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
+                <p>Dein vollständiges Windrose-Wiki, Datenbank- und Leitfaden-Zentrum. Handwerksrezepte, Ressourcenkarten, Boss-Strategien, Schiffsbauten und mehr — alles an einem Ort.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Leitfäden</h4>
+                <ul>
+                    <li><a href="/de/beginner-guide">Anfänger-Leitfaden</a></li>
+<li><a href="/de/builds">Build-Leitfäden</a></li>
+<li><a href="/de/server-guide">Server-Leitfaden</a></li>
+<li><a href="/de/download">Download</a></li>
+<li><a href="/de/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Datenbank</h4>
+                <ul>
+                    <li><a href="/de/crafting">Handwerk</a></li>
+<li><a href="/de/resources">Ressourcen</a></li>
+<li><a href="/de/bosses">Bosse</a></li>
+<li><a href="/de/ships">Schiffe</a></li>
+<li><a href="/de/weapons">Waffen</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Entdecken</h4>
+                <ul>
+                    <li><a href="/de/tools">Werkzeuge</a></li>
+<li><a href="/de/news">Neuigkeiten</a></li>
+<li><a href="/de/sources">Quellen</a></li>
+<li><a href="/de/about">Über uns</a></li>
+<li><a href="/de/contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Inoffizielle Fan-Ressource. Nicht mit Kraken Express oder Pocketpair Publishing verbunden.</span>
+            <nav>
+                <a href="/de/pages">Alle Seiten</a>
+                <a href="/de/privacy">Datenschutzerklärung</a>
+                <a href="/de/terms">Nutzungsbedingungen</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

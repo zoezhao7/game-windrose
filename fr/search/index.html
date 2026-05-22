@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechercher dans Windrose Guides (2026)</title>
+  <meta name="description" content="Recherchez dans toute la base de données Windrose Guides : recettes, objets, boss et guides.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://windrose-guides.com/fr/search">
+  <link rel="alternate" hreflang="en" href="https://windrose-guides.com/search">
+  <link rel="alternate" hreflang="es" href="https://windrose-guides.com/es/search">
+  <link rel="alternate" hreflang="pt-BR" href="https://windrose-guides.com/pt/search">
+  <link rel="alternate" hreflang="de" href="https://windrose-guides.com/de/search">
+  <link rel="alternate" hreflang="fr" href="https://windrose-guides.com/fr/search">
+  <link rel="alternate" hreflang="zh-CN" href="https://windrose-guides.com/zh/search">
+  <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/search">
+  <link rel="stylesheet" href="../../css/style.css">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://windrose-guides.com/fr/search">
+  <meta property="og:title" content="Rechercher dans Windrose Guides (2026)">
+  <meta property="og:description" content="Recherchez dans toute la base de données Windrose Guides : recettes, objets, boss et guides.">
+  <meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+  <meta property="og:site_name" content="Windrose Guides">
+  <meta property="article:published_time" content="2026-05-12">
+  <meta property="article:modified_time" content="2026-05-12">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rechercher dans Windrose Guides (2026)">
+  <meta name="twitter:description" content="Recherchez dans toute la base de données Windrose Guides : recettes, objets, boss et guides.">
+  <meta name="twitter:image" content="https://windrose-guides.com/imgs/og.webp">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://windrose-guides.com/#website","url":"https://windrose-guides.com/","name":"Windrose Guides","publisher":{"@id":"https://windrose-guides.com/#org"},"inLanguage":"fr"},{"@type":"Organization","@id":"https://windrose-guides.com/#org","name":"Windrose Guides","url":"https://windrose-guides.com/"},{"@type":"WebPage","@id":"https://windrose-guides.com/fr/search#webpage","url":"https://windrose-guides.com/fr/search","name":"Rechercher dans Windrose Guides","description":"Recherchez dans toute la base de données Windrose Guides : recettes, objets, boss et guides.","dateModified":"2026-05-12","isPartOf":{"@id":"https://windrose-guides.com/#website"},"breadcrumb":{"@id":"https://windrose-guides.com/fr/search#breadcrumb"},"inLanguage":"fr"},{"@type":"BreadcrumbList","@id":"https://windrose-guides.com/fr/search#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://windrose-guides.com/"},{"@type":"ListItem","position":2,"name":"Rechercher 🔍"}]},{"@type":"Article","headline":"Rechercher dans Windrose Guides","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Organization","name":"Windrose Guides"}}]}
+  </script>
+</head>
+<body>
+  <header class="header"><div class="container"><a href="/fr" class="logo" aria-label="Accueil Windrose Guides"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Afficher/masquer le menu de navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Français ▾</button>
+  <ul class="lang-dropdown"><li><a href="/search">English</a></li><li><a href="/es/search">Español</a></li><li><a href="/pt/search">Português</a></li><li><a href="/de/search">Deutsch</a></li><li><a href="/fr/search" class="lang-active">Français</a></li><li><a href="/zh/search">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a href="/fr/database">Base de données</a></li><li><a href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search" class="active" aria-current="page">Rechercher 🔍</a></li></ul></nav></div></header>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/fr">Accueil</a></li>
+<li><span aria-current="page">Rechercher 🔍</span></li></ol></div></nav>
+  <main class="container">
+    <h1>Rechercher dans Windrose Guides</h1>
+    
+<p>Utilisez la barre de recherche ci-dessous pour trouver des guides, recettes, ressources et stratégies de boss dans toute la base de données Windrose Guides.</p>
+<div class="search-container" style="margin: 2rem 0;">
+    <input type="text" id="searchInput" placeholder="Rechercher des objets, boss, guides..." style="width: 100%; padding: 1rem; font-size: 1.1rem; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-surface); color: var(--text); outline: none; transition: border-color 0.2s;">
+    <div id="searchResults" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;"></div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.getElementById('searchInput');
+        const results = document.getElementById('searchResults');
+        let searchData = [];
+
+        fetch('/data/search-index.json')
+            .then(res => res.json())
+            .then(data => { searchData = data; })
+            .catch(err => console.error("Search index failed to load.", err));
+
+        input.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            results.innerHTML = '';
+            if (query.length < 2) return;
+
+            const matches = searchData.filter(item =>
+                item.title.toLowerCase().includes(query) ||
+                item.description.toLowerCase().includes(query)
+            ).slice(0, 10);
+
+            if (matches.length === 0) {
+                results.innerHTML = '<p style="color: var(--text-muted);">Aucun résultat trouvé.</p>';
+                return;
+            }
+
+            matches.forEach(item => {
+                const el = document.createElement('a');
+                el.href = item.url;
+                el.className = 'card quick-nav-card';
+                el.style.display = 'block';
+                el.innerHTML = `<h3 style="margin-bottom:0.2rem; color:var(--accent);">${item.title}</h3><p style="font-size:0.85rem; color:var(--text-secondary);">${item.description}</p>`;
+                results.appendChild(el);
+            });
+        });
+    });
+</script>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/fr" class="footer-logo"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="28" height="28"> Windrose Guides</a>
+                <p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Base de données</h4>
+                <ul>
+                    <li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+            <nav>
+                <a href="/fr/pages">Toutes les pages</a>
+                <a href="/fr/privacy">Politique de confidentialité</a>
+                <a href="/fr/terms">Conditions d&#x27;utilisation</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+  <script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script>
+</body>
+</html>

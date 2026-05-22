@@ -24,7 +24,19 @@ NEWS_DIR = ROOT / "news"
 SITE = "https://windrose-guides.com"
 TODAY = datetime.date.today().isoformat()
 
-# NOTE: 分类标签的显示名映射
+from templates import header_html, footer_html, HAMBURGER_JS
+from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED
+
+# NOTE: 分类标签的显示名映射（使用翻译 key）
+CATEGORY_LABEL_KEYS = {
+    "patch_notes": "news.category_patch_notes",
+    "milestone": "news.category_milestone",
+    "preview": "news.category_preview",
+    "community": "news.category_community",
+    "media": "news.category_media",
+}
+
+# 向后兼容：保留 CATEGORY_LABELS 为英文默认值
 CATEGORY_LABELS = {
     "patch_notes": "Patch Notes",
     "milestone": "Milestone",
@@ -69,75 +81,7 @@ def format_date(date_str: str) -> str:
         return date_str
 
 
-# NOTE: 共享模板组件，保持所有页面 header/footer/nav 一致
-HEADER_HTML = """<header class="header">
-    <div class="container">
-      <a href="/" class="logo" aria-label="Windrose Guides Home"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
-      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      <nav aria-label="Primary"><ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/beginner-guide">Beginner Guide</a></li>
-                <li><a href="/database">Database</a></li>
-                <li><a href="/bosses">Bosses</a></li>
-                <li><a href="/ships">Ships</a></li>
-                <li><a href="/guides">Guides</a></li>
-                <li><a href="/tools">Tools</a></li>
-                <li><a href="/news" class="active">News</a></li>
-                <li><a href="/search">Search 🔍</a></li>
-            </ul></nav>
-    </div>
-  </header>"""
-
-FOOTER_HTML = """<footer class="footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <a href="/" class="footer-logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="28" height="28"> Windrose Guides</a>
-                <p>Your complete Windrose wiki, database, and guide hub. Crafting recipes, resource maps, boss strategies, ship builds, and more &mdash; all in one place.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Guides</h4>
-                <ul>
-                    <li><a href="/beginner-guide">Beginner Guide</a></li>
-                    <li><a href="/builds">Build Guides</a></li>
-                    <li><a href="/server-guide">Server Guide</a></li>
-                    <li><a href="/download">Download</a></li>
-                    <li><a href="/faq">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Database</h4>
-                <ul>
-                    <li><a href="/crafting">Crafting</a></li>
-                    <li><a href="/resources">Resources</a></li>
-                    <li><a href="/bosses">Bosses</a></li>
-                    <li><a href="/ships">Ships</a></li>
-                    <li><a href="/weapons">Weapons</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/tools">Tools</a></li>
-                    <li><a href="/news">News</a></li>
-                    <li><a href="/sources">Sources</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>&copy; 2026 Windrose Guides. Unofficial fan resource. Not affiliated with Kraken Express or Pocketpair Publishing.</span>
-            <nav>
-                <a href="/pages">All Pages</a>
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/terms">Terms of Service</a>
-            </nav>
-        </div>
-    </div>
-  </footer>"""
-
-HAMBURGER_JS = """<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(!b||!n)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});})();</script>"""
+# NOTE: HEADER_HTML, FOOTER_HTML, HAMBURGER_JS 已从 templates.py 导入，消除重复定义
 
 
 def build_news_card(item: dict) -> str:
@@ -188,8 +132,8 @@ def build_news_card(item: dict) -> str:
         return f'<article class="news-card" id="news-{escape(item["id"])}">\n  {card_inner}\n</article>'
 
 
-def generate_list_page(items: list[dict]) -> str:
-    """生成 /news/index.html 列表 Hub 页"""
+def generate_list_page(items: list[dict], lang=DEFAULT) -> str:
+    """生成 /news/index.html 列表 Hub 页，支持多语言。"""
     # NOTE: 按日期倒序排列，最新的在前面
     sorted_items = sorted(
         items,
@@ -287,75 +231,118 @@ def generate_list_page(items: list[dict]) -> str:
     }
     json_ld_str = json.dumps(json_ld, ensure_ascii=False)
 
+    hlang = LANG_HTML.get(lang, lang)
+    h = header_html("news", lang)
+    f = footer_html(lang)
+
+    # hreflang 替代链接
+    hreflang_list = hreflang_tags("news", SITE)
+    hreflang_html = "\n  ".join(hreflang_list)
+
+    # 多语言路径
+    if lang == DEFAULT:
+        canonical = f"{SITE}/news"
+        css_rel = "../css/style.css"
+    else:
+        canonical = f"{SITE}/{lang}/news"
+        css_rel = "../../css/style.css"
+
+    # 翻译的 UI 文本
+    news_heading = t("news.heading", lang)
+    news_intro = t("news.intro", lang)
+    stat_total = t("news.stat_total", lang)
+    stat_latest = t("news.stat_latest", lang)
+    stat_version = t("news.stat_version", lang)
+    stat_next = t("news.stat_next", lang)
+    all_updates = t("news.all_updates", lang)
+    faq_heading = t("common.faq_heading", lang)
+    home_label = t("nav.home", lang)
+    home_url = lang_url("/", lang)
+    news_meta_title = t("news.meta_title", lang)
+    news_meta_desc = t("news.meta_desc", lang)
+    nav_news = t("nav.news", lang)
+    how_we_cover_title = t("news.how_we_cover_title", lang)
+    how_we_cover_p1 = t("news.how_we_cover_p1", lang)
+    how_we_cover_p2 = t("news.how_we_cover_p2", lang)
+    impact_recipes = t("news.impact_recipes", lang)
+    impact_balance = t("news.impact_balance", lang)
+    impact_bosses = t("news.impact_bosses", lang)
+    impact_server = t("news.impact_server", lang)
+    official_sources_title = t("news.official_sources_title", lang)
+    source_steam = t("news.source_steam", lang)
+    source_server = t("news.source_server", lang)
+    source_news = t("news.source_news", lang)
+
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{hlang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Windrose News &amp; Updates: Patch Notes, Milestones &amp; Guide Impact (2026)</title>
-  <meta name="description" content="Latest Windrose news, patch notes, and update analysis. Every patch summarized with guide impact — know what changed and which strategies to update.">
+  <title>{html.escape(news_meta_title)}</title>
+  <meta name="description" content="{html.escape(news_meta_desc)}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" href="{SITE}/news">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="canonical" href="{canonical}">
+  {hreflang_html}
+  <link rel="stylesheet" href="{css_rel}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{SITE}/news">
-  <meta property="og:title" content="Windrose News &amp; Updates: Patch Notes &amp; Guide Impact (2026)">
-  <meta property="og:description" content="Latest Windrose news, patch notes, and update analysis. Every patch summarized with guide impact.">
+  <meta property="og:url" content="{canonical}">
+  <meta property="og:title" content="{html.escape(news_meta_title)}">
+  <meta property="og:description" content="{html.escape(news_meta_desc)}">
   <meta property="og:image" content="{SITE}/imgs/og.webp">
   <meta property="og:site_name" content="Windrose Guides">
   <meta property="article:published_time" content="2026-05-12">
   <meta property="article:modified_time" content="{TODAY}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Windrose News &amp; Updates (2026)">
-  <meta name="twitter:description" content="Latest Windrose news, patch notes, and update analysis with guide impact summaries.">
+  <meta name="twitter:title" content="{html.escape(news_meta_title)}">
+  <meta name="twitter:description" content="{html.escape(news_meta_desc)}">
   <meta name="twitter:image" content="{SITE}/imgs/og.webp">
   <script type="application/ld+json">
   {json_ld_str}
   </script>
 </head>
 <body>
-  {HEADER_HTML}
-  <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/">Home</a></li>
-<li><span aria-current="page">News</span></li></ol></div></nav>
+  {h}
+  <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="{home_url}">{html.escape(home_label)}</a></li>
+<li><span aria-current="page">{html.escape(nav_news)}</span></li></ol></div></nav>
   <main class="container">
-    <h1>Windrose News &amp; Updates</h1>
+    <h1>{html.escape(news_heading)}</h1>
 
-<p>Stay up to date with every <strong>Windrose</strong> patch, milestone, and development update. Each news item includes our <strong>Guide Impact Analysis</strong> — a breakdown of what changed and which guides you should revisit. Windrose is in <strong>Early Access</strong> (launched April 14, 2026), so updates come frequently.</p>
+<p>{html.escape(news_intro)}</p>
 
-<div class="quick-stats"><div class="stat"><div class="stat-label">Total Updates</div><div class="stat-value">{len(sorted_items)}</div></div><div class="stat"><div class="stat-label">Latest Update</div><div class="stat-value">{format_date(sorted_items[0]["date"]) if sorted_items else "N/A"}</div></div><div class="stat"><div class="stat-label">Game Version</div><div class="stat-value">v0.10.0.5.120</div></div><div class="stat"><div class="stat-label">Next Major</div><div class="stat-value">Ashlands (6mo+)</div></div></div>
+<div class="quick-stats"><div class="stat"><div class="stat-label">{html.escape(stat_total)}</div><div class="stat-value">{len(sorted_items)}</div></div><div class="stat"><div class="stat-label">{html.escape(stat_latest)}</div><div class="stat-value">{format_date(sorted_items[0]["date"]) if sorted_items else "N/A"}</div></div><div class="stat"><div class="stat-label">{html.escape(stat_version)}</div><div class="stat-value">v0.10.0.5.120</div></div><div class="stat"><div class="stat-label">{html.escape(stat_next)}</div><div class="stat-value">Ashlands (6mo+)</div></div></div>
 
-<h2>All Updates</h2>
+<h2>{html.escape(all_updates)}</h2>
 
 <div class="news-card-list">
 {cards_html}
 </div>
 
-<section><h2>How We Cover Updates</h2>
-<p>When Kraken Express releases a patch that changes crafting recipes, enemy balance, server configurations, or player progression, we don't just copy the patch notes. Instead, we analyze the <strong>practical impact</strong> on our guides:</p>
+<section><h2>{html.escape(how_we_cover_title)}</h2>
+<p>{html.escape(how_we_cover_p1)}</p>
 <ul>
-<li><strong>Recipe changes</strong> — We update the <a href="/crafting">Crafting Database</a> and flag affected items</li>
-<li><strong>Balance changes</strong> — Our <a href="/weapons">Weapon Tier Lists</a> and <a href="/builds">Build Guides</a> get re-evaluated</li>
-<li><strong>Boss adjustments</strong> — Strategy pages under <a href="/bosses">Bosses</a> are revised with new tactics</li>
-<li><strong>Server updates</strong> — The <a href="/server-guide">Dedicated Server Guide</a> is refreshed with new configuration steps</li>
+<li>{impact_recipes.replace("Crafting Database", f'<a href="{lang_url("/crafting", lang)}">Crafting Database</a>')}</li>
+<li>{impact_balance.replace("Weapon Tier Lists", f'<a href="{lang_url("/weapons", lang)}">Weapon Tier Lists</a>').replace("Build Guides", f'<a href="{lang_url("/builds", lang)}">Build Guides</a>')}</li>
+<li>{impact_bosses.replace("Bosses", f'<a href="{lang_url("/bosses", lang)}">Bosses</a>')}</li>
+<li>{impact_server.replace("Dedicated Server Guide", f'<a href="{lang_url("/server-guide", lang)}">Dedicated Server Guide</a>')}</li>
 </ul>
-<p>This approach gives you actionable information rather than raw patch text, saving you time and helping you adapt your gameplay quickly.</p>
+<p>{html.escape(how_we_cover_p2)}</p>
 </section>
 
-<section><h2>Official Sources</h2>
+<section><h2>{html.escape(official_sources_title)}</h2>
 <ul>
-<li><a href="https://store.steampowered.com/app/3041230/Windrose/" rel="nofollow">Windrose on Steam</a> — Official store page and community hub</li>
-<li><a href="https://playwindrose.com/windrose-crew/dedicated-server-guide" rel="nofollow">Official Dedicated Server Guide</a> — Server setup documentation</li>
-<li><a href="https://store.steampowered.com/news/app/3041230" rel="nofollow">Steam News Hub</a> — All official announcements and patch notes</li>
+<li><a href="https://store.steampowered.com/app/3041230/Windrose/" rel="nofollow">{html.escape(source_steam)}</a></li>
+<li><a href="https://playwindrose.com/windrose-crew/dedicated-server-guide" rel="nofollow">{html.escape(source_server)}</a></li>
+<li><a href="https://store.steampowered.com/news/app/3041230" rel="nofollow">{html.escape(source_news)}</a></li>
 </ul>
 </section>
 
-<section id="faq"><h2>Frequently Asked Questions</h2>
+<section id="faq"><h2>{html.escape(faq_heading)}</h2>
 <details><summary>Where can I find official Windrose patch notes?</summary><div class="faq-answer"><p>Official patch notes are published on the <a href="https://store.steampowered.com/news/app/3041230" rel="nofollow">Windrose Steam Community page</a>. We summarize each patch here with a guide impact analysis showing which gameplay areas were affected.</p></div></details>
 <details><summary>How often does Windrose get updated?</summary><div class="faq-answer"><p>During Early Access, Windrose receives patches every 1-2 weeks for bug fixes and stability. Major content updates (like the Ashlands biome) are expected every few months.</p></div></details>
 <details><summary>What is the next major Windrose update?</summary><div class="faq-answer"><p>The <strong>Ashlands biome</strong> is the next confirmed major update, expected at least 6 months after the April 2026 Early Access launch. It will include new environments, resources, and boss encounters.</p></div></details>
 </section>
   </main>
-  {FOOTER_HTML}
+  {f}
   {HAMBURGER_JS}
 </body>
 </html>
@@ -520,7 +507,7 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
   </script>
 </head>
 <body>
-  {HEADER_HTML}
+  {header_html("news")}
   <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/">Home</a></li>
 <li><a href="/news">News</a></li>
 <li><span aria-current="page">{title}</span></li></ol></div></nav>
@@ -548,7 +535,7 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
 
     <p style="margin-top:2rem;"><a href="/news">← Back to All News</a></p>
   </main>
-  {FOOTER_HTML}
+  {footer_html()}
   {HAMBURGER_JS}
 </body>
 </html>
@@ -563,11 +550,16 @@ def main() -> None:
         print("No news items found in data/news.json")
         return
 
-    # 生成列表页
-    list_html = generate_list_page(items)
-    NEWS_DIR.mkdir(parents=True, exist_ok=True)
-    (NEWS_DIR / "index.html").write_text(list_html, encoding="utf-8")
-    print(f"Generated news/index.html ({len(items)} items)")
+    # 生成列表页（所有语言）
+    for lang in SUPPORTED:
+        list_html = generate_list_page(items, lang)
+        if lang == DEFAULT:
+            list_dir = NEWS_DIR
+        else:
+            list_dir = ROOT / lang / "news"
+        list_dir.mkdir(parents=True, exist_ok=True)
+        (list_dir / "index.html").write_text(list_html, encoding="utf-8")
+        print(f"Generated news/index.html ({len(items)} items) [lang={lang}]")
 
     # 筛选有详情页的条目并按日期排序
     detail_items = [
@@ -576,7 +568,7 @@ def main() -> None:
     ]
     detail_items.sort(key=lambda x: x.get("date", "0000-00-00"), reverse=True)
 
-    # 生成详情页
+    # 生成详情页（仅英文 — 详情页数据量大，不做多语言）
     for idx, item in enumerate(detail_items):
         prev_item = detail_items[idx - 1] if idx > 0 else None
         next_item = detail_items[idx + 1] if idx < len(detail_items) - 1 else None

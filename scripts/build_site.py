@@ -108,6 +108,8 @@ def run_builders():
         "gen_database_pages.py",
         "gen_detail_pages.py",
         "gen_news_pages.py",
+        "gen_home_pages.py",
+        "gen_section_stubs.py",
     ]
     for script_name in scripts_to_run:
         script_path = ROOT / "scripts" / script_name
@@ -125,8 +127,9 @@ def main():
         raise SystemExit(1)
 
     run_builders()
-    sitemap_count = update_sitemap()
-    print(f"Data validation passed. Sitemap URLs: {sitemap_count}.")
+    # NOTE: sitemap 由 seo_iteration.py 生成（含 hreflang 多语言替代链接），
+    # 不在此处覆写以避免丢失 hreflang。
+    print("Data validation passed.")
     print("Note: build_site.py now delegates to seo_iteration, gen_database_pages, and gen_detail_pages.")
 
 

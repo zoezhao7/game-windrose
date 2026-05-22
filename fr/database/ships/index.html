@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windrose Ships | Windrose Guides</title>
+<meta name="description" content="All ships.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/fr" class="logo" aria-label="Accueil Windrose Guides"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Afficher/masquer le menu de navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Français ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database/ships">English</a></li><li><a href="/es/database/ships">Español</a></li><li><a href="/pt/database/ships">Português</a></li><li><a href="/de/database/ships">Deutsch</a></li><li><a href="/fr/database/ships" class="lang-active">Français</a></li><li><a href="/zh/database/ships">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a href="/fr/database" class="active" aria-current="page">Base de données</a></li><li><a href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search">Rechercher 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Catégories</div>
+  <ul class="db-nav">
+    <li><a href="/fr/database/" class="db-nav-top">Vue d&#x27;ensemble</a></li>
+    <li><a href="/fr/database/" class="db-nav-top">Tous les objets <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Armes</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/fr/database/weapons/" class="db-sub-viewall">Voir tous les Weapons</a></li>
+        <li><a href="/fr/database/weapons/melee/" class="db-sub-item">Armes de mêlée <span class="db-count">43</span></a></li>
+        <li><a href="/fr/database/weapons/ranged/" class="db-sub-item">Armes à distance <span class="db-count">19</span></a></li>
+        <li><a href="/fr/database/weapons/tools/" class="db-sub-item">Outils <span class="db-count">8</span></a></li>
+        <li><a href="/fr/database/weapons/ammo/" class="db-sub-item">Munitions <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▼</span>
+        <span class="db-cat-label">Navires</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub" id="sub-ships">
+        <li><a href="/fr/database/ships/" class="db-sub-viewall">Voir tous les Ships</a></li>
+        <li><a href="/fr/database/ships/ship-weapons/" class="db-sub-item">Armes navales <span class="db-count">29</span></a></li>
+        <li><a href="/fr/database/ships/hull-modules/" class="db-sub-item">Modules de coque <span class="db-count">10</span></a></li>
+        <li><a href="/fr/database/ships/combat-orders/" class="db-sub-item">Ordres de combat <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Ressources</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/fr/database/resources/" class="db-sub-viewall">Voir tous les Resources</a></li>
+        <li><a href="/fr/database/resources/resources/" class="db-sub-item">Ressources <span class="db-count">135</span></a></li>
+        <li><a href="/fr/database/resources/metals/" class="db-sub-item">Métaux <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consommables</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/fr/database/consumables/" class="db-sub-viewall">Voir tous les Consumables</a></li>
+        <li><a href="/fr/database/consumables/food/" class="db-sub-item">Nourriture <span class="db-count">50</span></a></li>
+        <li><a href="/fr/database/consumables/alchemy/" class="db-sub-item">Alchimie <span class="db-count">11</span></a></li>
+        <li><a href="/fr/database/consumables/medicine/" class="db-sub-item">Médecine <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Équipement</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/fr/database/equipment/" class="db-sub-viewall">Voir tous les Equipment</a></li>
+        <li><a href="/fr/database/equipment/armor/" class="db-sub-item">Armure <span class="db-count">41</span></a></li>
+        <li><a href="/fr/database/equipment/rings/" class="db-sub-item">Anneaux <span class="db-count">36</span></a></li>
+        <li><a href="/fr/database/equipment/necklaces/" class="db-sub-item">Colliers <span class="db-count">24</span></a></li>
+        <li><a href="/fr/database/equipment/backpacks/" class="db-sub-item">Sacs à dos <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Divers</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/fr/database/misc/" class="db-sub-viewall">Voir tous les Misc</a></li>
+        <li><a href="/fr/database/misc/misc/" class="db-sub-item">Divers <span class="db-count">514</span></a></li>
+        <li><a href="/fr/database/misc/default/" class="db-sub-item">Défaut <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Base de données</span> / Ships</div>
+    <div class="db-header-meta">WINDROSE GUIDES • BASE DE DONNÉES</div>
+    <h1>Ships & Variants</h1>
+    <p class="db-desc">12 ships.</p>
+    <div class="db-guide-link">📖 <a href="/ships/">Voir le guide stratégique complet pour cette catégorie →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Rechercher par nom..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Affichage de 60 objets
+            <label>Trier <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Nom</option><option value="rarity">Rareté</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Ketch</h3>
+                <p class="db-card-type">Tier 1 • 1-2 crew • 4 cannons</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Stock Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Ketch</h3>
+                <p class="db-card-type">Default variant • 4 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Brethren Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Ketch</h3>
+                <p class="db-card-type">More firepower • 6 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/ketch/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_ketch.png" alt="Blackbeard Ketch" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Ketch</h3>
+                <p class="db-card-type">More cargo space • 4 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brigantine</h3>
+                <p class="db-card-type">Tier 2 • 2-4 crew • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Stock Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Brigantine</h3>
+                <p class="db-card-type">Balanced • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Brethren Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Brigantine</h3>
+                <p class="db-card-type">Combat focus • 12 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/brigantine/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_brigantine.png" alt="Blackbeard Brigantine" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Brigantine</h3>
+                <p class="db-card-type">Trading focus • 8 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-epic">Frigate</h3>
+                <p class="db-card-type">Tier 3 • 4-10 crew • 16 cannons</p>
+                <span class="db-badge rarity-epic">Epic</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Stock Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Stock Frigate</h3>
+                <p class="db-card-type">War machine • 16 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Brethren Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Brethren Frigate</h3>
+                <p class="db-card-type">Maximum firepower • 20 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+        <a href="/database/items/frigate/" class="db-card">
+            <div class="db-card-icon"><img src="/imgs/ship_frigate.png" alt="Blackbeard Frigate" onerror="this.style.display='none'"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-rare">Blackbeard Frigate</h3>
+                <p class="db-card-type">Fleet cargo hauler • 16 cannons</p>
+                <span class="db-badge rarity-rare">Rare</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/fr" class="footer-logo"><img src="/imgs/logo.png" alt="Logo Windrose Guides" width="28" height="28"> Windrose Guides</a>
+                <p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <ul>
+                    <li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Base de données</h4>
+                <ul>
+                    <li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+            <nav>
+                <a href="/fr/pages">Toutes les pages</a>
+                <a href="/fr/privacy">Politique de confidentialité</a>
+                <a href="/fr/terms">Conditions d&#x27;utilisation</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

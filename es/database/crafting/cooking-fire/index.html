@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cooking Fire Recipes | Windrose Guides</title>
+<meta name="description" content="All Cooking Fire recipes.">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/database/db-style.css">
+</head>
+<body>
+<header class="header"><div class="container"><a href="/es" class="logo" aria-label="Inicio de Windrose Guides"><img src="/imgs/logo.png" alt="Logo de Windrose Guides" width="32" height="32"> Windrose Guides</a><button class="hamburger" aria-label="Alternar menú de navegación" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="lang-switcher">
+  <button class="lang-btn" aria-label="Language" aria-expanded="false">Español ▾</button>
+  <ul class="lang-dropdown"><li><a href="/database">English</a></li><li><a href="/es/database" class="lang-active">Español</a></li><li><a href="/pt/database">Português</a></li><li><a href="/de/database">Deutsch</a></li><li><a href="/fr/database">Français</a></li><li><a href="/zh/database">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/es/">Inicio</a></li><li><a href="/es/beginner-guide">Guía para Principiantes</a></li><li><a href="/es/database" class="active" aria-current="page">Base de Datos</a></li><li><a href="/es/bosses">Jefes</a></li><li><a href="/es/ships">Barcos</a></li><li><a href="/es/guides">Guías</a></li><li><a href="/es/tools">Herramientas</a></li><li><a href="/es/news">Noticias</a></li><li><a href="/es/search">Buscar 🔍</a></li></ul></nav></div></header>
+
+<div class="db-layout">
+<aside class="db-sidebar">
+  <div class="db-sidebar-title">Categorías</div>
+  <ul class="db-nav">
+    <li><a href="/es/database/" class="db-nav-top">Resumen</a></li>
+    <li><a href="/es/database/" class="db-nav-top active">Todos los Objetos <span class="db-count">951</span></a></li>
+    <li>
+      <div class="db-cat" data-cat="weapons">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Armas</span>
+        <span class="db-count">77</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-weapons">
+        <li><a href="/es/database/weapons/" class="db-sub-viewall">Ver todos los Weapons</a></li>
+        <li><a href="/es/database/weapons/melee/" class="db-sub-item">Armas Cuerpo a Cuerpo <span class="db-count">43</span></a></li>
+        <li><a href="/es/database/weapons/ranged/" class="db-sub-item">Armas a Distancia <span class="db-count">19</span></a></li>
+        <li><a href="/es/database/weapons/tools/" class="db-sub-item">Herramientas <span class="db-count">8</span></a></li>
+        <li><a href="/es/database/weapons/ammo/" class="db-sub-item">Munición <span class="db-count">7</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="ships">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Barcos</span>
+        <span class="db-count">45</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-ships">
+        <li><a href="/es/database/ships/" class="db-sub-viewall">Ver todos los Ships</a></li>
+        <li><a href="/es/database/ships/ship-weapons/" class="db-sub-item">Armas de Barco <span class="db-count">29</span></a></li>
+        <li><a href="/es/database/ships/hull-modules/" class="db-sub-item">Módulos de Casco <span class="db-count">10</span></a></li>
+        <li><a href="/es/database/ships/combat-orders/" class="db-sub-item">Órdenes de Combate <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="resources">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Recursos</span>
+        <span class="db-count">138</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-resources">
+        <li><a href="/es/database/resources/" class="db-sub-viewall">Ver todos los Resources</a></li>
+        <li><a href="/es/database/resources/resources/" class="db-sub-item">Recursos <span class="db-count">135</span></a></li>
+        <li><a href="/es/database/resources/metals/" class="db-sub-item">Metales <span class="db-count">3</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="consumables">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Consumibles</span>
+        <span class="db-count">65</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-consumables">
+        <li><a href="/es/database/consumables/" class="db-sub-viewall">Ver todos los Consumables</a></li>
+        <li><a href="/es/database/consumables/food/" class="db-sub-item">Comida <span class="db-count">50</span></a></li>
+        <li><a href="/es/database/consumables/alchemy/" class="db-sub-item">Alquimia <span class="db-count">11</span></a></li>
+        <li><a href="/es/database/consumables/medicine/" class="db-sub-item">Medicina <span class="db-count">4</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="equipment">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Equipamiento</span>
+        <span class="db-count">106</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-equipment">
+        <li><a href="/es/database/equipment/" class="db-sub-viewall">Ver todos los Equipment</a></li>
+        <li><a href="/es/database/equipment/armor/" class="db-sub-item">Armadura <span class="db-count">41</span></a></li>
+        <li><a href="/es/database/equipment/rings/" class="db-sub-item">Anillos <span class="db-count">36</span></a></li>
+        <li><a href="/es/database/equipment/necklaces/" class="db-sub-item">Collares <span class="db-count">24</span></a></li>
+        <li><a href="/es/database/equipment/backpacks/" class="db-sub-item">Mochilas <span class="db-count">5</span></a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="db-cat" data-cat="misc">
+        <span class="db-arrow">▶</span>
+        <span class="db-cat-label">Misceláneo</span>
+        <span class="db-count">520</span>
+      </div>
+      <ul class="db-sub collapsed" id="sub-misc">
+        <li><a href="/es/database/misc/" class="db-sub-viewall">Ver todos los Misc</a></li>
+        <li><a href="/es/database/misc/misc/" class="db-sub-item">Misceláneo <span class="db-count">514</span></a></li>
+        <li><a href="/es/database/misc/default/" class="db-sub-item">Predeterminado <span class="db-count">6</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<main class="db-main">
+    <div class="db-breadcrumbs"><span>Base de Datos</span> / Crafting / Cooking Fire</div>
+    <div class="db-header-meta">WINDROSE GUIDES • BASE DE DATOS</div>
+    <h1>Cooking Fire Recipes</h1>
+    <p class="db-desc">14 recipes.</p>
+    <div class="db-guide-link">📖 <a href="/crafting/cooking-fire/">Ver la guía de estrategia completa para esta categoría →</a></div>
+    <div class="db-toolbar">
+        <input type="text" class="db-search-input" placeholder="Buscar por nombre..." id="dbSearch" onkeyup="filterCards()">
+        <div class="db-toolbar-meta">Mostrando 70 artículos
+            <label>Ordenar <select class="db-sort-select" onchange="sortCards(this.value)"><option value="name">Nombre</option><option value="rarity">Rareza</option></select></label>
+        </div>
+    </div>
+    <div class="db-grid" id="dbGrid">
+        <a href="/database/items/recipe-consumable-antidote-3/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Antidote</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-rum-4/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Rum</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-cooked-fish-5/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Cooked Fish</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-meat-stew-6/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Meat Stew</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-coconut-water-7/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Coconut Water</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-sailor's-ration-8/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Sailor&#x27;s Ration</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-hardtack-9/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Hardtack</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-antidote-13/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Antidote</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-rum-14/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Rum</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-cooked-fish-15/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Cooked Fish</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-meat-stew-16/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Meat Stew</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-coconut-water-17/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Coconut Water</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-sailor's-ration-18/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Sailor&#x27;s Ration</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+        <a href="/database/items/recipe-consumable-hardtack-19/" class="db-card">
+            <div class="db-card-icon"></div>
+            <div class="db-card-content">
+                <h3 class="db-card-title title-uncommon">Advanced Hardtack</h3>
+                <p class="db-card-type">1,  , R</p>
+                <span class="db-badge rarity-uncommon">Uncommon</span>
+            </div>
+        </a>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/es" class="footer-logo"><img src="/imgs/logo.png" alt="Logo de Windrose Guides" width="28" height="28"> Windrose Guides</a>
+                <p>Tu wiki, base de datos y centro de guías completo de Windrose. Recetas de fabricación, mapas de recursos, estrategias contra jefes, configuraciones de barcos y mucho más — todo en un solo lugar.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Guías</h4>
+                <ul>
+                    <li><a href="/es/beginner-guide">Guía para Principiantes</a></li>
+<li><a href="/es/builds">Guías de Builds</a></li>
+<li><a href="/es/server-guide">Guía de Servidor</a></li>
+<li><a href="/es/download">Descargar</a></li>
+<li><a href="/es/faq">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Base de Datos</h4>
+                <ul>
+                    <li><a href="/es/crafting">Fabricación</a></li>
+<li><a href="/es/resources">Recursos</a></li>
+<li><a href="/es/bosses">Jefes</a></li>
+<li><a href="/es/ships">Barcos</a></li>
+<li><a href="/es/weapons">Armas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explorar</h4>
+                <ul>
+                    <li><a href="/es/tools">Herramientas</a></li>
+<li><a href="/es/news">Noticias</a></li>
+<li><a href="/es/sources">Fuentes</a></li>
+<li><a href="/es/about">Acerca de</a></li>
+<li><a href="/es/contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Windrose Guides. Recurso no oficial de fans. No afiliado con Kraken Express ni con Pocketpair Publishing.</span>
+            <nav>
+                <a href="/es/pages">Todas las Páginas</a>
+                <a href="/es/privacy">Política de Privacidad</a>
+                <a href="/es/terms">Términos del Servicio</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click',function(){this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');});
+function filterCards(){var q=document.getElementById('dbSearch').value.toLowerCase();document.querySelectorAll('.db-card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});}
+
+document.querySelectorAll('.db-cat').forEach(function(cat){
+    cat.addEventListener('click',function(){
+        var sub=document.getElementById('sub-'+this.dataset.cat);
+        var arrow=this.querySelector('.db-arrow');
+        if(sub){
+            sub.classList.toggle('collapsed');
+            arrow.textContent=sub.classList.contains('collapsed')?'▶':'▼';
+        }
+    });
+});
+
+function sortCards(by){
+    var grid=document.getElementById('dbGrid');
+    var cards=Array.from(grid.querySelectorAll('.db-card'));
+    cards.sort(function(a,b){
+        if(by==='name')return a.querySelector('.db-card-title').textContent.localeCompare(b.querySelector('.db-card-title').textContent);
+        var ro={'epic':0,'rare':1,'uncommon':2,'common':3};
+        var ra=a.querySelector('.db-badge'),rb=b.querySelector('.db-badge');
+        var va=ra?ro[ra.textContent.toLowerCase().trim()]||9:9;
+        var vb=rb?ro[rb.textContent.toLowerCase().trim()]||9:9;
+        return va-vb;
+    });
+    cards.forEach(function(c){grid.appendChild(c);});
+}
+</script>
+</body></html>

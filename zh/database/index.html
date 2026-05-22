@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windrose 数据库浏览器 | Windrose 攻略</title>
+<meta content="终极 Windrose 数据库。浏览武器、护甲、船只、制作配方、资源和Boss攻略。" name="description"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<link href="/database/db-style.css" rel="stylesheet"/>
+<meta content="zh_CN" property="og:locale"/></head>
+<body>
+<header class="header"><div class="container"><a aria-label="Windrose 攻略站首页" class="logo" href="/zh"><img alt="Windrose 攻略站 Logo" height="32" src="/imgs/logo.png" width="32"/> Windrose 攻略站</a><button aria-expanded="false" aria-label="切换导航菜单" class="hamburger"><span></span><span></span><span></span></button>
+<div class="lang-switcher">
+<button aria-expanded="false" aria-label="Language" class="lang-btn">中文 ▾</button>
+<ul class="lang-dropdown"><li><a href="/database">English</a></li><li><a href="/es/database">Español</a></li><li><a href="/pt/database">Português</a></li><li><a href="/de/database">Deutsch</a></li><li><a href="/fr/database">Français</a></li><li><a class="lang-active" href="/zh/database">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/zh/">首页</a></li><li><a href="/zh/beginner-guide">新手指南</a></li><li><a aria-current="page" class="active" href="/zh/database">数据库</a></li><li><a href="/zh/bosses">Boss</a></li><li><a href="/zh/ships">船只</a></li><li><a href="/zh/guides">攻略</a></li><li><a href="/zh/tools">工具</a></li><li><a href="/zh/news">新闻动态</a></li><li><a href="/zh/search">搜索 🔍</a></li></ul></nav></div></header>
+<div class="db-layout">
+<aside class="db-sidebar">
+<div class="db-sidebar-title">分类</div>
+<ul class="db-nav">
+<li><a class="db-nav-top active" href="/zh/database/">概述</a></li>
+<li><a class="db-nav-top" href="/zh/database/">所有物品<span class="db-count">976</span></a></li>
+<!-- Weapons -->
+<li>
+<div class="db-cat" data-cat="weapons">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">武器</span>
+<span class="db-count">77</span>
+</div>
+<ul class="db-sub collapsed" id="sub-weapons">
+<li><a class="db-sub-viewall" href="/zh/database/weapons/">查看所有武器</a></li>
+<li><a class="db-sub-item" href="/zh/database/weapons/melee/">近战武器<span class="db-count">43</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/weapons/ranged/">远程武器<span class="db-count">19</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/weapons/tools/">工具<span class="db-count">8</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/weapons/ammo/">弹药<span class="db-count">7</span></a></li>
+</ul>
+</li>
+<!-- Ships -->
+<li>
+<div class="db-cat" data-cat="ships">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">船只</span>
+<span class="db-count">45</span>
+</div>
+<ul class="db-sub collapsed" id="sub-ships">
+<li><a class="db-sub-viewall" href="/zh/database/ships/">查看所有船只</a></li>
+<li><a class="db-sub-item" href="/zh/database/ships/ship-weapons/">船舰武器<span class="db-count">29</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/ships/hull-modules/">船体模块<span class="db-count">10</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/ships/combat-orders/">战斗指令<span class="db-count">5</span></a></li>
+</ul>
+</li>
+<!-- Resources -->
+<li>
+<div class="db-cat" data-cat="resources">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">资源</span>
+<span class="db-count">138</span>
+</div>
+<ul class="db-sub collapsed" id="sub-resources">
+<li><a class="db-sub-viewall" href="/zh/database/resources/">查看所有资源</a></li>
+<li><a class="db-sub-item" href="/zh/database/resources/resources/">资源<span class="db-count">135</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/resources/metals/">金属<span class="db-count">3</span></a></li>
+</ul>
+</li>
+<!-- Consumables -->
+<li>
+<div class="db-cat" data-cat="consumables">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">消耗品</span>
+<span class="db-count">65</span>
+</div>
+<ul class="db-sub collapsed" id="sub-consumables">
+<li><a class="db-sub-viewall" href="/zh/database/consumables/">查看所有消耗品</a></li>
+<li><a class="db-sub-item" href="/zh/database/consumables/food/">食物<span class="db-count">50</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/consumables/alchemy/">炼金<span class="db-count">11</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/consumables/medicine/">药品<span class="db-count">4</span></a></li>
+</ul>
+</li>
+<!-- Equipment -->
+<li>
+<div class="db-cat" data-cat="equipment">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">装备</span>
+<span class="db-count">106</span>
+</div>
+<ul class="db-sub collapsed" id="sub-equipment">
+<li><a class="db-sub-viewall" href="/zh/database/equipment/">查看所有装备</a></li>
+<li><a class="db-sub-item" href="/zh/database/equipment/armor/">护甲<span class="db-count">41</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/equipment/rings/">戒指<span class="db-count">36</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/equipment/necklaces/">项链<span class="db-count">24</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/equipment/backpacks/">背包<span class="db-count">5</span></a></li>
+</ul>
+</li>
+<!-- Misc -->
+<li>
+<div class="db-cat" data-cat="misc">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">杂项</span>
+<span class="db-count">520</span>
+</div>
+<ul class="db-sub collapsed" id="sub-misc">
+<li><a class="db-sub-viewall" href="/zh/database/misc/">查看所有杂项</a></li>
+<li><a class="db-sub-item" href="/zh/database/misc/misc/">杂项<span class="db-count">514</span></a></li>
+<li><a class="db-sub-item" href="/zh/database/misc/default/">默认<span class="db-count">6</span></a></li>
+</ul>
+</li>
+</ul>
+</aside>
+<main class="db-main">
+<div class="db-breadcrumbs"><span>数据库</span> / 概览</div>
+<div class="db-header-meta">WINDROSE GUIDES • 数据库</div>
+<h1>Windrose 数据库浏览器</h1>
+<p class="db-desc">浏览完整的 Windrose 物品数据库。使用侧边栏浏览类别，或点击下方的卡片。</p>
+<div class="db-toolbar">
+<input class="db-search-input" id="globalSearch" onkeyup="filterCards()" placeholder="搜索 'Copper', 'Soul Eater', 'Thomas Richards'..." type="text"/>
+<div class="db-toolbar-meta">按分类浏览</div>
+</div>
+<div class="db-grid" id="dbGrid">
+<a class="db-card" href="/zh/database/weapons/">
+<div class="db-card-icon" style="font-size: 2rem;">⚔️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-epic">武器</h3>
+<p class="db-card-type">近战、远程、弹药与工具</p>
+<span class="db-badge rarity-epic">77 件物品</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/ships/">
+<div class="db-card-icon" style="font-size: 2rem;">⛵</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-rare">船只</h3>
+<p class="db-card-type">船载武器、船体、船员</p>
+<span class="db-badge rarity-rare">45 件物品</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/resources/">
+<div class="db-card-icon" style="font-size: 2rem;">⛏️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">资源</h3>
+<p class="db-card-type">矿石、木材、纤维、金属</p>
+<span class="db-badge rarity-uncommon">138 件物品</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/food/">
+<div class="db-card-icon" style="font-size: 2rem;">🍖</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">消耗品</h3>
+<p class="db-card-type">食物、炼金、药品</p>
+<span class="db-badge rarity-uncommon">65 件物品</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/armor/">
+<div class="db-card-icon" style="font-size: 2rem;">🛡️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-rare">装备</h3>
+<p class="db-card-type">护甲、戒指、项链、背包</p>
+<span class="db-badge rarity-rare">106 件物品</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/bosses/">
+<div class="db-card-icon"><img alt="Boss" onerror="this.style.display='none'" src="/imgs/thomas_richards.png"/></div>
+<div class="db-card-content">
+<h3 class="db-card-title title-epic">首领</h3>
+<p class="db-card-type">机制、掉落与攻略</p>
+<span class="db-badge rarity-epic">5 个首领</span>
+</div>
+</a>
+<a class="db-card" href="/zh/database/crafting/">
+<div class="db-card-icon" style="font-size: 2rem;">🔨</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">制作配方</h3>
+<p class="db-card-type">Workbench、Weaponsmith、炼金</p>
+<span class="db-badge rarity-uncommon">172 个配方</span>
+</div>
+</a>
+<a class="db-card" href="#" style="opacity: 0.5;">
+<div class="db-card-icon" style="font-size: 2rem;">📦</div>
+<div class="db-card-content">
+<h3 class="db-card-title">其他</h3>
+<p class="db-card-type">杂项物品</p>
+<span class="db-badge" style="color:#8b949e; border: 1px solid #30363d;">即将推出</span>
+</div>
+</a>
+</div>
+</main>
+</div>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="/zh"><img alt="Windrose 攻略站 Logo" height="28" src="/imgs/logo.png" width="28"/> Windrose 攻略站</a>
+<p>您的 Windrose 综合 Wiki、数据库与攻略中心。合成配方、资源地图、Boss 攻略、船只构建等——尽在一处。</p>
+</div>
+<div class="footer-col">
+<h4>攻略</h4>
+<ul>
+<li><a href="/zh/beginner-guide">新手指南</a></li>
+<li><a href="/zh/builds">Build 攻略</a></li>
+<li><a href="/zh/server-guide">服务器指南</a></li>
+<li><a href="/zh/download">下载</a></li>
+<li><a href="/zh/faq">常见问题</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>数据库</h4>
+<ul>
+<li><a href="/zh/crafting">合成制作</a></li>
+<li><a href="/zh/resources">资源</a></li>
+<li><a href="/zh/bosses">Boss</a></li>
+<li><a href="/zh/ships">船只</a></li>
+<li><a href="/zh/weapons">武器</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>探索</h4>
+<ul>
+<li><a href="/zh/tools">工具</a></li>
+<li><a href="/zh/news">新闻动态</a></li>
+<li><a href="/zh/sources">资料来源</a></li>
+<li><a href="/zh/about">关于我们</a></li>
+<li><a href="/zh/contact">联系我们</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Windrose 攻略站。非官方粉丝资源。与 Kraken Express 或 Pocketpair Publishing 无任何关联。</span>
+<nav>
+<a href="/zh/pages">全部页面</a>
+<a href="/zh/privacy">隐私政策</a>
+<a href="/zh/terms">服务条款</a>
+</nav>
+</div>
+</div>
+</footer><script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script></body></html>

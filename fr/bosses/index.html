@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windrose Bosses : Tous les guides des boss, stratégies et butins (2026) | Guides Windrose</title>
+<meta content="Guide complet du boss Windrose couvrant tous les boss d'arène de l'histoire et les rencontres optionnelles. Stratégies, équipement recommandé, butins et décompositions des phases pour Thomas Richards, Israel Hands, High Priestess et Ghost Captain." name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<link href="https://windrose-guides.com/fr/bosses" rel="canonical"/><link href="https://windrose-guides.com/bosses" hreflang="en" rel="alternate"/><link href="https://windrose-guides.com/es/bosses" hreflang="es" rel="alternate"/><link href="https://windrose-guides.com/pt/bosses" hreflang="pt-BR" rel="alternate"/><link href="https://windrose-guides.com/de/bosses" hreflang="de" rel="alternate"/><link href="https://windrose-guides.com/fr/bosses" hreflang="fr" rel="alternate"/><link href="https://windrose-guides.com/zh/bosses" hreflang="zh-CN" rel="alternate"/><link href="https://windrose-guides.com/bosses" hreflang="x-default" rel="alternate"/><meta content="fr_FR" property="og:locale"/>
+<link href="../../css/style.css" rel="stylesheet"/>
+<meta content="article" property="og:type"/>
+<meta content="https://windrose-guides.com/fr/bosses" property="og:url"/>
+<meta content="Windrose Bosses : Tous les guides des boss, stratégies et butins (2026)" property="og:title"/>
+<meta content="Guide complet du boss Windrose couvrant tous les boss d'arène de l'histoire et les rencontres optionnelles. Stratégies, équipement recommandé, butins et décompositions des phases." property="og:description"/>
+<meta content="https://windrose-guides.com/imgs/og_bosses.png" property="og:image"/>
+<meta content="Guides Windrose" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Windrose Bosses : Tous les guides des boss (2026)" name="twitter:title"/>
+<meta content="Guide complet du boss Windrose couvrant tous les boss d'arène de l'histoire et les rencontres optionnelles." name="twitter:description"/>
+<meta content="https://windrose-guides.com/imgs/og_bosses.png" name="twitter:image"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://windrose-guides.com/#website",
+      "url": "https://windrose-guides.com/fr/",
+      "name": "Guides Windrose",
+      "publisher": {
+        "@id": "https://windrose-guides.com/#org"
+      },
+      "inLanguage": "fr"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://windrose-guides.com/#org",
+      "name": "Guides Windrose",
+      "url": "https://windrose-guides.com/fr/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://windrose-guides.com/fr/bosses#webpage",
+      "url": "https://windrose-guides.com/fr/bosses",
+      "name": "Windrose Bosses : Tous les guides des boss, stratégies et butins (2026)",
+      "description": "Guide complet du boss Windrose couvrant tous les boss d'arène de l'histoire et les rencontres optionnelles.",
+      "dateModified": "2026-05-16",
+      "isPartOf": {
+        "@id": "https://windrose-guides.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://windrose-guides.com/fr/bosses#breadcrumb"
+      },
+      "inLanguage": "fr"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://windrose-guides.com/fr/bosses#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://windrose-guides.com/fr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bosses"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Windrose Bosses : Tous les guides des boss (2026)",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-16",
+      "author": {
+        "@type": "Organization",
+        "name": "Guides Windrose"
+      },
+      "inLanguage": "fr"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien de boss y a-t-il dans Windrose ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le contenu actuel de Early Access comprend 3 boss d'arène d'histoire confirmés (Thomas Richards, Israel Hands, High Priestess) et 1 rencontre optionnelle en donjon (Ghost Captain). D'autres boss sont attendus à mesure que le développement progresse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel est l'ordre des boss dans Windrose ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'ordre de progression est : Thomas Richards (Coastal Jungle, Nv 5-6) → Israel Hands (Foothills, Nv 8-10) → High Priestess (Cursed Swamps, Nv 12-15). Ghost Captain est optionnel et peut être combattu autour du Nv 10-12."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je combattre des boss dans co-op ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui ! Windrose supporte 1 à 8 joueurs en co-op. Les boss s'adaptent au nombre de joueurs, mais avoir des coéquipiers pour partager l'aggro rend les combats beaucoup plus faciles."
+          }
+        }
+      ],
+      "inLanguage": "fr"
+    }
+  ],
+  "inLanguage": "fr"
+}</script>
+<style>
+        /* Boss 卡片网格布局 - 为 bosses 页面提供丰富的视觉展示 */
+        .boss-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .boss-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .boss-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent, #d4a853);
+            box-shadow: 0 12px 40px rgba(212, 168, 83, 0.2), 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .boss-card-img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-bottom: 2px solid var(--border, rgba(212, 168, 83, 0.15));
+            transition: transform 0.4s ease;
+        }
+        .boss-card:hover .boss-card-img {
+            transform: scale(1.05);
+        }
+        .boss-card-img-wrapper {
+            overflow: hidden;
+            position: relative;
+        }
+        .boss-card-badge {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            z-index: 2;
+        }
+        .badge-story {
+            background: rgba(212, 168, 83, 0.9);
+            color: #1a1207;
+        }
+        .badge-optional {
+            background: rgba(100, 116, 139, 0.9);
+            color: #f1f5f9;
+        }
+        .badge-unconfirmed {
+            background: rgba(239, 68, 68, 0.8);
+            color: #fff;
+        }
+        .boss-card-body {
+            padding: 1.25rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .boss-card-body h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+            color: #f1f5f9;
+        }
+        .boss-card-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .boss-card-meta span {
+            font-size: 0.8rem;
+            color: var(--text-muted, #94a3b8);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card-meta .meta-icon {
+            font-size: 0.9rem;
+        }
+        .boss-card-body p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--text-muted, #94a3b8);
+            line-height: 1.5;
+            flex: 1;
+        }
+        .boss-card-cta {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent, #d4a853);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .boss-card:hover .boss-card-cta {
+            gap: 0.6rem;
+        }
+        .boss-progression {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .boss-progression-step {
+            text-align: center;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg, rgba(15, 23, 42, 0.8));
+            border: 1px solid var(--border, rgba(212, 168, 83, 0.15));
+            border-radius: var(--radius, 12px);
+            min-width: 140px;
+        }
+        .boss-progression-step strong {
+            display: block;
+            color: #f1f5f9;
+            font-size: 0.9rem;
+        }
+        .boss-progression-step span {
+            font-size: 0.75rem;
+            color: var(--text-muted, #94a3b8);
+        }
+        .boss-progression-arrow {
+            font-size: 1.5rem;
+            color: var(--accent, #d4a853);
+            padding: 0 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .boss-grid {
+                grid-template-columns: 1fr;
+            }
+            .boss-progression {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .boss-progression-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<header class="header"><div class="container"><a aria-label="Accueil Windrose Guides" class="logo" href="/fr"><img alt="Logo Windrose Guides" height="32" src="/imgs/logo.png" width="32"/> Windrose Guides</a><button aria-expanded="false" aria-label="Afficher/masquer le menu de navigation" class="hamburger"><span></span><span></span><span></span></button>
+<div class="lang-switcher">
+<button aria-expanded="false" aria-label="Language" class="lang-btn">Français ▾</button>
+<ul class="lang-dropdown"><li><a href="/bosses">English</a></li><li><a href="/es/bosses">Español</a></li><li><a href="/pt/bosses">Português</a></li><li><a href="/de/bosses">Deutsch</a></li><li><a class="lang-active" href="/fr/bosses">Français</a></li><li><a href="/zh/bosses">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a href="/fr/database">Base de données</a></li><li><a aria-current="page" class="active" href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search">Rechercher 🔍</a></li></ul></nav></div></header>
+<nav aria-label="Fil d'Ariane" class="breadcrumb">
+<div class="container">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li aria-current="page">Bosses</li>
+</ol>
+</div>
+</nav>
+<main>
+<section class="page-hero">
+<h1>Windrose Guide des boss : Tous les boss, stratégies et butins</h1>
+<p class="hero-subtitle">Maîtrise chaque rencontre de boss dans Windrose — du Coastal Jungle au Cursed Swamps. Stratégies, équipement recommandé, décompositions des phases et tables de butins vérifiées.</p>
+</section>
+<section class="content-section">
+<div class="container">
+<div class="quick-stats">
+<div class="stat"><div class="stat-label">Boss de l'histoire</div><div class="stat-value">3 Confirmés</div></div>
+<div class="stat"><div class="stat-label">Rencontres optionnelles</div><div class="stat-value">1+ Connu</div></div>
+<div class="stat"><div class="stat-label">Statut des données</div><div class="stat-value">Early Access Tracker</div></div>
+</div>
+<h2>Ordre de progression des boss</h2>
+<p>Windrose propose une progression linéaire des boss liée à l'avancement des biomes. Vaincs chaque boss de l'histoire pour débloquer le biome suivant et le palier d'artisanat.</p>
+<div class="boss-progression">
+<div class="boss-progression-step">
+<strong>Thomas Richards</strong>
+<span>Coastal Jungle · Lv 5-6</span>
+</div>
+<span class="boss-progression-arrow">→</span>
+<div class="boss-progression-step">
+<strong>Israel Hands</strong>
+<span>Foothills · Lv 8-10</span>
+</div>
+<span class="boss-progression-arrow">→</span>
+<div class="boss-progression-step">
+<strong>High Priestess</strong>
+<span>Cursed Swamps · Lv 12-15</span>
+</div>
+</div>
+<h2>Toutes les rencontres de boss</h2>
+<div class="boss-grid">
+<!-- Thomas Richards -->
+<a class="boss-card" href="/fr/bosses/thomas-richards/" id="boss-thomas-richards">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">Boss de l'histoire #1</span>
+<img alt="Boss Thomas Richards - Windrose" class="boss-card-img" height="400" loading="lazy" src="/imgs/thomas_richards.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Thomas Richards</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Coastal Jungle</span>
+<span><span class="meta-icon">⚔️</span> Lv 5-6</span>
+</div>
+<p>Le premier boss de l'arène de l'histoire. Un combattant de mêlée brutal avec des grenades explosives et une attaque d'emprise imparable. Vaincs-le pour débloquer le biome Foothills.</p>
+<span class="boss-card-cta">Voir la stratégie complète →</span>
+</div>
+</a>
+<!-- Israel Hands -->
+<a class="boss-card" href="/fr/bosses/israel-hands/" id="boss-israel-hands">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">Boss de l'histoire #2</span>
+<img alt="Boss Israel Hands - Windrose" class="boss-card-img" height="400" loading="lazy" src="/imgs/israel_hands.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Israel Hands</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Foothills</span>
+<span><span class="meta-icon">⚔️</span> Lv 8-10</span>
+</div>
+<p>Le deuxième boss de l'arène rencontré via la ligne de quête "Needle in a Haystack". Il lâche l'épée longue légendaire Soul Eater et l'Obol de Charon.</p>
+<span class="boss-card-cta">Voir la stratégie complète →</span>
+</div>
+</a>
+<!-- High Priestess -->
+<a class="boss-card" href="/fr/bosses/high-priestess/" id="boss-high-priestess">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-story">Boss de l'histoire #3</span>
+<img alt="Boss High Priestess - Windrose" class="boss-card-img" height="400" loading="lazy" src="/imgs/high_priestess.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>High Priestess</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Cursed Swamps</span>
+<span><span class="meta-icon">⚔️</span> Lv 12-15</span>
+</div>
+<p>Le boss final de l'histoire dans le contenu actuel de Early Access. Un affrontement difficile de fin de partie dans le biome Cursed Swamps. Il lâche l'Obol de Charon.</p>
+<span class="boss-card-cta">Voir la stratégie complète →</span>
+</div>
+</a>
+<!-- Ghost Captain -->
+<a class="boss-card" href="/fr/bosses/ghost-captain/" id="boss-ghost-captain">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-optional">Optionnel</span>
+<img alt="Boss Ghost Captain - Windrose" class="boss-card-img" height="400" loading="lazy" src="/imgs/ghost_captain.png" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Ghost Captain</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Donjon du Temple</span>
+<span><span class="meta-icon">⚔️</span> Lv 10-12</span>
+</div>
+<p>Une rencontre optionnelle de donjon majeure trouvée sur la route du Temple. Récompense l'épée longue Soul Eater pour les joueurs cherchant du butin supplémentaire.</p>
+<span class="boss-card-cta">Voir la stratégie complète →</span>
+</div>
+</a>
+<!-- Charon's Obols -->
+<div class="boss-card" id="boss-charons-obols" style="opacity: 0.7; cursor: default;">
+<div class="boss-card-img-wrapper">
+<span class="boss-card-badge badge-unconfirmed">Nécessite vérification</span>
+<img alt="Charon's Obols - Non vérifié" class="boss-card-img" height="400" loading="lazy" src="/imgs/icon_boss.png" style="filter: grayscale(60%);" width="400"/>
+</div>
+<div class="boss-card-body">
+<h3>Charon's Obols</h3>
+<div class="boss-card-meta">
+<span><span class="meta-icon">📍</span> Inconnu</span>
+<span><span class="meta-icon">❓</span> Non confirmé</span>
+</div>
+<p>Page héritée de données plus anciennes. Les sources wiki croisées suggèrent que l'Obol de Charon est un objet de récompense, pas un boss. Conservé pour suivi jusqu'à vérification en jeu.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>Préparation générale contre les boss</h2>
+<p>Chaque boss dans Windrose récompense la préparation. Voici une checklist universelle avant d'entrer dans toute arène de boss :</p>
+<table>
+<caption>Checklist de préparation pour les boss</caption>
+<thead>
+<tr>
+<th scope="col">Catégorie</th>
+<th scope="col">Recommandation</th>
+<th scope="col">Pourquoi c'est important</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Buffs de nourriture</strong></td>
+<td>Bacon and Eggs, Coconut Milk, ou le meilleur repas disponible</td>
+<td>Augmente les PV max et la récupération d'endurance pendant le combat</td>
+</tr>
+<tr>
+<td><strong>Soins</strong></td>
+<td>Au moins 10-15 Bandages, des potions si disponibles</td>
+<td>Les combats de boss sont longs ; manquer de soins signifie un wipe</td>
+</tr>
+<tr>
+<td><strong>Buff de repos</strong></td>
+<td>Dors à ton Bonfire avant de te rendre au boss</td>
+<td>Fournit un bonus de stats passif qui se cumule avec la nourriture</td>
+</tr>
+<tr>
+<td><strong>Niveau d'équipement</strong></td>
+<td>Atteins ou dépasse le niveau recommandé du boss</td>
+<td>Un équipement de niveau trop bas donne peu de dégâts et beaucoup de dégâts reçus</td>
+</tr>
+<tr>
+<td><strong>Option à distance</strong></td>
+<td>Prends un Blunderbuss ou un Musket avec 20+ balles</td>
+<td>La pression à distance est un dégât sûr ; particulièrement utile pour le kiting</td>
+</tr>
+<tr>
+<td><strong>Repair Kits</strong></td>
+<td>2-3 Repair Kits ou Combat Repair Kits</td>
+<td>Les armes et armures se dégradent lors des longs combats</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>Référence rapide des drops de boss</h2>
+<table>
+<caption>Drops de boss connus (provenant de la communauté)</caption>
+<thead>
+<tr>
+<th scope="col">Boss</th>
+<th scope="col">Drops notables</th>
+<th scope="col">Déblocages</th>
+<th scope="col">Confiance des données</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/fr/bosses/thomas-richards/">Thomas Richards</a></td>
+<td>50 XP, Journal de Thomas Richards, Seafood Platter, Silver Ingot</td>
+<td>Biome Foothills, progression niveau fer</td>
+<td>Communauté</td>
+</tr>
+<tr>
+<td><a href="/fr/bosses/israel-hands/">Israel Hands</a></td>
+<td>Espadon Soul Eater, 30 Undead Essence, Obol de Charon</td>
+<td>Cursed Swamps, prochaine porte de l'histoire</td>
+<td>Communauté</td>
+</tr>
+<tr>
+<td><a href="/fr/bosses/high-priestess/">High Priestess</a></td>
+<td>Obol de Charon</td>
+<td>Fin de l'histoire principale actuelle (Chapitre 1)</td>
+<td>Communauté</td>
+</tr>
+<tr>
+<td><a href="/fr/bosses/ghost-captain/">Ghost Captain</a></td>
+<td>Soul Eater épée à deux mains</td>
+<td>Route de butin optionnelle</td>
+<td>Communauté</td>
+</tr>
+</tbody>
+</table>
+<p class="update-note"><strong>Note de données :</strong> Windrose se trouve dans Early Access (v0.10.0.5.120). Les loots et mécaniques des boss peuvent changer avec les mises à jour. Toutes les données de cette page proviennent de la communauté et seront mises à jour dès que des informations officielles seront disponibles.</p>
+</div>
+</section>
+<section class="content-section">
+<div class="container">
+<h2>Foire aux questions</h2>
+<details>
+<summary>Combien y a-t-il de boss dans Windrose ?</summary>
+<div class="faq-answer"><p>Le contenu actuel de Early Access comprend 3 boss d'arène d'histoire confirmés (Thomas Richards, Israel Hands, High Priestess) et 1 rencontre optionnelle de donjon (Ghost Captain). D'autres boss sont attendus à mesure que le développement se poursuit.</p></div>
+</details>
+<details>
+<summary>Quel est l'ordre des boss dans Windrose ?</summary>
+<div class="faq-answer"><p>L'ordre de progression est : Thomas Richards (Coastal Jungle, Lv 5-6) → Israel Hands (Foothills, Lv 8-10) → High Priestess (Cursed Swamps, Lv 12-15). Ghost Captain est optionnel et peut être combattu autour du Lv 10-12.</p></div>
+</details>
+<details>
+<summary>Puis-je combattre les boss dans co-op ?</summary>
+<div class="faq-answer"><p>Oui ! Windrose supporte 1 à 8 joueurs en co-op. Les boss s'adaptent au nombre de joueurs, mais avoir des coéquipiers pour diviser l'aggro rend les combats nettement plus faciles.</p></div>
+</details>
+<details>
+<summary>Tous les loots de boss sont-ils confirmés ?</summary>
+<div class="faq-answer"><p>Non. Les données de Early Access peuvent changer, donc les loots exacts doivent être revérifiés après les mises à jour et marqués avec la fiabilité de la source. Nous marquons toutes les données non vérifiées comme provenant de la "Community".</p></div>
+</details>
+<details>
+<summary>Quelle est la meilleure arme pour les combats de boss ?</summary>
+<div class="faq-answer"><p>Un Saber pour le corps-à-corps (combo rapides) combiné avec un Blunderbuss pour le kiting à distance est généralement la combinaison la plus efficace. L'épée à deux mains Soul Eater devient disponible après avoir vaincu Israel Hands ou Ghost Captain.</p></div>
+</details>
+</div>
+</section>
+<aside class="related-guides">
+<div class="container">
+<h2>Guides connexes</h2>
+<ul>
+<li><a href="/fr/guides/boss-progression/">Guide de progression et de stratégie des boss</a></li>
+<li><a href="/fr/beginner-guide/">Guide du débutant — Jours 1-10</a></li>
+<li><a href="/fr/crafting/workbench/">Recettes Workbench Lv1-3</a></li>
+<li><a href="/fr/guides/best-early-builds/">Meilleurs builds de début de partie</a></li>
+<li><a href="/fr/database/bosses/">Base de données : Liste des boss</a></li>
+</ul>
+</div>
+</aside>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="/fr"><img alt="Logo Windrose Guides" height="28" src="/imgs/logo.png" width="28"/> Windrose Guides</a>
+<p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+</div>
+<div class="footer-col">
+<h4>Guides</h4>
+<ul>
+<li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Base de données</h4>
+<ul>
+<li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Explorer</h4>
+<ul>
+<li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+<nav>
+<a href="/fr/pages">Toutes les pages</a>
+<a href="/fr/privacy">Politique de confidentialité</a>
+<a href="/fr/terms">Conditions d'utilisation</a>
+</nav>
+</div>
+</div>
+</footer>
+
+<script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script></body>
+</html>

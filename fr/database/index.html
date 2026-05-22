@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windrose Explorateur de base de données | Windrose Guides</title>
+<meta content="La base de données ultime Windrose. Parcours les armes, armures, navires, recettes d'artisanat, ressources et guides de boss." name="description"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<link href="/database/db-style.css" rel="stylesheet"/>
+<meta content="fr_FR" property="og:locale"/></head>
+<body>
+<header class="header"><div class="container"><a aria-label="Accueil Windrose Guides" class="logo" href="/fr"><img alt="Logo Windrose Guides" height="32" src="/imgs/logo.png" width="32"/> Windrose Guides</a><button aria-expanded="false" aria-label="Afficher/masquer le menu de navigation" class="hamburger"><span></span><span></span><span></span></button>
+<div class="lang-switcher">
+<button aria-expanded="false" aria-label="Language" class="lang-btn">Français ▾</button>
+<ul class="lang-dropdown"><li><a href="/database">English</a></li><li><a href="/es/database">Español</a></li><li><a href="/pt/database">Português</a></li><li><a href="/de/database">Deutsch</a></li><li><a class="lang-active" href="/fr/database">Français</a></li><li><a href="/zh/database">中文</a></li></ul>
+</div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/fr/">Accueil</a></li><li><a href="/fr/beginner-guide">Guide du débutant</a></li><li><a aria-current="page" class="active" href="/fr/database">Base de données</a></li><li><a href="/fr/bosses">Boss</a></li><li><a href="/fr/ships">Navires</a></li><li><a href="/fr/guides">Guides</a></li><li><a href="/fr/tools">Outils</a></li><li><a href="/fr/news">Actualités</a></li><li><a href="/fr/search">Rechercher 🔍</a></li></ul></nav></div></header>
+<div class="db-layout">
+<aside class="db-sidebar">
+<div class="db-sidebar-title">Catégories</div>
+<ul class="db-nav">
+<li><a class="db-nav-top active" href="/fr/database/">Aperçu</a></li>
+<li><a class="db-nav-top" href="/fr/database/">Tous les objets<span class="db-count">976</span></a></li>
+<!-- Weapons -->
+<li>
+<div class="db-cat" data-cat="weapons">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Armes</span>
+<span class="db-count">77</span>
+</div>
+<ul class="db-sub collapsed" id="sub-weapons">
+<li><a class="db-sub-viewall" href="/fr/database/weapons/">Voir toutes les armes</a></li>
+<li><a class="db-sub-item" href="/fr/database/weapons/melee/">Armes de mêlée<span class="db-count">43</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/weapons/ranged/">Armes à distance<span class="db-count">19</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/weapons/tools/">Outils<span class="db-count">8</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/weapons/ammo/">Munitions<span class="db-count">7</span></a></li>
+</ul>
+</li>
+<!-- Ships -->
+<li>
+<div class="db-cat" data-cat="ships">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Navires</span>
+<span class="db-count">45</span>
+</div>
+<ul class="db-sub collapsed" id="sub-ships">
+<li><a class="db-sub-viewall" href="/fr/database/ships/">Voir tous les navires</a></li>
+<li><a class="db-sub-item" href="/fr/database/ships/ship-weapons/">Armes de navire<span class="db-count">29</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/ships/hull-modules/">Modules de coque<span class="db-count">10</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/ships/combat-orders/">Ordres de combat<span class="db-count">5</span></a></li>
+</ul>
+</li>
+<!-- Resources -->
+<li>
+<div class="db-cat" data-cat="resources">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Ressources</span>
+<span class="db-count">138</span>
+</div>
+<ul class="db-sub collapsed" id="sub-resources">
+<li><a class="db-sub-viewall" href="/fr/database/resources/">Voir toutes les ressources</a></li>
+<li><a class="db-sub-item" href="/fr/database/resources/resources/">Ressources<span class="db-count">135</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/resources/metals/">Métaux<span class="db-count">3</span></a></li>
+</ul>
+</li>
+<!-- Consumables -->
+<li>
+<div class="db-cat" data-cat="consumables">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Consommables</span>
+<span class="db-count">65</span>
+</div>
+<ul class="db-sub collapsed" id="sub-consumables">
+<li><a class="db-sub-viewall" href="/fr/database/consumables/">Voir tous les consommables</a></li>
+<li><a class="db-sub-item" href="/fr/database/consumables/food/">Nourriture<span class="db-count">50</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/consumables/alchemy/">Alchimie<span class="db-count">11</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/consumables/medicine/">Médecine<span class="db-count">4</span></a></li>
+</ul>
+</li>
+<!-- Equipment -->
+<li>
+<div class="db-cat" data-cat="equipment">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Équipement</span>
+<span class="db-count">106</span>
+</div>
+<ul class="db-sub collapsed" id="sub-equipment">
+<li><a class="db-sub-viewall" href="/fr/database/equipment/">Voir tout l'équipement</a></li>
+<li><a class="db-sub-item" href="/fr/database/equipment/armor/">Armure<span class="db-count">41</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/equipment/rings/">Anneaux<span class="db-count">36</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/equipment/necklaces/">Colliers<span class="db-count">24</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/equipment/backpacks/">Sacs à dos<span class="db-count">5</span></a></li>
+</ul>
+</li>
+<!-- Misc -->
+<li>
+<div class="db-cat" data-cat="misc">
+<span class="db-arrow">▶</span>
+<span class="db-cat-label">Divers</span>
+<span class="db-count">520</span>
+</div>
+<ul class="db-sub collapsed" id="sub-misc">
+<li><a class="db-sub-viewall" href="/fr/database/misc/">Voir tous les divers</a></li>
+<li><a class="db-sub-item" href="/fr/database/misc/misc/">Divers<span class="db-count">514</span></a></li>
+<li><a class="db-sub-item" href="/fr/database/misc/default/">Défaut<span class="db-count">6</span></a></li>
+</ul>
+</li>
+</ul>
+</aside>
+<main class="db-main">
+<div class="db-breadcrumbs"><span>Base de données</span> / Aperçu</div>
+<div class="db-header-meta">WINDROSE GUIDES • BASE DE DONNÉES</div>
+<h1>Windrose Explorateur de base de données</h1>
+<p class="db-desc">Parcours la base de données d'objets complète de Windrose. Utilise la barre latérale pour naviguer dans les catégories, ou clique sur une carte ci-dessous.</p>
+<div class="db-toolbar">
+<input class="db-search-input" id="globalSearch" onkeyup="filterCards()" placeholder="Rechercher « Cuivre », « Soul Eater », « Thomas Richards »..." type="text"/>
+<div class="db-toolbar-meta">Parcourir par catégorie</div>
+</div>
+<div class="db-grid" id="dbGrid">
+<a class="db-card" href="/fr/database/weapons/">
+<div class="db-card-icon" style="font-size: 2rem;">⚔️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-epic">Armes</h3>
+<p class="db-card-type">Mêlée, à distance, munitions &amp; outils</p>
+<span class="db-badge rarity-epic">77 objets</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/ships/">
+<div class="db-card-icon" style="font-size: 2rem;">⛵</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-rare">Navires</h3>
+<p class="db-card-type">Armes de navire, coque, équipage</p>
+<span class="db-badge rarity-rare">45 objets</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/resources/">
+<div class="db-card-icon" style="font-size: 2rem;">⛏️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">Ressources</h3>
+<p class="db-card-type">Minerai, bois, fibre, métaux</p>
+<span class="db-badge rarity-uncommon">138 objets</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/food/">
+<div class="db-card-icon" style="font-size: 2rem;">🍖</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">Consommables</h3>
+<p class="db-card-type">Nourriture, alchimie, médecine</p>
+<span class="db-badge rarity-uncommon">65 objets</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/armor/">
+<div class="db-card-icon" style="font-size: 2rem;">🛡️</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-rare">Équipement</h3>
+<p class="db-card-type">Armure, bagues, colliers, sacs à dos</p>
+<span class="db-badge rarity-rare">106 objets</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/bosses/">
+<div class="db-card-icon"><img alt="Boss" onerror="this.style.display='none'" src="/imgs/thomas_richards.png"/></div>
+<div class="db-card-content">
+<h3 class="db-card-title title-epic">Bosses</h3>
+<p class="db-card-type">Mécaniques, butins &amp; stratégie</p>
+<span class="db-badge rarity-epic">5 boss</span>
+</div>
+</a>
+<a class="db-card" href="/fr/database/crafting/">
+<div class="db-card-icon" style="font-size: 2rem;">🔨</div>
+<div class="db-card-content">
+<h3 class="db-card-title title-uncommon">Recettes d'artisanat</h3>
+<p class="db-card-type">Workbench, Weaponsmith, Alchimie</p>
+<span class="db-badge rarity-uncommon">172 recettes</span>
+</div>
+</a>
+<a class="db-card" href="#" style="opacity: 0.5;">
+<div class="db-card-icon" style="font-size: 2rem;">📦</div>
+<div class="db-card-content">
+<h3 class="db-card-title">Divers</h3>
+<p class="db-card-type">Objets divers</p>
+<span class="db-badge" style="color:#8b949e; border: 1px solid #30363d;">Bientôt disponible</span>
+</div>
+</a>
+</div>
+</main>
+</div>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="/fr"><img alt="Logo Windrose Guides" height="28" src="/imgs/logo.png" width="28"/> Windrose Guides</a>
+<p>Votre wiki, base de données et centre de guides complet pour Windrose. Recettes de craft, cartes des ressources, stratégies contre les boss, configurations de navires et bien plus — le tout au même endroit.</p>
+</div>
+<div class="footer-col">
+<h4>Guides</h4>
+<ul>
+<li><a href="/fr/beginner-guide">Guide du débutant</a></li>
+<li><a href="/fr/builds">Guides de builds</a></li>
+<li><a href="/fr/server-guide">Guide du serveur</a></li>
+<li><a href="/fr/download">Téléchargement</a></li>
+<li><a href="/fr/faq">FAQ</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Base de données</h4>
+<ul>
+<li><a href="/fr/crafting">Artisanat</a></li>
+<li><a href="/fr/resources">Ressources</a></li>
+<li><a href="/fr/bosses">Boss</a></li>
+<li><a href="/fr/ships">Navires</a></li>
+<li><a href="/fr/weapons">Armes</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Explorer</h4>
+<ul>
+<li><a href="/fr/tools">Outils</a></li>
+<li><a href="/fr/news">Actualités</a></li>
+<li><a href="/fr/sources">Sources</a></li>
+<li><a href="/fr/about">À propos</a></li>
+<li><a href="/fr/contact">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Windrose Guides. Ressource non officielle créée par des fans. Sans affiliation avec Kraken Express ou Pocketpair Publishing.</span>
+<nav>
+<a href="/fr/pages">Toutes les pages</a>
+<a href="/fr/privacy">Politique de confidentialité</a>
+<a href="/fr/terms">Conditions d'utilisation</a>
+</nav>
+</div>
+</div>
+</footer><script>(function(){var b=document.querySelector('.hamburger'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}var lb=document.querySelector('.lang-btn'),ls=document.querySelector('.lang-switcher');if(lb&&ls){lb.addEventListener('click',function(e){e.stopPropagation();var open=ls.classList.toggle('open');lb.setAttribute('aria-expanded',open?'true':'false');});document.addEventListener('click',function(e){if(!ls.contains(e.target)){ls.classList.remove('open');lb.setAttribute('aria-expanded','false');}});}})();</script></body></html>
