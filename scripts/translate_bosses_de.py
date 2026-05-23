@@ -33,60 +33,60 @@ HTML = """<!DOCTYPE html>
     <title>Windrose Bosse: Alle Boss-Guides, Strategien & Drops (2026) | Windrose Guides</title>
     <meta name="description" content="Vollständiger Windrose-Boss-Guide mit allen Story-Arena-Bossen und optionalen Begegnungen. Strategien, empfohlene Ausrüstung, Drops und Phasenanalysen für Thomas Richards, Israel Hands, High Priestess und Ghost Captain.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://windrose-guides.com/de/bosses">
-    <link rel="alternate" hreflang="en" href="https://windrose-guides.com/bosses">
-    <link rel="alternate" hreflang="es" href="https://windrose-guides.com/es/bosses">
-    <link rel="alternate" hreflang="pt-BR" href="https://windrose-guides.com/pt/bosses">
-    <link rel="alternate" hreflang="de" href="https://windrose-guides.com/de/bosses">
-    <link rel="alternate" hreflang="fr" href="https://windrose-guides.com/fr/bosses">
-    <link rel="alternate" hreflang="zh-CN" href="https://windrose-guides.com/zh/bosses">
-    <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/bosses">
+    <link rel="canonical" href="https://windrosewiki.games/de/bosses">
+    <link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses">
+    <link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses">
+    <link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses">
+    <link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses">
+    <link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses">
+    <link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses">
+    <link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses">
     <link rel="stylesheet" href="../../css/style.css">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://windrose-guides.com/de/bosses">
+    <meta property="og:url" content="https://windrosewiki.games/de/bosses">
     <meta property="og:title" content="Windrose Bosse: Alle Boss-Guides, Strategien & Drops (2026)">
     <meta property="og:description" content="Vollständiger Windrose-Boss-Guide mit allen Story-Arena-Bossen und optionalen Begegnungen. Strategien, empfohlene Ausrüstung, Drops und Phasenanalysen.">
-    <meta property="og:image" content="https://windrose-guides.com/imgs/og_bosses.png">
+    <meta property="og:image" content="https://windrosewiki.games/imgs/og_bosses.png">
     <meta property="og:site_name" content="Windrose Guides">
     <meta property="og:locale" content="de_DE">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Windrose Bosse: Alle Boss-Guides (2026)">
     <meta name="twitter:description" content="Vollständiger Windrose-Boss-Guide mit allen Story-Arena-Bossen und optionalen Begegnungen.">
-    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og_bosses.png">
+    <meta name="twitter:image" content="https://windrosewiki.games/imgs/og_bosses.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@graph": [
             {
                 "@type": "WebSite",
-                "@id": "https://windrose-guides.com/de/#website",
-                "url": "https://windrose-guides.com/de/",
+                "@id": "https://windrosewiki.games/de/#website",
+                "url": "https://windrosewiki.games/de/",
                 "name": "Windrose Guides",
                 "inLanguage": "de",
-                "publisher": {"@id": "https://windrose-guides.com/#org"}
+                "publisher": {"@id": "https://windrosewiki.games/#org"}
             },
             {
                 "@type": "Organization",
-                "@id": "https://windrose-guides.com/#org",
+                "@id": "https://windrosewiki.games/#org",
                 "name": "Windrose Guides",
-                "url": "https://windrose-guides.com/"
+                "url": "https://windrosewiki.games/"
             },
             {
                 "@type": "WebPage",
-                "@id": "https://windrose-guides.com/de/bosses#webpage",
-                "url": "https://windrose-guides.com/de/bosses",
+                "@id": "https://windrosewiki.games/de/bosses#webpage",
+                "url": "https://windrosewiki.games/de/bosses",
                 "name": "Windrose Bosse: Alle Boss-Guides, Strategien & Drops (2026)",
                 "description": "Vollständiger Windrose-Boss-Guide mit allen Story-Arena-Bossen und optionalen Begegnungen.",
                 "inLanguage": "de",
                 "dateModified": "2026-05-16",
-                "isPartOf": {"@id": "https://windrose-guides.com/de/#website"},
-                "breadcrumb": {"@id": "https://windrose-guides.com/de/bosses#breadcrumb"}
+                "isPartOf": {"@id": "https://windrosewiki.games/de/#website"},
+                "breadcrumb": {"@id": "https://windrosewiki.games/de/bosses#breadcrumb"}
             },
             {
                 "@type": "BreadcrumbList",
-                "@id": "https://windrose-guides.com/de/bosses#breadcrumb",
+                "@id": "https://windrosewiki.games/de/bosses#breadcrumb",
                 "itemListElement": [
-                    {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://windrose-guides.com/de/"},
+                    {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://windrosewiki.games/de/"},
                     {"@type": "ListItem", "position": 2, "name": "Bosse"}
                 ]
             },

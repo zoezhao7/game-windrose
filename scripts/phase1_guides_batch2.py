@@ -63,7 +63,7 @@ def crafting_progression():
     return page_wrapper(
         "Crafting Progression Path — Windrose (2026) | Windrose Guides",
         "Optimal crafting order from Day 1 to endgame in Windrose. Station build order, workbench upgrades, priority checklist.",
-        "https://windrose-guides.com/guides/crafting-progression", "../../css/style.css",
+        "https://windrosewiki.games/guides/crafting-progression", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Crafting Progression",None)], body, "/guides")
 
 def sailing_navigation():
@@ -121,7 +121,7 @@ def sailing_navigation():
     return page_wrapper(
         "Sailing & Navigation Mastery — Windrose (2026) | Windrose Guides",
         "Wind mechanics, ship types, navigation tips, and ocean survival in Windrose.",
-        "https://windrose-guides.com/guides/sailing-navigation", "../../css/style.css",
+        "https://windrosewiki.games/guides/sailing-navigation", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Sailing & Navigation",None)], body, "/guides")
 
 def coop_multiplayer():
@@ -180,7 +180,7 @@ def coop_multiplayer():
     return page_wrapper(
         "Co-op & Multiplayer Guide — Windrose (2026) | Windrose Guides",
         "Server setup, role specialization, crew coordination, and co-op tips for Windrose multiplayer.",
-        "https://windrose-guides.com/guides/coop-multiplayer", "../../css/style.css",
+        "https://windrosewiki.games/guides/coop-multiplayer", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Co-op Guide",None)], body, "/guides")
 
 def naval_combat():
@@ -245,7 +245,7 @@ def naval_combat():
     return page_wrapper(
         "Ship Building & Naval Combat — Windrose (2026) | Windrose Guides",
         "Complete guide to building, upgrading, and fighting with ships in Windrose. Cannon placement, boarding, fleet management.",
-        "https://windrose-guides.com/guides/ship-building-naval-combat", "../../css/style.css",
+        "https://windrosewiki.games/guides/ship-building-naval-combat", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Naval Combat",None)], body, "/guides")
 
 if __name__ == "__main__":

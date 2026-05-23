@@ -54,8 +54,8 @@ for root, dirs, files in os.walk(PROJECT_DIR):
             elif rel_path.startswith("weapons/"):
                 og_img = "og_weapons.png"
             
-            content = content.replace("https://windrose-guides.com/imgs/og.webp", f"https://windrose-guides.com/imgs/{og_img}")
-            content = content.replace("https://windrose-guides.com/imgs/og-ships.webp", f"https://windrose-guides.com/imgs/{og_img}")
+            content = content.replace("https://windrosewiki.games/imgs/og.webp", f"https://windrosewiki.games/imgs/{og_img}")
+            content = content.replace("https://windrosewiki.games/imgs/og-ships.webp", f"https://windrosewiki.games/imgs/{og_img}")
             
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)

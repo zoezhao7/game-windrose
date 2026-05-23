@@ -104,21 +104,21 @@ Examples for Spanish (`lang=es`):
    - de → `de`
    - fr → `fr`
 
-2. `<link rel="canonical" href="https://windrose-guides.com/X">` → `https://windrose-guides.com/{lang}/X`
+2. `<link rel="canonical" href="https://windrosewiki.games/X">` → `https://windrosewiki.games/{lang}/X`
 
 3. Add hreflang block AFTER canonical (replace any existing hreflang):
    ```html
-   <link rel="alternate" hreflang="en" href="https://windrose-guides.com/X">
-   <link rel="alternate" hreflang="es" href="https://windrose-guides.com/es/X">
-   <link rel="alternate" hreflang="pt-BR" href="https://windrose-guides.com/pt/X">
-   <link rel="alternate" hreflang="de" href="https://windrose-guides.com/de/X">
-   <link rel="alternate" hreflang="fr" href="https://windrose-guides.com/fr/X">
-   <link rel="alternate" hreflang="zh-CN" href="https://windrose-guides.com/zh/X">
-   <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/X">
+   <link rel="alternate" hreflang="en" href="https://windrosewiki.games/X">
+   <link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/X">
+   <link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/X">
+   <link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/X">
+   <link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/X">
+   <link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/X">
+   <link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/X">
    ```
    (Replace X with the actual path, e.g. `bosses` or `crafting/alchemy`)
 
-4. `<meta property="og:url" content="https://windrose-guides.com/X">` → update to localized
+4. `<meta property="og:url" content="https://windrosewiki.games/X">` → update to localized
 
 5. Add `<meta property="og:locale" content="{locale_og}">` where locale_og is:
    - zh → `zh_CN`

@@ -3,7 +3,7 @@ from datetime import date
 import html
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://windrose-guides.com"
+SITE = "https://windrosewiki.games"
 TODAY = "2026-05-12"
 
 from templates import NAV_ITEMS as NAV, header_html, footer_html, HAMBURGER_JS
@@ -556,16 +556,16 @@ def update_llms():
     text = path.read_text(encoding="utf-8")
     additions = '''
 
-### [Tools](https://windrose-guides.com/tools)
-- [Recipe Finder](https://windrose-guides.com/tools/recipe-finder): Workbench level, materials, and crafting use lookup
-- [Progression Checklist](https://windrose-guides.com/tools/progression-checklist): Early route from first camp to copper tools, first ship, and Foothills
-- [Resource Planner](https://windrose-guides.com/tools/resource-planner): Core resources by location, tool gate, and primary use
-- [Ship Selector](https://windrose-guides.com/tools/ship-selector): Sloop vs Brigantine vs Frigate comparison
+### [Tools](https://windrosewiki.games/tools)
+- [Recipe Finder](https://windrosewiki.games/tools/recipe-finder): Workbench level, materials, and crafting use lookup
+- [Progression Checklist](https://windrosewiki.games/tools/progression-checklist): Early route from first camp to copper tools, first ship, and Foothills
+- [Resource Planner](https://windrosewiki.games/tools/resource-planner): Core resources by location, tool gate, and primary use
+- [Ship Selector](https://windrosewiki.games/tools/ship-selector): Sloop vs Brigantine vs Frigate comparison
 
-### [Utility Pages](https://windrose-guides.com/download)
-- [Download & Game Info](https://windrose-guides.com/download): Steam page, Early Access status, developer, publisher, and platform
-- [Dedicated Server Guide](https://windrose-guides.com/server-guide): Hosting checklist and official server documentation link
-- [Sources & Update Policy](https://windrose-guides.com/sources): Verification policy for Early Access guide data
+### [Utility Pages](https://windrosewiki.games/download)
+- [Download & Game Info](https://windrosewiki.games/download): Steam page, Early Access status, developer, publisher, and platform
+- [Dedicated Server Guide](https://windrosewiki.games/server-guide): Hosting checklist and official server documentation link
+- [Sources & Update Policy](https://windrosewiki.games/sources): Verification policy for Early Access guide data
 '''
     if "Recipe Finder" not in text:
         text = text.replace("## Key Topics", additions + "\n## Key Topics")

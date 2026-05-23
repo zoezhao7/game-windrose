@@ -72,23 +72,23 @@ src = src.replace(
 )
 
 # canonical + hreflang block (insert hreflangs after canonical)
-old_canonical_block = '<link rel="canonical" href="https://windrose-guides.com/bosses">'
+old_canonical_block = '<link rel="canonical" href="https://windrosewiki.games/bosses">'
 new_canonical_block = (
-    f'<link rel="canonical" href="https://windrose-guides.com/{LANG}/{PATH_SLUG}">\n'
-    '    <link rel="alternate" hreflang="en" href="https://windrose-guides.com/bosses">\n'
-    '    <link rel="alternate" hreflang="es" href="https://windrose-guides.com/es/bosses">\n'
-    '    <link rel="alternate" hreflang="pt-BR" href="https://windrose-guides.com/pt/bosses">\n'
-    '    <link rel="alternate" hreflang="de" href="https://windrose-guides.com/de/bosses">\n'
-    '    <link rel="alternate" hreflang="fr" href="https://windrose-guides.com/fr/bosses">\n'
-    '    <link rel="alternate" hreflang="zh-CN" href="https://windrose-guides.com/zh/bosses">\n'
-    '    <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/bosses">'
+    f'<link rel="canonical" href="https://windrosewiki.games/{LANG}/{PATH_SLUG}">\n'
+    '    <link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses">\n'
+    '    <link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses">\n'
+    '    <link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses">\n'
+    '    <link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses">\n'
+    '    <link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses">\n'
+    '    <link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses">\n'
+    '    <link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses">'
 )
 src = src.replace(old_canonical_block, new_canonical_block, 1)
 
 # og:url + og:locale (add og:locale right after og:url)
 src = src.replace(
-    '<meta property="og:url" content="https://windrose-guides.com/bosses">',
-    f'<meta property="og:url" content="https://windrose-guides.com/{LANG}/{PATH_SLUG}">\n'
+    '<meta property="og:url" content="https://windrosewiki.games/bosses">',
+    f'<meta property="og:url" content="https://windrosewiki.games/{LANG}/{PATH_SLUG}">\n'
     f'    <meta property="og:locale" content="{LOCALE_OG}">',
     1,
 )
@@ -120,18 +120,18 @@ src = src.replace(
 # canonical IDs across the site, so we leave them). Update WebPage @id, url,
 # name, description; BreadcrumbList; Article headline; FAQ Q&A.
 src = src.replace(
-    '"@id": "https://windrose-guides.com/bosses#webpage",\n                "url": "https://windrose-guides.com/bosses",\n                "name": "Windrose Bosses: All Boss Guides, Strategies & Drops (2026)",\n                "description": "Complete Windrose boss guide covering all story arena bosses and optional encounters.",',
-    '"@id": "https://windrose-guides.com/es/bosses#webpage",\n                "url": "https://windrose-guides.com/es/bosses",\n                "name": "Jefes de Windrose: guías, estrategias y botín (2026)",\n                "description": "Guía completa de los jefes de Windrose: todos los jefes de arena de la historia y los encuentros opcionales.",\n                "inLanguage": "es",',
+    '"@id": "https://windrosewiki.games/bosses#webpage",\n                "url": "https://windrosewiki.games/bosses",\n                "name": "Windrose Bosses: All Boss Guides, Strategies & Drops (2026)",\n                "description": "Complete Windrose boss guide covering all story arena bosses and optional encounters.",',
+    '"@id": "https://windrosewiki.games/es/bosses#webpage",\n                "url": "https://windrosewiki.games/es/bosses",\n                "name": "Jefes de Windrose: guías, estrategias y botín (2026)",\n                "description": "Guía completa de los jefes de Windrose: todos los jefes de arena de la historia y los encuentros opcionales.",\n                "inLanguage": "es",',
     1,
 )
 src = src.replace(
-    '"breadcrumb": {"@id": "https://windrose-guides.com/bosses#breadcrumb"}',
-    '"breadcrumb": {"@id": "https://windrose-guides.com/es/bosses#breadcrumb"}',
+    '"breadcrumb": {"@id": "https://windrosewiki.games/bosses#breadcrumb"}',
+    '"breadcrumb": {"@id": "https://windrosewiki.games/es/bosses#breadcrumb"}',
     1,
 )
 src = src.replace(
-    '"@id": "https://windrose-guides.com/bosses#breadcrumb",\n                "itemListElement": [\n                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://windrose-guides.com/"},\n                    {"@type": "ListItem", "position": 2, "name": "Bosses"}\n                ]',
-    '"@id": "https://windrose-guides.com/es/bosses#breadcrumb",\n                "itemListElement": [\n                    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://windrose-guides.com/es/"},\n                    {"@type": "ListItem", "position": 2, "name": "Jefes"}\n                ]',
+    '"@id": "https://windrosewiki.games/bosses#breadcrumb",\n                "itemListElement": [\n                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://windrosewiki.games/"},\n                    {"@type": "ListItem", "position": 2, "name": "Bosses"}\n                ]',
+    '"@id": "https://windrosewiki.games/es/bosses#breadcrumb",\n                "itemListElement": [\n                    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://windrosewiki.games/es/"},\n                    {"@type": "ListItem", "position": 2, "name": "Jefes"}\n                ]',
     1,
 )
 src = src.replace(

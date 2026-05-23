@@ -24,7 +24,7 @@ def update_sitemap():
 
     new_entries = ""
     for url, freq, priority in NEW_URLS:
-        full_url = f"https://windrose-guides.com{url}"
+        full_url = f"https://windrosewiki.games{url}"
         if full_url not in content:
             new_entries += f"""  <url>
     <loc>{full_url}</loc>
@@ -48,14 +48,14 @@ def update_llms():
         content = f.read()
 
     guides_section = """
-### [Strategy Guides](https://windrose-guides.com/guides)
-- [Mining Routes](https://windrose-guides.com/guides/mining-routes): Optimized mining routes for Copper, Iron, Clay, Sulfur
-- [Boss Progression](https://windrose-guides.com/guides/boss-progression): Phase-by-phase boss strategies and progression order
-- [Best Early Builds](https://windrose-guides.com/guides/best-early-builds): Optimal stat allocation for DPS, Tank, Balanced
-- [Crafting Progression](https://windrose-guides.com/guides/crafting-progression): Efficient crafting order from Day 1 to endgame
-- [Sailing & Navigation](https://windrose-guides.com/guides/sailing-navigation): Wind mechanics, ship types, ocean survival
-- [Co-op Guide](https://windrose-guides.com/guides/coop-multiplayer): Server setup, role specialization, crew coordination
-- [Naval Combat](https://windrose-guides.com/guides/ship-building-naval-combat): Ship building, upgrading, and combat tactics
+### [Strategy Guides](https://windrosewiki.games/guides)
+- [Mining Routes](https://windrosewiki.games/guides/mining-routes): Optimized mining routes for Copper, Iron, Clay, Sulfur
+- [Boss Progression](https://windrosewiki.games/guides/boss-progression): Phase-by-phase boss strategies and progression order
+- [Best Early Builds](https://windrosewiki.games/guides/best-early-builds): Optimal stat allocation for DPS, Tank, Balanced
+- [Crafting Progression](https://windrosewiki.games/guides/crafting-progression): Efficient crafting order from Day 1 to endgame
+- [Sailing & Navigation](https://windrosewiki.games/guides/sailing-navigation): Wind mechanics, ship types, ocean survival
+- [Co-op Guide](https://windrosewiki.games/guides/coop-multiplayer): Server setup, role specialization, crew coordination
+- [Naval Combat](https://windrosewiki.games/guides/ship-building-naval-combat): Ship building, upgrading, and combat tactics
 """
 
     if "Strategy Guides" not in content:

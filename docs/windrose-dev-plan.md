@@ -2,7 +2,7 @@
 
 > 方案版本：v1.1
 > 日期：2026-05-12
-> 站点域名：windrose-guides.com
+> 站点域名：windrosewiki.games
 > 技术路线：纯静态 HTML + 极简 JS + Python 数据驱动生成
 > 通用规范：`docs/GAME_GUIDE_SITE_SPEC.md`（SEO、AdSense、性能、多语言等通用标准）
 
@@ -217,7 +217,7 @@ python scripts\build_site.py
 ### 2.1 页面结构树
 
 ```
-windrose-guides.com/
+windrosewiki.games/
 ├── index.html                        # 首页 — 快速导航 + 最新动态
 ├── beginner-guide/
 │   └── index.html                    # 新手指南 — 第一天到第十天
@@ -435,7 +435,7 @@ windrose-guides.com/
     }
     </script>
 
-    <link rel="canonical" href="https://windrose-guides.com/resources/copper.html">
+    <link rel="canonical" href="https://windrosewiki.games/resources/copper.html">
 </head>
 <body>
     <!-- 面包屑 -->
@@ -549,40 +549,40 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 
 ## Main Sections
 
-### [Getting Started](https://windrose-guides.com/beginner-guide)
-- [Beginner Guide](https://windrose-guides.com/beginner-guide): Day 1 to Day 10 walkthrough, first tools, base building basics
+### [Getting Started](https://windrosewiki.games/beginner-guide)
+- [Beginner Guide](https://windrosewiki.games/beginner-guide): Day 1 to Day 10 walkthrough, first tools, base building basics
 
-### [Crafting Recipes](https://windrose-guides.com/crafting)
-- [Workbench Lv1-3](https://windrose-guides.com/crafting/workbench): Tools, weapons, armor, building materials
-- [Smelting](https://windrose-guides.com/crafting/smelting): Ore to ingot recipes
-- [Alchemy](https://windrose-guides.com/crafting/alchemy): Potions and alchemy recipes
-- [Cooking](https://windrose-guides.com/crafting/cooking): Food and cooking recipes
-- [Building Materials](https://windrose-guides.com/crafting/building): Construction recipes
+### [Crafting Recipes](https://windrosewiki.games/crafting)
+- [Workbench Lv1-3](https://windrosewiki.games/crafting/workbench): Tools, weapons, armor, building materials
+- [Smelting](https://windrosewiki.games/crafting/smelting): Ore to ingot recipes
+- [Alchemy](https://windrosewiki.games/crafting/alchemy): Potions and alchemy recipes
+- [Cooking](https://windrosewiki.games/crafting/cooking): Food and cooking recipes
+- [Building Materials](https://windrosewiki.games/crafting/building): Construction recipes
 
-### [Resources](https://windrose-guides.com/resources)
-- [Copper Ore](https://windrose-guides.com/resources/copper): Mining locations, smelting, and copper recipes
-- [Iron Ore](https://windrose-guides.com/resources/iron): Iron mining locations and usage
-- [Clay](https://windrose-guides.com/resources/clay): Clay gathering spots and recipes
+### [Resources](https://windrosewiki.games/resources)
+- [Copper Ore](https://windrosewiki.games/resources/copper): Mining locations, smelting, and copper recipes
+- [Iron Ore](https://windrosewiki.games/resources/iron): Iron mining locations and usage
+- [Clay](https://windrosewiki.games/resources/clay): Clay gathering spots and recipes
 
-### [Bosses](https://windrose-guides.com/bosses)
-- [Charon's Obols](https://windrose-guides.com/bosses/charons-obols): Phase-by-phase strategy, drops, preparation tips
+### [Bosses](https://windrosewiki.games/bosses)
+- [Charon's Obols](https://windrosewiki.games/bosses/charons-obols): Phase-by-phase strategy, drops, preparation tips
 
-### [Ships](https://windrose-guides.com/ships)
-- [Sloop](https://windrose-guides.com/ships/sloop): Small ship stats and sailing tips
-- [Brigantine](https://windrose-guides.com/ships/brigantine): Mid-size ship guide
-- [Frigate](https://windrose-guides.com/ships/frigate): Large warship guide
+### [Ships](https://windrosewiki.games/ships)
+- [Sloop](https://windrosewiki.games/ships/sloop): Small ship stats and sailing tips
+- [Brigantine](https://windrosewiki.games/ships/brigantine): Mid-size ship guide
+- [Frigate](https://windrosewiki.games/ships/frigate): Large warship guide
 
-### [Weapons & Builds](https://windrose-guides.com/weapons)
-- [Melee Weapons](https://windrose-guides.com/weapons/melee): Sword, axe, and melee weapon stats
-- [Ranged Weapons](https://windrose-guides.com/weapons/ranged): Guns and ranged weapon stats
-- [Armor Sets](https://windrose-guides.com/weapons/armor): Complete armor set list
-- [Builds](https://windrose-guides.com/builds): DPS, tank, and beginner builds
+### [Weapons & Builds](https://windrosewiki.games/weapons)
+- [Melee Weapons](https://windrosewiki.games/weapons/melee): Sword, axe, and melee weapon stats
+- [Ranged Weapons](https://windrosewiki.games/weapons/ranged): Guns and ranged weapon stats
+- [Armor Sets](https://windrosewiki.games/weapons/armor): Complete armor set list
+- [Builds](https://windrosewiki.games/builds): DPS, tank, and beginner builds
 
-### [FAQs](https://windrose-guides.com/faq)
-- [Frequently Asked Questions](https://windrose-guides.com/faq): Common questions about gameplay, progress, and systems
+### [FAQs](https://windrosewiki.games/faq)
+- [Frequently Asked Questions](https://windrosewiki.games/faq): Common questions about gameplay, progress, and systems
 
-### [News](https://windrose-guides.com/news)
-- [Latest Updates](https://windrose-guides.com/news): Game updates, patch notes, and community news
+### [News](https://windrosewiki.games/news)
+- [Latest Updates](https://windrosewiki.games/news): Game updates, patch notes, and community news
 
 ## Key Topics
 
@@ -595,7 +595,7 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 
 ## Contact
 
-- Website: https://windrose-guides.com
+- Website: https://windrosewiki.games
 ```
 
 ### 5.3 Robots.txt & AI 爬虫配置
@@ -645,7 +645,7 @@ Allow: /
 # 内容信号
 Content-Signal: search=yes,ai-train=no
 
-Sitemap: https://windrose-guides.com/sitemap.xml
+Sitemap: https://windrosewiki.games/sitemap.xml
 ```
 
 ### 5.4 Schema 类型覆盖
@@ -1002,7 +1002,7 @@ def generate_resource_pages():
 def generate_sitemap():
     """扫描所有 HTML 文件生成 sitemap.xml"""
     urls = []
-    base_url = "https://windrose-guides.com"
+    base_url = "https://windrosewiki.games"
     
     for html_file in OUTPUT_BASE.rglob("*.html"):
         relative = html_file.relative_to(OUTPUT_BASE)
@@ -1168,9 +1168,9 @@ body {
 
 | 选项 | 域名 | 托管 |
 |------|------|------|
-| **推荐** | windrose.wiki / windrose-guides.com | Cloudflare Pages（免费，全球CDN） |
+| **推荐** | windrose.wiki / windrosewiki.games | Cloudflare Pages（免费，全球CDN） |
 | 备选 | windrose.gg | GitHub Pages（免费）+ Cloudflare DNS |
-> 域名已确定使用 `windrose-guides.com`，托管使用 Cloudflare Pages。
+> 域名已确定使用 `windrosewiki.games`，托管使用 Cloudflare Pages。
 
 ---
 

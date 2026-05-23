@@ -39,7 +39,7 @@ def page_wrapper(title, desc, canonical, css_path, breadcrumbs, body, active="",
 <link rel="canonical" href="{canonical}"><link rel="stylesheet" href="{css_path}">
 <meta property="og:type" content="article"><meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
-<meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+<meta property="og:image" content="https://windrosewiki.games/imgs/og.webp">
 <meta property="og:site_name" content="Windrose Guides">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}"><meta name="twitter:description" content="{desc}">
@@ -99,7 +99,7 @@ def gen_guides_hub():
     return page_wrapper(
         "Windrose Strategy Guides — Deep-Dive Walkthroughs (2026) | Windrose Guides",
         "In-depth Windrose strategy guides: mining routes, boss progression, best builds, crafting paths, sailing tips, co-op tactics, and naval combat.",
-        "https://windrose-guides.com/guides", "../css/style.css",
+        "https://windrosewiki.games/guides", "../css/style.css",
         [("Home", "/"), ("Strategy Guides", None)], body, "/guides"
     )
 

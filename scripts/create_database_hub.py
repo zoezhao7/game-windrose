@@ -14,7 +14,7 @@ db_html_content = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windrose Database: Items, Weapons, Mobs & Maps (2026) | Windrose Guides</title>
     <meta name="description" content="The ultimate Windrose database. Search for crafting recipes, weapon stats, armor sets, boss drops, enemies, and resource locations in one place.">
-    <link rel="canonical" href="https://windrose-guides.com/database">
+    <link rel="canonical" href="https://windrosewiki.games/database">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .db-search {

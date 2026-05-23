@@ -112,7 +112,7 @@ def lang_url(path, lang=DEFAULT):
     return f"{prefix}{path}"
 
 
-def hreflang_tags(slug, site="https://windrose-guides.com"):
+def hreflang_tags(slug, site="https://windrosewiki.games"):
     """
     生成所有语言的 hreflang 替代链接标签。
 

@@ -54,4 +54,4 @@ Allow: /llms.txt
 
 Content-Signal: search=yes,ai-train=no
 
-Sitemap: https://windrose-guides.com/sitemap.xml
+Sitemap: https://windrosewiki.games/sitemap.xml

@@ -6,7 +6,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
-SITE = "https://windrose-guides.com"
+SITE = "https://windrosewiki.games"
 TODAY = datetime.date.today().isoformat()
 
 

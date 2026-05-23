@@ -88,7 +88,7 @@ def mining_routes():
     return page_wrapper(
         "Best Mining Routes in Windrose (2026) | Windrose Guides",
         "Optimized mining routes for Copper, Iron, Clay, Sulfur in Windrose.",
-        "https://windrose-guides.com/guides/mining-routes", "../../css/style.css",
+        "https://windrosewiki.games/guides/mining-routes", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Mining Routes",None)], body, "/guides")
 
 def boss_progression():
@@ -165,7 +165,7 @@ def boss_progression():
     return page_wrapper(
         "Boss Progression & Strategy Guide — Windrose (2026) | Windrose Guides",
         "Phase-by-phase boss strategies, progression order, and combat tips for Windrose.",
-        "https://windrose-guides.com/guides/boss-progression", "../../css/style.css",
+        "https://windrosewiki.games/guides/boss-progression", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Boss Progression",None)], body, "/guides")
 
 def best_early_builds():
@@ -243,7 +243,7 @@ def best_early_builds():
     return page_wrapper(
         "Best Early-Game Builds in Windrose (2026) | Windrose Guides",
         "Optimal stat allocation, talent priorities, and gear for DPS, Tank, and Balanced builds in Windrose.",
-        "https://windrose-guides.com/guides/best-early-builds", "../../css/style.css",
+        "https://windrosewiki.games/guides/best-early-builds", "../../css/style.css",
         [("Home","/"),("Guides","/guides/"),("Best Early Builds",None)], body, "/guides")
 
 if __name__ == "__main__":

@@ -104,11 +104,11 @@ def enhance_recipe_finder():
 <title>Recipe Finder — Windrose Crafting Calculator (2026) | Windrose Guides</title>
 <meta name="description" content="Search and filter all Windrose crafting recipes. Find materials, stations, and crafting chains instantly.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="https://windrose-guides.com/tools/recipe-finder">
+<link rel="canonical" href="https://windrosewiki.games/tools/recipe-finder">
 <link rel="stylesheet" href="../../css/style.css">
 <meta property="og:title" content="Recipe Finder — Windrose (2026)">
 <meta property="og:description" content="Search all Windrose crafting recipes instantly.">
-<meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+<meta property="og:image" content="https://windrosewiki.games/imgs/og.webp">
 </head><body>
 <header class="header"><div class="container">
 <a href="/" class="logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
@@ -205,7 +205,7 @@ def enhance_resource_planner():
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Resource Planner — Windrose (2026) | Windrose Guides</title>
 <meta name="description" content="Plan your resource gathering in Windrose. Select target items and see all required materials.">
-<link rel="canonical" href="https://windrose-guides.com/tools/resource-planner">
+<link rel="canonical" href="https://windrosewiki.games/tools/resource-planner">
 <link rel="stylesheet" href="../../css/style.css">
 </head><body>
 <header class="header"><div class="container"><a href="/" class="logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
@@ -296,7 +296,7 @@ def enhance_checklist():
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Progression Checklist — Windrose (2026) | Windrose Guides</title>
 <meta name="description" content="Track your Windrose progression with this interactive checklist. Saves progress in your browser.">
-<link rel="canonical" href="https://windrose-guides.com/tools/progression-checklist">
+<link rel="canonical" href="https://windrosewiki.games/tools/progression-checklist">
 <link rel="stylesheet" href="../../css/style.css">
 </head><body>
 <header class="header"><div class="container"><a href="/" class="logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>

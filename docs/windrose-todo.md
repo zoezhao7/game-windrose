@@ -412,7 +412,7 @@
 - [ ] Title 格式：`{核心关键词} (2026) | Windrose Guides`
 - [ ] Meta Description：150-160 字符，含关键词 + 行动召唤
 - [ ] `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">`
-- [ ] `<link rel="canonical" href="https://windrose-guides.com/...">` 无 .html
+- [ ] `<link rel="canonical" href="https://windrosewiki.games/...">` 无 .html
 - [ ] OG 标签：og:type / og:url / og:title / og:description / og:image / og:site_name
 - [ ] article:published_time / article:modified_time（数据页）
 - [ ] Twitter Card：summary_large_image
@@ -465,14 +465,14 @@
     <title>{页面Title} | Windrose Guides</title>
     <meta name="description" content="{150-160字符Description}">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://windrose-guides.com/{slug}">
+    <link rel="canonical" href="https://windrosewiki.games/{slug}">
     <link rel="stylesheet" href="/css/style.css">
 
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://windrose-guides.com/{slug}">
+    <meta property="og:url" content="https://windrosewiki.games/{slug}">
     <meta property="og:title" content="{og标题}">
     <meta property="og:description" content="{og描述}">
-    <meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+    <meta property="og:image" content="https://windrosewiki.games/imgs/og.webp">
     <meta property="og:site_name" content="Windrose Guides">
     <meta property="article:published_time" content="2026-05-12">
     <meta property="article:modified_time" content="2026-05-12">
@@ -480,16 +480,16 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{twitter标题}">
     <meta name="twitter:description" content="{twitter描述}">
-    <meta name="twitter:image" content="https://windrose-guides.com/imgs/og.webp">
+    <meta name="twitter:image" content="https://windrosewiki.games/imgs/og.webp">
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "WebSite", "@id": "https://windrose-guides.com/#website", "url": "https://windrose-guides.com/", "name": "Windrose Guides", "publisher": { "@id": "https://windrose-guides.com/#org" } },
-            { "@type": "Organization", "@id": "https://windrose-guides.com/#org", "name": "Windrose Guides", "url": "https://windrose-guides.com/" },
-            { "@type": "WebPage", "@id": "https://windrose-guides.com/{slug}#webpage", "url": "https://windrose-guides.com/{slug}", "name": "{页面名}", "dateModified": "2026-05-12", "isPartOf": { "@id": "https://windrose-guides.com/#website" }, "breadcrumb": { "@id": "https://windrose-guides.com/#breadcrumb" } },
-            { "@type": "BreadcrumbList", "@id": "https://windrose-guides.com/#breadcrumb", "itemListElement": [{面包屑}] }
+            { "@type": "WebSite", "@id": "https://windrosewiki.games/#website", "url": "https://windrosewiki.games/", "name": "Windrose Guides", "publisher": { "@id": "https://windrosewiki.games/#org" } },
+            { "@type": "Organization", "@id": "https://windrosewiki.games/#org", "name": "Windrose Guides", "url": "https://windrosewiki.games/" },
+            { "@type": "WebPage", "@id": "https://windrosewiki.games/{slug}#webpage", "url": "https://windrosewiki.games/{slug}", "name": "{页面名}", "dateModified": "2026-05-12", "isPartOf": { "@id": "https://windrosewiki.games/#website" }, "breadcrumb": { "@id": "https://windrosewiki.games/#breadcrumb" } },
+            { "@type": "BreadcrumbList", "@id": "https://windrosewiki.games/#breadcrumb", "itemListElement": [{面包屑}] }
         ]
     }
     </script>

@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 NEWS_DIR = ROOT / "news"
-SITE = "https://windrose-guides.com"
+SITE = "https://windrosewiki.games"
 TODAY = datetime.date.today().isoformat()
 
 from templates import header_html, footer_html, HAMBURGER_JS

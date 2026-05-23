@@ -1,5 +1,5 @@
 """
-DeepSeek-based bulk translator for windrose-guides.com.
+DeepSeek-based bulk translator for windrosewiki.games.
 
 Strategy: parse source HTML, extract translatable text segments (text nodes,
 specific attributes, JSON-LD strings), batch them through DeepSeek's API in
@@ -47,7 +47,7 @@ API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-e045f84ceea8482db07c53282c789ec
 MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-v4-flash")
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
 
-SITE = "https://windrose-guides.com"
+SITE = "https://windrosewiki.games"
 
 LANG_HTML_ATTR = {
     "zh": "zh-CN",

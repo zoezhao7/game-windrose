@@ -27,16 +27,16 @@ def create_zh_framework():
 <title>Windrose 攻略站 — 非官方中文Wiki、制作配方与Boss攻略 (2026)</title>
 <meta name="description" content="Windrose 完整中文攻略：工作台制作配方、资源位置、Boss攻略、船只指南、新手教程。2026年更新。">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="https://windrose-guides.com/zh/">
-<link rel="alternate" hreflang="en" href="https://windrose-guides.com/">
-<link rel="alternate" hreflang="zh" href="https://windrose-guides.com/zh/">
-<link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/">
+<link rel="canonical" href="https://windrosewiki.games/zh/">
+<link rel="alternate" hreflang="en" href="https://windrosewiki.games/">
+<link rel="alternate" hreflang="zh" href="https://windrosewiki.games/zh/">
+<link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/">
 <link rel="stylesheet" href="../css/style.css">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://windrose-guides.com/zh/">
+<meta property="og:url" content="https://windrosewiki.games/zh/">
 <meta property="og:title" content="Windrose 攻略站 — 非官方中文Wiki (2026)">
 <meta property="og:description" content="Windrose 完整中文攻略数据库">
-<meta property="og:image" content="https://windrose-guides.com/imgs/og.webp">
+<meta property="og:image" content="https://windrosewiki.games/imgs/og.webp">
 <meta property="og:locale" content="zh_CN">
 </head><body>
 <header class="header"><div class="container">
@@ -155,7 +155,7 @@ def create_exclusive_content():
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Windrose Secrets & Easter Eggs — Hidden Content Tracker (2026) | Windrose Guides</title>
 <meta name="description" content="Track hidden content, Easter eggs, and secrets in Windrose. Community-discovered hidden locations, items, and mechanics.">
-<link rel="canonical" href="https://windrose-guides.com/guides/secrets">
+<link rel="canonical" href="https://windrosewiki.games/guides/secrets">
 <link rel="stylesheet" href="../../css/style.css">
 </head><body>
 <header class="header"><div class="container"><a href="/" class="logo"><img src="/imgs/logo.png" alt="Windrose Guides Logo" width="32" height="32"> Windrose Guides</a>
@@ -211,8 +211,8 @@ def update_sitemap_phase4():
         content = f.read()
 
     new_urls = [
-        ("https://windrose-guides.com/zh/", "weekly", "0.7"),
-        ("https://windrose-guides.com/guides/secrets", "monthly", "0.6"),
+        ("https://windrosewiki.games/zh/", "weekly", "0.7"),
+        ("https://windrosewiki.games/guides/secrets", "monthly", "0.6"),
     ]
     entries = ""
     for url, freq, pri in new_urls:
@@ -232,7 +232,7 @@ def update_sitemap_phase4():
     if 'hreflang="zh"' not in idx:
         idx = idx.replace(
             '<link rel="canonical"',
-            '<link rel="alternate" hreflang="en" href="https://windrose-guides.com/">\n    <link rel="alternate" hreflang="zh" href="https://windrose-guides.com/zh/">\n    <link rel="alternate" hreflang="x-default" href="https://windrose-guides.com/">\n    <link rel="canonical"'
+            '<link rel="alternate" hreflang="en" href="https://windrosewiki.games/">\n    <link rel="alternate" hreflang="zh" href="https://windrosewiki.games/zh/">\n    <link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/">\n    <link rel="canonical"'
         )
         with open(index_path, "w", encoding="utf-8") as f:
             f.write(idx)
@@ -247,11 +247,11 @@ def update_llms_phase4():
 
     if "Chinese Version" not in content:
         addition = """
-### [Chinese Version / 中文版](https://windrose-guides.com/zh/)
-- [中文首页](https://windrose-guides.com/zh/): Windrose 非官方中文攻略站首页
+### [Chinese Version / 中文版](https://windrosewiki.games/zh/)
+- [中文首页](https://windrosewiki.games/zh/): Windrose 非官方中文攻略站首页
 
-### [Secrets & Easter Eggs](https://windrose-guides.com/guides/secrets)
-- [Hidden Content Tracker](https://windrose-guides.com/guides/secrets): Community-discovered secrets, Easter eggs, and hidden mechanics
+### [Secrets & Easter Eggs](https://windrosewiki.games/guides/secrets)
+- [Hidden Content Tracker](https://windrosewiki.games/guides/secrets): Community-discovered secrets, Easter eggs, and hidden mechanics
 """
         content = content.replace("## Contact", addition + "\n## Contact")
         with open(path, "w", encoding="utf-8") as f:

@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://windrose-guides.com"
+SITE = "https://windrosewiki.games"
 
 from templates import header_html, footer_html, HAMBURGER_JS
 from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED
