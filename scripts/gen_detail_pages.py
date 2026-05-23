@@ -7,6 +7,7 @@ import json, os, html as html_mod
 from templates import header_html
 
 PROJECT = r"F:\aicode\gamedoc"
+SITE = "https://windrosewiki.games"
 
 
 def esc(text):
@@ -59,6 +60,108 @@ def stat_row_list(label, value):
     if value is None or value == "" or value == "unknown":
         return ""
     return f'<div class="detail-stat"><span class="detail-stat-label">{esc(label)}</span><span class="detail-stat-value">{esc(str(value))}</span></div>'
+
+
+def build_jsonld(item, name, item_id, desc, icon, category_label, category_href):
+    """生成详情页 JSON-LD：Product + BreadcrumbList，含配方时再加 HowTo"""
+    page_url = f"{SITE}/database/items/{item_id}/"
+    image_url = icon if icon.startswith("http") else f"{SITE}{icon}"
+
+    additional_props = []
+    item_stats_data = ITEM_STATS.get(item_id, {})
+    stats = item.get("stats", {})
+    if isinstance(stats, dict):
+        for k, v in stats.items():
+            if v in (None, "", "unknown"):
+                continue
+            additional_props.append({
+                "@type": "PropertyValue",
+                "name": k.replace("_", " ").title(),
+                "value": str(v),
+            })
+    for k in ("level", "attack"):
+        v = item_stats_data.get(k)
+        if v is not None:
+            additional_props.append({
+                "@type": "PropertyValue",
+                "name": k.capitalize(),
+                "value": str(v),
+            })
+    rarity = item.get("rarity") or item.get("tier")
+    if rarity:
+        additional_props.append({
+            "@type": "PropertyValue",
+            "name": "Rarity",
+            "value": str(rarity).capitalize(),
+        })
+
+    product = {
+        "@type": "Product",
+        "@id": f"{page_url}#product",
+        "name": name,
+        "description": desc,
+        "image": image_url,
+        "category": category_label,
+        "url": page_url,
+        "brand": {"@type": "Brand", "name": "Windrose"},
+    }
+    if additional_props:
+        product["additionalProperty"] = additional_props
+
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "@id": f"{page_url}#breadcrumb",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Database", "item": f"{SITE}/database/"},
+            {"@type": "ListItem", "position": 2, "name": category_label, "item": f"{SITE}{category_href}"},
+            {"@type": "ListItem", "position": 3, "name": name, "item": page_url},
+        ],
+    }
+
+    graph = [product, breadcrumb]
+
+    crafting = item.get("crafting", {})
+    tiers = crafting.get("tiers", [])
+    if not tiers:
+        materials = crafting.get("materials") or item.get("materials", [])
+        if materials:
+            tiers = [{
+                "level": 1,
+                "station": item.get("station", crafting.get("station", "")),
+                "time": crafting.get("time", ""),
+                "materials": materials,
+            }]
+    if tiers:
+        first = tiers[0]
+        mats = first.get("materials", [])
+        supplies = []
+        if isinstance(mats, list):
+            for m in mats:
+                if isinstance(m, dict):
+                    mat_name = m.get("item") or m.get("name")
+                    qty = m.get("quantity", m.get("amount", ""))
+                    if not mat_name:
+                        continue
+                    supply = {"@type": "HowToSupply", "name": mat_name}
+                    if qty:
+                        supply["requiredQuantity"] = str(qty)
+                    supplies.append(supply)
+        station = first.get("station") or item.get("station") or "Crafting Station"
+        howto = {
+            "@type": "HowTo",
+            "@id": f"{page_url}#howto",
+            "name": f"How to craft {name}",
+            "description": f"Craft {name} at {station} in Windrose.",
+            "tool": [{"@type": "HowToTool", "name": station}] if station else [],
+        }
+        if supplies:
+            howto["supply"] = supplies
+        if first.get("time"):
+            howto["totalTime"] = str(first["time"])
+        graph.append(howto)
+
+    payload = {"@context": "https://schema.org", "@graph": graph}
+    return f'<script type="application/ld+json">{json.dumps(payload, ensure_ascii=False)}</script>'
 
 
 def detail_page(item, category_label, category_href, css_depth=3):
@@ -268,6 +371,8 @@ def detail_page(item, category_label, category_href, css_depth=3):
     if notes:
         other_sections += f'<div class="detail-section"><div class="detail-section-title">Notes</div><p class="detail-text">{esc(notes)}</p></div>'
 
+    jsonld_html = build_jsonld(item, name, item_id, desc, icon, category_label, category_href)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -277,6 +382,7 @@ def detail_page(item, category_label, category_href, css_depth=3):
 <link rel="canonical" href="https://windrosewiki.games/database/items/{item_id}/">
 <link rel="stylesheet" href="{css_prefix}css/style.css">
 <link rel="stylesheet" href="{css_prefix}database/db-style.css">
+{jsonld_html}
 </head>
 <body>
 {header_html("database")}

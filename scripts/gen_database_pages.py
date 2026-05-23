@@ -10,7 +10,7 @@
     Ranged Weapons 19
     ...
 """
-import json, os, html as html_mod
+import json, os, re, html as html_mod
 from templates import header_html, footer_html, HAMBURGER_JS
 from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED
 
@@ -166,6 +166,39 @@ document.querySelectorAll('.db-cat').forEach(function(cat){
 
 
 # ── 页面模板 ──────────────────────────────────────────────
+def build_itemlist_jsonld(cards_html, page_url, heading):
+    """从 cards_html 中提取所有 db-card 的链接 + 标题，构造 ItemList JSON-LD。"""
+    items = re.findall(
+        r'<a href="([^"]+)"[^>]*class="db-card"[^>]*>.*?<h3[^>]*>([^<]+)</h3>',
+        cards_html, re.DOTALL,
+    )
+    if not items:
+        return ""
+    list_items = []
+    for i, (href, name) in enumerate(items, 1):
+        if href.startswith("/"):
+            url = SITE + href
+        elif href.startswith("http"):
+            url = href
+        else:
+            continue
+        list_items.append({
+            "@type": "ListItem",
+            "position": i,
+            "url": url,
+            "name": html_mod.unescape(name).strip(),
+        })
+    payload = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "@id": f"{page_url}#itemlist",
+        "name": heading,
+        "numberOfItems": len(list_items),
+        "itemListElement": list_items,
+    }
+    return f'<script type="application/ld+json">{json.dumps(payload, ensure_ascii=False)}</script>'
+
+
 def make_page(title, meta_desc, breadcrumb, active_key, heading, desc, cards_html, guide_link="", css_depth=2, lang=None, rel_path=""):
     if lang is None:
         lang = CURRENT_LANG
@@ -199,6 +232,9 @@ def make_page(title, meta_desc, breadcrumb, active_key, heading, desc, cards_htm
     h = header_html("database", lang, current_path=f"/database/{rel_path}" if rel_path else "/database")
     f = footer_html(lang)
 
+    # ItemList JSON-LD（仅在卡片页面有内容时输出）
+    itemlist_jsonld = build_itemlist_jsonld(cards_html, canonical_url, heading)
+
     return f"""<!DOCTYPE html>
 <html lang="{hlang}">
 <head>
@@ -209,6 +245,7 @@ def make_page(title, meta_desc, breadcrumb, active_key, heading, desc, cards_htm
 {hreflang_links}
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/database/db-style.css">
+{itemlist_jsonld}
 </head>
 <body>
 {h}
