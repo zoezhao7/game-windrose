@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_news import fetch_steam_news  # noqa: E402
 from gen_news_pages import main as generate_news_pages  # noqa: E402
+from indexnow_submit import submit as indexnow_submit  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -217,6 +218,17 @@ def main() -> None:
 
     # 7. 更新 sitemap
     update_sitemap_lastmod()
+
+    # 8. IndexNow 推送（仅推送本次新增的新闻 URL；首页/news 列表页一并推一下）
+    indexnow_urls = ["https://windrosewiki.games/", "https://windrosewiki.games/news"]
+    new_ids = {item["id"] for item in new_items}
+    for item in merged:
+        if item.get("id") in new_ids and item.get("has_detail_page") and item.get("slug", "").startswith("news/"):
+            indexnow_urls.append(f"https://windrosewiki.games/{item['slug']}")
+    try:
+        indexnow_submit(indexnow_urls)
+    except Exception as e:  # NOTE: IndexNow 失败不应阻塞新闻发布
+        logger.warning("IndexNow 推送失败（已忽略）: %r", e)
 
     logger.info("=== 新闻更新完成：新增 %d 条 ===", added_count)
 
