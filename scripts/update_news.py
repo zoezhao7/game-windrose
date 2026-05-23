@@ -131,8 +131,10 @@ def update_homepage_news(items: list[dict], max_items: int = 5) -> bool:
             f'<p class="news-summary">{clean_summary[:120]}{"..." if len(clean_summary) > 120 else ""}</p></li>'
         )
 
+    # NOTE: 必须用 .container 包裹，否则在 </main> 前注入会跑到主容器外、左侧顶到视口边
     news_block = (
         '<!-- NEWS_START -->\n'
+        '<div class="container">\n'
         '<section id="latest-news">\n'
         '  <h2>Latest News & Updates</h2>\n'
         '  <ul class="news-list">\n'
@@ -140,6 +142,7 @@ def update_homepage_news(items: list[dict], max_items: int = 5) -> bool:
         '  </ul>\n'
         '  <p><a href="/news" class="btn btn-outline">View All News →</a></p>\n'
         '</section>\n'
+        '</div>\n'
         '<!-- NEWS_END -->'
     )
 
