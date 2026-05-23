@@ -15,6 +15,7 @@ from templates import header_html, footer_html, HAMBURGER_JS
 from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED
 
 PROJECT = r"F:\aicode\gamedoc"
+SITE = "https://windrosewiki.games"
 
 # ── 侧边栏结构定义 ───────────────────────────────────────
 # NOTE: 分类层级定义
@@ -189,6 +190,11 @@ def make_page(title, meta_desc, breadcrumb, active_key, heading, desc, cards_htm
     # breadcrumb slug 需要从当前页面推断（由 write_page 传入）
     hreflang_html = ""  # 在 write_page 中补全
 
+    # canonical + hreflang（覆盖所有 6 语言 DB 类目页 / hub）
+    db_path = f"/database/{rel_path}" if rel_path else "/database"
+    canonical_url = SITE + lang_url(db_path, lang)
+    hreflang_links = "\n  ".join(hreflang_tags(db_path.lstrip("/"), SITE))
+
     # 语言切换器相关：header 和 footer
     h = header_html("database", lang, current_path=f"/database/{rel_path}" if rel_path else "/database")
     f = footer_html(lang)
@@ -199,6 +205,8 @@ def make_page(title, meta_desc, breadcrumb, active_key, heading, desc, cards_htm
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html_mod.escape(title)} | Windrose Guides</title>
 <meta name="description" content="{html_mod.escape(meta_desc)}">
+<link rel="canonical" href="{canonical_url}">
+{hreflang_links}
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/database/db-style.css">
 </head>
@@ -257,7 +265,7 @@ def card(name, subtype, rarity="uncommon", link=None, icon="", item_id=""):
         link = item_link(item_id) if item_id else "#"
     rarity_cls = {"epic":"rarity-epic","rare":"rarity-rare","uncommon":"rarity-uncommon","common":"rarity-common"}.get(rarity, "rarity-uncommon")
     title_cls = {"epic":"title-epic","rare":"title-rare","uncommon":"title-uncommon"}.get(rarity, "")
-    icon_html = f'<img src="{icon}" alt="{html_mod.escape(name)}" onerror="this.style.display=\'none\'">' if icon else ""
+    icon_html = f'<img src="{icon}" alt="{html_mod.escape(name)}" width="56" height="56" loading="lazy" onerror="this.style.display=\'none\'">' if icon else ""
     return f"""        <a href="{link}" class="db-card">
             <div class="db-card-icon">{icon_html}</div>
             <div class="db-card-content">

@@ -78,7 +78,7 @@ def header_html(active="", lang=DEFAULT, current_path=None):
     return (
         f'<header class="header"><div class="container">'
         f'<a href="{home_url}" class="logo" aria-label="{html_mod.escape(aria_home)}">'
-        f'<img src="/imgs/logo.png" alt="{html_mod.escape(logo_alt)}" width="32" height="32"> '
+        f'<img src="/imgs/logo.png" alt="{html_mod.escape(logo_alt)}" width="32" height="32" loading="lazy"> '
         f'{html_mod.escape(site_name)}</a>'
         f'<button class="hamburger" aria-label="{html_mod.escape(aria_menu)}" aria-expanded="false">'
         f'<span></span><span></span><span></span></button>'
@@ -138,7 +138,7 @@ def footer_html(lang=DEFAULT):
     <div class="container">
         <div class="footer-grid">
             <div class="footer-brand">
-                <a href="{home_url}" class="footer-logo"><img src="/imgs/logo.png" alt="{html_mod.escape(logo_alt)}" width="28" height="28"> {html_mod.escape(site_name)}</a>
+                <a href="{home_url}" class="footer-logo"><img src="/imgs/logo.png" alt="{html_mod.escape(logo_alt)}" width="28" height="28" loading="lazy"> {html_mod.escape(site_name)}</a>
                 <p>{html_mod.escape(brand_desc)}</p>
             </div>
             <div class="footer-col">

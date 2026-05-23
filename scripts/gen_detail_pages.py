@@ -27,7 +27,7 @@ def mat_pill_html(mat):
         item_id = mat.get("item_id", name.lower().replace(" ", "-").replace("'", ""))
         # 为了兼容性，如果没有图标则不显示 <img>，CSS 会自适应
         icon = mat.get("icon", "")
-        img_html = f'<img src="{icon}" alt="{esc(name)}" loading="lazy">' if icon else ""
+        img_html = f'<img src="{icon}" alt="{esc(name)}" width="24" height="24" loading="lazy">' if icon else ""
         return f'<a href="{slug_to_link(item_id)}" class="mat-pill">{img_html}<span class="mat-name">{esc(name)}</span><span class="mat-count">×{qty}</span></a>'
     elif isinstance(mat, str) and "+" in mat:
         parts = mat.split("+")
@@ -181,7 +181,7 @@ def detail_page(item, category_label, category_href, css_depth=3):
 
         main_station = item.get("station", crafting.get("station", "Crafting Station"))
         station_icon = crafting.get("station_icon", "")
-        station_icon_html = f'<img src="{station_icon}" alt="{esc(main_station)}" style="width:24px;height:24px;vertical-align:middle;margin-right:8px;">' if station_icon else ""
+        station_icon_html = f'<img src="{station_icon}" alt="{esc(main_station)}" width="24" height="24" loading="lazy" style="vertical-align:middle;margin-right:8px;">' if station_icon else ""
         
         crafting_html = f'''<section class="detail-crafting-premium" id="crafting">
             <div class="crafting-premium-header">
@@ -274,6 +274,7 @@ def detail_page(item, category_label, category_href, css_depth=3):
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(name)} — Windrose Database | Windrose Guides</title>
 <meta name="description" content="{esc(name)} in Windrose. View stats, crafting recipe, locations, and related items.">
+<link rel="canonical" href="https://windrosewiki.games/database/items/{item_id}/">
 <link rel="stylesheet" href="{css_prefix}css/style.css">
 <link rel="stylesheet" href="{css_prefix}database/db-style.css">
 </head>
