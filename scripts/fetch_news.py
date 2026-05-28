@@ -106,13 +106,15 @@ def _parse_steam_item(item: dict, feed_type: int, feed_label: str) -> dict | Non
     steam_url = item.get("url", "")
     gid = item.get("gid", "")
 
+    source = "steam_official" if feed_type == 1 else "steam_media"
+
     return {
         "id": f"steam-{gid}" if gid else f"steam-{slug_base}",
         "slug": f"news/{slug_base}",
         "name": title,
         "title": title,
         "status": "published",
-        "confidence": "official",
+        "confidence": "official" if source == "steam_official" else "media",
         "last_verified": datetime.now(tz=timezone.utc).strftime("%Y-%m-%d"),
         "category": category,
         "author": author,
@@ -123,11 +125,13 @@ def _parse_steam_item(item: dict, feed_type: int, feed_label: str) -> dict | Non
         "guide_impact": "",
         "tags": _extract_tags(title, category),
         "related_pages": [],
+        "source": source,
+        "source_feed": feed_label,
         "sources": [
             {
-                "title": "Steam Community Announcements",
+                "title": "Steam Community Announcements" if source == "steam_official" else feed_label,
                 "url": steam_url,
-                "type": "official",
+                "type": "official" if source == "steam_official" else "media",
             }
         ],
         "notes": f"Auto-fetched from Steam News API (feed: {feed_label})",

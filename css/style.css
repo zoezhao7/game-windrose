@@ -959,6 +959,23 @@ aside.related-guides a::before {
 .news-category-community { background: #22c55e; }
 .news-category-media { background: #3b82f6; }
 
+/* NOTE: 来源徽标 — 区分官方公告 / 媒体 / SteamDB / 社区 */
+.news-source-badge {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border: 1px solid currentColor;
+  background: transparent;
+}
+.source-steam-official    { color: #1b6dc1; }
+.source-steam-media       { color: #6b7280; }
+.source-steamdb           { color: #0f766e; }
+.source-steam-discussions { color: #b45309; }
+
 /* --- News Detail Article --- */
 .news-detail-header {
   margin-bottom: 2rem;

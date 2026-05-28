@@ -45,6 +45,22 @@ CATEGORY_LABELS = {
     "media": "Media",
 }
 
+# NOTE: 来源徽标 — 让读者一眼分辨是官方公告、外媒、SteamDB 还是社区帖
+SOURCE_BADGES = {
+    "steam_official": ("Steam Announcement", "source-steam-official"),
+    "steam_media":    ("Press Coverage",     "source-steam-media"),
+    "steamdb":        ("SteamDB Build",      "source-steamdb"),
+    "steam_discussions": ("Community Thread", "source-steam-discussions"),
+}
+
+
+def source_badge_html(item: dict) -> str:
+    src = item.get("source", "")
+    if src not in SOURCE_BADGES:
+        return ""
+    label, css_cls = SOURCE_BADGES[src]
+    return f'<span class="news-source-badge {css_cls}">{label}</span>'
+
 
 def load_json(path: Path) -> dict:
     """读取 JSON 文件并返回解析后的字典"""
@@ -107,11 +123,14 @@ def build_news_card(item: dict) -> str:
     if category and category in CATEGORY_LABELS:
         category_badge = f'<span class="news-category news-category-{category}">{CATEGORY_LABELS[category]}</span>'
 
+    src_badge = source_badge_html(item)
+
     author_html = f'<span>By {escape(author)}</span>' if author else ""
 
     meta_html = f"""<div class="news-card-meta">
       <time datetime="{escape(item.get('date', ''))}">{date_str}</time>
       {category_badge}
+      {src_badge}
       {author_html}
     </div>"""
 
@@ -367,7 +386,7 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
     if category and category in CATEGORY_LABELS:
         category_badge = f'<span class="news-category news-category-{category}">{CATEGORY_LABELS[category]}</span>'
 
-    # 来源链接
+    src_badge = source_badge_html(item)
     source_box = ""
     sources = item.get("sources", [])
     if sources:
@@ -518,6 +537,7 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
         <time datetime="{date_iso}">{date_str}</time>
         <span class="separator">·</span>
         {category_badge}
+        {f'<span class="separator">·</span>{src_badge}' if src_badge else ''}
         <span class="separator">·</span>
         <span>By {author}</span>
       </div>

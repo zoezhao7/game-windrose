@@ -26,6 +26,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_news import fetch_steam_news  # noqa: E402
+from fetch_steamdb import fetch_steamdb_patches  # noqa: E402
+from fetch_steam_discussions import fetch_steam_discussions  # noqa: E402
 from gen_news_pages import main as generate_news_pages  # noqa: E402
 from indexnow_submit import submit as indexnow_submit  # noqa: E402
 
@@ -176,22 +178,48 @@ def update_sitemap_lastmod() -> None:
     today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
 
     # 匹配 /news 的 lastmod
+    # NOTE: 中间夹了 hreflang 标签，所以用 [\s\S]*? 跨行匹配，但限定在同一个 <url> 块内
     pattern = re.compile(
-        r"(<loc>https://windrose-guides\.com/news</loc>\s*<lastmod>)(\d{4}-\d{2}-\d{2})(</lastmod>)"
+        r"(<loc>https://windrosewiki\.games/news</loc>"
+        r"(?:[\s\S]*?))<lastmod>(\d{4}-\d{2}-\d{2})</lastmod>"
     )
-    new_content = pattern.sub(rf"\g<1>{today}\g<3>", content)
+    new_content = pattern.sub(rf"\g<1><lastmod>{today}</lastmod>", content)
 
     if new_content != content:
         SITEMAP_FILE.write_text(new_content, encoding="utf-8")
         logger.info("已更新 sitemap.xml /news lastmod → %s", today)
 
 
+def fetch_all_sources() -> list[dict]:
+    """
+    依次调用所有新闻 fetcher，把结果合并到一个列表里。
+
+    单个 fetcher 失败不影响其他源，整体失败也不会中断后续合并/保存流程。
+    """
+    sources = [
+        ("Steam News API", fetch_steam_news, {}),
+        ("SteamDB Patchnotes RSS", fetch_steamdb_patches, {}),
+        ("Steam Community Discussions", fetch_steam_discussions, {"max_items": 3}),
+    ]
+
+    all_items: list[dict] = []
+    for name, fn, kwargs in sources:
+        try:
+            items = fn(**kwargs)
+            logger.info("[%s] 返回 %d 条", name, len(items))
+            all_items.extend(items)
+        except Exception as e:
+            logger.warning("[%s] 抓取失败（已跳过）: %r", name, e)
+
+    return all_items
+
+
 def main() -> None:
     logger.info("=== 开始新闻自动更新 ===")
 
-    # 1. 抓取 Steam 新闻
-    new_items = fetch_steam_news()
-    logger.info("Steam API 返回 %d 条新闻", len(new_items))
+    # 1. 抓取所有源的新闻
+    new_items = fetch_all_sources()
+    logger.info("所有数据源合计返回 %d 条", len(new_items))
 
     # 2. 加载现有数据
     news_data = load_news()
