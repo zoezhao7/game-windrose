@@ -15,6 +15,13 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -66,6 +73,13 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -85,6 +99,13 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -176,18 +197,32 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/news"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/news"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -272,6 +307,13 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -322,31 +364,79 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/bosses/jaime-lopez-grave</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -383,30 +473,65 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -516,6 +641,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/de/beginner-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/beginner-guide"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/beginner-guide"/>
@@ -555,6 +693,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/de/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/de/crafting</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting"/>
@@ -566,6 +717,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/de/download</loc>
@@ -617,6 +781,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -685,6 +875,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/de/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/de/tools</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools"/>
@@ -709,6 +912,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/es/beginner-guide</loc>
@@ -750,6 +966,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/es/crafting</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting"/>
@@ -761,6 +990,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/es/download</loc>
@@ -812,6 +1054,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -880,6 +1148,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/es/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/es/tools</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools"/>
@@ -904,6 +1185,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/fr/beginner-guide</loc>
@@ -945,6 +1239,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/fr/crafting</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting"/>
@@ -956,6 +1263,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/fr/download</loc>
@@ -1007,6 +1327,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1070,6 +1416,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/sources"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/sources"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/sources"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1228,6 +1587,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/news/dedicated-server-summarized-info-guides</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/frequent-issues-troubleshooting</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/news/i-bought-every-ship-in-windrose-heres-what-you-should-spend-your-pirate-gold-on-</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1264,6 +1635,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/news/patch-notes-version-01006</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/news/pirate-game-windrose-dethrones-steams-survival-champion-as-it-sails-up-the-chart</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1271,6 +1648,12 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/news/please-have-faith-in-us-once-again-says-windrose-dev-revealing-its-first-big-con</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/questions-regarding-pvp</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1348,6 +1731,55 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-14-april-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-17-april-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-18-may-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-19-april-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-30-april-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/news/windrose-update-for-4-may-2026</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/pt/beginner-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/beginner-guide"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/beginner-guide"/>
@@ -1387,6 +1819,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/pt/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/pt/crafting</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting"/>
@@ -1398,6 +1843,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/pt/download</loc>
@@ -1449,6 +1907,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1517,6 +2001,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/pt/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/pt/tools</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools"/>
@@ -1544,48 +2041,104 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1644,21 +2197,55 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/about"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/about"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/zh/beginner-guide</loc>
@@ -1700,6 +2287,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/zh/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/contact"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/zh/crafting</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting"/>
@@ -1711,6 +2311,19 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/database</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/database"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/database"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/database"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/database"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/database"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/zh/download</loc>
@@ -1762,6 +2375,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/news"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/pages</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/pages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/pages"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/pages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/pages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/pages"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/pages"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/pages"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/privacy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -1825,6 +2464,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/sources"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/sources"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/sources"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/terms"/>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -9173,6 +9825,136 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/de/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/de/database/bosses</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/database/bosses"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/database/bosses"/>
@@ -9368,6 +10150,110 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/de/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/de/tools/progression-checklist</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools/progression-checklist"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools/progression-checklist"/>
@@ -9418,6 +10304,175 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/es/database/bosses</loc>
@@ -9615,6 +10670,110 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/es/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/es/tools/progression-checklist</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools/progression-checklist"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools/progression-checklist"/>
@@ -9665,6 +10824,175 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/es/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/fr/database/bosses</loc>
@@ -9862,6 +11190,110 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/fr/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/fr/tools/progression-checklist</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools/progression-checklist"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools/progression-checklist"/>
@@ -9912,6 +11344,175 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/pt/database/bosses</loc>
@@ -10109,6 +11710,110 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/pt/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/pt/tools/progression-checklist</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools/progression-checklist"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools/progression-checklist"/>
@@ -10159,6 +11864,175 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/pt/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/charons-obols</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/charons-obols"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/charons-obols"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/ghost-captain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/ghost-captain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/ghost-captain"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/high-priestess</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/high-priestess"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/high-priestess"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/israel-hands</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/thomas-richards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/thomas-richards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/thomas-richards"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/crafting/alchemy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/alchemy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/alchemy"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/crafting/building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/building"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/crafting/cooking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/cooking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/cooking"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/crafting/smelting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/smelting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/smelting"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/crafting/workbench</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/crafting/workbench"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/crafting/workbench"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/zh/database/bosses</loc>
@@ -10356,6 +12230,110 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/zh/resources/clay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/clay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/clay"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/resources/copper</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/copper"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/copper"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/resources/gunpowder</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/gunpowder"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/gunpowder"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/resources/iron</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/iron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/iron"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/resources/rare-materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/resources/rare-materials"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/resources/rare-materials"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/ships/brigantine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/brigantine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/brigantine"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/ships/frigate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/frigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/frigate"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/ships/sloop</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/ships/sloop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/ships/sloop"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/zh/tools/progression-checklist</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/tools/progression-checklist"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/tools/progression-checklist"/>
@@ -10406,6 +12384,45 @@
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/weapons/armor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/armor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/armor"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/weapons/melee</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/melee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/melee"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/weapons/ranged</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/weapons/ranged"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/weapons/ranged"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://windrosewiki.games/de/database/consumables/alchemy</loc>

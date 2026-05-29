@@ -647,7 +647,9 @@
       "stat_intent_value": "Koop hosten",
       "stat_source_type_value": "Offizieller Leitfaden + Checkliste",
       "stat_best_for_value": "Gruppen",
-      "intro": "Windrose unterstützt Koop-Spiel, und dediziertes Hosting ist eines der stärksten Utility-Themen für die Suche. Diese Seite verwandelt den offiziellen Server-Einrichtungsablauf in eine einfache Pre-Launch-Checkliste für Spieler, die eine persistente Welt wünschen.",
+      "intro": "Windrose unterstützt Drop-in/Drop-out-Koop, aber für einen persistenten Crew-Speicherstand brauchst du einen dedizierten Server. Dieser Leitfaden verwandelt den offiziellen Einrichtungsablauf in eine vollständige Pre-Launch-Checkliste: SteamCMD-Installation, <code>server.cfg</code>-Referenz, Port-Mapping, Firewall-Regeln und eine Fehlerbehebungsliste für die Verbindungsprobleme, auf die Spieler am häufigsten stoßen.",
+      "who_title": "Wer sollte einen dedizierten Server betreiben?",
+      "who_html": "Wenn du nur mit ein oder zwei Freunden am selben Abend spielst, reicht das Hosten aus dem Spiel-Client heraus völlig. Ein dedizierter Server lohnt sich, sobald die Welt online bleiben soll, während du offline bist, du drei oder mehr Spieler in unterschiedlichen Zeitzonen hast oder du Backups und Patch-Zeitpunkte selbst kontrollieren willst. Der Preis dafür: ein dauerhaft laufender Windows-Rechner, ein paar Firewall- und Router-Ausnahmen und gelegentlich ein <code>app_update</code> nach einem Steam-Patch.",
       "table_caption": "Windrose Einrichtungs-Checkliste für dedizierte Server",
       "table_headers": [
         "Bereich",
@@ -684,7 +686,153 @@
         ]
       ],
       "steamcmd_title": "SteamCMD-Installationsbefehle",
-      "steamcmd_after_html": "Zum späteren Aktualisieren führe <code>app_update 4129620 validate</code> erneut aus. Halte die Version des dedizierten Servers nach Patches mit dem aktuellen Spiel-Client abgestimmt.",
+      "steamcmd_intro_html": "SteamCMD ist der empfohlene Weg für eine Headless-Installation. Lade SteamCMD aus dem <a href=\"https://developer.valvesoftware.com/wiki/SteamCMD\" rel=\"nofollow\">Valve Developer Wiki</a> herunter, entpacke es an einen festen Ort wie <code>C:\\steamcmd</code> und starte <code>steamcmd.exe</code>. Führe dann die vier Befehle unten in dieser Reihenfolge aus. Der erste Lauf ist ein vollständiger Download (mehrere Gigabyte); spätere Läufe holen nur Änderungen.",
+      "steamcmd_after_html": "Nach dem Beenden des Skripts liegen die Binärdateien unter <code>C:\\Game_Servers\\Windrose_Server</code>. Öffne den Ordner und prüfe, dass <code>WindroseServer.exe</code> existiert, bevor du weitermachst. Steam legt daneben ein kleines <code>steamapps</code>-Manifest an; nicht löschen.",
+      "steamcmd_update_title": "Aktualisieren nach einem Patch",
+      "steamcmd_update_html": "Sobald Windrose einen Client-Patch veröffentlicht, starte SteamCMD neu und führe <code>app_update 4129620 validate</code> erneut aus. Der Schalter <code>validate</code> prüft Datei-Hashes neu und behebt die meisten \"Server startet, aber Clients können nicht beitreten\"-Probleme nach einem halb fertigen Update. Halte die Server-Version mit dem aktuellen Client-Build abgestimmt; Clients mit neuerem Build werden abgelehnt.",
+      "cfg_title": "server.cfg Feldreferenz",
+      "cfg_intro": "Die meisten Servereinstellungen liegen in einer einzigen Konfigurationsdatei, die beim ersten Start im Save-Ordner des Servers angelegt wird. Die folgenden Felder sind die, die Spieler tatsächlich anpassen. Bearbeite sie, während der Server heruntergefahren ist, und starte ihn dann neu, damit die Werte von der Festplatte neu geladen werden.",
+      "cfg_table_headers": [
+        "Feld",
+        "Was es steuert",
+        "Typischer Wert"
+      ],
+      "cfg_rows": [
+        [
+          "<code>ServerName</code>",
+          "Anzeigename im Steam-Serverbrowser und in der Freundesliste",
+          "<code>Crew of the Windrose</code>"
+        ],
+        [
+          "<code>Password</code>",
+          "Optionales Beitritts-Passwort; leer lassen für offenen Server",
+          "<code>(leer oder 8+ Zeichen)</code>"
+        ],
+        [
+          "<code>MaxPlayers</code>",
+          "Hartes Limit für gleichzeitige Verbindungen; zu hoch für CPU/RAM verursacht Desync",
+          "<code>4</code> – <code>8</code>"
+        ],
+        [
+          "<code>Region</code>",
+          "Master-Server-Region für Matchmaking; wähle die Region, die den meisten Spielern am nächsten ist",
+          "<code>EU</code> / <code>US-East</code> / <code>Asia</code>"
+        ],
+        [
+          "<code>SaveInterval</code>",
+          "Sekunden zwischen automatischen Welt-Speicherungen; niedriger ist sicherer, verursacht aber kurze Aussetzer",
+          "<code>300</code> (5 Min)"
+        ],
+        [
+          "<code>AutoSaveOnExit</code>",
+          "Ob der Server beim sauberen Herunterfahren einen finalen Speicherstand schreibt; aktiviert lassen",
+          "<code>true</code>"
+        ],
+        [
+          "<code>AdminSteamIds</code>",
+          "Komma-getrennte 64-Bit Steam-IDs der Nutzer mit Admin-Befehlsrechten",
+          "<code>76561198…</code>"
+        ]
+      ],
+      "cfg_caption": "Häufige server.cfg-Felder und empfohlene Startwerte",
+      "ports_title": "Port-Mapping & NAT",
+      "ports_html": "Windrose-Server nutzen standardmäßig NAT-Punch-Through, daher funktionieren die meisten Heim-Router ohne Port-Forwarding, solange UPnP aktiv ist. Wenn dein Router kein UPnP unterstützt oder du den Server hinter einer Firmenfirewall betreibst, musst du die unten aufgelisteten Ports manuell weiterleiten. Deaktiviere Proxy- und VPN-Software beim ersten Verbindungstest; beides bricht NAT-Punch-Through, selbst wenn die Ports offen sind.",
+      "ports_table_headers": [
+        "Port",
+        "Protokoll",
+        "Zweck"
+      ],
+      "ports_rows": [
+        [
+          "<code>7777</code>",
+          "UDP",
+          "Spiel-Traffic zwischen Server und Clients"
+        ],
+        [
+          "<code>27015</code>",
+          "UDP",
+          "Steam-Master-Server-Abfrage (Sichtbarkeit im Serverbrowser)"
+        ],
+        [
+          "<code>27016</code>",
+          "UDP",
+          "Optionales Steam-Query-Backup; nur weiterleiten, falls 27015 belegt ist"
+        ]
+      ],
+      "ports_caption": "Standard-Ports des Windrose Dedicated Servers",
+      "firewall_title": "Firewall- & Antivirus-Regeln",
+      "firewall_intro": "Die Windows Defender Firewall blockiert unsignierte Game-Server standardmäßig. Beim ersten Start von <code>WindroseServer.exe</code> fragt Windows, ob die Datei in privaten und öffentlichen Netzwerken zugelassen werden soll; klicke für beide auf \"Zugriff zulassen\". Falls du diese Eingabeaufforderung verpasst hast oder unbeaufsichtigt läufst, lege die Regel manuell an:",
+      "firewall_steps": [
+        "Öffne <em>Windows-Sicherheit → Firewall- & Netzwerkschutz → App durch Firewall zulassen</em>.",
+        "Klicke auf <em>Einstellungen ändern</em>, dann <em>Andere App zulassen…</em> und wähle <code>WindroseServer.exe</code>.",
+        "Hake sowohl <em>Privat</em> als auch <em>Öffentlich</em> an und bestätige mit OK.",
+        "Wenn du eine Drittanbieter-Antivirus-Lösung nutzt, füge den gesamten Ordner <code>C:\\Game_Servers\\Windrose_Server</code> zur Ausschlussliste hinzu — manche AV-Engines flaggen Game-Server als verdächtig, weil sie auf UDP-Ports lauschen.",
+        "Aktiviere auf der Router-Seite UPnP oder leite UDP <code>7777</code> und <code>27015</code> manuell auf die LAN-IP des Servers weiter, falls UPnP nicht verfügbar ist."
+      ],
+      "troubleshooting_title": "Häufige Verbindungsprobleme",
+      "troubleshooting_intro": "Die meisten gemeldeten Probleme fallen in dieselben fünf Kategorien. Arbeite sie der Reihe nach durch; die ersten drei lösen rund 80 % der gescheiterten Verbindungen.",
+      "troubleshooting_items": [
+        {
+          "issue": "\"Verbindung fehlgeschlagen\" / \"Zeitüberschreitung\"",
+          "fix": "Bestätige zuerst, dass der Server-Prozess wirklich läuft und die Konsole <em>Server started</em> zeigt. Prüfe dann, ob der Spieler denselben Client-Build wie der Server nutzt — ein <code>app_update</code>-Versatz auf einer Seite erzeugt diesen Fehler. Führe auf beiden Seiten <code>app_update 4129620 validate</code> erneut aus und versuche es dann nochmal."
+        },
+        {
+          "issue": "Server erscheint nicht im Ingame-Browser",
+          "fix": "Fast immer ein Steam-Query-Port-Problem. Stelle sicher, dass UDP 27015 eingehend offen ist, dass kein anderes Steam-Spiel bereits 27015 auf demselben Rechner belegt, und dass die Region des Suchenden auf \"Beliebig\" steht. Wenn der Server im LAN-Tab erscheint, aber im Internet-Tab nicht, liegt es am NAT/UPnP."
+        },
+        {
+          "issue": "Freunde verbinden sich, Fremde nicht",
+          "fix": "Freunde nutzen das Steam-Relay; Fremde gehen über NAT-Punch-Through. Wenn nur Freunde reinkommen, blockt der Router eingehende UDP auf 7777. Aktiviere UPnP oder lege eine manuelle Port-Forwarding-Regel an und deaktiviere alle Proxy-/VPN-Programme auf dem Host."
+        },
+        {
+          "issue": "Welt-Speicherstand leer oder zurückgesetzt nach Neustart",
+          "fix": "Prüfe, dass <code>AutoSaveOnExit</code> auf <code>true</code> steht und der Server Schreibrechte im Save-Verzeichnis hat. Wenn du den Server aus <code>Programme</code> heraus startest, kann Windows UAC Schreibvorgänge stillschweigend in einen Virtual-Store umleiten. Lege den Server unter einem normalen Pfad wie <code>C:\\Game_Servers</code> ab."
+        },
+        {
+          "issue": "Server wird nach einigen Stunden langsam",
+          "fix": "Meist Speicherdruck, wenn <code>MaxPlayers</code> höher gesetzt ist, als der Host stemmen kann. Senke den Wert oder plane einen nächtlichen Neustart über die Aufgabenplanung. Sichere den Save-Ordner vor Änderungen."
+        }
+      ],
+      "requirements_title": "Hardware- & Betriebssystemanforderungen",
+      "requirements_intro": "Windrose ist als Server nicht besonders schwer, will aber eine stabile Verbindung und eine CPU, die mehrere simulierte Entitäten pro Spieler bewältigt. Die Werte unten sind praktische Erfahrungswerte für eine kleine Koop-Crew, keine absoluten Mindestanforderungen.",
+      "requirements_table_headers": [
+        "Ressource",
+        "4 Spieler",
+        "8 Spieler"
+      ],
+      "requirements_rows": [
+        [
+          "OS",
+          "Windows 10 / 11 (64-bit)",
+          "Windows 10 / 11 / Server 2022 (64-bit)"
+        ],
+        [
+          "CPU",
+          "4 Kerne / 8 Threads, 3,0 GHz+",
+          "6 Kerne / 12 Threads, 3,5 GHz+"
+        ],
+        [
+          "RAM",
+          "8 GB frei",
+          "16 GB frei"
+        ],
+        [
+          "Disk",
+          "20 GB SSD (Spieldateien + Save-Backups)",
+          "40 GB SSD"
+        ],
+        [
+          "Upload",
+          "10 Mbit/s dauerhaft",
+          "25 Mbit/s dauerhaft"
+        ],
+        [
+          "Latenz zu Spielern",
+          "&lt; 80 ms ideal",
+          "&lt; 80 ms ideal"
+        ]
+      ],
+      "requirements_caption": "Praktische Hardware-Zielwerte für Windrose Dedicated Server",
       "basic_setup_title": "Grundlegender Einrichtungsablauf",
       "basic_setup_steps": [
         "Installiere das dedizierte Server-Paket über SteamCMD oder Steam-Tools.",
@@ -707,6 +855,18 @@
         {
           "q": "Sollte ich mein Server-Save sichern?",
           "a": "Ja. Sichere vor Patches, vor Änderungen der Schwierigkeit oder der Welt-Einstellungen und vor dem Wechsel des Hosts."
+        },
+        {
+          "q": "Welche Ports nutzt Windrose?",
+          "a": "UDP 7777 für den Spiel-Traffic und UDP 27015 für die Steam-Serverbrowser-Abfrage. UPnP regelt das auf den meisten Heim-Routern automatisch; wenn UPnP deaktiviert ist, leite beide Ports manuell auf die LAN-IP des Servers weiter."
+        },
+        {
+          "q": "Warum findet niemand meinen Server im Browser?",
+          "a": "Fast immer ein UDP-27015-Problem: ein anderer Steam-Prozess hat den Port belegt, die Firewall blockiert ihn oder der Regionsfilter des Spielers schließt deinen Server aus. Prüfe die Firewall-Regel, gib Port 27015 frei und stelle den Browser-Regionsfilter des Spielers auf \"Beliebig\"."
+        },
+        {
+          "q": "Wie viele Spieler verträgt ein dedizierter Server?",
+          "a": "Praktisches Limit auf einem typischen Heim-Host sind 4–8 gleichzeitige Spieler. Höher braucht mehr CPU-Kerne und mindestens 25 Mbit/s Upload; MaxPlayers über das Mögliche hinaus zu setzen, verursacht Desync statt einer sauberen Fehlermeldung."
         }
       ]
     },

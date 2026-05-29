@@ -96,6 +96,18 @@ def t(key, lang=DEFAULT, **kwargs):
     return value
 
 
+def has_key(key, lang=DEFAULT):
+    """
+    Check whether a key is defined in the target locale (no fallback).
+    Use this when you want to render a section only if the locale actually
+    has its own translation, instead of silently falling back to English.
+    """
+    if lang not in SUPPORTED:
+        lang = DEFAULT
+    data = load_locale(lang)
+    return _get_nested(data, key) is not None
+
+
 def lang_url(path, lang=DEFAULT):
     """
     生成带语言前缀的 URL。

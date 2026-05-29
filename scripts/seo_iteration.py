@@ -7,7 +7,7 @@ SITE = "https://windrosewiki.games"
 TODAY = "2026-05-12"
 
 from templates import NAV_ITEMS as NAV, header_html, footer_html, HAMBURGER_JS
-from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED
+from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED, has_key
 
 PAGES = []
 
@@ -287,17 +287,46 @@ def build_pages(lang=DEFAULT):
     server_rows = t("body.server_guide.table_rows", lang) or []
     setup_steps = t("body.server_guide.basic_setup_steps", lang) or []
     setup_steps_html = "".join(f"<li>{step}</li>" for step in setup_steps)
-    body = f"""
-{stats([(t("body.server_guide.stat_intent", lang), t("body.server_guide.stat_intent_value", lang)), (t("body.server_guide.stat_source_type", lang), t("body.server_guide.stat_source_type_value", lang)), (t("body.server_guide.stat_best_for", lang), t("body.server_guide.stat_best_for_value", lang))])}
-<p>{esc(t("body.server_guide.intro", lang))}</p>
-{table(t("body.server_guide.table_headers", lang), server_rows, t("body.server_guide.table_caption", lang))}
-<section><h2>{esc(t("body.server_guide.steamcmd_title", lang))}</h2><pre><code>force_install_dir "C:\\Game_Servers\\Windrose_Server"
+    # NOTE: New expanded sections only render if the *current* locale has its own
+    # translation. Without this guard, missing keys fall back to English and the
+    # page mixes languages (e.g. ES page with English Firewall section).
+    has_expansion = has_key("body.server_guide.who_title", lang)
+    body_parts = [
+        stats([(t("body.server_guide.stat_intent", lang), t("body.server_guide.stat_intent_value", lang)), (t("body.server_guide.stat_source_type", lang), t("body.server_guide.stat_source_type_value", lang)), (t("body.server_guide.stat_best_for", lang), t("body.server_guide.stat_best_for_value", lang))]),
+        f"<p>{t('body.server_guide.intro', lang)}</p>",
+    ]
+    if has_expansion:
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.who_title', lang))}</h2><p>{t('body.server_guide.who_html', lang)}</p></section>")
+    body_parts.append(table(t("body.server_guide.table_headers", lang), server_rows, t("body.server_guide.table_caption", lang)))
+    if has_expansion:
+        req_rows = t("body.server_guide.requirements_rows", lang) or []
+        cfg_rows = t("body.server_guide.cfg_rows", lang) or []
+        ports_rows = t("body.server_guide.ports_rows", lang) or []
+        firewall_steps = t("body.server_guide.firewall_steps", lang) or []
+        firewall_steps_html = "".join(f"<li>{step}</li>" for step in firewall_steps)
+        trouble_items = t("body.server_guide.troubleshooting_items", lang) or []
+        trouble_html = "".join(
+            f"<li><strong>{esc(it.get('issue', ''))}</strong> — {it.get('fix', '')}</li>"
+            for it in trouble_items
+        )
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.requirements_title', lang))}</h2><p>{t('body.server_guide.requirements_intro', lang)}</p>{table(t('body.server_guide.requirements_table_headers', lang), req_rows, t('body.server_guide.requirements_caption', lang))}</section>")
+        body_parts.append(f"""<section><h2>{esc(t('body.server_guide.steamcmd_title', lang))}</h2><p>{t('body.server_guide.steamcmd_intro_html', lang)}</p><pre><code>force_install_dir "C:\\Game_Servers\\Windrose_Server"
 login anonymous
 app_update 4129620 validate
-quit</code></pre><p>{t("body.server_guide.steamcmd_after_html", lang)}</p></section>
-<section><h2>{esc(t("body.server_guide.basic_setup_title", lang))}</h2><ol>{setup_steps_html}</ol></section>
-<section><h2>{esc(t("body.server_guide.official_source_title", lang))}</h2><p>{t("body.server_guide.official_source_html", lang)}</p></section>
-"""
+quit</code></pre><p>{t('body.server_guide.steamcmd_after_html', lang)}</p><h3>{esc(t('body.server_guide.steamcmd_update_title', lang))}</h3><p>{t('body.server_guide.steamcmd_update_html', lang)}</p></section>""")
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.cfg_title', lang))}</h2><p>{t('body.server_guide.cfg_intro', lang)}</p>{table(t('body.server_guide.cfg_table_headers', lang), cfg_rows, t('body.server_guide.cfg_caption', lang))}</section>")
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.ports_title', lang))}</h2><p>{t('body.server_guide.ports_html', lang)}</p>{table(t('body.server_guide.ports_table_headers', lang), ports_rows, t('body.server_guide.ports_caption', lang))}</section>")
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.firewall_title', lang))}</h2><p>{t('body.server_guide.firewall_intro', lang)}</p><ol>{firewall_steps_html}</ol></section>")
+    else:
+        body_parts.append(f"""<section><h2>{esc(t('body.server_guide.steamcmd_title', lang))}</h2><pre><code>force_install_dir "C:\\Game_Servers\\Windrose_Server"
+login anonymous
+app_update 4129620 validate
+quit</code></pre><p>{t('body.server_guide.steamcmd_after_html', lang)}</p></section>""")
+    body_parts.append(f"<section><h2>{esc(t('body.server_guide.basic_setup_title', lang))}</h2><ol>{setup_steps_html}</ol></section>")
+    if has_expansion:
+        body_parts.append(f"<section><h2>{esc(t('body.server_guide.troubleshooting_title', lang))}</h2><p>{t('body.server_guide.troubleshooting_intro', lang)}</p><ul class=\"troubleshooting-list\">{trouble_html}</ul></section>")
+    body_parts.append(f"<section><h2>{esc(t('body.server_guide.official_source_title', lang))}</h2><p>{t('body.server_guide.official_source_html', lang)}</p></section>")
+    body = "\n".join(body_parts)
     fh, fs = faq(_faq_from_locale("body.server_guide.faqs"), lang)
     page(Path("server-guide"), t("server_guide.meta_title", lang), t("server_guide.meta_desc", lang), t("server_guide.heading", lang), body + fh, [(t("server_guide.heading", lang), None)], "0.75", schema_extra=[fs], lang=lang)
 

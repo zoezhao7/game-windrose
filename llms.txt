@@ -38,6 +38,7 @@ Windrose Guides is a community-maintained database and wiki covering all aspects
 ### [Bosses](https://windrosewiki.games/bosses)
 - [Boss Overview](https://windrosewiki.games/bosses): Complete boss list
 - [Charon's Obols](https://windrosewiki.games/bosses/charons-obols): Phase-by-phase strategy, drops, preparation tips
+- [Grave of Jaime Lopez](https://windrosewiki.games/bosses/jaime-lopez-grave): Lore marker tying the High Priestess fight to the Secret of the Expedition story chain
 
 ### [Ships](https://windrosewiki.games/ships)
 - [Sloop](https://windrosewiki.games/ships/sloop): Small ship stats and sailing tips

@@ -647,7 +647,9 @@
       "stat_intent_value": "Host co-op",
       "stat_source_type_value": "Official guide + checklist",
       "stat_best_for_value": "Groups",
-      "intro": "Windrose supports co-op play, and dedicated hosting is one of the strongest utility topics for search. This page turns the official server setup flow into a simple pre-launch checklist for players who want a persistent world.",
+      "intro": "Windrose supports drop-in/drop-out co-op, but for a persistent crew save you need a dedicated server. This guide turns the official setup flow into a complete pre-launch checklist: SteamCMD install, <code>server.cfg</code> reference, port mapping, firewall rules, and a troubleshooting list for the connection problems players hit most often.",
+      "who_title": "Who Should Run a Dedicated Server?",
+      "who_html": "If you only play with one or two friends in the same evening, hosting from inside the game client is enough. A dedicated server makes sense once you want the world to stay online while you are offline, you have three or more players in different time zones, or you want to control backups and patch timing yourself. The trade-off is a Windows machine left running, a few firewall and router exceptions, and the occasional <code>app_update</code> after a Steam patch lands.",
       "table_caption": "Windrose dedicated server setup checklist",
       "table_headers": [
         "Area",
@@ -684,7 +686,153 @@
         ]
       ],
       "steamcmd_title": "SteamCMD Install Commands",
-      "steamcmd_after_html": "To update later, rerun <code>app_update 4129620 validate</code>. Keep the dedicated server version matched to the current game client after patches.",
+      "steamcmd_intro_html": "SteamCMD is the recommended path for a headless install. Download SteamCMD from <a href=\"https://developer.valvesoftware.com/wiki/SteamCMD\" rel=\"nofollow\">Valve's developer wiki</a>, unzip it to a stable location like <code>C:\\steamcmd</code>, then run <code>steamcmd.exe</code>. From the prompt, run the four commands below in order. The first run will be a full download (a few gigabytes); later runs only fetch what changed.",
+      "steamcmd_after_html": "After the script exits, the binaries land in <code>C:\\Game_Servers\\Windrose_Server</code>. Open that folder and confirm <code>WindroseServer.exe</code> exists before doing anything else. Steam writes a small <code>steamapps</code> manifest next to it; do not delete it.",
+      "steamcmd_update_title": "Updating after a patch",
+      "steamcmd_update_html": "Whenever Windrose ships a client patch, restart SteamCMD and rerun <code>app_update 4129620 validate</code>. The <code>validate</code> flag rechecks file hashes, which fixes most \"server starts but clients can't join\" problems caused by a half-finished update. Keep the dedicated server version matched to the current game client; clients on a newer build will be rejected.",
+      "cfg_title": "server.cfg Field Reference",
+      "cfg_intro": "Most server settings live in a single config file written to the server's save folder on first launch. The fields below are the ones players actually change. Edit while the server is shut down, then restart so values reload from disk.",
+      "cfg_table_headers": [
+        "Field",
+        "What it controls",
+        "Typical value"
+      ],
+      "cfg_rows": [
+        [
+          "<code>ServerName</code>",
+          "Display name shown in the Steam server browser and friends list",
+          "<code>Crew of the Windrose</code>"
+        ],
+        [
+          "<code>Password</code>",
+          "Optional join password; leave blank for an open server",
+          "<code>(blank or 8+ chars)</code>"
+        ],
+        [
+          "<code>MaxPlayers</code>",
+          "Hard cap on concurrent connections; raising this beyond what your CPU/RAM can handle causes desync",
+          "<code>4</code> – <code>8</code>"
+        ],
+        [
+          "<code>Region</code>",
+          "Master-server region used for matchmaking; pick the region closest to most of your players",
+          "<code>EU</code> / <code>US-East</code> / <code>Asia</code>"
+        ],
+        [
+          "<code>SaveInterval</code>",
+          "Seconds between automatic world saves; lower is safer but causes brief stutters",
+          "<code>300</code> (5 min)"
+        ],
+        [
+          "<code>AutoSaveOnExit</code>",
+          "Whether the server writes a final save when shutting down cleanly; keep enabled",
+          "<code>true</code>"
+        ],
+        [
+          "<code>AdminSteamIds</code>",
+          "Comma-separated 64-bit Steam IDs of users who can run admin commands",
+          "<code>76561198…</code>"
+        ]
+      ],
+      "cfg_caption": "Common server.cfg fields and recommended starting values",
+      "ports_title": "Port Mapping & NAT",
+      "ports_html": "Windrose dedicated servers use NAT punch-through by default, so most home routers work without any port forwarding as long as UPnP is enabled. If your router does not support UPnP, or you are running the server behind a corporate firewall, you will need to forward the ports below manually. Disable proxy and VPN software during the first connection test; both will break NAT punch-through even when ports are open.",
+      "ports_table_headers": [
+        "Port",
+        "Protocol",
+        "Purpose"
+      ],
+      "ports_rows": [
+        [
+          "<code>7777</code>",
+          "UDP",
+          "Game traffic between server and clients"
+        ],
+        [
+          "<code>27015</code>",
+          "UDP",
+          "Steam master-server query (server browser visibility)"
+        ],
+        [
+          "<code>27016</code>",
+          "UDP",
+          "Optional Steam query backup; forward only if 27015 is in use"
+        ]
+      ],
+      "ports_caption": "Default Windrose dedicated server ports",
+      "firewall_title": "Firewall & Antivirus Rules",
+      "firewall_intro": "Windows Defender Firewall blocks unsigned game servers by default. The first time you launch <code>WindroseServer.exe</code>, Windows will prompt you to allow it on private and public networks; click \"Allow access\" for both. If you missed that prompt or are running unattended, add the rule manually:",
+      "firewall_steps": [
+        "Open <em>Windows Security → Firewall &amp; network protection → Allow an app through firewall</em>.",
+        "Click <em>Change settings</em>, then <em>Allow another app…</em> and browse to <code>WindroseServer.exe</code>.",
+        "Tick both <em>Private</em> and <em>Public</em> network checkboxes and click OK.",
+        "If you use a third-party antivirus, add the entire <code>C:\\Game_Servers\\Windrose_Server</code> folder to its exclusion list — some AV engines flag dedicated game servers as suspicious because they listen on UDP ports.",
+        "On the router side, enable UPnP, or forward UDP <code>7777</code> and <code>27015</code> to the server's LAN IP if UPnP is unavailable."
+      ],
+      "troubleshooting_title": "Common Connection Problems",
+      "troubleshooting_intro": "Most player-reported issues fall into the same five categories. Work through them in order; the first three solve roughly 80% of failed connections.",
+      "troubleshooting_items": [
+        {
+          "issue": "\"Connection failed\" / \"Connection timed out\"",
+          "fix": "First confirm the server process is actually running and the console shows <em>Server started</em>. Then check that the player is using the same client build as the server — a mismatched <code>app_update</code> on either side produces this error. Re-run <code>app_update 4129620 validate</code> on the server, restart Steam on the client."
+        },
+        {
+          "issue": "Server doesn't appear in the in-game browser",
+          "fix": "This is almost always a Steam query port issue. Make sure UDP 27015 is open inbound on the server, that no other Steam game is already bound to 27015 on the same machine, and that the player is searching the same region the server's <code>Region</code> field is set to."
+        },
+        {
+          "issue": "Friends connect, strangers don't",
+          "fix": "Friends use Steam relay; strangers go through NAT punch-through. If only friends can join, your router is blocking incoming UDP on 7777. Enable UPnP or add a manual port-forward rule, and disable any VPN running on the server host."
+        },
+        {
+          "issue": "World save is empty or rolled back after restart",
+          "fix": "Check <code>AutoSaveOnExit</code> is <code>true</code> and that the server has write permission on its save directory. If you run the server from <code>Program Files</code>, Windows UAC can silently redirect writes to a virtual store; move the install to <code>C:\\Game_Servers\\</code> as shown in the SteamCMD section."
+        },
+        {
+          "issue": "Server slows down after a few hours",
+          "fix": "Usually memory pressure when <code>MaxPlayers</code> is set higher than the host can sustain. Drop the value, or schedule a nightly restart through Task Scheduler. Back up the save folder before changing player count, since some world settings only re-evaluate on a fresh load."
+        }
+      ],
+      "requirements_title": "Hardware & OS Requirements",
+      "requirements_intro": "Windrose is not especially heavy as a server, but it does want a stable connection and a CPU that can handle several simulated entities per player. The values below are practical, real-world numbers for a small co-op crew, not the absolute minimums.",
+      "requirements_table_headers": [
+        "Resource",
+        "4 players",
+        "8 players"
+      ],
+      "requirements_rows": [
+        [
+          "OS",
+          "Windows 10 / 11 (64-bit)",
+          "Windows 10 / 11 / Server 2022 (64-bit)"
+        ],
+        [
+          "CPU",
+          "4 cores / 8 threads, 3.0 GHz+",
+          "6 cores / 12 threads, 3.5 GHz+"
+        ],
+        [
+          "RAM",
+          "8 GB free",
+          "16 GB free"
+        ],
+        [
+          "Disk",
+          "20 GB SSD (game files + save backups)",
+          "40 GB SSD"
+        ],
+        [
+          "Upload",
+          "10 Mbit/s sustained",
+          "25 Mbit/s sustained"
+        ],
+        [
+          "Latency to players",
+          "&lt; 80 ms ideal",
+          "&lt; 80 ms ideal"
+        ]
+      ],
+      "requirements_caption": "Practical hardware targets for Windrose dedicated servers",
       "basic_setup_title": "Basic Setup Flow",
       "basic_setup_steps": [
         "Install the dedicated server package through SteamCMD or Steam tools.",
@@ -707,6 +855,18 @@
         {
           "q": "Should I back up my server save?",
           "a": "Yes. Back up before patches, before changing difficulty or world settings, and before migrating hosts."
+        },
+        {
+          "q": "Which ports does Windrose use?",
+          "a": "UDP 7777 for game traffic and UDP 27015 for the Steam server-browser query. UPnP handles them automatically on most home routers; if UPnP is disabled, forward both ports manually to the server's LAN IP."
+        },
+        {
+          "q": "Why can't anyone find my server in the browser?",
+          "a": "Almost always a UDP 27015 issue: another Steam process bound the port, the firewall is blocking it, or the player's region filter excludes your server. Check the firewall rule, free port 27015, and have the player set the browser region to \"Any\"."
+        },
+        {
+          "q": "How many players can a dedicated server handle?",
+          "a": "Practical limit is 4–8 concurrent players on a typical home host. Going higher requires more CPU cores and a sustained upload of 25 Mbit/s or better; raising MaxPlayers beyond what the host can sustain causes desync rather than a clean error."
         }
       ]
     },

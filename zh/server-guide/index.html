@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Windrose 专用服务器指南:搭建清单与设置技巧 (2026)</title>
-  <meta name="description" content="面向联机团队的 Windrose 专用服务器搭建清单:安装流程、端口、防火墙、密码、存档、备份及官方指南链接。">
+  <title>Windrose 服务器搭建与托管指南：专用服务器配置、端口与存档备份 (2026)</title>
+  <meta name="description" content="如何搭建 Windrose 专用服务器：SteamCMD 安装、server.cfg、UDP 7777 / 27015 端口、防火墙、保存服务器 IP，以及联机团队最常遇到的连接问题排查清单。2026 年更新。">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://windrosewiki.games/zh/server-guide">
   <link rel="alternate" hreflang="en" href="https://windrosewiki.games/server-guide">
@@ -17,18 +17,18 @@
   <link rel="stylesheet" href="../../css/style.css">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://windrosewiki.games/zh/server-guide">
-  <meta property="og:title" content="Windrose 专用服务器指南:搭建清单与设置技巧 (2026)">
-  <meta property="og:description" content="面向联机团队的 Windrose 专用服务器搭建清单:安装流程、端口、防火墙、密码、存档、备份及官方指南链接。">
+  <meta property="og:title" content="Windrose 服务器搭建与托管指南：专用服务器配置、端口与存档备份 (2026)">
+  <meta property="og:description" content="如何搭建 Windrose 专用服务器：SteamCMD 安装、UDP 7777 / 27015 端口、防火墙、保存服务器 IP 与连接问题排查清单。2026 年更新。">
   <meta property="og:image" content="https://windrosewiki.games/imgs/og.webp">
   <meta property="og:site_name" content="Windrose Guides">
   <meta property="article:published_time" content="2026-05-12">
   <meta property="article:modified_time" content="2026-05-12">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Windrose 专用服务器指南:搭建清单与设置技巧 (2026)">
-  <meta name="twitter:description" content="面向联机团队的 Windrose 专用服务器搭建清单:安装流程、端口、防火墙、密码、存档、备份及官方指南链接。">
+  <meta name="twitter:title" content="Windrose 服务器搭建与托管指南：专用服务器配置、端口与存档备份 (2026)">
+  <meta name="twitter:description" content="如何搭建 Windrose 专用服务器：SteamCMD 安装、UDP 7777 / 27015 端口、防火墙、保存服务器 IP 与连接问题排查清单。2026 年更新。">
   <meta name="twitter:image" content="https://windrosewiki.games/imgs/og.webp">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://windrosewiki.games/#website","url":"https://windrosewiki.games/","name":"Windrose Guides","publisher":{"@id":"https://windrosewiki.games/#org"},"inLanguage":"zh-CN"},{"@type":"Organization","@id":"https://windrosewiki.games/#org","name":"Windrose Guides","url":"https://windrosewiki.games/"},{"@type":"WebPage","@id":"https://windrosewiki.games/zh/server-guide#webpage","url":"https://windrosewiki.games/zh/server-guide","name":"Windrose 专用服务器指南","description":"面向联机团队的 Windrose 专用服务器搭建清单:安装流程、端口、防火墙、密码、存档、备份及官方指南链接。","dateModified":"2026-05-12","isPartOf":{"@id":"https://windrosewiki.games/#website"},"breadcrumb":{"@id":"https://windrosewiki.games/zh/server-guide#breadcrumb"},"inLanguage":"zh-CN"},{"@type":"BreadcrumbList","@id":"https://windrosewiki.games/zh/server-guide#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://windrosewiki.games/"},{"@type":"ListItem","position":2,"name":"Windrose 专用服务器指南"}]},{"@type":"Article","headline":"Windrose 专用服务器指南","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Organization","name":"Windrose Guides"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"我可以自己搭建 Windrose 专用服务器吗？","acceptedAnswer":{"@type":"Answer","text":"可以。官方指南支持通过 SteamCMD 使用 app id 4129620 安装,并提供了当前的配置流程。"}},{"@type":"Question","name":"专用服务器能在 Linux 上运行吗？","acceptedAnswer":{"@type":"Answer","text":"官方指南目前将其描述为仅支持 Windows,因此除非官方文档变更,否则请将 Linux 或无头部署视为不受支持。"}},{"@type":"Question","name":"需要备份服务器存档吗？","acceptedAnswer":{"@type":"Answer","text":"需要。请在打补丁前、更改难度或世界设置前、以及迁移主机前进行备份。"}}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://windrosewiki.games/#website","url":"https://windrosewiki.games/","name":"Windrose Guides","publisher":{"@id":"https://windrosewiki.games/#org"},"inLanguage":"zh-CN"},{"@type":"Organization","@id":"https://windrosewiki.games/#org","name":"Windrose Guides","url":"https://windrosewiki.games/"},{"@type":"WebPage","@id":"https://windrosewiki.games/zh/server-guide#webpage","url":"https://windrosewiki.games/zh/server-guide","name":"Windrose 服务器搭建与托管指南：专用服务器配置、端口与存档备份","description":"如何搭建 Windrose 专用服务器：SteamCMD 安装、server.cfg、UDP 7777 / 27015 端口、防火墙、保存服务器 IP 与联机团队最常遇到的连接问题排查清单。","dateModified":"2026-05-12","isPartOf":{"@id":"https://windrosewiki.games/#website"},"breadcrumb":{"@id":"https://windrosewiki.games/zh/server-guide#breadcrumb"},"inLanguage":"zh-CN"},{"@type":"BreadcrumbList","@id":"https://windrosewiki.games/zh/server-guide#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://windrosewiki.games/"},{"@type":"ListItem","position":2,"name":"Windrose 服务器搭建与托管指南"}]},{"@type":"Article","headline":"Windrose 服务器搭建与托管指南：专用服务器配置、端口与存档备份","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Organization","name":"Windrose Guides"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"如何搭建 Windrose 专用服务器？","acceptedAnswer":{"@type":"Answer","text":"安装 SteamCMD，将路径指向 C:\\Game_Servers\\Windrose_Server，运行 app_update 4129620 validate。在 server.cfg 中编辑服务器名称、密码与 MaxPlayers，然后启动 WindroseServer.exe。在 Windows 防火墙中放行该进程，并确认 UDP 7777 与 27015 已开放。"}},{"@type":"Question","name":"我可以自己搭建 Windrose 专用服务器吗？","acceptedAnswer":{"@type":"Answer","text":"可以。官方指南支持通过 SteamCMD 使用 app id 4129620 安装,并提供了当前的配置流程。"}},{"@type":"Question","name":"如何保存 Windrose 服务器 IP？","acceptedAnswer":{"@type":"Answer","text":"使用 ip:port 格式连接一次（例如 1.2.3.4:7777）。连接成功后，服务器会出现在 多人游戏 > 已保存服务器 列表中。该列表会在游戏重启后保留，是 Steam 服务器浏览器不稳定时回到私人专用服务器的最可靠方式。"}},{"@type":"Question","name":"自建服务器还是付费托管 Windrose？","acceptedAnswer":{"@type":"Answer","text":"如果有可以 7×24 在线的 Windows 主机，自建服务器是免费的。付费托管（4–8 人位通常每月 10 至 25 美元）适合需要严格在线时间或团队跨时区的玩家，提供稳定的运行时间和自动备份。两种方式的配置完全相同，只是运维层面不同。"}},{"@type":"Question","name":"专用服务器能在 Linux 上运行吗？","acceptedAnswer":{"@type":"Answer","text":"官方指南目前将其描述为仅支持 Windows,因此除非官方文档变更,否则请将 Linux 或无头部署视为不受支持。"}},{"@type":"Question","name":"需要备份服务器存档吗？","acceptedAnswer":{"@type":"Answer","text":"需要。请在打补丁前、更改难度或世界设置前、以及迁移主机前进行备份。"}}]}]}
   </script>
 </head>
 <body>
@@ -38,9 +38,9 @@
   <ul class="lang-dropdown"><li><a href="/server-guide">English</a></li><li><a href="/es/server-guide">Español</a></li><li><a href="/pt/server-guide">Português</a></li><li><a href="/de/server-guide">Deutsch</a></li><li><a href="/fr/server-guide">Français</a></li><li><a href="/zh/server-guide" class="lang-active">中文</a></li></ul>
 </div><nav aria-label="Primary"><ul class="nav-links"><li><a href="/zh/">首页</a></li><li><a href="/zh/beginner-guide">新手指南</a></li><li><a href="/zh/database">数据库</a></li><li><a href="/zh/bosses">Boss</a></li><li><a href="/zh/ships">船只</a></li><li><a href="/zh/guides">攻略</a></li><li><a href="/zh/tools">工具</a></li><li><a href="/zh/news">新闻动态</a></li><li><a href="/zh/search">搜索 🔍</a></li></ul></nav></div></header>
   <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/zh">首页</a></li>
-<li><span aria-current="page">Windrose 专用服务器指南</span></li></ol></div></nav>
+<li><span aria-current="page">Windrose 服务器搭建与托管指南</span></li></ol></div></nav>
   <main class="container">
-    <h1>Windrose 专用服务器指南</h1>
+    <h1>Windrose 服务器搭建与托管 — 专用服务器指南</h1>
     
 <div class="quick-stats"><div class="stat"><div class="stat-label">用途</div><div class="stat-value">搭建联机服务器</div></div><div class="stat"><div class="stat-label">资料类型</div><div class="stat-value">官方指南 + 清单</div></div><div class="stat"><div class="stat-label">适用对象</div><div class="stat-value">团队玩家</div></div></div>
 <p>Windrose 支持多人合作,而专用服务器搭建是搜索流量上极为重要的实用主题之一。本页将官方服务器搭建流程整理成简单的预启动清单,方便希望建立持久世界的玩家。</p>
@@ -60,8 +60,16 @@ app_update 4129620 validate
 quit</code></pre><p>后续更新时,重新运行 <code>app_update 4129620 validate</code> 即可。每次补丁后请确保专用服务器版本与当前游戏客户端版本保持一致。</p></section>
 <section><h2>基础搭建流程</h2><ol><li>通过 SteamCMD 或 Steam 工具安装专用服务器包。</li><li>在服务器关闭状态下配置服务器名称、密码、区域、玩家人数与存档行为。</li><li>确保 UPnP 可用以支持 NAT 穿透,并在首次连接测试期间禁用代理或 VPN。</li><li>为 <code>WindroseServer.exe</code> 添加防火墙与杀毒软件白名单。</li><li>启动服务器,从另一台客户端测试连接,并在重大补丁前备份存档。</li></ol></section>
 <section><h2>官方资料来源</h2><p>如需获取确切的启动参数、配置字段与故障排查方法,请参阅官方 <a href="https://playwindrose.com/dedicated-server-guide/" rel="nofollow">Windrose Dedicated Server Guide</a>。本页是面向玩家的实用清单,每当官方指南更新时也应同步更新。</p></section>
+
+<section><h2>保存服务器 IP 与直连 IP</h2><p>近期的连接性补丁新增了 <strong>保存服务器 IP</strong> 功能：使用有效的 IP 与端口连接成功后，客户端会将其保存在 <em>多人游戏 → 已保存服务器</em> 中。当 Steam 服务器浏览器不稳定，或服务器名与公开大厅冲突时，这是回到私人服务器最可靠的方式。直连 IP 同时绕开区域过滤，团队跨多个国家时尤其有用。</p><p>格式为 <code>1.2.3.4:7777</code>（默认游戏端口为 UDP 7777，除非 <code>server.cfg</code> 中另行指定）。首次连接成功后，服务器会自动出现在已保存服务器列表中。重装游戏前请备份本地 profile 配置文件以保留该列表。</p></section>
+
+<section><h2>自建服务器 vs. 付费托管</h2><p>搭建 Windrose 服务器主要有三种现实方案，按团队规模与对在线时长的要求选择：</p><div class="table-responsive"><table><caption>Windrose 服务器托管方案对比</caption><thead><tr><th scope="col">方案</th><th scope="col">适合</th><th scope="col">优点</th><th scope="col">缺点</th></tr></thead><tbody><tr><td>游戏内 Listen 服务器</td><td>2–3 位好友、同一晚</td><td>零配置，Steam 好友邀请直接可用</td><td>主机退出即关闭，无定时备份</td></tr><tr><td>自建专用服务器（本指南）</td><td>4–8 人团队、有可常开的 PC</td><td>免费，完全掌控备份与补丁时机</td><td>需 Windows 主机 7×24 在线，自己处理防火墙与补丁</td></tr><tr><td>付费 Windrose 服务器托管</td><td>对在线时长要求严格、或团队跨时区</td><td>持续在线、自动备份、控制面板可一键重启</td><td>月费（4–8 人位通常 10–25 美元/月）</td></tr></tbody></table></div><p>如果选择付费托管，付款前请确认两件事：能否直接编辑 <code>server.cfg</code>（部分面板会覆盖该文件），以及是否提供可下载的存档备份。补丁破坏兼容性需要手动回滚时，这两点都是关键。</p></section>
+
 <section id="faq"><h2>常见问题</h2>
+<details><summary>如何搭建 Windrose 专用服务器？</summary><div class="faq-answer"><p>安装 SteamCMD，将路径指向 <code>C:\Game_Servers\Windrose_Server</code>，运行 <code>app_update 4129620 validate</code>。在 <code>server.cfg</code> 中编辑服务器名称、密码与 MaxPlayers，然后启动 <code>WindroseServer.exe</code>。在 Windows 防火墙中放行该进程，并确认 UDP 7777 与 27015 已开放。详细步骤参见上方 SteamCMD 安装命令。</p></div></details>
 <details><summary>我可以自己搭建 Windrose 专用服务器吗？</summary><div class="faq-answer"><p>可以。官方指南支持通过 SteamCMD 使用 app id 4129620 安装,并提供了当前的配置流程。</p></div></details>
+<details><summary>如何保存 Windrose 服务器 IP？</summary><div class="faq-answer"><p>使用 <code>ip:port</code> 格式连接一次（例如 <code>1.2.3.4:7777</code>）。连接成功后，服务器会出现在 <em>多人游戏 → 已保存服务器</em> 列表中。该列表会在游戏重启后保留，是 Steam 服务器浏览器不稳定时回到私人专用服务器的最可靠方式。</p></div></details>
+<details><summary>自建服务器还是付费托管？</summary><div class="faq-answer"><p>如果有可以 7×24 在线的 Windows 主机，自建服务器是免费的。付费托管（通常每月 10–25 美元，4–8 人位）适合需要严格在线时间或团队跨时区的玩家，提供稳定的运行时间和自动备份。两种方式的配置完全相同，只是运维层面不同。</p></div></details>
 <details><summary>专用服务器能在 Linux 上运行吗？</summary><div class="faq-answer"><p>官方指南目前将其描述为仅支持 Windows,因此除非官方文档变更,否则请将 Linux 或无头部署视为不受支持。</p></div></details>
 <details><summary>需要备份服务器存档吗？</summary><div class="faq-answer"><p>需要。请在打补丁前、更改难度或世界设置前、以及迁移主机前进行备份。</p></div></details>
 </section>
