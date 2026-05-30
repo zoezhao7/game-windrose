@@ -364,19 +364,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/bosses/jaime-lopez-grave/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/bosses/charons-obols/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/charons-obols/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/charons-obols/"/>
@@ -424,6 +411,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2740,12 +2740,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/aid-ammo-gunpowder-homemade-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/aid-ammo-scallop-pearl-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -2770,19 +2764,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/blunderbuss/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/boarding-axe/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/bosses/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2794,19 +2776,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/brigantine/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/bullet-arborum/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/charons-obols-legacy-page/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2980,12 +2950,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/cid-food-raw-banana-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/cid-food-raw-coconut-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -2993,12 +2957,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/cid-food-raw-corn-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-food-raw-icaco-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3017,12 +2975,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/cid-food-raw-tomato-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-food-raw-umbra-fruit-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3190,102 +3142,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-large-giant-mackerel-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-large-great-barracuda-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-medium-emerald-bluefish-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-medium-red-snapper-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-blue-tang-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-moon-angelfish-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-pink-wrasse-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-queen-angelfish-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-reef-snapper-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-fish-small-sapphire-wrasse-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-lantern-l1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-pouch-coin-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-scallop-shell-closed-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-spawner-boar-l1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-spawner-boar-l2-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-misc-spawner-croc-l1-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/cid-ship-consumable-repair-kit-base/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3322,49 +3178,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-goods-copper-ingot-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-goods-hardwood-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-goods-iron-ingot-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-goods-wood-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-aloe-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/cid-trade-outpost-aloe-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-banana-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-banana-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3400,24 +3214,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-coconut-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-corn-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-corn-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/cid-trade-outpost-crab-meat-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3425,12 +3221,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/cid-trade-outpost-dodo-egg-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-fat-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3478,37 +3268,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-lime-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-lime-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/cid-trade-outpost-meat-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-pepper-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-pepper-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-potato-seeds-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3527,18 +3287,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/cid-trade-outpost-sulfur-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-tomato-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/cid-trade-outpost-tomato-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3568,12 +3316,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/club/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/coarse-fabric/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3586,19 +3328,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/copper-armor-set/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/copper-axe/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/copper-bullet/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3646,264 +3376,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-ancient-relic-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-ancient-relic-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-barrel-of-rum-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-black-mark-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-box-of-leathers-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-box-of-supplies-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-broken-family-amulet-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-broken-flask-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-broken-hat-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-broken-musket-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-captains-journal-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cheap-drowned-stuff-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cheap-drowned-stuff-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cheap-senkamati-stuff-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cheap-senkamati-stuff-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cheap-senkamati-stuff-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-cave-pirate-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-2-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-3-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-4-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-5-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-6-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-exquemelin-note-7-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-fisherman-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-journal-fragment-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-journal-fragment-2-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-journal-fragment-3-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-juan-de-la-cosa-journal-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-richards-journal-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-robinson-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-robinson-note-2-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-robinson-note-3-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-robinson-note-4-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-secret-of-the-expedition-story-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-secret-of-the-expedition-story-02-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-secret-of-the-expedition-story-03-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-secret-of-the-expedition-story-04-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-smuggler-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cj-smuggler-note-2-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-clay-tablet-01-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-clay-tablet-02-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-clay-tablet-03-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-misc-coin-guinea-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3916,1075 +3388,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-collectible-knife-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-collectible-knife-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-collectible-knife-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-collectible-mask-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-corrupted-mask-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-cultists-manifesto-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-dead-pirate-note-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-elia-shell-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-enhance-broken-family-amulet-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-expensive-senkamati-stuff-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-expensive-senkamati-stuff-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-expensive-senkamati-stuff-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-faction-codex-note-1-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-family-amulet-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-flags-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-flags-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-flags-bucaneers/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-flags-smugglers/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-flags-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-hull-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-hull-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-hull-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-sails-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-sails-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-item-item-unlock-ship-custom-sails-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-journal-lost-cargo-01-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-journal-lost-cargo-02-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-journal-lost-cargo-03-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-juan-de-la-cosa-journal-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-key-for-bb-chests-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-key-for-bb-chests-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-key-for-chests-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-key-for-chests-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-key-for-chests-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-ksant-handbook-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-letter-from-boatswain-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-letter-with-girl-name-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-lucky-coin-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-map-piece-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-medical-book-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-medicines-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-mid-drowned-stuff-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-mid-senkamati-stuff-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-mid-senkamati-stuff-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-mid-senkamati-stuff-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-musket-barrel-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-musket-butt-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-musket-lock-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-paper-copy-of-clay-tablet-01-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-paper-copy-of-clay-tablet-02-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-paper-copy-of-clay-tablet-03-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-paper-copy-of-clay-tablet-04-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-pirate-note-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t01-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t01-pillars-fence/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t01-triangle-wall-roof26and64/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t01-windows-doors/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t02-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t02-pillars-fence/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t02-triangle-wall-roof26and64/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t02-windows-doors/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t03-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t03-pillars-fence/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t03-round/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t03-triangle-wall-roof26and64/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t03-windows-doors/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t04-balustrade-and-stairs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t04-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t04-pillars-and-arch/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t04-triangle-wall-roof13and64/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-bits-t04-windows-doors/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-boarding-saber-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-clay-torches-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-container-wood-chest-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-container-wood-chest-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-container-wood-chest-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-books-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-books-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-canopy-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-carpets-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-carpets-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-carpets-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-carpets-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-combine-curtains-and-shelves-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-combine-furniture-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-combine-garden-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-combine-tables-and-stands-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-combine-wardrobes-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-dishes-clay-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-dishes-iron-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-dishes-iron-utensils-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-dishes-wood-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-fireplace-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-flags-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-flags-t01-wall/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-flags-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-flags-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-fort-stockade-and-gate/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-iron-lights-chandelier-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-iron-lights-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-iron-lights-t02-cool/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-iron-lights-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-iron-lights-t04-chain/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-kitchen-food-t02-01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-kitchen-food-t02-02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-kitchen-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-kitchen-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-lights-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-lights-t01-chandelier/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-lights-t02-clay-torch/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-military-cannons-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-military-swords-wall-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-miniatures-brig-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-miniatures-cutter-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-miniatures-frigate-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-miniatures-ketch-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-barrel-rope-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-clock-and-globe-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-crate-bottles-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-horns-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-parrot-cage-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-misc-wine-barrels-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-shared/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-paintings-tortuga/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-pier/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-seats-t01-chair/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-seats-t01-stool-bench/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-seats-t01-stool-bench-cool/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-seats-t04-stool-bench-chair-cool/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-shells-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-shelves-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-statues-crocodile-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-tables-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-wardrobe-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-deco-wardrobe-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-drake-pistol-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-eviscerating-rapier-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-fahwerk-set-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-fiber-set-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-infantry-musket-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-adventurer-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-adventurer-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-adventurer-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-adventurer-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-adventurer-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-bandit-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-bandit-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-bandit-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-bandit-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-bandit-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-conquistador-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-conquistador-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-conquistador-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-conquistador-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-conquistador-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-flibustier-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-flibustier-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-flibustier-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-flibustier-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-flibustier-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-mercenary-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-mercenary-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-mercenary-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-mercenary-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-mercenary-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-pikeman-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-pikeman-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-pikeman-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-pikeman-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-pikeman-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-armor-vanilla-base-torso/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4997,12 +3401,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-cannon-12-perfect-timing-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-cannon-12-vulnerability-base/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5044,714 +3442,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-corrupted-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-corrupted-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-fish-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-forceful-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-forceful-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-massive-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-club-massive-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-parrying-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-parrying-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-souldrinker-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-greatsword-souldrinker-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-corrupted-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-corrupted-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-executioner-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-executioner-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-halberd-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-bleeding-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-bleeding-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-eviscerate-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-eviscerate-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-rapier-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-boarding-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-boarding-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-corrupted-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-corrupted-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-flawless-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-flawless-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-parrying-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-parrying-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-melee-weapon-saber-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-agility-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-agility-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-agility-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-endurance-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-endurance-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-endurance-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-mastery-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-mastery-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-mastery-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-precision-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-precision-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-precision-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-strength-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-strength-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-strength-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-vitality-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-vitality-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-necklace-vitality-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-blunderbuss-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-blunderbuss-dragonbreath-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-blunderbuss-dragonbreath-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-blunderbuss-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-blunderbuss-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-infantry-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-infantry-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-sniper-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-musket-sniper-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-blank-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-corrupted-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-drakesdoom-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-drakesdoom-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-reliable-advanced/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-range-weapon-pistol-reliable-base/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critchance-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critchance-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critchance-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critdamage-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critdamage-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-critdamage-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-crpttickresist-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-crpttickresist-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-crudedmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-crudedmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-crudedmg-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-dmgresist-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-dmgresist-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-dmgresist-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-feintdmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-feintdmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-fisherman-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-fisherman-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-lightfoot-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-meleedmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-meleedmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-meleedmg-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-piercedmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-piercedmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-piercedmg-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-posture-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-rangedmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-rangedmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-rangedmg-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-resstmncons-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-resstmncons-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-slashdmg-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-slashdmg-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-slashdmg-regular/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-wpnstmncons-major/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ring-wpnstmncons-minor/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-brig-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-brig-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-brig-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-frigate-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-frigate-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-frigate-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-hull-active-defence-base/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -5770,511 +3460,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-ketch-blackbeard/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-ketch-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-ship-ketch-stock/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-armor-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-armor-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-armor-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-club-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-club-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-club-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-greatsword-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-greatsword-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-greatsword-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-halberd-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-halberd-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-halberd-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-jewelry-1/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-jewelry-2/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-melee-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-melee-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-melee-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-musket-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-musket-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-musket-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-one-hand-melee-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-pistol-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-pistol-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-pistol-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-range-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-range-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-range-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-rapier-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-rapier-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-rapier-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-saber-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-saber-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-saber-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-ship-eq-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-ship-eq-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-ship-eq-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-paper-unlock-upgrade-two-hand-melee-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-parrying-saber-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-reliable-rapier-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-swamp-set-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-utilities-labels-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-utility-bed-t01-cool/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-utility-bed-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-utility-bed-t04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-recipe-utility-bed-t04-cool/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-ritual-key-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-ritual-oil-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-misc-ship-bell-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-supplies-for-residents-of-tortuga-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-fait-of-the-prophet-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-fait-of-the-prophet-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-fait-of-the-prophet-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-jokes-of-the-gods-01-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-jokes-of-the-gods-02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-sw-jokes-of-the-gods-03-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-trade-contact-animals/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-trade-contact-food/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-trade-contact-resources/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-05/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-06/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-07/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-08/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-misc-treasure-map-blackbeard-09/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-blackbeard-sign-01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-blackbeard-sign-02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-blackbeard-sign-03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-blackbeard-sign-04/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-brethren/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-buccaneers/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-civilians/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-faction-sign-01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-reputation-smugglers/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-alchemical-base-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-aloe-seeds-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6298,12 +3490,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-banana-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-bark-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6322,12 +3508,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-black-bean-seeds-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-boar-head-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6340,19 +3520,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-bromelia-seeds-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-bromeliaceae-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-bush-mancinella-seeds-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6394,37 +3562,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-contraband-goods-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-copper-ore-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-corn-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-cornmeal-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-crab-shell-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-crocodile-head-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6449,12 +3593,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-resource-dodo-egg-01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-dodo-head-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6502,12 +3640,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-fat-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-feather-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6515,12 +3647,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-resource-fiber-plant-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-ficus-seeds-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6545,12 +3671,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-resource-flax-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-gem-agility-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6604,12 +3724,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-healing-herbs-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-healing-herbs-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6617,12 +3731,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-resource-hewn-stone-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-icaco-seeds-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6646,25 +3754,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-key-boss-arena-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-leather-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-leek-seeds-t03/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-lime-tree-seeds-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6736,31 +3826,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-palm-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-peanut-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-pepper-seeds-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-planks-wood-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-potato-seeds-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6808,12 +3880,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-soil-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-stone-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6856,18 +3922,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-tomato-seeds-t02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-tritons-trumpet-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/did-resource-tumbago-ingot-t03/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -6881,12 +3935,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-resource-undead-essence-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-resource-undead-essence-t02/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -6977,54 +4025,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/did-trade-craft-threads-needles-02/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-contraband/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-luxuries/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-medicine/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-munitions/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-naval-supplies/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-provisions/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-specialized-tools/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/did-trade-goods-spirits/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -7210,36 +4210,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/eid-armor-starter-base-feet/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/eid-armor-starter-base-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/eid-armor-starter-base-head/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/eid-armor-starter-base-legs/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/eid-armor-starter-base-torso/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/eid-armor-vanilla-base-feet/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -7283,12 +4253,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/eid-backpack-l02-t01/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/eid-backpack-l03-t01/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -8296,18 +5260,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/enemy-groups/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/fast-agile-enemies/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/fast-travel-bell/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -8326,61 +5278,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/frigate/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/ghost-captain/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/gunpowder/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/halberd/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/heavy-armored-enemies/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/hewn-stone/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/high-priestess/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/iron-armor-set/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/iron-axe/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/iron-bullet/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -8404,18 +5308,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/israel-hands/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/ketch/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/lamp/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -8429,12 +5321,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/millstone-parts/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/musket/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -8458,12 +5344,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/rapier/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/recipe-basic-anchor/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -8482,7 +5362,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/recipe-basic-crow/'s-nest</loc>
+    <loc>https://windrosewiki.games/database/items/recipe-basic-crow's-nest/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -8620,13 +5500,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/recipe-consumable-sailor/'s-ration-18</loc>
+    <loc>https://windrosewiki.games/database/items/recipe-consumable-sailor's-ration-18/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/recipe-consumable-sailor/'s-ration-8</loc>
+    <loc>https://windrosewiki.games/database/items/recipe-consumable-sailor's-ration-8/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -8764,7 +5644,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/recipe-galleon-crow/'s-nest</loc>
+    <loc>https://windrosewiki.games/database/items/recipe-galleon-crow's-nest/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -9130,7 +6010,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/recipe-reinforced-crow/'s-nest</loc>
+    <loc>https://windrosewiki.games/database/items/recipe-reinforced-crow's-nest/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -9292,12 +6172,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/rum/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/saber/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -9334,18 +6208,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/spear/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/standard-pirates/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/stone/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -9376,12 +6238,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://windrosewiki.games/database/items/survivor-s-set/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://windrosewiki.games/database/items/tanned-leather/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -9389,12 +6245,6 @@
   </url>
   <url>
     <loc>https://windrosewiki.games/database/items/tarred-planks/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://windrosewiki.games/database/items/thomas-richards/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -9620,6 +6470,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/de/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -10145,6 +7008,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/es/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/es/bosses/thomas-richards/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards/"/>
@@ -10660,6 +7536,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/fr/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -11185,6 +8074,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://windrosewiki.games/pt/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://windrosewiki.games/pt/bosses/thomas-richards/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/thomas-richards/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/thomas-richards/"/>
@@ -11700,6 +8602,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/israel-hands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/israel-hands/"/>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://windrosewiki.games/zh/bosses/jaime-lopez-grave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://windrosewiki.games/es/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://windrosewiki.games/pt/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://windrosewiki.games/de/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://windrosewiki.games/fr/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://windrosewiki.games/zh/bosses/jaime-lopez-grave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://windrosewiki.games/bosses/jaime-lopez-grave/"/>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

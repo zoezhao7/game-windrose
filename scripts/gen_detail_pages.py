@@ -3,11 +3,158 @@
 详情页为双栏布局：左栏显示图片、基础属性和概述卡片；右栏显示高级制作面板及其他信息。
 所有详情页统一使用 /database/items/{id}/index.html 路径。
 """
-import json, os, html as html_mod
+import json, os, re, html as html_mod
+from collections import defaultdict
 from templates import header_html
 
 PROJECT = r"F:\aicode\gamedoc"
 SITE = "https://windrosewiki.games"
+
+# ── 全局 enrichment 索引(在所有数据加载完成后由 build_indexes() 填充)──
+# USED_IN[material_name] = [(consumer_id, consumer_name, tier_level), ...]
+# ARMOR_SET_PARTS[(set_name, variant)] = [(slot, item_id, item_name), ...]
+# NAME_TO_ID[item_name] = item_id (用于把 used-in 中的物料名转链接)
+USED_IN = defaultdict(list)
+ARMOR_SET_PARTS = defaultdict(list)
+NAME_TO_ID = {}
+
+ARMOR_SLOT_LABELS = {
+    "head": "Head", "hands": "Hands", "torso": "Torso",
+    "legs": "Legs", "feet": "Feet",
+}
+ARMOR_SLOT_ORDER = ["head", "torso", "hands", "legs", "feet"]
+
+
+def build_indexes(all_items):
+    """根据完整 item 列表预计算反向索引。only call after all data loaded."""
+    USED_IN.clear()
+    ARMOR_SET_PARTS.clear()
+    NAME_TO_ID.clear()
+    for it in all_items:
+        iid = it.get("id")
+        name = it.get("name")
+        if iid and name:
+            NAME_TO_ID.setdefault(name, iid)
+    armor_re = re.compile(r"^eid-armor-([a-z]+)-(base|advanced)-([a-z]+)$")
+    for it in all_items:
+        # 反向 used-in: 谁的 recipe 用了这个 item.name
+        for tier in (it.get("crafting") or {}).get("tiers", []):
+            for m in tier.get("materials", []):
+                mname = m.get("name") if isinstance(m, dict) else None
+                if mname:
+                    USED_IN[mname].append(
+                        (it["id"], it.get("name", "?"), tier.get("level", "?"))
+                    )
+        # 护甲套装: id 模式 eid-armor-{set}-{variant}-{slot}
+        m = armor_re.match(it.get("id", "") or "")
+        if m:
+            set_name, variant, slot = m.group(1), m.group(2), m.group(3)
+            if slot in ARMOR_SLOT_LABELS:
+                ARMOR_SET_PARTS[(set_name, variant)].append(
+                    (slot, it["id"], it.get("name", "?"))
+                )
+
+
+def should_noindex(item):
+    """决定 item 详情页是否加 noindex,follow。
+
+    规则(任一满足即 noindex):
+    - description 含已知 placeholder('does not ship a long description')
+    - category == misc 且无任何 used-in 反向链(钥匙/笔记/任务道具,无人会搜)
+    - description < 50 字符 且无 used-in 反向链(内容确实薄)
+    """
+    desc = item.get("description") or ""
+    if "does not ship a long description" in desc:
+        return True
+    has_backref = bool(USED_IN.get(item.get("name", "")))
+    if has_backref:
+        return False
+    if item.get("category") == "misc":
+        return True
+    if len(desc) < 50:
+        return True
+    return False
+
+
+def render_used_in_section(item):
+    """渲染 'Used in' 反向链区块。无 backref 时返回空字符串。"""
+    backrefs = USED_IN.get(item.get("name", ""), [])
+    if not backrefs:
+        return ""
+    # 同名(item 在多个 tier 反复出现)合并去重,按 consumer_name 排序
+    seen = set()
+    unique = []
+    for cid, cname, _tier in backrefs:
+        if cid in seen:
+            continue
+        seen.add(cid)
+        unique.append((cid, cname))
+    unique.sort(key=lambda x: x[1].lower())
+    n = len(unique)
+    item_name = item.get("name", "this item")
+    intro = (f'<p class="detail-text">{esc(item_name)} appears as a crafting material in '
+             f'<strong>{n}</strong> recipe{"s" if n != 1 else ""} across the Windrose database. '
+             f'Use these links to jump straight to the consumers and check station, '
+             f'tier and full material list.</p>')
+    pills = []
+    for cid, cname in unique[:80]:  # cap to 80 to keep HTML manageable
+        pills.append(
+            f'<a href="/database/items/{cid}/" class="mat-pill">'
+            f'<span class="mat-name">{esc(cname)}</span></a>'
+        )
+    more = ""
+    if n > 80:
+        more = f'<p class="detail-text" style="margin-top:.5rem;opacity:.7">…and {n - 80} more.</p>'
+    return (
+        f'<div class="detail-section">'
+        f'<div class="detail-section-title">Used in recipes ({n})</div>'
+        f'{intro}'
+        f'<div class="mat-pill-row" style="display:flex;flex-wrap:wrap;gap:.5rem">{"".join(pills)}</div>'
+        f'{more}'
+        f'</div>'
+    )
+
+
+def render_set_parts_section(item):
+    """对护甲件渲染 'Set parts' 区块,列出同套装其它件的链接。"""
+    iid = item.get("id", "") or ""
+    m = re.match(r"^eid-armor-([a-z]+)-(base|advanced)-([a-z]+)$", iid)
+    if not m:
+        return ""
+    set_name, variant, this_slot = m.group(1), m.group(2), m.group(3)
+    parts = ARMOR_SET_PARTS.get((set_name, variant), [])
+    if len(parts) < 2:
+        return ""
+    by_slot = {slot: (pid, pname) for slot, pid, pname in parts}
+    ordered = []
+    for slot in ARMOR_SLOT_ORDER:
+        if slot in by_slot:
+            ordered.append((slot, *by_slot[slot]))
+    set_label = set_name.capitalize() + (" (Advanced)" if variant == "advanced" else "")
+    intro = (f'<p class="detail-text">Part of the <strong>{esc(set_label)}</strong> armor set. '
+             f'Equip the full set to maintain visual consistency and stack stat coverage across all slots.</p>')
+    pills = []
+    for slot, pid, pname in ordered:
+        is_self = (slot == this_slot)
+        cls = "mat-pill" + (" mat-pill-current" if is_self else "")
+        label = ARMOR_SLOT_LABELS[slot]
+        if is_self:
+            pills.append(
+                f'<span class="{cls}" aria-current="page">'
+                f'<span class="mat-name">{esc(label)}: {esc(pname)}</span></span>'
+            )
+        else:
+            pills.append(
+                f'<a href="/database/items/{pid}/" class="{cls}">'
+                f'<span class="mat-name">{esc(label)}: {esc(pname)}</span></a>'
+            )
+    return (
+        f'<div class="detail-section">'
+        f'<div class="detail-section-title">{esc(set_label)} set ({len(parts)} pieces)</div>'
+        f'{intro}'
+        f'<div class="mat-pill-row" style="display:flex;flex-wrap:wrap;gap:.5rem">{"".join(pills)}</div>'
+        f'</div>'
+    )
 
 
 def esc(text):
@@ -373,12 +520,16 @@ def detail_page(item, category_label, category_href, css_depth=3):
 
     jsonld_html = build_jsonld(item, name, item_id, desc, icon, category_label, category_href)
 
-    # NOTE: 描述带 "does not ship a long description" 占位符的 item 没有真实正文,
-    # 是 GSC "Crawled - currently not indexed" 的主要来源之一。给这类页面加
-    # noindex,follow,告诉 Google 不索引但仍可跟随站内链接传递权重。
-    robots_meta = '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'
-    if "does not ship a long description" in (item.get("description") or ""):
+    # NOTE: noindex 策略详见 should_noindex(),覆盖 placeholder/无搜索价值的 misc/超短描述
+    # 这三类页面 Google 都会判 thin content,不如主动表态不索引,
+    # 让爬虫预算花在 ~640 个有内容的 item 页上。
+    if should_noindex(item):
         robots_meta = '<meta name="robots" content="noindex, follow">'
+    else:
+        robots_meta = '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'
+
+    # 数据驱动的反向链区块:Used-in / Set parts
+    enrichment_html = render_used_in_section(item) + render_set_parts_section(item)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -428,7 +579,8 @@ def detail_page(item, category_label, category_href, css_depth=3):
         <div class="detail-right">
             {crafting_html}
             {other_sections}
-            
+            {enrichment_html}
+
             <a href="{category_href}" class="detail-back">← Back to {category_label}</a>
         </div>
     </div>
@@ -481,42 +633,43 @@ if os.path.exists(stats_path):
         ITEM_STATS = json.load(f)
     print(f"  加载 item-stats.json ({len(ITEM_STATS)} 条)")
 
-# ── 1. 优先从 scraped_items_v2.json 生成（950 个高质量数据）──
+# ── 阶段 1: 收集所有 item 到一个 (item, label, href) 列表 ──
+# 必须先收齐全部 item 才能建反向索引(detail_page 依赖 USED_IN/ARMOR_SET_PARTS 全局)
+ALL_TO_GENERATE = []  # list of (item, label, href)
+_seen_ids = set()  # 临时去重,与下方 generated_ids 保持等价
+
+def _add_collect(item, label, href):
+    iid = item.get("id")
+    if not iid or iid in _seen_ids:
+        return
+    _seen_ids.add(iid)
+    ALL_TO_GENERATE.append((item, label, href))
+
+# scraped_items_v2 优先(950 个高质量数据)
 scraped_path = os.path.join(PROJECT, "data/scraped_items_v2.json")
 if os.path.exists(scraped_path):
     with open(scraped_path, encoding="utf-8") as f:
         scraped_data = json.load(f)
-
     for item in scraped_data.get("items", []):
         cat = item.get("category", "misc")
         label, href = CATEGORY_MAP.get(cat, ("Database", "/database/"))
-        write_detail(item["id"], detail_page(item, label, href))
-        generated_ids.add(item["id"])
-        count += 1
+        _add_collect(item, label, href)
 
-    print(f"  从 scraped_items_v2.json 生成 {count} 个详情页")
-
-# ── 2. 保留旧数据中 scraped 没覆盖到的条目（bosses、ships 等）──
+# bosses + ships
 with open(os.path.join(PROJECT, "data/bosses.json"), encoding="utf-8") as f:
     bosses_data = json.load(f)
 with open(os.path.join(PROJECT, "data/ships.json"), encoding="utf-8") as f:
     ships_data = json.load(f)
-
 for item in bosses_data.get("items", []):
-    if item["id"] not in generated_ids:
+    if item.get("id") not in _seen_ids:
         item["data_type"] = "boss"
-        write_detail(item["id"], detail_page(item, "Bosses", "/database/bosses/"))
-        generated_ids.add(item["id"])
-        count += 1
-
+        _add_collect(item, "Bosses", "/database/bosses/")
 for ship in ships_data.get("ships", []):
-    if ship["id"] not in generated_ids:
+    if ship.get("id") not in _seen_ids:
         ship["data_type"] = "ship"
-        write_detail(ship["id"], detail_page(ship, "Ships", "/database/ships/"))
-        generated_ids.add(ship["id"])
-        count += 1
+        _add_collect(ship, "Ships", "/database/ships/")
 
-# ── 3. 补充 weapons.json 中未被 scraped 覆盖的条目 ──
+# weapons(补漏)
 _weapons_path = os.path.join(PROJECT, "data/weapons.json")
 if os.path.exists(_weapons_path):
     with open(_weapons_path, encoding="utf-8") as f:
@@ -525,25 +678,35 @@ if os.path.exists(_weapons_path):
     if isinstance(_weapons_items, dict):
         _weapons_items = list(_weapons_items.values())
     for item in _weapons_items:
-        if isinstance(item, dict) and item.get("id") and item["id"] not in generated_ids:
+        if isinstance(item, dict) and item.get("id") not in _seen_ids:
             cat = item.get("category", "misc")
             label, href = CATEGORY_MAP.get(cat, ("Database", "/database/"))
-            write_detail(item["id"], detail_page(item, label, href))
-            generated_ids.add(item["id"])
-            count += 1
+            _add_collect(item, label, href)
 
-# ── 4. 补充 resources.json 中未被 scraped 覆盖的条目 ──
+# resources(补漏)
 _res_path = os.path.join(PROJECT, "data/resources.json")
 if os.path.exists(_res_path):
     with open(_res_path, encoding="utf-8") as f:
         _res_data = json.load(f)
     for item in _res_data.get("items", []) + _res_data.get("resources", []):
-        if isinstance(item, dict) and item.get("id") and item["id"] not in generated_ids:
+        if isinstance(item, dict) and item.get("id") not in _seen_ids:
             cat = item.get("category", "resource")
             label, href = CATEGORY_MAP.get(cat, ("Resources", "/database/resources/"))
-            write_detail(item["id"], detail_page(item, label, href))
-            generated_ids.add(item["id"])
-            count += 1
+            _add_collect(item, label, href)
 
-print(f"✅ Generated {count} detail pages in database/items/")
+# ── 阶段 2: 用收齐的列表建反向索引 ──
+build_indexes([it for it, _, _ in ALL_TO_GENERATE])
+print(f"  built indexes: USED_IN coverage={len(USED_IN)} materials, "
+      f"ARMOR_SET_PARTS={len(ARMOR_SET_PARTS)} (set,variant) groups")
+
+# ── 阶段 3: 用索引生成所有详情页 ──
+noindex_count = 0
+for item, label, href in ALL_TO_GENERATE:
+    if should_noindex(item):
+        noindex_count += 1
+    write_detail(item["id"], detail_page(item, label, href))
+    generated_ids.add(item["id"])
+    count += 1
+
+print(f"✅ Generated {count} detail pages in database/items/ ({noindex_count} noindex)")
 

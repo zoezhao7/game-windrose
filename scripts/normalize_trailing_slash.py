@@ -62,8 +62,8 @@ def add_slash(url: str) -> str:
 
 
 # 正则：抓所有带 https://windrosewiki.games 开头的 URL，被引号、>、< 等包围
-# 用 lookbehind / lookahead 限定，只命中 URL 本身
-URL_RE = re.compile(r'https://windrosewiki\.games[^\s"\'<>]*')
+# 注意：URL 路径里可以含撇号（如 .../crow's-nest/），所以 ' 不能作分隔符
+URL_RE = re.compile(r'https://windrosewiki\.games[^\s"<>]*?(?=[\s"<>]|$)')
 
 
 def rewrite_text(text: str) -> tuple[str, int]:

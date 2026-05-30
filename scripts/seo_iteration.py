@@ -619,6 +619,10 @@ def update_llms():
 
 
 def update_sitemap():
+    # 优化:正则提前编译,避免在循环里 import re 多次
+    import re as _re
+    noindex_re = _re.compile(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex',
+                              _re.IGNORECASE)
     existing = []
     for f in ROOT.rglob("*.html"):
         if ".git" in f.parts or "docs" in f.parts or "scripts" in f.parts or "skills" in f.parts:
@@ -632,6 +636,14 @@ def update_sitemap():
             slug = rel[:-len(".html")]
         if slug == "404":
             continue
+        # 跳过 noindex 页:sitemap 不该包含已声明不索引的 URL,
+        # 否则会给 Google 矛盾信号(我让你索引,我又说别索引)
+        try:
+            head = f.read_text(encoding="utf-8", errors="ignore")[:4096]
+            if noindex_re.search(head):
+                continue
+        except OSError:
+            pass
         # 检测是否为多语言页面（/{lang}/... 前缀）
         lang_prefix = None
         base_slug = slug
