@@ -373,12 +373,20 @@ def detail_page(item, category_label, category_href, css_depth=3):
 
     jsonld_html = build_jsonld(item, name, item_id, desc, icon, category_label, category_href)
 
+    # NOTE: 描述带 "does not ship a long description" 占位符的 item 没有真实正文,
+    # 是 GSC "Crawled - currently not indexed" 的主要来源之一。给这类页面加
+    # noindex,follow,告诉 Google 不索引但仍可跟随站内链接传递权重。
+    robots_meta = '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'
+    if "does not ship a long description" in (item.get("description") or ""):
+        robots_meta = '<meta name="robots" content="noindex, follow">'
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(name)} — Windrose Database | Windrose Guides</title>
 <meta name="description" content="{esc(name)} in Windrose. View stats, crafting recipe, locations, and related items.">
+{robots_meta}
 <link rel="canonical" href="https://windrosewiki.games/database/items/{item_id}/">
 <link rel="stylesheet" href="{css_prefix}css/style.css">
 <link rel="stylesheet" href="{css_prefix}database/db-style.css">
