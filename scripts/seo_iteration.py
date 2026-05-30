@@ -39,6 +39,21 @@ def nav_html(active):
     return "\n".join(items)
 
 
+def _trailing_slash_path(href):
+    """Normalize a site-relative href to end with a trailing slash, unless it
+    is empty, contains a query/fragment, or points to a file with an extension.
+    Keeps the canonical form consistent with Cloudflare Pages' 308 → slash
+    redirect, so canonicals do not contradict the redirect target."""
+    if not href or href == "/" or href.endswith("/"):
+        return href or "/"
+    if "?" in href or "#" in href:
+        return href
+    last = href.rsplit("/", 1)[-1]
+    if "." in last:
+        return href
+    return href + "/"
+
+
 def breadcrumbs(items, lang=DEFAULT):
     home_label = t("nav.home", lang)
     home_url = lang_url("", lang) if lang != DEFAULT else "/"
@@ -48,8 +63,9 @@ def breadcrumbs(items, lang=DEFAULT):
     ]
     for i, (name, href) in enumerate(items, start=2):
         if href:
-            lis.append(f'<li><a href="{href}">{esc(name)}</a></li>')
-            graph.append({"@type": "ListItem", "position": i, "name": name, "item": f"{SITE}{href}"})
+            href_norm = _trailing_slash_path(href)
+            lis.append(f'<li><a href="{href_norm}">{esc(name)}</a></li>')
+            graph.append({"@type": "ListItem", "position": i, "name": name, "item": f"{SITE}{href_norm}"})
         else:
             lis.append(f'<li><span aria-current="page">{esc(name)}</span></li>')
             graph.append({"@type": "ListItem", "position": i, "name": name})
@@ -116,12 +132,13 @@ def faq(items, lang=DEFAULT):
 def page(slug, title, description, h1, body, crumb_items, priority="0.7", changefreq="weekly", schema_extra=None, lang=DEFAULT):
     slug = str(slug).replace("\\", "/")
     # 多语言路径：英文在根路径，其他语言加 /{lang}/ 前缀
+    # 所有目录型 URL 一律带尾斜杠，与 Cloudflare Pages 的 308 重定向对齐
     if lang == DEFAULT:
-        canonical = f"{SITE}/" if slug == "" else f"{SITE}/{slug}"
+        canonical = f"{SITE}/" if slug == "" else f"{SITE}/{slug}/"
         file_slug = slug
     else:
         file_slug = f"{lang}/{slug}" if slug else lang
-        canonical = f"{SITE}/{file_slug}"
+        canonical = f"{SITE}/{file_slug}/"
     crumb_html, crumb_graph = breadcrumbs(crumb_items, lang)
     hlang = LANG_HTML.get(lang, lang)
 
@@ -648,7 +665,10 @@ def update_sitemap():
     parts = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for slug, priority, changefreq, base_slug, lang_prefix in existing:
-        loc = f"{SITE}/" if slug == "" else f"{SITE}/{slug}"
+        # 所有目录型 URL 一律带尾斜杠，与 Cloudflare Pages 的 308 重定向对齐，
+        # 避免 sitemap 中的 URL 与服务器实际返回的 URL 不一致而导致
+        # "Discovered – currently not indexed"。
+        loc = f"{SITE}/" if slug == "" else f"{SITE}/{slug}/"
         # hreflang 替代链接
         hreflang_links = ""
         variants = lang_variants.get(base_slug, {})
@@ -657,11 +677,11 @@ def update_sitemap():
             for lc in SUPPORTED:
                 if lc in variants:
                     vs = variants[lc]
-                    href = f"{SITE}/" if vs == "" else f"{SITE}/{vs}"
+                    href = f"{SITE}/" if vs == "" else f"{SITE}/{vs}/"
                     link_parts.append(f'\n    <xhtml:link rel="alternate" hreflang="{LANG_HTML[lc]}" href="{href}"/>')
             # x-default 指向英文版本
             default_slug = variants.get(DEFAULT, "")
-            default_href = f"{SITE}/" if default_slug == "" else f"{SITE}/{default_slug}"
+            default_href = f"{SITE}/" if default_slug == "" else f"{SITE}/{default_slug}/"
             link_parts.append(f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{default_href}"/>')
             hreflang_links = "".join(link_parts)
 

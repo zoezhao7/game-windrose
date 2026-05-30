@@ -89,7 +89,7 @@ def update_sitemap():
     urls.sort(key=lambda item: (item[0].count("/"), item[0]))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for slug, priority, changefreq in urls:
-        loc = f"{SITE}/" if slug == "" else f"{SITE}/{slug}"
+        loc = f"{SITE}/" if slug == "" else f"{SITE}/{slug}/"
         lines.append(f"""  <url>
     <loc>{loc}</loc>
     <lastmod>{TODAY}</lastmod>

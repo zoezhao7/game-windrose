@@ -110,36 +110,44 @@ def has_key(key, lang=DEFAULT):
 
 def lang_url(path, lang=DEFAULT):
     """
-    生成带语言前缀的 URL。
+    生成带语言前缀的 URL。所有目录型 URL 一律带尾斜杠，与 Cloudflare Pages
+    的 308 → 加尾斜杠行为对齐，避免 canonical/redirect 冲突导致 Google
+    把页面标为 "Discovered – currently not indexed"。
 
-    lang_url("/beginner-guide", "en")  → "/beginner-guide"
-    lang_url("/beginner-guide", "es")  → "/es/beginner-guide"
-    lang_url("", "es")                 → "/es"
+    lang_url("/beginner-guide", "en")  → "/beginner-guide/"
+    lang_url("/beginner-guide", "es")  → "/es/beginner-guide/"
+    lang_url("", "es")                 → "/es/"
+    lang_url("", "en")                 → "/"
     """
     if lang == DEFAULT:
-        return "/" if path == "" else path
-    prefix = f"/{lang}"
+        if path == "":
+            return "/"
+        return path if path.endswith("/") else path + "/"
+    prefix = f"/{lang}/"
     if path == "":
         return prefix
-    return f"{prefix}{path}"
+    body = path.lstrip("/")
+    return prefix + (body if body.endswith("/") else body + "/")
 
 
 def hreflang_tags(slug, site="https://windrosewiki.games"):
     """
     生成所有语言的 hreflang 替代链接标签。
+    所有 URL 一律带尾斜杠（与 lang_url 保持一致）。
 
     hreflang_tags("beginner-guide")
-    → ['<link rel="alternate" hreflang="en" href=".../beginner-guide">',
-       '<link rel="alternate" hreflang="es" href=".../es/beginner-guide">',
+    → ['<link rel="alternate" hreflang="en" href=".../beginner-guide/">',
+       '<link rel="alternate" hreflang="es" href=".../es/beginner-guide/">',
        ...,
-       '<link rel="alternate" hreflang="x-default" href=".../beginner-guide">']
+       '<link rel="alternate" hreflang="x-default" href=".../beginner-guide/">']
     """
     tags = []
     path = "/" if slug == "" else f"/{slug}"
     for lang in SUPPORTED:
         href = site + lang_url(path, lang)
         tags.append(f'<link rel="alternate" hreflang="{LANG_HTML[lang]}" href="{href}">')
-    tags.append(f'<link rel="alternate" hreflang="x-default" href="{site}{path}">')
+    default_href = site + lang_url(path, DEFAULT)
+    tags.append(f'<link rel="alternate" hreflang="x-default" href="{default_href}">')
     return tags
 
 

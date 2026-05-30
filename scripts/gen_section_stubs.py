@@ -59,7 +59,7 @@ GUIDE_ARTICLES = [
 def render_page(slug, lang, title, body_html):
     """Wrap body in full HTML page with header/footer/lang-switcher."""
     hlang = LANG_HTML.get(lang, lang)
-    canonical = f"{SITE}/{lang}/{slug}"
+    canonical = f"{SITE}/{lang}/{slug}/"
     hreflang_html = "\n    ".join(hreflang_tags(slug, SITE))
     header = header_html(slug.split("/")[0], lang, current_path=f"/{slug}")
     footer = footer_html(lang)

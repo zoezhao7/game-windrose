@@ -6,15 +6,16 @@ ROOT = r"F:\aicode\gamedoc"
 TODAY = date.today().isoformat()
 
 # === 新增 Sitemap 条目 ===
+# 所有目录型 URL 一律带尾斜杠，与 Cloudflare Pages 的 308 重定向行为对齐
 NEW_URLS = [
-    ("/guides", "weekly", "0.8"),
-    ("/guides/mining-routes", "monthly", "0.7"),
-    ("/guides/boss-progression", "monthly", "0.7"),
-    ("/guides/best-early-builds", "monthly", "0.7"),
-    ("/guides/crafting-progression", "monthly", "0.7"),
-    ("/guides/sailing-navigation", "monthly", "0.7"),
-    ("/guides/coop-multiplayer", "monthly", "0.7"),
-    ("/guides/ship-building-naval-combat", "monthly", "0.7"),
+    ("/guides/", "weekly", "0.8"),
+    ("/guides/mining-routes/", "monthly", "0.7"),
+    ("/guides/boss-progression/", "monthly", "0.7"),
+    ("/guides/best-early-builds/", "monthly", "0.7"),
+    ("/guides/crafting-progression/", "monthly", "0.7"),
+    ("/guides/sailing-navigation/", "monthly", "0.7"),
+    ("/guides/coop-multiplayer/", "monthly", "0.7"),
+    ("/guides/ship-building-naval-combat/", "monthly", "0.7"),
 ]
 
 def update_sitemap():

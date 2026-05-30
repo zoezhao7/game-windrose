@@ -168,7 +168,7 @@ def generate_list_page(items: list[dict], lang=DEFAULT) -> str:
     item_list_elements = []
     for idx, item in enumerate(detail_items, 1):
         slug_path = item.get("slug", "")
-        url = f"{SITE}/{slug_path}" if slug_path.startswith("news/") else f"{SITE}/news"
+        url = f"{SITE}/{slug_path}/" if slug_path.startswith("news/") else f"{SITE}/news/"
         item_list_elements.append({
             "@type": "ListItem",
             "position": idx,
@@ -195,18 +195,18 @@ def generate_list_page(items: list[dict], lang=DEFAULT) -> str:
             },
             {
                 "@type": "CollectionPage",
-                "@id": f"{SITE}/news#webpage",
-                "url": f"{SITE}/news",
+                "@id": f"{SITE}/news/#webpage",
+                "url": f"{SITE}/news/",
                 "name": "Windrose News & Updates (2026)",
                 "description": "Latest Windrose news, patch notes, milestones, and guide impact analysis. Stay up to date with every Early Access update.",
                 "dateModified": TODAY,
                 "isPartOf": {"@id": f"{SITE}/#website"},
-                "breadcrumb": {"@id": f"{SITE}/news#breadcrumb"},
+                "breadcrumb": {"@id": f"{SITE}/news/#breadcrumb"},
                 "inLanguage": "en",
             },
             {
                 "@type": "BreadcrumbList",
-                "@id": f"{SITE}/news#breadcrumb",
+                "@id": f"{SITE}/news/#breadcrumb",
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
                     {"@type": "ListItem", "position": 2, "name": "News"},
@@ -258,12 +258,12 @@ def generate_list_page(items: list[dict], lang=DEFAULT) -> str:
     hreflang_list = hreflang_tags("news", SITE)
     hreflang_html = "\n  ".join(hreflang_list)
 
-    # 多语言路径
+    # 多语言路径（所有目录型 URL 一律带尾斜杠）
     if lang == DEFAULT:
-        canonical = f"{SITE}/news"
+        canonical = f"{SITE}/news/"
         css_rel = "../css/style.css"
     else:
-        canonical = f"{SITE}/{lang}/news"
+        canonical = f"{SITE}/{lang}/news/"
         css_rel = "../../css/style.css"
 
     # 翻译的 UI 文本
@@ -462,21 +462,21 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
             },
             {
                 "@type": "WebPage",
-                "@id": f"{SITE}/{item['slug']}#webpage",
-                "url": f"{SITE}/{item['slug']}",
+                "@id": f"{SITE}/{item['slug']}/#webpage",
+                "url": f"{SITE}/{item['slug']}/",
                 "name": item.get("title", item.get("name", "")),
                 "description": item.get("summary", ""),
                 "dateModified": date_iso,
                 "isPartOf": {"@id": f"{SITE}/#website"},
-                "breadcrumb": {"@id": f"{SITE}/{item['slug']}#breadcrumb"},
+                "breadcrumb": {"@id": f"{SITE}/{item['slug']}/#breadcrumb"},
                 "inLanguage": "en",
             },
             {
                 "@type": "BreadcrumbList",
-                "@id": f"{SITE}/{item['slug']}#breadcrumb",
+                "@id": f"{SITE}/{item['slug']}/#breadcrumb",
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
-                    {"@type": "ListItem", "position": 2, "name": "News", "item": f"{SITE}/news"},
+                    {"@type": "ListItem", "position": 2, "name": "News", "item": f"{SITE}/news/"},
                     {"@type": "ListItem", "position": 3, "name": item.get("title", item.get("name", ""))},
                 ],
             },
@@ -487,7 +487,7 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
                 "dateModified": date_iso,
                 "author": {"@type": "Person", "name": item.get("author", "Windrose Guides")},
                 "publisher": {"@id": f"{SITE}/#org"},
-                "mainEntityOfPage": f"{SITE}/{item['slug']}",
+                "mainEntityOfPage": f"{SITE}/{item['slug']}/",
                 "description": item.get("summary", ""),
             },
         ],
@@ -507,10 +507,10 @@ def generate_detail_page(item: dict, prev_item: dict | None, next_item: dict | N
   <title>{title} | Windrose Guides</title>
   <meta name="description" content="{summary}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" href="{SITE}/{item['slug']}">
+  <link rel="canonical" href="{SITE}/{item['slug']}/">
   <link rel="stylesheet" href="{css_rel}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE}/{item['slug']}">
+  <meta property="og:url" content="{SITE}/{item['slug']}/">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{summary}">
   <meta property="og:image" content="{SITE}/imgs/og.webp">
