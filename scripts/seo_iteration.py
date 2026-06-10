@@ -1,6 +1,7 @@
 from pathlib import Path
 from datetime import date
 import html
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://windrosewiki.games"
@@ -10,6 +11,21 @@ from templates import NAV_ITEMS as NAV, header_html, footer_html, HAMBURGER_JS
 from i18n import t, lang_url, hreflang_tags, LANG_HTML, DEFAULT, SUPPORTED, has_key
 
 PAGES = []
+
+
+def write_text_atomic(path: Path, content: str) -> None:
+    try:
+        if path.exists() and path.read_text(encoding="utf-8", errors="ignore") == content:
+            return
+    except OSError:
+        pass
+    tmp_path = path.with_name(path.name + ".tmp")
+    tmp_path.write_text(content, encoding="utf-8")
+    try:
+        os.replace(tmp_path, path)
+    except PermissionError:
+        tmp_path.unlink(missing_ok=True)
+        print(f"Warning: skipped locked file {path}")
 
 
 def esc(value):
@@ -200,7 +216,7 @@ def page(slug, title, description, h1, body, crumb_items, priority="0.7", change
 '''
     out = ROOT / ("index.html" if file_slug == "" else Path(file_slug) / "index.html")
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(html_doc, encoding="utf-8")
+    write_text_atomic(out, html_doc)
     PAGES.append((file_slug, priority, changefreq, title, description))
 
 
@@ -594,7 +610,7 @@ Updated: {TODAY}
 - [ ] Build JSON data files for recipes/resources so pages can be regenerated safely.
 - [ ] Add image assets under `/imgs/` and update `og:image` per major section.
 '''
-    (ROOT / "docs" / "ITERATION_TODO_PROMOTION.md").write_text(content, encoding="utf-8")
+    write_text_atomic(ROOT / "docs" / "ITERATION_TODO_PROMOTION.md", content)
 
 
 def update_llms():
@@ -621,6 +637,7 @@ def update_llms():
 def update_sitemap():
     # 优化:正则提前编译,避免在循环里 import re 多次
     import re as _re
+    from urllib.parse import quote
     noindex_re = _re.compile(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex',
                               _re.IGNORECASE)
     existing = []
@@ -635,6 +652,8 @@ def update_sitemap():
         else:
             slug = rel[:-len(".html")]
         if slug == "404":
+            continue
+        if slug == "windrose_sample":
             continue
         # 跳过 noindex 页:sitemap 不该包含已声明不索引的 URL,
         # 否则会给 Google 矛盾信号(我让你索引,我又说别索引)
@@ -680,7 +699,8 @@ def update_sitemap():
         # 所有目录型 URL 一律带尾斜杠，与 Cloudflare Pages 的 308 重定向对齐，
         # 避免 sitemap 中的 URL 与服务器实际返回的 URL 不一致而导致
         # "Discovered – currently not indexed"。
-        loc = f"{SITE}/" if slug == "" else f"{SITE}/{slug}/"
+        encoded_slug = quote(slug, safe="/-._~")
+        loc = f"{SITE}/" if slug == "" else f"{SITE}/{encoded_slug}/"
         # hreflang 替代链接
         hreflang_links = ""
         variants = lang_variants.get(base_slug, {})
@@ -689,11 +709,13 @@ def update_sitemap():
             for lc in SUPPORTED:
                 if lc in variants:
                     vs = variants[lc]
-                    href = f"{SITE}/" if vs == "" else f"{SITE}/{vs}/"
+                    encoded_vs = quote(vs, safe="/-._~")
+                    href = f"{SITE}/" if vs == "" else f"{SITE}/{encoded_vs}/"
                     link_parts.append(f'\n    <xhtml:link rel="alternate" hreflang="{LANG_HTML[lc]}" href="{href}"/>')
             # x-default 指向英文版本
             default_slug = variants.get(DEFAULT, "")
-            default_href = f"{SITE}/" if default_slug == "" else f"{SITE}/{default_slug}/"
+            encoded_default_slug = quote(default_slug, safe="/-._~")
+            default_href = f"{SITE}/" if default_slug == "" else f"{SITE}/{encoded_default_slug}/"
             link_parts.append(f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{default_href}"/>')
             hreflang_links = "".join(link_parts)
 
@@ -704,7 +726,7 @@ def update_sitemap():
     <priority>{priority}</priority>
   </url>''')
     parts.append("</urlset>")
-    (ROOT / "sitemap.xml").write_text("\n".join(parts) + "\n", encoding="utf-8")
+    write_text_atomic(ROOT / "sitemap.xml", "\n".join(parts) + "\n")
 
 
 def main():

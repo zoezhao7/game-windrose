@@ -5,6 +5,7 @@
 """
 import json, os, re, html as html_mod
 from collections import defaultdict
+from urllib.parse import quote
 from templates import header_html
 
 PROJECT = r"F:\aicode\gamedoc"
@@ -167,6 +168,16 @@ def slug_to_link(item_id):
     return f"/database/items/{item_id}/"
 
 
+def normalize_item_id(item_id):
+    return str(item_id).replace("/'", "'")
+
+
+def item_url(item_id):
+    """生成合法的公开 item URL，用于 canonical 和 JSON-LD。"""
+    clean_id = normalize_item_id(item_id)
+    return f"{SITE}/database/items/{quote(clean_id, safe='')}/"
+
+
 def mat_pill_html(mat):
     """渲染材料为圆润胶囊形式"""
     if isinstance(mat, dict):
@@ -211,7 +222,7 @@ def stat_row_list(label, value):
 
 def build_jsonld(item, name, item_id, desc, icon, category_label, category_href):
     """生成详情页 JSON-LD：Product + BreadcrumbList，含配方时再加 HowTo"""
-    page_url = f"{SITE}/database/items/{item_id}/"
+    page_url = item_url(item_id)
     image_url = icon if icon.startswith("http") else f"{SITE}{icon}"
 
     additional_props = []
@@ -316,7 +327,7 @@ def detail_page(item, category_label, category_href, css_depth=3):
     生成物品详情页 HTML（双栏：左概览，右制作+其他信息）。
     """
     name = item.get("name", "Unknown")
-    item_id = item.get("id", "unknown")
+    item_id = normalize_item_id(item.get("id", "unknown"))
     rarity = item.get("rarity", item.get("tier", ""))
     category = item.get("category", "")
     data_type = item.get("data_type", category)
@@ -538,7 +549,7 @@ def detail_page(item, category_label, category_href, css_depth=3):
 <title>{esc(name)} — Windrose Database | Windrose Guides</title>
 <meta name="description" content="{esc(name)} in Windrose. View stats, crafting recipe, locations, and related items.">
 {robots_meta}
-<link rel="canonical" href="https://windrosewiki.games/database/items/{item_id}/">
+<link rel="canonical" href="{item_url(item_id)}">
 <link rel="stylesheet" href="{css_prefix}css/style.css">
 <link rel="stylesheet" href="{css_prefix}database/db-style.css">
 {jsonld_html}
@@ -594,6 +605,7 @@ document.querySelector('.hamburger').addEventListener('click',function(){{this.c
 
 def write_detail(item_id, content):
     """写入详情页"""
+    item_id = normalize_item_id(item_id)
     path = os.path.join(PROJECT, "database", "items", item_id, "index.html")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -694,6 +706,17 @@ if os.path.exists(_res_path):
             label, href = CATEGORY_MAP.get(cat, ("Resources", "/database/resources/"))
             _add_collect(item, label, href)
 
+# recipes(补漏): 旧版本曾留下 recipe item 详情页。继续生成它们，避免
+# sitemap/canonical 使用历史 HTML。
+_recipes_path = os.path.join(PROJECT, "data/recipes.json")
+if os.path.exists(_recipes_path):
+    with open(_recipes_path, encoding="utf-8") as f:
+        _recipes_data = json.load(f)
+    for item in _recipes_data.get("items", []):
+        if isinstance(item, dict) and normalize_item_id(item.get("id", "")) not in _seen_ids:
+            item["id"] = normalize_item_id(item["id"])
+            _add_collect(item, "Crafting", "/database/crafting/")
+
 # ── 阶段 2: 用收齐的列表建反向索引 ──
 build_indexes([it for it, _, _ in ALL_TO_GENERATE])
 print(f"  built indexes: USED_IN coverage={len(USED_IN)} materials, "
@@ -709,4 +732,3 @@ for item, label, href in ALL_TO_GENERATE:
     count += 1
 
 print(f"✅ Generated {count} detail pages in database/items/ ({noindex_count} noindex)")
-

@@ -110,6 +110,7 @@ def run_builders():
         "gen_news_pages.py",
         "gen_home_pages.py",
         "gen_section_stubs.py",
+        "seo_iteration.py",
     ]
     for script_name in scripts_to_run:
         script_path = ROOT / "scripts" / script_name

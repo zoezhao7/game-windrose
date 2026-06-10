@@ -322,8 +322,24 @@ def write_page(rel_path, content, lang=None):
     else:
         full_path = os.path.join(PROJECT, lang, "database", rel_path, "index.html")
     os.makedirs(os.path.dirname(full_path), exist_ok=True)
-    with open(full_path, "w", encoding="utf-8") as f:
+    try:
+        if os.path.exists(full_path):
+            with open(full_path, encoding="utf-8", errors="ignore") as f:
+                if f.read() == content:
+                    return
+    except OSError:
+        pass
+    tmp_path = full_path + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
         f.write(content)
+    try:
+        os.replace(tmp_path, full_path)
+    except (PermissionError, OSError):
+        try:
+            os.remove(tmp_path)
+        except OSError:
+            pass
+        print(f"Warning: skipped locked file {full_path}")
 
 
 # ── 加载数据 ──────────────────────────────────────────────
@@ -595,7 +611,7 @@ def build_all(lang=DEFAULT):
             mats = ", ".join([f'{m.get("quantity","?")}x {m.get("item","?")}' if isinstance(m, dict) else str(m) for m in mats_raw])
             rarity = "uncommon" if r.get("station_level", 1) == 1 else ("rare" if r.get("station_level", 1) == 2 else "epic")
             cards.append(card(r["name"], mats if mats else r.get("category","item").capitalize(), rarity, icon=r.get("icon", ""), item_id=r["id"]))
-        write_page(f"crafting/{station_slug}", make_page(f"{station_name} Recipes", f"All {station_name} recipes.", f"Crafting / {station_name}", "all", f"{station_name} Recipes", f"{len(cards)} recipes.", "\n".join(cards), f"/crafting/{station_slug}/", css_depth=3))
+        write_page(f"crafting/{station_slug}", make_page(f"{station_name} Recipes", f"All {station_name} recipes.", f"Crafting / {station_name}", "all", f"{station_name} Recipes", f"{len(cards)} recipes.", "\n".join(cards), f"/crafting/{station_slug}/", css_depth=3, rel_path=f"crafting/{station_slug}"))
         print(f"  database/crafting/{station_slug}/ ({len(cards)} cards)")
 
     # 5. Resources

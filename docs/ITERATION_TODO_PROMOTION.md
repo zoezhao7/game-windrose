@@ -1,6 +1,6 @@
 # Windrose Guides Iteration TODO - Promotion Readiness
 
-Updated: 2026-05-12
+Updated: 2026-06-10
 
 ## Competitor Gap: heartopia.gg
 

@@ -15,6 +15,7 @@ NOTE: 本脚本会覆盖 news/index.html 和 news/*/index.html，
 import datetime
 import html
 import json
+import os
 import re
 from pathlib import Path
 
@@ -44,6 +45,27 @@ CATEGORY_LABELS = {
     "community": "Community",
     "media": "Media",
 }
+
+
+def write_text_atomic(path: Path, content: str) -> None:
+    """Write through a temp file, then replace the target.
+
+    On Windows, browsers or previewers can leave a memory-mapped section open
+    for an HTML file. Replacing the file is more reliable than truncating it in
+    place.
+    """
+    try:
+        if path.exists() and path.read_text(encoding="utf-8", errors="ignore") == content:
+            return
+    except OSError:
+        pass
+    tmp_path = path.with_name(path.name + ".tmp")
+    tmp_path.write_text(content, encoding="utf-8")
+    try:
+        os.replace(tmp_path, path)
+    except PermissionError:
+        tmp_path.unlink(missing_ok=True)
+        print(f"Warning: skipped locked file {path}")
 
 # NOTE: 来源徽标 — 让读者一眼分辨是官方公告、外媒、SteamDB 还是社区帖
 SOURCE_BADGES = {
@@ -578,7 +600,7 @@ def main() -> None:
         else:
             list_dir = ROOT / lang / "news"
         list_dir.mkdir(parents=True, exist_ok=True)
-        (list_dir / "index.html").write_text(list_html, encoding="utf-8")
+        write_text_atomic(list_dir / "index.html", list_html)
         print(f"Generated news/index.html ({len(items)} items) [lang={lang}]")
 
     # 筛选有详情页的条目并按日期排序
@@ -600,7 +622,7 @@ def main() -> None:
         detail_dir.mkdir(parents=True, exist_ok=True)
 
         detail_html = generate_detail_page(item, prev_item, next_item)
-        (detail_dir / "index.html").write_text(detail_html, encoding="utf-8")
+        write_text_atomic(detail_dir / "index.html", detail_html)
         print(f"Generated {slug}/index.html")
 
     print(f"Done. {len(detail_items)} detail pages generated.")
