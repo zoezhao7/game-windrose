@@ -1,7 +1,68 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-05-28",
+  "generated_at": "2026-06-26",
   "items": [
+    {
+      "id": "steam-1836506165548085",
+      "slug": "news/patch-notes-version-01007",
+      "name": "Patch Notes, version: 0.10.0.7",
+      "title": "Patch Notes, version: 0.10.0.7",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-06-26",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-06-25",
+      "has_detail_page": true,
+      "summary": "Hey, everyone!We are releasing another batch of small improvements and fixes for the current build.Please note that we'll also be performing some backend maintenance, which means the game will be temporarily unavailable. We apologize for the inconvenience and appreciate your patience. Patch notes, version: 0.10.0.7[*]Added Docker images with Linux server support. For setup instructions, see DedicatedServer.md in the dedicated server root directory.[/*][*]Added Traditional Chinese language...",
+      "content": "<p>Hey, everyone!We are releasing another batch of small improvements and fixes for the current build.Please note that we'll also be performing some backend maintenance, which means the game will be temporarily unavailable. We apologize for the inconvenience and appreciate your patience.<br><strong><br>Patch notes, version: 0.10.0.7</strong><ul><li>Added Docker images with Linux server support. For setup instructions, see DedicatedServer.md in the dedicated server root directory.[/*]</li><li>Added Traditional Chinese language support.[/*]</li><li>Sails can once again be damaged by cannonball hits.[/*]</ul>P.S. Another development blog is coming soon. Stay tuned!<br></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165548085",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steamdb-23898412",
+      "slug": "news/windrose-update-for-25-june-2026",
+      "name": "Windrose update for 25 June 2026",
+      "title": "Windrose update for 25 June 2026",
+      "status": "published",
+      "confidence": "verified",
+      "last_verified": "2026-06-26",
+      "category": "patch_notes",
+      "author": "SteamDB",
+      "date": "2026-06-25",
+      "has_detail_page": true,
+      "summary": "SteamDB Build 23898412",
+      "content": "<p>SteamDB Build 23898412</p><p>This patch was detected by SteamDB by monitoring the game's Steam depot. For the official changelog, check the linked patch notes thread on Steam.</p><p><a href=\"https://steamdb.info/patchnotes/23898412/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes\" rel=\"nofollow noopener\" target=\"_blank\">View build details on SteamDB →</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes",
+        "steamdb"
+      ],
+      "related_pages": [],
+      "source": "steamdb",
+      "source_feed": "SteamDB Patchnotes",
+      "sources": [
+        {
+          "title": "SteamDB Patch Notes",
+          "url": "https://steamdb.info/patchnotes/23898412/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes",
+          "type": "third_party"
+        }
+      ],
+      "notes": "Auto-fetched from SteamDB RSS (build: 23898412)"
+    },
     {
       "id": "steamdisc-807974232125489967",
       "slug": "news/dedicated-server-summarized-info-guides",
