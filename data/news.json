@@ -1,7 +1,37 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-03",
   "items": [
+    {
+      "id": "steam-1836506165567610",
+      "slug": "news/windroses-new-ashlands-biome-will-expand-your-pirate-escapades-significantly-in-",
+      "name": "Windrose's new Ashlands biome will expand your pirate escapades \"significantly in scope\"",
+      "title": "Windrose's new Ashlands biome will expand your pirate escapades \"significantly in scope\"",
+      "status": "published",
+      "confidence": "media",
+      "last_verified": "2026-07-03",
+      "category": "media",
+      "author": "editor@pcgamesn.com",
+      "date": "2026-07-02",
+      "has_detail_page": true,
+      "summary": "Now that the post-launch waters have settled, Kraken Express is steering the ship towards its first big Windrose update. The pirate survival game exploded onto the scene in April in fittingly dramatic fashion - racking up more than two million sales and even briefly outstripping the pace of the mighty Rust on Steam. That's a lot of adventurers ready for their next outing across the water, and the studio promises that our journey to the Windrose Ashlands will see \"the main story and side quests...",
+      "content": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/07/windrose-ashlands-update-first-details-map-expansion-pirate-survival-game-kraken-express-900x506.jpg\"/><p>Now that the post-launch waters have settled, Kraken Express is steering the ship towards its first big Windrose update. The pirate survival game exploded onto the scene in April in fittingly dramatic fashion - racking up more than two million sales and even briefly outstripping the pace of the mighty Rust on Steam. That's a lot of adventurers ready for their next outing across the water, and the studio promises that our journey to the Windrose Ashlands will see \"the main story and side quests grow significantly in scope.\"</p>\n<p>Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/windrose/new-biome-ashlands\">Windrose's new Ashlands biome will expand your pirate escapades \"significantly in scope\"</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "source": "steam_media",
+      "source_feed": "PCGamesN",
+      "sources": [
+        {
+          "title": "PCGamesN",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1836506165567610",
+          "type": "media"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: PCGamesN)"
+    },
     {
       "id": "steam-1836506165566492",
       "slug": "news/windrose-might-get-wind",
