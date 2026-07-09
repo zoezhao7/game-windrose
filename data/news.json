@@ -1,7 +1,68 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-07-03",
+  "generated_at": "2026-07-09",
   "items": [
+    {
+      "id": "steam-1836506165579734",
+      "slug": "news/patch-notes-version-01008",
+      "name": "Patch Notes, version: 0.10.0.8",
+      "title": "Patch Notes, version: 0.10.0.8",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-07-09",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-07-08",
+      "has_detail_page": true,
+      "summary": "Ahoy, captains!Here’s a small patch with a few improvements. We’re also very grateful for all your feedback and comments on the latest devblog post.One known issue remains in this build, but we’re already looking into it and plan to fix it in a future update.Thank you for staying with us, and stay tuned for more news.Patch Notes, version: 0.10.0.8[*]Fixed an issue where projectiles could pass through ships without registering hits at long distances.[/*][*]Improved Japanese...",
+      "content": "<p>Ahoy, captains!Here’s a small patch with a few improvements. We’re also very grateful for all your feedback and comments on the latest devblog post.One known issue remains in this build, but we’re already looking into it and plan to fix it in a future update.Thank you for staying with us, and stay tuned for more news.<strong>Patch Notes, version: 0.10.0.8</strong><ul><li>Fixed an issue where projectiles could pass through ships without registering hits at long distances.[/*]</li><li>Improved Japanese localization.[/*]</li><li><em>Known issue:</em> A random bug may cause volleys fired from the front cannons to deal no damage, even when cannonballs clearly hit the ship’s hull. This will be fixed in a future update.[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165579734",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steamdb-24094645",
+      "slug": "news/windrose-update-for-8-july-2026",
+      "name": "Windrose update for 8 July 2026",
+      "title": "Windrose update for 8 July 2026",
+      "status": "published",
+      "confidence": "verified",
+      "last_verified": "2026-07-09",
+      "category": "patch_notes",
+      "author": "SteamDB",
+      "date": "2026-07-08",
+      "has_detail_page": true,
+      "summary": "SteamDB Build 24094645",
+      "content": "<p>SteamDB Build 24094645</p><p>This patch was detected by SteamDB by monitoring the game's Steam depot. For the official changelog, check the linked patch notes thread on Steam.</p><p><a href=\"https://steamdb.info/patchnotes/24094645/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes\" rel=\"nofollow noopener\" target=\"_blank\">View build details on SteamDB →</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes",
+        "steamdb"
+      ],
+      "related_pages": [],
+      "source": "steamdb",
+      "source_feed": "SteamDB Patchnotes",
+      "sources": [
+        {
+          "title": "SteamDB Patch Notes",
+          "url": "https://steamdb.info/patchnotes/24094645/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes",
+          "type": "third_party"
+        }
+      ],
+      "notes": "Auto-fetched from SteamDB RSS (build: 24094645)"
+    },
     {
       "id": "steam-1836506165567610",
       "slug": "news/windroses-new-ashlands-biome-will-expand-your-pirate-escapades-significantly-in-",
