@@ -1,7 +1,68 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-07-09",
+  "generated_at": "2026-08-26",
   "items": [
+    {
+      "id": "steam-1841579228677508",
+      "slug": "news/patch-notes-version-01009",
+      "name": "Patch Notes, version: 0.10.0.9",
+      "title": "Patch Notes, version: 0.10.0.9",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-08-26",
+      "category": "patch_notes",
+      "author": "Bambino",
+      "date": "2026-08-25",
+      "has_detail_page": true,
+      "summary": "Patch Notes, version: 0.10.0.9[*]Cannonballs now correctly deal damage when hitting a ship’s stern.[/*][*]Cannonballs now correctly deal damage when hitting a ship’s sails or hull.[/*]",
+      "content": "<p><strong>Patch Notes, version: 0.10.0.9</strong><ul><li>Cannonballs now correctly deal damage when hitting a ship’s stern.[/*]</li><li>Cannonballs now correctly deal damage when hitting a ship’s sails or hull.[/*]</ul></li></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228677508",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
+    {
+      "id": "steamdb-24803703",
+      "slug": "news/windrose-update-for-25-august-2026",
+      "name": "Windrose update for 25 August 2026",
+      "title": "Windrose update for 25 August 2026",
+      "status": "published",
+      "confidence": "verified",
+      "last_verified": "2026-08-26",
+      "category": "patch_notes",
+      "author": "SteamDB",
+      "date": "2026-08-25",
+      "has_detail_page": true,
+      "summary": "SteamDB Build 24803703",
+      "content": "<p>SteamDB Build 24803703</p><p>This patch was detected by SteamDB by monitoring the game's Steam depot. For the official changelog, check the linked patch notes thread on Steam.</p><p><a href=\"https://steamdb.info/patchnotes/24803703/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes\" rel=\"nofollow noopener\" target=\"_blank\">View build details on SteamDB →</a></p>",
+      "guide_impact": "",
+      "tags": [
+        "patch-notes",
+        "steamdb"
+      ],
+      "related_pages": [],
+      "source": "steamdb",
+      "source_feed": "SteamDB Patchnotes",
+      "sources": [
+        {
+          "title": "SteamDB Patch Notes",
+          "url": "https://steamdb.info/patchnotes/24803703/?utm_source=rss&utm_medium=rss&utm_campaign=Patchnotes",
+          "type": "third_party"
+        }
+      ],
+      "notes": "Auto-fetched from SteamDB RSS (build: 24803703)"
+    },
     {
       "id": "steam-1836506165579734",
       "slug": "news/patch-notes-version-01008",
