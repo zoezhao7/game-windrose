@@ -1,7 +1,37 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-08-26",
+  "generated_at": "2026-08-29",
   "items": [
+    {
+      "id": "steam-1842212951303327",
+      "slug": "news/ashlands-development-sneak-peek-10-off",
+      "name": "Ashlands Development Sneak Peek + 10% Off!",
+      "title": "Ashlands Development Sneak Peek + 10% Off!",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-08-29",
+      "category": "preview",
+      "author": "Bambino",
+      "date": "2026-08-28",
+      "has_detail_page": true,
+      "summary": "Hey, captains!The end of summer is drawing near, and while it’s a little sad to see it go, we’re putting more and more effort into our next update, Ashlands.We decided to share a few small work-in-progress snippets from development to cheer you up a bit. The team sends its warmest regards and can’t wait to show you more of what we’ve been working on!Starting off with a colorful new armor set for one of our NPCs. It should be pretty obvious who this is, right? [img...",
+      "content": "<p>Hey, captains!The end of summer is drawing near, and while it’s a little sad to see it go, we’re putting more and more effort into our next update, Ashlands.We decided to share a few small work-in-progress snippets from development to cheer you up a bit. The team sends its warmest regards and can’t wait to show you more of what we’ve been working on!Starting off with a colorful new armor set for one of our NPCs. It should be pretty obvious who this is, right? [img src=\"{STEAM_CLAN_IMAGE}/45546879/bbad2d523cb78bc52d626e12065377f4cf8c50f6.jpg\"]Some love for the Halberds and Greatswords — existing weapons deserve it, too! [img src=\"{STEAM_CLAN_IMAGE}/45546879/2ad90085e89b2c021f360c8e17ba74fb34972943.png\"][img src=\"{STEAM_CLAN_IMAGE}/45546879/f754da73effec7c575c97df5e4b0a758286108ca.png\"]Some faction clothing sets — to better reflect their character. Can you guess which set belongs to which faction?[img src=\"{STEAM_CLAN_IMAGE}/45546879/54cea22eefac5c492ab4c47a1260458799847396.png\"][img src=\"{STEAM_CLAN_IMAGE}/45546879/f05fa02665881b675f1ee4a87e97f2617b267db4.png\"]And to top it all off, here’s a look at a Brethren of the Coast Galleon variant, along with a little preview of our ship damage FX!The Galleon and other ships are still very much a work in progress, so the final lineup may change as development continues — but we’re excited to give you this little glimpse of what’s taking shape![img src=\"{STEAM_CLAN_IMAGE}/45546879/f2aeea4e4227dc9c24595bd1c701f37596b8238b.png\"][img src=\"{STEAM_CLAN_IMAGE}/45546879/867f15b51e0e2b4a38b95b5a53b28e177562dbaf.png\"]<strong>And while we’re here, we’d also like to share that we’re taking part in Steam PvE Survival Crafting Fest 2026, running from August 31 to September 7!</strong>Our 10% discount is already live and will remain available until the end of the Fest, so now’s a great time to jump aboard!Until next time, crew!</p>",
+      "guide_impact": "",
+      "tags": [
+        "preview"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951303327",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
     {
       "id": "steam-1841579228677508",
       "slug": "news/patch-notes-version-01009",
