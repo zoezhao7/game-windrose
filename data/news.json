@@ -1,7 +1,37 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-08-29",
+  "generated_at": "2026-09-15",
   "items": [
+    {
+      "id": "steam-1843481262702197",
+      "slug": "news/triple-i-initiative-x-windrose-tune-in-on-october-8th",
+      "name": "Triple-i Initiative x Windrose: Tune In on October 8th!",
+      "title": "Triple-i Initiative x Windrose: Tune In on October 8th!",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-09-15",
+      "category": "media",
+      "author": "Bambino",
+      "date": "2026-09-14",
+      "has_detail_page": true,
+      "summary": "Ahoy, mateys!The Triple-i Initiative is back on October 8th, and Windrose is setting sail for the show once again! If you haven’t caught one before, Triple-i is basically one big, action-packed barrage of game trailers, just game after game after game. And yep, we’ve got a little something of our own stashed in the cargo hold.The show will be streamed live on [url=\"https://www.youtube.com/@iii_initiative\"]YouTube and [url=\"https://www.twitch.tv/iii_initiative\"]Twitch, so grab your crew, get...",
+      "content": "<p>Ahoy, mateys!The Triple-i Initiative is back on October 8th, and Windrose is setting sail for the show once again!  If you haven’t caught one before, Triple-i is basically one big, action-packed barrage of game trailers, just game after game after game. And yep, we’ve got a little something of our own stashed in the cargo hold.The show will be streamed live on <a href=\"\"https://www.youtube.com/@iii_initiative\"\" rel=\"nofollow\">YouTube</a> and <a href=\"\"https://www.twitch.tv/iii_initiative\"\" rel=\"nofollow\">Twitch</a>, so grab your crew, get comfortable, and come see what we’ve been cooking.You can watch the announcement trailer here:<p><a href=\"https://www.youtube.com/watch?v=\"SUQZF72d92A;full\"\" rel=\"nofollow\">Watch on YouTube →</a></p>Or head over to <a href=\"\"https://iii-initiative.com/\"\" rel=\"nofollow\">https://iii-initiative.com/</a> for more info!  That’s all from us for now. We’re really excited to show you more of what we’ve been working on. Hope to see you aboard!</p>\n<p>– Kraken Express</p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262702197",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
     {
       "id": "steam-1842212951303327",
       "slug": "news/ashlands-development-sneak-peek-10-off",
