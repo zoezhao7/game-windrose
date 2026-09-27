@@ -1,7 +1,37 @@
 {
   "type": "news_collection",
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-27",
   "items": [
+    {
+      "id": "steam-1844751498226599",
+      "slug": "news/windrose-x-youtooz",
+      "name": "Windrose x Youtooz",
+      "title": "Windrose x Youtooz",
+      "status": "published",
+      "confidence": "official",
+      "last_verified": "2026-09-27",
+      "category": "media",
+      "author": "Bambino",
+      "date": "2026-09-26",
+      "has_detail_page": true,
+      "summary": "Get your collection shelves ready! We’re happy to announce our collaboration with Youtooz on the first-ever Windrose collectibles!Our first thematic drop features three things every Archipelago captain knows all too well: the Dodo plushie, the Boar plushie, and the Coin pin.[img src=\"{STEAM_CLAN_IMAGE}/45546879/b4ec54d8f025a0a7a91d63ff3aa1c7862cf4149d.png\"]Interested? Here’s how it works:[*]Voting is open for 7 days starting now. Your votes will decide whether each concept gets made, with at...",
+      "content": "<p>Get your collection shelves ready! We’re happy to announce our collaboration with Youtooz on the first-ever Windrose collectibles![p align=\"justify\"]Our first thematic drop features three things every Archipelago captain knows all too well: the Dodo plushie, the Boar plushie, and the Coin pin.[img src=\"{STEAM_CLAN_IMAGE}/45546879/b4ec54d8f025a0a7a91d63ff3aa1c7862cf4149d.png\"][p align=\"justify\"]Interested? Here’s how it works:<ul><li>Voting is open for 7 days starting now. Your votes will decide whether each concept gets made, with at least 200 votes required for it to move forward.<ul></li><li>Voting schedule: September 25 – October 2, 3PM EDT / 12PM PDT / 9PM CEST[/*]</ul>[/*]</li><li>Everyone who votes will receive an additional $2.99 discount off the final price if the item goes into production.[/*]</li><li>If a concept reaches its voting goal, Youtooz will also hold a giveaway: 5 items from each successful concept will be given away among those who participated in the voting.[/*]</li><li>Like what you see? Share it with your friends and fellow captains to help your favorite concept reach the goal![/*]</ul>[p align=\"justify\"]Rules apply (<u><a href=\"\"https://youtooz.com/pages/terms-of-use\"\" rel=\"nofollow\">Terms of Use</a></u>, <a href=\"\"https://youtooz.com/pages/shipping-policy\"\" rel=\"nofollow\"><u>Shipping Policy</u></a>). To vote and learn more, please visit:<ul></li><li><a href=\"\"https://youtooz.com/products/truffle-the-combat-boar-plush-9-inch\"\" rel=\"nofollow\">https://youtooz.com/products/truffle-the-combat-boar-plush-9-inch</a>[/*]</li><li><a href=\"\"https://youtooz.com/products/dodo-plush-9-inch\"\" rel=\"nofollow\">https://youtooz.com/products/dodo-plush-9-inch</a>[/*]</li><li><a href=\"\"https://youtooz.com/products/pirate-coin-pin\"\" rel=\"nofollow\">https://youtooz.com/products/pirate-coin-pin</a>[/*]</ul>[p align=\"justify\"]Hurry — this treasure map won’t be around for long.[p align=\"justify\"]And a huge thanks to our friends at Youtooz for making this possible!</li></p>",
+      "guide_impact": "",
+      "tags": [
+        "media"
+      ],
+      "related_pages": [],
+      "source": "steam_official",
+      "source_feed": "Community Announcements",
+      "sources": [
+        {
+          "title": "Steam Community Announcements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498226599",
+          "type": "official"
+        }
+      ],
+      "notes": "Auto-fetched from Steam News API (feed: Community Announcements)"
+    },
     {
       "id": "steam-1843481262702197",
       "slug": "news/triple-i-initiative-x-windrose-tune-in-on-october-8th",
